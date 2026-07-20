@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "hlib-hipolita"
+name = "hipolita"
 version = "0.3.1"
 description = "This project is an implementation of the Hipolita framework"
 authors = [
