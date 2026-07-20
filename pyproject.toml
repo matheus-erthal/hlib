@@ -9,6 +9,7 @@ authors = [
 license = "MIT"
 readme = "README.md"
 packages = [{ include = "hlib" }]
+include = ["hlib/catalog/*.json"]
 
 [tool.poetry.dependencies]
 python = ">=3.10"

@@ -1,7 +1,7 @@
 from typing import List, Optional
-from ...types import Dataset, Resource
-from ..interfaces.portal import Portal
-from ..adapters.api_adapter import ApiAdapter
+from ....types import Dataset, Resource
+from ...interfaces.portal import Portal
+from ...adapters.api_adapter import ApiAdapter
 
 class PortalDataGovUS(Portal):
     """

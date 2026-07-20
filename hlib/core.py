@@ -5,29 +5,8 @@ def package_name():
 from typing import Optional, Union
 import asyncio
 from .types import PortalType, Dataset, DataFrameWithMeta
-from .data_recovery.portals.portal_dados_abertos_br import DadosAbertosBR
-from .data_recovery.portals.portal_data_gov_us import PortalDataGovUS
-from .data_recovery.portals.portal_data_gov_uk import PortalDataGovUK
-from .data_recovery.portals.portal_opendata_swiss import PortalOpendataSwiss
-from .data_recovery.portals.portal_avoindata_fi import PortalAvoindataFI
-from .data_recovery.portals.portal_data_gov_au import PortalDataGovAU
-from .data_recovery.portals.portal_data_gouv_fr import PortalDataGouvFR
-from .data_recovery.portals.portal_datos_gob_es import PortalDatosGobES
-from .data_recovery.portals.portal_data_gov_sg import PortalDataGovSG
-from .data_recovery.portals.portal_data_gov_in import PortalDataGovIN
-
-PORTAL_MAP = {
-    PortalType.DADOS_GOV_BR: DadosAbertosBR,
-    PortalType.DATA_GOV_US: PortalDataGovUS,
-    PortalType.DATA_GOV_UK: PortalDataGovUK,
-    PortalType.OPENDATA_SWISS: PortalOpendataSwiss,
-    PortalType.AVOINDATA_FI: PortalAvoindataFI,
-    PortalType.DATA_GOV_AU: PortalDataGovAU,
-    PortalType.DATA_GOUV_FR: PortalDataGouvFR,
-    PortalType.DATOS_GOB_ES: PortalDatosGobES,
-    PortalType.DATA_GOV_SG: PortalDataGovSG,
-    PortalType.DATA_GOV_IN: PortalDataGovIN,
-}
+from .catalog.loader import get_portal_record, suggest_similar
+from .catalog.registry import PLATFORM_BUILDERS
 
 PortalSpec = Union[PortalType, str, dict]
 
@@ -51,30 +30,35 @@ def _split_portal_spec(spec: PortalSpec):
 
 def _resolve_portal_class(portal_key, fails_silently: bool):
     """
-    Normaliza `portal_key` (PortalType ou string) para a classe do portal.
-    Retorna (PortalType, classe) em caso de sucesso, ou (None, None) se
-    inválido e fails_silently=True (já loga a mensagem nesse caso).
+    Normaliza `portal_key` (PortalType ou string) para uma factory chamável
+    que instancia o portal (via hlib.catalog). Retorna (chave, factory) em
+    caso de sucesso, ou (None, None) se inválido e fails_silently=True (já
+    loga a mensagem nesse caso).
     """
-    if isinstance(portal_key, str):
-        try:
-            portal_key = PortalType(portal_key.lower())
-        except ValueError:
-            valid_options = [p.value for p in PortalType]
-            msg = f"Invalid portal: '{portal_key}'. Valid options: {valid_options}"
-            if fails_silently:
-                print(msg)
-                return None, None
-            raise ValueError(msg) from None
+    key = portal_key.value if isinstance(portal_key, PortalType) else str(portal_key).lower()
+    record = get_portal_record(key)
 
-    portal_cls = PORTAL_MAP.get(portal_key)
-    if not portal_cls:
-        msg = f"Unsupported portal: {portal_key}"
+    if record is None:
+        suggestions = suggest_similar(key)
+        hint = f" Você quis dizer: {suggestions}?" if suggestions else ""
+        msg = f"Invalid portal: '{key}'.{hint} Valid options: use hlib.catalog.list_portals()."
         if fails_silently:
             print(msg)
             return None, None
         raise ValueError(msg)
 
-    return portal_key, portal_cls
+    builder = PLATFORM_BUILDERS.get(record.platform)
+    if not builder:
+        msg = f"Unsupported portal: {record.id} (platform '{record.platform}')"
+        if fails_silently:
+            print(msg)
+            return None, None
+        raise ValueError(msg)
+
+    def factory(**runtime_config):
+        return builder(record, **runtime_config)
+
+    return record.id, factory
 
 
 async def search_data_async(

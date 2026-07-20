@@ -36,16 +36,4 @@ class Dataset:
     source_portal: str | None = None
 
 
-from enum import Enum, auto
-
-class PortalType(Enum):
-    DADOS_GOV_BR = "dados_gov_br"
-    DATA_GOV_US = "data_gov_us"
-    DATA_GOV_UK = "data_gov_uk"
-    OPENDATA_SWISS = "opendata_swiss"
-    AVOINDATA_FI = "avoindata_fi"
-    DATA_GOV_AU = "data_gov_au"
-    DATA_GOUV_FR = "data_gouv_fr"
-    DATOS_GOB_ES = "datos_gob_es"
-    DATA_GOV_SG = "data_gov_sg"
-    DATA_GOV_IN = "data_gov_in"
+from .catalog.dynamic_enum import PortalType  # noqa: F401

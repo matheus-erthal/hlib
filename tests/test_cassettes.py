@@ -11,15 +11,12 @@ no README.md para saber quais portais já têm cassette e quando foi capturada.
 import pytest
 from aioresponses import aioresponses
 
-from hlib.data_recovery.portals.portal_data_gov_us import PortalDataGovUS
-from hlib.data_recovery.portals.portal_data_gov_uk import PortalDataGovUK
-from hlib.data_recovery.portals.portal_opendata_swiss import PortalOpendataSwiss
-from hlib.data_recovery.portals.portal_avoindata_fi import PortalAvoindataFI
-from hlib.data_recovery.portals.portal_data_gov_au import PortalDataGovAU
-from hlib.data_recovery.portals.portal_data_gouv_fr import PortalDataGouvFR
-from hlib.data_recovery.portals.portal_datos_gob_es import PortalDatosGobES
-from hlib.data_recovery.portals.portal_data_gov_sg import PortalDataGovSG
-from hlib.data_recovery.portals.portal_data_gov_in import PortalDataGovIN
+from hlib.data_recovery.portals.usa.portal_data_gov_us import PortalDataGovUS
+from hlib.data_recovery.portals.generic_ckan_portal import CkanPortal
+from hlib.data_recovery.portals.france.portal_data_gouv_fr import PortalDataGouvFR
+from hlib.data_recovery.portals.spain.portal_datos_gob_es import PortalDatosGobES
+from hlib.data_recovery.portals.singapore.portal_data_gov_sg import PortalDataGovSG
+from hlib.data_recovery.portals.india.portal_data_gov_in import PortalDataGovIN
 
 from live_recording import load_cassette, register_cassette
 
@@ -43,7 +40,7 @@ async def test_portal_us_structure():
 @pytest.mark.asyncio
 async def test_portal_uk_structure():
     cassette = load_cassette("data_gov_uk_search")
-    portal = PortalDataGovUK()
+    portal = CkanPortal(base_url="https://ckan.publishing.service.gov.uk", source_portal="data.gov.uk")
     with aioresponses() as m:
         m.get("https://ckan.publishing.service.gov.uk/api/3/action/package_search?rows=0", status=200)
         register_cassette(m, cassette)
@@ -55,7 +52,7 @@ async def test_portal_uk_structure():
 @pytest.mark.asyncio
 async def test_portal_swiss_structure():
     cassette = load_cassette("opendata_swiss_search")
-    portal = PortalOpendataSwiss()
+    portal = CkanPortal(base_url="https://opendata.swiss", source_portal="opendata.swiss", localized_fields=True)
     with aioresponses() as m:
         m.get("https://opendata.swiss/api/3/action/package_search?rows=0", status=200)
         register_cassette(m, cassette)
@@ -67,7 +64,7 @@ async def test_portal_swiss_structure():
 @pytest.mark.asyncio
 async def test_portal_finland_structure():
     cassette = load_cassette("avoindata_fi_search")
-    portal = PortalAvoindataFI()
+    portal = CkanPortal(base_url="https://www.avoindata.fi/data", source_portal="avoindata.fi", keyword_fallback_field="keywords")
     with aioresponses() as m:
         m.get("https://www.avoindata.fi/data/api/3/action/package_search?rows=0", status=200)
         register_cassette(m, cassette)
@@ -79,7 +76,7 @@ async def test_portal_finland_structure():
 @pytest.mark.asyncio
 async def test_portal_australia_structure():
     cassette = load_cassette("data_gov_au_search")
-    portal = PortalDataGovAU()
+    portal = CkanPortal(base_url="https://data.gov.au/data", source_portal="data.gov.au")
     with aioresponses() as m:
         m.get("https://data.gov.au/data/api/3/action/package_search?rows=0", status=200)
         register_cassette(m, cassette)
@@ -165,7 +162,7 @@ async def test_get_dataset_us():
 @pytest.mark.asyncio
 async def test_get_dataset_uk():
     cassette = load_cassette("data_gov_uk_get_dataset")
-    portal = PortalDataGovUK()
+    portal = CkanPortal(base_url="https://ckan.publishing.service.gov.uk", source_portal="data.gov.uk")
     dataset_id = cassette["calls"][0]["params"]["id"]
     with aioresponses() as m:
         register_cassette(m, cassette)
@@ -177,7 +174,7 @@ async def test_get_dataset_uk():
 @pytest.mark.asyncio
 async def test_get_dataset_swiss():
     cassette = load_cassette("opendata_swiss_get_dataset")
-    portal = PortalOpendataSwiss()
+    portal = CkanPortal(base_url="https://opendata.swiss", source_portal="opendata.swiss", localized_fields=True)
     dataset_id = cassette["calls"][0]["params"]["id"]
     with aioresponses() as m:
         register_cassette(m, cassette)
@@ -189,7 +186,7 @@ async def test_get_dataset_swiss():
 @pytest.mark.asyncio
 async def test_get_dataset_finland():
     cassette = load_cassette("avoindata_fi_get_dataset")
-    portal = PortalAvoindataFI()
+    portal = CkanPortal(base_url="https://www.avoindata.fi/data", source_portal="avoindata.fi", keyword_fallback_field="keywords")
     dataset_id = cassette["calls"][0]["params"]["id"]
     with aioresponses() as m:
         register_cassette(m, cassette)
@@ -201,7 +198,7 @@ async def test_get_dataset_finland():
 @pytest.mark.asyncio
 async def test_get_dataset_australia():
     cassette = load_cassette("data_gov_au_get_dataset")
-    portal = PortalDataGovAU()
+    portal = CkanPortal(base_url="https://data.gov.au/data", source_portal="data.gov.au")
     dataset_id = cassette["calls"][0]["params"]["id"]
     with aioresponses() as m:
         register_cassette(m, cassette)

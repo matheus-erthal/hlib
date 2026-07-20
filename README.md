@@ -209,27 +209,51 @@ hlib/
 ├── __init__.py              # Exports públicos
 ├── core.py                  # API principal (search, get_dataset, fetch_dataset_data)
 ├── types.py                 # Dataset, Resource, DataFrameWithMeta, PortalType
+├── catalog/                 # Catálogo de portais data-driven
+│   ├── portals.json         # Metadados de cada portal (URL, plataforma, auth, região...)
+│   ├── schema.py             # PortalRecord / AuthSpec + validação
+│   ├── loader.py             # list_portals() / search_portals() / get_portal_record()
+│   ├── registry.py           # platform -> factory que instancia o Portal
+│   ├── dynamic_enum.py       # Constrói PortalType a partir do catálogo
+│   └── validate.py           # `python -m hlib.catalog.validate` (CI)
 └── data_recovery/
     ├── interfaces/
     │   ├── adapter.py       # DataAdapter (ABC)
     │   └── portal.py        # Portal (ABC) + fetch_dataset_data (concreto)
     ├── adapters/
-    │   ├── ckan_adapter.py  # Adaptador CKAN v3 (UK, US, CH, FI, AU)
-    │   └── api_adapter.py   # Adaptador REST genérico (BR, FR, ES, SG, IN)
+    │   ├── ckan_adapter.py  # Adaptador CKAN v3
+    │   └── api_adapter.py   # Adaptador REST genérico
     └── portals/
-        ├── portal_dados_abertos_br.py
-        ├── portal_data_gov_us.py
-        ├── portal_data_gov_uk.py
-        ├── portal_opendata_swiss.py
-        ├── portal_avoindata_fi.py
-        ├── portal_data_gov_au.py
-        ├── portal_data_gouv_fr.py
-        ├── portal_datos_gob_es.py
-        ├── portal_data_gov_sg.py
-        └── portal_data_gov_in.py
+        ├── generic_ckan_portal.py   # CkanPortal genérico (qualquer CKAN via config;
+        │                            # cobre hoje UK/AU/FI/CH via catálogo, sem classe própria)
+        ├── brazil/
+        │   └── portal_dados_abertos_br.py
+        ├── usa/
+        │   └── portal_data_gov_us.py
+        ├── france/
+        │   └── portal_data_gouv_fr.py
+        ├── spain/
+        │   └── portal_datos_gob_es.py
+        ├── singapore/
+        │   └── portal_data_gov_sg.py
+        └── india/
+            └── portal_data_gov_in.py
 ```
 
 A arquitetura segue o padrão **Strategy**: cada portal implementa a lógica de mapeamento de endpoints e campos, delegando operações HTTP a um adaptador compartilhado (`CkanAdapter` ou `ApiAdapter`).
+
+### Catálogo de portais
+
+`PortalType` não é mais uma lista fixa de constantes — é construído dinamicamente a partir de `hlib/catalog/portals.json` (cada entrada define URL, plataforma, autenticação, região, etc). Isso existe para permitir escalar para muitos portais (por exemplo, estaduais/municipais brasileiros) sem precisar escrever uma classe Python nova por portal: quem roda uma instância CKAN "de prateleira" só precisa de uma nova entrada de dado no catálogo, resolvida em runtime por `CkanPortal` (`hlib/data_recovery/portals/generic_ckan_portal.py`). Só portais com APIs genuinamente heterogêneas (`platform: "custom"`) precisam de uma classe própria, apontada via `strategy_class` — essas classes ficam organizadas em `portals/<país>/`, já que o Brasil tende a concentrar a maioria das adições futuras (portais estaduais/municipais).
+
+Para descobrir portais disponíveis (a lista tende a crescer além do que cabe confortavelmente em autocomplete de Enum):
+
+```python
+from hlib.catalog import list_portals, search_portals
+
+list_portals(country="BR")      # DataFrame filtrando por país/plataforma/nível/status
+search_portals("dados abertos")  # busca por nome/id
+```
 
 ---
 

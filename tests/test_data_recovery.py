@@ -3,11 +3,10 @@ import aiohttp
 from aioresponses import aioresponses
 from hlib.data_recovery.adapters.ckan_adapter import CkanAdapter
 from hlib.data_recovery.adapters.api_adapter import ApiAdapter
-from hlib.data_recovery.portals.portal_data_gov_us import PortalDataGovUS
-from hlib.data_recovery.portals.portal_dados_abertos_br import DadosAbertosBR
-from hlib.data_recovery.portals.portal_data_gov_uk import PortalDataGovUK
-from hlib.data_recovery.portals.portal_data_gov_au import PortalDataGovAU
-from hlib.data_recovery.portals.portal_data_gouv_fr import PortalDataGouvFR
+from hlib.data_recovery.portals.usa.portal_data_gov_us import PortalDataGovUS
+from hlib.data_recovery.portals.brazil.portal_dados_abertos_br import DadosAbertosBR
+from hlib.data_recovery.portals.generic_ckan_portal import CkanPortal
+from hlib.data_recovery.portals.france.portal_data_gouv_fr import PortalDataGouvFR
 
 # Fixtures for Adapters
 @pytest.fixture
@@ -176,7 +175,7 @@ async def test_fetch_dataset_data_with_csv():
 @pytest.mark.asyncio
 async def test_fetch_dataset_data_no_parseable_resource():
     """Testa fetch_dataset_data sem recurso parseável — retorna DataFrame vazio com meta."""
-    portal = PortalDataGovUK()
+    portal = CkanPortal(base_url="https://ckan.publishing.service.gov.uk", source_portal="data.gov.uk")
 
     mock_pkg_resp = {
         "success": True,
@@ -248,7 +247,7 @@ async def test_fetch_dataset_data_not_found():
 @pytest.mark.asyncio
 async def test_fetch_dataset_data_url_extension_fallback():
     """Testa que fetch_dataset_data detecta formato pela extensão da URL quando format está vazio."""
-    portal = PortalDataGovAU()
+    portal = CkanPortal(base_url="https://data.gov.au/data", source_portal="data.gov.au")
 
     mock_pkg_resp = {
         "success": True,
