@@ -1,0 +1,3505 @@
+{
+  "captured_at": "2026-07-20",
+  "calls": [
+    {
+      "url": "https://www.data.gov.in/backend/dmspublic/v1/resources",
+      "params": {
+        "offset": 0,
+        "limit": 10,
+        "format": "json",
+        "filters[title]": "population"
+      },
+      "response": {
+        "name": "OGDP API",
+        "version": "2.0.5",
+        "statusCode": 200,
+        "total": 13285,
+        "data": {
+          "rows": [
+            {
+              "cdos_state_ministry": [
+                "Ministry of Road Transport and Highways"
+              ],
+              "is_high_value_dataset": [
+                0
+              ],
+              "is_priced": [
+                0
+              ],
+              "is_rated": [
+                0
+              ],
+              "is_webservice": [
+                0
+              ],
+              "node_alias": [
+                "/resource/stateut-wise-details-road-length-1000-population-31-03-2022"
+              ],
+              "node_cdo_email": [
+                "alokkumar [dot] verma [at] nic [dot] in"
+              ],
+              "ogdp_download_count": [
+                0
+              ],
+              "ogdp_view_count": [
+                11
+              ],
+              "published_date": [
+                1783579801
+              ],
+              "catalog_reference": [
+                604843466
+              ],
+              "catalog_title": [
+                "Basic Road Statistics of India 2021-22"
+              ],
+              "catalog_uuid": [
+                "330d3725-0672-4645-a2b4-826e2baf5379"
+              ],
+              "changed": [
+                1783579801
+              ],
+              "created": [
+                1783577566
+              ],
+              "datafile": [
+                "https://www.data.gov.in/files/ogdpv2dms/s3fs-public/604843967/Version_1/BRS_2022_Annexure_7.9.C.csv"
+              ],
+              "domain": [
+                "data.gov.in"
+              ],
+              "domain_visibility": [
+                "4",
+                "4"
+              ],
+              "field_from_api": [
+                "0"
+              ],
+              "field_high_value_dataset": [
+                0
+              ],
+              "field_public": [
+                "1"
+              ],
+              "field_resource_type": [
+                1
+              ],
+              "field_show_export": [
+                true
+              ],
+              "file_format": [
+                "text/csv"
+              ],
+              "file_size": [
+                4668
+              ],
+              "frequency": [
+                "Annual"
+              ],
+              "govt_type": [
+                "Central"
+              ],
+              "granularity": [
+                "Annual"
+              ],
+              "is_api_available": [
+                "0"
+              ],
+              "ministry_department": [
+                "Ministry of Road Transport and Highways"
+              ],
+              "nid": [
+                604843967
+              ],
+              "note": [
+                "Data for Andhra Pradesh also includes the road length of Telangana. Data for Jammu and Kashmir also includes the road length of Ladakh. Total length excludes JRY roads."
+              ],
+              "reference_url": [
+                "https://morth.gov.in/backend/documents/uploaded/1781850176_EDsilQvsKL.pdf"
+              ],
+              "resource_category": [
+                "Dataset"
+              ],
+              "sector": [
+                "Road Transport"
+              ],
+              "sector_resource": [
+                "Road Transport"
+              ],
+              "title": [
+                "State/UT-wise Details of Road length per 1000 population as on 31-03-2022"
+              ],
+              "uuid": [
+                "d4b569af-ddc6-498c-a57a-888817a8269e"
+              ],
+              "vid": [
+                14431604
+              ],
+              "search_api_id": [
+                "entity:node/604843967:en"
+              ],
+              "search_api_datasource": [
+                "entity:node"
+              ],
+              "search_api_language": [
+                "en"
+              ]
+            },
+            {
+              "cdos_state_ministry": [
+                "Ministry of Road Transport and Highways"
+              ],
+              "is_high_value_dataset": [
+                0
+              ],
+              "is_priced": [
+                0
+              ],
+              "is_rated": [
+                0
+              ],
+              "is_webservice": [
+                0
+              ],
+              "node_alias": [
+                "/resource/stateut-wise-details-road-density-1000-sq-km-roads-and-1000-population-rural-and-urban-0"
+              ],
+              "node_cdo_email": [
+                "alokkumar [dot] verma [at] nic [dot] in"
+              ],
+              "ogdp_download_count": [
+                0
+              ],
+              "ogdp_view_count": [
+                0
+              ],
+              "published_date": [
+                1783579829
+              ],
+              "catalog_reference": [
+                604843466
+              ],
+              "catalog_title": [
+                "Basic Road Statistics of India 2021-22"
+              ],
+              "catalog_uuid": [
+                "330d3725-0672-4645-a2b4-826e2baf5379"
+              ],
+              "changed": [
+                1783579829
+              ],
+              "created": [
+                1783577309
+              ],
+              "datafile": [
+                "https://www.data.gov.in/files/ogdpv2dms/s3fs-public/604843957/Version_1/BRS_2022_Annexure_7.9.A.csv"
+              ],
+              "domain": [
+                "data.gov.in"
+              ],
+              "domain_visibility": [
+                "4",
+                "4"
+              ],
+              "field_from_api": [
+                "0"
+              ],
+              "field_high_value_dataset": [
+                0
+              ],
+              "field_public": [
+                "1"
+              ],
+              "field_resource_type": [
+                1
+              ],
+              "field_show_export": [
+                true
+              ],
+              "file_format": [
+                "text/csv"
+              ],
+              "file_size": [
+                5424
+              ],
+              "frequency": [
+                "Annual"
+              ],
+              "govt_type": [
+                "Central"
+              ],
+              "granularity": [
+                "Annual"
+              ],
+              "is_api_available": [
+                "0"
+              ],
+              "ministry_department": [
+                "Ministry of Road Transport and Highways"
+              ],
+              "nid": [
+                604843957
+              ],
+              "note": [
+                "NA - Not Available. Data for Andhra Pradesh also includes the road length of Telangana. Data for Jammu and Kashmir also includes the road length of Ladakh. Total length excludes JRY roads."
+              ],
+              "reference_url": [
+                "https://morth.gov.in/backend/documents/uploaded/1781850176_EDsilQvsKL.pdf"
+              ],
+              "resource_category": [
+                "Dataset"
+              ],
+              "sector": [
+                "Road Transport"
+              ],
+              "sector_resource": [
+                "Road Transport"
+              ],
+              "title": [
+                "State/UT-wise Details of Road Density per 1000 Sq- Km- of Roads and per 1000 population in Rural and Urban Area as on 31-03-2022"
+              ],
+              "uuid": [
+                "eb10c09f-25e6-4ed2-85de-5693af965d25"
+              ],
+              "vid": [
+                14431608
+              ],
+              "search_api_id": [
+                "entity:node/604843957:en"
+              ],
+              "search_api_datasource": [
+                "entity:node"
+              ],
+              "search_api_language": [
+                "en"
+              ]
+            },
+            {
+              "cdos_state_ministry": [
+                "Ministry of Road Transport and Highways"
+              ],
+              "is_high_value_dataset": [
+                0
+              ],
+              "is_priced": [
+                0
+              ],
+              "is_rated": [
+                0
+              ],
+              "is_webservice": [
+                0
+              ],
+              "node_alias": [
+                "/resource/stateut-wise-details-road-length-1000-population-31032021"
+              ],
+              "node_cdo_email": [
+                "alokkumar [dot] verma [at] nic [dot] in"
+              ],
+              "ogdp_download_count": [
+                0
+              ],
+              "ogdp_view_count": [
+                21
+              ],
+              "published_date": [
+                1783056643
+              ],
+              "catalog_reference": [
+                604832931
+              ],
+              "catalog_title": [
+                "Basic Road Statistics of India 2020-21"
+              ],
+              "catalog_uuid": [
+                "ca152c91-1834-4b3f-a820-ca9c7e92356c"
+              ],
+              "changed": [
+                1783056643
+              ],
+              "created": [
+                1783056526
+              ],
+              "datafile": [
+                "https://www.data.gov.in/files/ogdpv2dms/s3fs-public/604834018/Version_1/BRS_2021_Annexure_7.9.C.csv"
+              ],
+              "domain": [
+                "data.gov.in"
+              ],
+              "domain_visibility": [
+                "4",
+                "4"
+              ],
+              "field_from_api": [
+                "0"
+              ],
+              "field_high_value_dataset": [
+                0
+              ],
+              "field_public": [
+                "1"
+              ],
+              "field_resource_type": [
+                1
+              ],
+              "field_show_export": [
+                true
+              ],
+              "file_format": [
+                "text/csv"
+              ],
+              "file_size": [
+                4670
+              ],
+              "frequency": [
+                "Annual"
+              ],
+              "govt_type": [
+                "Central"
+              ],
+              "granularity": [
+                "Annual"
+              ],
+              "is_api_available": [
+                "0"
+              ],
+              "ministry_department": [
+                "Ministry of Road Transport and Highways"
+              ],
+              "nid": [
+                604834018
+              ],
+              "note": [
+                "NA - Not Available. Data for Andhra Pradesh also includes the road length of Telangana. Data for Jammu and Kashmir also includes the road length of Ladakh. Total length excludes JRY roads."
+              ],
+              "resource_category": [
+                "Dataset"
+              ],
+              "sector": [
+                "Transport",
+                "Road Transport"
+              ],
+              "sector_resource": [
+                "Road Transport"
+              ],
+              "title": [
+                "State/UT-wise Details of Road length per 1000 population as on 31.03.2021"
+              ],
+              "uuid": [
+                "382cad8a-3cb4-4eeb-87e2-1bd5da9dfe39"
+              ],
+              "vid": [
+                14412287
+              ],
+              "search_api_id": [
+                "entity:node/604834018:en"
+              ],
+              "search_api_datasource": [
+                "entity:node"
+              ],
+              "search_api_language": [
+                "en"
+              ]
+            },
+            {
+              "cdos_state_ministry": [
+                "Ministry of Road Transport and Highways"
+              ],
+              "is_high_value_dataset": [
+                0
+              ],
+              "is_priced": [
+                0
+              ],
+              "is_rated": [
+                0
+              ],
+              "is_webservice": [
+                0
+              ],
+              "node_alias": [
+                "/resource/stateut-wise-details-road-density-1000-sq-km-roads-and-1000-population-rural-and-urban"
+              ],
+              "node_cdo_email": [
+                "alokkumar [dot] verma [at] nic [dot] in"
+              ],
+              "ogdp_download_count": [
+                0
+              ],
+              "ogdp_view_count": [
+                6
+              ],
+              "published_date": [
+                1783056559
+              ],
+              "catalog_reference": [
+                604832931
+              ],
+              "catalog_title": [
+                "Basic Road Statistics of India 2020-21"
+              ],
+              "catalog_uuid": [
+                "ca152c91-1834-4b3f-a820-ca9c7e92356c"
+              ],
+              "changed": [
+                1783056559
+              ],
+              "created": [
+                1783056271
+              ],
+              "datafile": [
+                "https://www.data.gov.in/files/ogdpv2dms/s3fs-public/604833999/Version_1/BRS_2021_Annexure_7.9.A.csv"
+              ],
+              "domain": [
+                "data.gov.in"
+              ],
+              "domain_visibility": [
+                "4",
+                "4"
+              ],
+              "field_from_api": [
+                "0"
+              ],
+              "field_high_value_dataset": [
+                0
+              ],
+              "field_public": [
+                "1"
+              ],
+              "field_resource_type": [
+                1
+              ],
+              "field_show_export": [
+                true
+              ],
+              "file_format": [
+                "text/csv"
+              ],
+              "file_size": [
+                5373
+              ],
+              "frequency": [
+                "Annual"
+              ],
+              "govt_type": [
+                "Central"
+              ],
+              "granularity": [
+                "Annual"
+              ],
+              "is_api_available": [
+                "0"
+              ],
+              "ministry_department": [
+                "Ministry of Road Transport and Highways"
+              ],
+              "nid": [
+                604833999
+              ],
+              "note": [
+                "NA - Not Available. Data for Andhra Pradesh also includes the road length of Telangana. Data for Jammu and Kashmir also includes the road length of Ladakh. Total length excludes JRY roads."
+              ],
+              "resource_category": [
+                "Dataset"
+              ],
+              "sector": [
+                "Transport",
+                "Road Transport"
+              ],
+              "sector_resource": [
+                "Road Transport"
+              ],
+              "title": [
+                "State/UT-wise Details of Road Density per 1000 Sq- Km- of Roads and per 1000 population in Rural and Urban Area as on 31.03.2021"
+              ],
+              "uuid": [
+                "a6d321a1-b0a0-4d8d-b903-2dac862edb06"
+              ],
+              "vid": [
+                14412274
+              ],
+              "search_api_id": [
+                "entity:node/604833999:en"
+              ],
+              "search_api_datasource": [
+                "entity:node"
+              ],
+              "search_api_language": [
+                "en"
+              ]
+            },
+            {
+              "cdos_state_ministry": [
+                "National Crime Records Bureau (NCRB)"
+              ],
+              "is_high_value_dataset": [
+                0
+              ],
+              "is_priced": [
+                0
+              ],
+              "is_rated": [
+                0
+              ],
+              "is_webservice": [
+                0
+              ],
+              "node_alias": [
+                "/resource/stateut-wise-details-capacity-inmates-population-and-occupancy-rate-women-jails-31-12-2023"
+              ],
+              "node_cdo_email": [
+                "csncrb [at] ncrb [dot] gov [dot] in"
+              ],
+              "ogdp_download_count": [
+                0
+              ],
+              "ogdp_view_count": [
+                21
+              ],
+              "published_date": [
+                1770971518
+              ],
+              "catalog_reference": [
+                604507350
+              ],
+              "catalog_title": [
+                "Prison Statistics India (PSI) - 2023"
+              ],
+              "catalog_uuid": [
+                "fa51afcd-ba7c-4582-8bb3-eba04568169e"
+              ],
+              "changed": [
+                1770971518
+              ],
+              "created": [
+                1770700824
+              ],
+              "datafile": [
+                "https://www.data.gov.in/files/ogdpv2dms/s3fs-public/NCRB_PSI_2023_Table_1.7_0.csv"
+              ],
+              "domain": [
+                "data.gov.in"
+              ],
+              "domain_visibility": [
+                "4"
+              ],
+              "external_api_reference": [
+                0
+              ],
+              "field_from_api": [
+                "0"
+              ],
+              "field_high_value_dataset": [
+                0
+              ],
+              "field_public": [
+                "1"
+              ],
+              "field_resource_type": [
+                1
+              ],
+              "field_show_export": [
+                true
+              ],
+              "file_format": [
+                "text/csv"
+              ],
+              "file_size": [
+                2129
+              ],
+              "frequency": [
+                "Annual"
+              ],
+              "govt_type": [
+                "Central"
+              ],
+              "granularity": [
+                "Annual"
+              ],
+              "is_api_available": [
+                "1"
+              ],
+              "ministry_department": [
+                "Ministry of Home Affairs",
+                "Department of States",
+                "National Crime Records Bureau (NCRB)"
+              ],
+              "nid": [
+                604518664
+              ],
+              "note": [
+                "NA - Not Available. As per data provided by States/UTs."
+              ],
+              "reference_url": [
+                "https://www.ncrb.gov.in/uploads/files/PSI-20231.pdf"
+              ],
+              "resource_category": [
+                "Dataset"
+              ],
+              "sector": [
+                "Police"
+              ],
+              "sector_resource": [
+                "Adult Education"
+              ],
+              "title": [
+                "State/UT-wise Details of Capacity, Inmates Population and Occupancy Rate of Women Jails as on 31-12-2023"
+              ],
+              "uuid": [
+                "10617167-ed89-4315-9501-ee46097eb6f7"
+              ],
+              "vid": [
+                14071358
+              ],
+              "search_api_id": [
+                "entity:node/604518664:en"
+              ],
+              "search_api_datasource": [
+                "entity:node"
+              ],
+              "search_api_language": [
+                "en"
+              ]
+            },
+            {
+              "cdos_state_ministry": [
+                "National Crime Records Bureau (NCRB)"
+              ],
+              "is_high_value_dataset": [
+                0
+              ],
+              "is_priced": [
+                0
+              ],
+              "is_rated": [
+                0
+              ],
+              "is_webservice": [
+                0
+              ],
+              "node_alias": [
+                "/resource/stateut-wise-details-capacity-inmates-population-and-occupancy-rate-special-jails-31-12"
+              ],
+              "node_cdo_email": [
+                "csncrb [at] ncrb [dot] gov [dot] in"
+              ],
+              "ogdp_download_count": [
+                0
+              ],
+              "ogdp_view_count": [
+                79
+              ],
+              "published_date": [
+                1770963139
+              ],
+              "catalog_reference": [
+                604507350
+              ],
+              "catalog_title": [
+                "Prison Statistics India (PSI) - 2023"
+              ],
+              "catalog_uuid": [
+                "fa51afcd-ba7c-4582-8bb3-eba04568169e"
+              ],
+              "changed": [
+                1770963139
+              ],
+              "created": [
+                1770700824
+              ],
+              "datafile": [
+                "https://www.data.gov.in/files/ogdpv2dms/s3fs-public/NCRB_PSI_2023_Table_1.10_0.csv"
+              ],
+              "domain": [
+                "data.gov.in"
+              ],
+              "domain_visibility": [
+                "4"
+              ],
+              "external_api_reference": [
+                0
+              ],
+              "field_from_api": [
+                "0"
+              ],
+              "field_high_value_dataset": [
+                0
+              ],
+              "field_public": [
+                "1"
+              ],
+              "field_resource_type": [
+                1
+              ],
+              "field_show_export": [
+                true
+              ],
+              "file_format": [
+                "text/csv"
+              ],
+              "file_size": [
+                2528
+              ],
+              "frequency": [
+                "Annual"
+              ],
+              "govt_type": [
+                "Central"
+              ],
+              "granularity": [
+                "Annual"
+              ],
+              "is_api_available": [
+                "1"
+              ],
+              "ministry_department": [
+                "Ministry of Home Affairs",
+                "Department of States",
+                "National Crime Records Bureau (NCRB)"
+              ],
+              "nid": [
+                604518667
+              ],
+              "note": [
+                "NA - Not Available. As per data provided by States/UTs."
+              ],
+              "reference_url": [
+                "https://www.ncrb.gov.in/uploads/files/PSI-20231.pdf"
+              ],
+              "resource_category": [
+                "Dataset"
+              ],
+              "sector": [
+                "Police"
+              ],
+              "sector_resource": [
+                "Adult Education"
+              ],
+              "title": [
+                "State/UT-wise Details of Capacity, Inmates Population and Occupancy Rate of Special Jails as on 31-12-2023"
+              ],
+              "uuid": [
+                "dd6ff013-90c3-4975-851f-19f034bfd8ec"
+              ],
+              "vid": [
+                14070764
+              ],
+              "search_api_id": [
+                "entity:node/604518667:en"
+              ],
+              "search_api_datasource": [
+                "entity:node"
+              ],
+              "search_api_language": [
+                "en"
+              ]
+            },
+            {
+              "cdos_state_ministry": [
+                "National Crime Records Bureau (NCRB)"
+              ],
+              "is_high_value_dataset": [
+                0
+              ],
+              "is_priced": [
+                0
+              ],
+              "is_rated": [
+                0
+              ],
+              "is_webservice": [
+                0
+              ],
+              "node_alias": [
+                "/resource/stateut-wise-details-capacity-inmates-population-and-occupancy-rate-borstal-schools-31-12"
+              ],
+              "node_cdo_email": [
+                "csncrb [at] ncrb [dot] gov [dot] in"
+              ],
+              "ogdp_download_count": [
+                0
+              ],
+              "ogdp_view_count": [
+                40
+              ],
+              "published_date": [
+                1770963139
+              ],
+              "catalog_reference": [
+                604507350
+              ],
+              "catalog_title": [
+                "Prison Statistics India (PSI) - 2023"
+              ],
+              "catalog_uuid": [
+                "fa51afcd-ba7c-4582-8bb3-eba04568169e"
+              ],
+              "changed": [
+                1770963139
+              ],
+              "created": [
+                1770700824
+              ],
+              "datafile": [
+                "https://www.data.gov.in/files/ogdpv2dms/s3fs-public/NCRB_PSI_2023_Table_1.8_0.csv"
+              ],
+              "domain": [
+                "data.gov.in"
+              ],
+              "domain_visibility": [
+                "4"
+              ],
+              "external_api_reference": [
+                0
+              ],
+              "field_from_api": [
+                "0"
+              ],
+              "field_high_value_dataset": [
+                0
+              ],
+              "field_public": [
+                "1"
+              ],
+              "field_resource_type": [
+                1
+              ],
+              "field_show_export": [
+                true
+              ],
+              "file_format": [
+                "text/csv"
+              ],
+              "file_size": [
+                2349
+              ],
+              "frequency": [
+                "Annual"
+              ],
+              "govt_type": [
+                "Central"
+              ],
+              "granularity": [
+                "Annual"
+              ],
+              "is_api_available": [
+                "1"
+              ],
+              "ministry_department": [
+                "Ministry of Home Affairs",
+                "Department of States",
+                "National Crime Records Bureau (NCRB)"
+              ],
+              "nid": [
+                604518665
+              ],
+              "note": [
+                "NA - Not Available. As per data provided by States/UTs."
+              ],
+              "reference_url": [
+                "https://www.ncrb.gov.in/uploads/files/PSI-20231.pdf"
+              ],
+              "resource_category": [
+                "Dataset"
+              ],
+              "sector": [
+                "Police"
+              ],
+              "sector_resource": [
+                "Adult Education"
+              ],
+              "title": [
+                "State/UT-wise Details of Capacity, Inmates Population and Occupancy Rate of Borstal Schools as on 31-12-2023"
+              ],
+              "uuid": [
+                "e4d2d847-8fc0-48b6-b3d0-4f1620257ffd"
+              ],
+              "vid": [
+                14070751
+              ],
+              "search_api_id": [
+                "entity:node/604518665:en"
+              ],
+              "search_api_datasource": [
+                "entity:node"
+              ],
+              "search_api_language": [
+                "en"
+              ]
+            },
+            {
+              "cdos_state_ministry": [
+                "National Crime Records Bureau (NCRB)"
+              ],
+              "is_high_value_dataset": [
+                0
+              ],
+              "is_priced": [
+                0
+              ],
+              "is_rated": [
+                0
+              ],
+              "is_webservice": [
+                0
+              ],
+              "node_alias": [
+                "/resource/stateut-wise-details-capacity-inmates-population-and-occupancy-rate-district-jails-31-12"
+              ],
+              "node_cdo_email": [
+                "csncrb [at] ncrb [dot] gov [dot] in"
+              ],
+              "ogdp_download_count": [
+                0
+              ],
+              "ogdp_view_count": [
+                34
+              ],
+              "published_date": [
+                1770967026
+              ],
+              "catalog_reference": [
+                604507350
+              ],
+              "catalog_title": [
+                "Prison Statistics India (PSI) - 2023"
+              ],
+              "catalog_uuid": [
+                "fa51afcd-ba7c-4582-8bb3-eba04568169e"
+              ],
+              "changed": [
+                1770967026
+              ],
+              "created": [
+                1770700824
+              ],
+              "datafile": [
+                "https://www.data.gov.in/files/ogdpv2dms/s3fs-public/NCRB_PSI_2023_Table_1.5_0.csv"
+              ],
+              "domain": [
+                "data.gov.in"
+              ],
+              "domain_visibility": [
+                "4"
+              ],
+              "external_api_reference": [
+                0
+              ],
+              "field_from_api": [
+                "0"
+              ],
+              "field_high_value_dataset": [
+                0
+              ],
+              "field_public": [
+                "1"
+              ],
+              "field_resource_type": [
+                1
+              ],
+              "field_show_export": [
+                true
+              ],
+              "file_format": [
+                "text/csv"
+              ],
+              "file_size": [
+                3024
+              ],
+              "frequency": [
+                "Annual"
+              ],
+              "govt_type": [
+                "Central"
+              ],
+              "granularity": [
+                "Annual"
+              ],
+              "is_api_available": [
+                "1"
+              ],
+              "ministry_department": [
+                "Ministry of Home Affairs",
+                "Department of States",
+                "National Crime Records Bureau (NCRB)"
+              ],
+              "nid": [
+                604518660
+              ],
+              "note": [
+                "NA - Not Available. As per data provided by States/UTs."
+              ],
+              "reference_url": [
+                "https://www.ncrb.gov.in/uploads/files/PSI-20231.pdf"
+              ],
+              "resource_category": [
+                "Dataset"
+              ],
+              "sector": [
+                "Police"
+              ],
+              "sector_resource": [
+                "Adult Education"
+              ],
+              "title": [
+                "State/UT-wise Details of Capacity, Inmates Population and Occupancy Rate of District Jails as on 31-12-2023"
+              ],
+              "uuid": [
+                "f3ff377c-d02a-4f60-addc-c6e07a7567e2"
+              ],
+              "vid": [
+                14071119
+              ],
+              "search_api_id": [
+                "entity:node/604518660:en"
+              ],
+              "search_api_datasource": [
+                "entity:node"
+              ],
+              "search_api_language": [
+                "en"
+              ]
+            },
+            {
+              "cdos_state_ministry": [
+                "National Crime Records Bureau (NCRB)"
+              ],
+              "is_high_value_dataset": [
+                0
+              ],
+              "is_priced": [
+                0
+              ],
+              "is_rated": [
+                0
+              ],
+              "is_webservice": [
+                0
+              ],
+              "node_alias": [
+                "/resource/stateut-wise-details-capacity-inmates-population-and-occupancy-rate-sub-jails-31-12-2023"
+              ],
+              "node_cdo_email": [
+                "csncrb [at] ncrb [dot] gov [dot] in"
+              ],
+              "ogdp_download_count": [
+                0
+              ],
+              "ogdp_view_count": [
+                24
+              ],
+              "published_date": [
+                1770971518
+              ],
+              "catalog_reference": [
+                604507350
+              ],
+              "catalog_title": [
+                "Prison Statistics India (PSI) - 2023"
+              ],
+              "catalog_uuid": [
+                "fa51afcd-ba7c-4582-8bb3-eba04568169e"
+              ],
+              "changed": [
+                1770971518
+              ],
+              "created": [
+                1770700824
+              ],
+              "datafile": [
+                "https://www.data.gov.in/files/ogdpv2dms/s3fs-public/NCRB_PSI_2023_Table_1.6_0.csv"
+              ],
+              "domain": [
+                "data.gov.in"
+              ],
+              "domain_visibility": [
+                "4"
+              ],
+              "external_api_reference": [
+                0
+              ],
+              "field_from_api": [
+                "0"
+              ],
+              "field_high_value_dataset": [
+                0
+              ],
+              "field_public": [
+                "1"
+              ],
+              "field_resource_type": [
+                1
+              ],
+              "field_show_export": [
+                true
+              ],
+              "file_format": [
+                "text/csv"
+              ],
+              "file_size": [
+                2719
+              ],
+              "frequency": [
+                "Annual"
+              ],
+              "govt_type": [
+                "Central"
+              ],
+              "granularity": [
+                "Annual"
+              ],
+              "is_api_available": [
+                "1"
+              ],
+              "ministry_department": [
+                "Ministry of Home Affairs",
+                "Department of States",
+                "National Crime Records Bureau (NCRB)"
+              ],
+              "nid": [
+                604518662
+              ],
+              "note": [
+                "NA - Not Available. As per data provided by States/UTs."
+              ],
+              "reference_url": [
+                "https://www.ncrb.gov.in/uploads/files/PSI-20231.pdf"
+              ],
+              "resource_category": [
+                "Dataset"
+              ],
+              "sector": [
+                "Police"
+              ],
+              "sector_resource": [
+                "Adult Education"
+              ],
+              "title": [
+                "State/UT-wise Details of Capacity, Inmates Population and Occupancy Rate of Sub-Jails as on 31-12-2023"
+              ],
+              "uuid": [
+                "e2ceffc8-2ca1-441c-a5ca-8c825e9af75d"
+              ],
+              "vid": [
+                14071423
+              ],
+              "search_api_id": [
+                "entity:node/604518662:en"
+              ],
+              "search_api_datasource": [
+                "entity:node"
+              ],
+              "search_api_language": [
+                "en"
+              ]
+            },
+            {
+              "cdos_state_ministry": [
+                "National Crime Records Bureau (NCRB)"
+              ],
+              "is_high_value_dataset": [
+                0
+              ],
+              "is_priced": [
+                0
+              ],
+              "is_rated": [
+                0
+              ],
+              "is_webservice": [
+                0
+              ],
+              "node_alias": [
+                "/resource/stateut-wise-details-capacity-inmates-population-and-occupancy-rate-other-jails-31-12-2023"
+              ],
+              "node_cdo_email": [
+                "csncrb [at] ncrb [dot] gov [dot] in"
+              ],
+              "ogdp_download_count": [
+                0
+              ],
+              "ogdp_view_count": [
+                30
+              ],
+              "published_date": [
+                1770963144
+              ],
+              "catalog_reference": [
+                604507350
+              ],
+              "catalog_title": [
+                "Prison Statistics India (PSI) - 2023"
+              ],
+              "catalog_uuid": [
+                "fa51afcd-ba7c-4582-8bb3-eba04568169e"
+              ],
+              "changed": [
+                1770963144
+              ],
+              "created": [
+                1770700824
+              ],
+              "datafile": [
+                "https://www.data.gov.in/files/ogdpv2dms/s3fs-public/NCRB_PSI_2023_Table_1.11_0.csv"
+              ],
+              "domain": [
+                "data.gov.in"
+              ],
+              "domain_visibility": [
+                "4"
+              ],
+              "external_api_reference": [
+                0
+              ],
+              "field_from_api": [
+                "0"
+              ],
+              "field_high_value_dataset": [
+                0
+              ],
+              "field_public": [
+                "1"
+              ],
+              "field_resource_type": [
+                1
+              ],
+              "field_show_export": [
+                true
+              ],
+              "file_format": [
+                "text/csv"
+              ],
+              "file_size": [
+                2312
+              ],
+              "frequency": [
+                "Annual"
+              ],
+              "govt_type": [
+                "Central"
+              ],
+              "granularity": [
+                "Annual"
+              ],
+              "is_api_available": [
+                "1"
+              ],
+              "ministry_department": [
+                "Ministry of Home Affairs",
+                "Department of States",
+                "National Crime Records Bureau (NCRB)"
+              ],
+              "nid": [
+                604518668
+              ],
+              "note": [
+                "NA - Not Available. As per data provided by States/UTs."
+              ],
+              "reference_url": [
+                "https://www.ncrb.gov.in/uploads/files/PSI-20231.pdf"
+              ],
+              "resource_category": [
+                "Dataset"
+              ],
+              "sector": [
+                "Police"
+              ],
+              "sector_resource": [
+                "Adult Education"
+              ],
+              "title": [
+                "State/UT-wise Details of Capacity, Inmates Population and Occupancy Rate of Other Jails as on 31-12-2023"
+              ],
+              "uuid": [
+                "03d53798-cc65-4d2b-918b-9ba791508d5a"
+              ],
+              "vid": [
+                14070743
+              ],
+              "search_api_id": [
+                "entity:node/604518668:en"
+              ],
+              "search_api_datasource": [
+                "entity:node"
+              ],
+              "search_api_language": [
+                "en"
+              ]
+            }
+          ],
+          "aggregations": {
+            "domain": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": "data.gov.in",
+                  "doc_count": 12461
+                },
+                {
+                  "key": "tn.data.gov.in",
+                  "doc_count": 561
+                },
+                {
+                  "key": "smartcities.data.gov.in",
+                  "doc_count": 96
+                },
+                {
+                  "key": "karnataka.data.gov.in",
+                  "doc_count": 81
+                },
+                {
+                  "key": "punjab.data.gov.in",
+                  "doc_count": 80
+                },
+                {
+                  "key": "sikkim.data.gov.in",
+                  "doc_count": 6
+                }
+              ]
+            },
+            "govt_type": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": "Central",
+                  "doc_count": 12520
+                },
+                {
+                  "key": "State",
+                  "doc_count": 765
+                }
+              ]
+            },
+            "ministry_department": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": "Ministry of Home Affairs",
+                  "doc_count": 11747
+                },
+                {
+                  "key": "Department of Home",
+                  "doc_count": 11392
+                },
+                {
+                  "key": "Registrar General and Census Commissioner, India",
+                  "doc_count": 11392
+                },
+                {
+                  "key": "Department of States",
+                  "doc_count": 355
+                },
+                {
+                  "key": "National Crime Records Bureau (NCRB)",
+                  "doc_count": 355
+                },
+                {
+                  "key": "Rajya Sabha",
+                  "doc_count": 300
+                },
+                {
+                  "key": "Department of Health and Family Welfare",
+                  "doc_count": 166
+                },
+                {
+                  "key": "Ministry of Health and Family Welfare",
+                  "doc_count": 166
+                },
+                {
+                  "key": "Ministry of Housing and Urban Affairs",
+                  "doc_count": 96
+                },
+                {
+                  "key": "Smart Cities Mission",
+                  "doc_count": 96
+                },
+                {
+                  "key": "Ministry of Education",
+                  "doc_count": 72
+                },
+                {
+                  "key": "Department of School Education and Literacy",
+                  "doc_count": 71
+                },
+                {
+                  "key": "National Council of Educational Research and Training (NCERT)",
+                  "doc_count": 59
+                },
+                {
+                  "key": "Department of Animal Husbandry and Dairying",
+                  "doc_count": 45
+                },
+                {
+                  "key": "Ministry of Fisheries, Animal Husbandry and Dairying",
+                  "doc_count": 45
+                },
+                {
+                  "key": "Ministry of Road Transport and Highways",
+                  "doc_count": 42
+                },
+                {
+                  "key": "NITI Aayog",
+                  "doc_count": 30
+                },
+                {
+                  "key": "Gujarat",
+                  "doc_count": 21
+                },
+                {
+                  "key": "Maharashtra",
+                  "doc_count": 18
+                },
+                {
+                  "key": "Surat",
+                  "doc_count": 18
+                },
+                {
+                  "key": "Ministry of Statistics and Programme Implementation",
+                  "doc_count": 17
+                },
+                {
+                  "key": "Tamil Nadu",
+                  "doc_count": 10
+                },
+                {
+                  "key": "Madhya Pradesh",
+                  "doc_count": 9
+                },
+                {
+                  "key": "Uttar Pradesh",
+                  "doc_count": 9
+                },
+                {
+                  "key": "Thane",
+                  "doc_count": 8
+                },
+                {
+                  "key": "Karnataka",
+                  "doc_count": 4
+                },
+                {
+                  "key": "Pune",
+                  "doc_count": 4
+                },
+                {
+                  "key": "Andhra Pradesh",
+                  "doc_count": 3
+                },
+                {
+                  "key": "Ministry of Tribal Affairs",
+                  "doc_count": 3
+                },
+                {
+                  "key": "Rajasthan",
+                  "doc_count": 3
+                },
+                {
+                  "key": "Ujjain",
+                  "doc_count": 3
+                },
+                {
+                  "key": "Agra",
+                  "doc_count": 2
+                },
+                {
+                  "key": "Chhattisgarh",
+                  "doc_count": 2
+                },
+                {
+                  "key": "Jammu and Kashmir",
+                  "doc_count": 2
+                },
+                {
+                  "key": "Kalyan Dombivali",
+                  "doc_count": 2
+                },
+                {
+                  "key": "Kohima",
+                  "doc_count": 2
+                },
+                {
+                  "key": "Lucknow",
+                  "doc_count": 2
+                },
+                {
+                  "key": "Nagaland",
+                  "doc_count": 2
+                },
+                {
+                  "key": "Sagar",
+                  "doc_count": 2
+                },
+                {
+                  "key": "Salem",
+                  "doc_count": 2
+                },
+                {
+                  "key": "Telangana",
+                  "doc_count": 2
+                },
+                {
+                  "key": "Tiruchirapalli",
+                  "doc_count": 2
+                },
+                {
+                  "key": "Tiruppur",
+                  "doc_count": 2
+                },
+                {
+                  "key": "Agartala",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Ahmedabad",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Ajmer",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Amritsar",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Arunachal Pradesh",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Aurangabad",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Bareilly",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Belagavi",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Bhopal",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Bhubaneswar",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Bihar",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Bilaspur",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Chandigarh",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Chennai",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Dadra and Nagar Haveli",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Davangere",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Dehradun",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Department of AIDS Control",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Department of Higher Education",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Dharamshala",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Greater Warangal",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Himachal Pradesh",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Hubli Dharwad",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Indore",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Jabalpur",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Jammu",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Jhansi",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Jharkhand",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Kakinada",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Karimnagar",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Kerala",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Kota",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Ministry of Environment, Forest and Climate Change",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Muzaffarpur",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Nagpur",
+                  "doc_count": 1
+                },
+                {
+                  "key": "National AIDS Control Organisation(NACO)",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Odisha",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Pasighat",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Pimpri Chinchwad",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Prayagraj",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Punjab",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Raipur",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Rajkot",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Ranchi",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Saharanpur",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Satna",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Shivamogga",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Silvassa",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Solapur",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Srinagar",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Thanjavur",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Thoothukudi",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Tirunelveli",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Tirupati",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Tiruvanantapuram",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Tripura",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Udaipur",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Uttarakhand",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Vadodara",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Varanasi",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Visakhapatnam",
+                  "doc_count": 1
+                }
+              ]
+            },
+            "state_department": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": "Tamil Nadu",
+                  "doc_count": 563
+                },
+                {
+                  "key": "Department of Economics and Statistics",
+                  "doc_count": 557
+                },
+                {
+                  "key": "Planning, Development and Special Initiatives Department",
+                  "doc_count": 557
+                },
+                {
+                  "key": "Department of Economic and Statistical Organization, Punjab",
+                  "doc_count": 80
+                },
+                {
+                  "key": "Karnataka",
+                  "doc_count": 80
+                },
+                {
+                  "key": "Planning Department, Punjab",
+                  "doc_count": 80
+                },
+                {
+                  "key": "Punjab",
+                  "doc_count": 80
+                },
+                {
+                  "key": "Directorate of Economics & Statistics",
+                  "doc_count": 49
+                },
+                {
+                  "key": "Planning and Statistics Department, Karnataka",
+                  "doc_count": 49
+                },
+                {
+                  "key": "Home Department, Karnataka",
+                  "doc_count": 31
+                },
+                {
+                  "key": "Prisons and Correctional Services",
+                  "doc_count": 31
+                },
+                {
+                  "key": "Economic and Statistical Analysis Department, Haryana",
+                  "doc_count": 27
+                },
+                {
+                  "key": "Haryana",
+                  "doc_count": 27
+                },
+                {
+                  "key": "Directorate of Economics & Statistics, Gujarat",
+                  "doc_count": 7
+                },
+                {
+                  "key": "General Administration Department, Gujarat",
+                  "doc_count": 7
+                },
+                {
+                  "key": "Gujarat",
+                  "doc_count": 7
+                },
+                {
+                  "key": "Department of Economics, Statistics, Monitoring & Evaluation",
+                  "doc_count": 6
+                },
+                {
+                  "key": "Sikkim",
+                  "doc_count": 6
+                },
+                {
+                  "key": "Commissionerate of Municipal Administration (CMA)",
+                  "doc_count": 2
+                },
+                {
+                  "key": "Municipal Administration and Water Supply Department",
+                  "doc_count": 2
+                },
+                {
+                  "key": "Agriculture Department",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Animal Husbandary, Darirying and Fisheries Department",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Animal Husbandry and Veterinary Services Directorate",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Collector Office Bhandara",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Health and Family Welfare Department",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Maharashtra",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Meghalaya",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Public Health and Preventive Medicine",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Public Works Department",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Revenue and Forest Department, Maharashtra",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Tamil Nadu Horticulture Development Agency (TANHODA)",
+                  "doc_count": 1
+                }
+              ]
+            },
+            "others_org": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": []
+            },
+            "file_format": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": "text/csv",
+                  "doc_count": 6872
+                },
+                {
+                  "key": "application/vnd.ms-excel",
+                  "doc_count": 6412
+                },
+                {
+                  "key": "application/json",
+                  "doc_count": 1
+                }
+              ]
+            },
+            "file_format_short_name": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": []
+            },
+            "frequency": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": "Decadal",
+                  "doc_count": 11130
+                },
+                {
+                  "key": "Annual",
+                  "doc_count": 1313
+                },
+                {
+                  "key": "Others",
+                  "doc_count": 436
+                },
+                {
+                  "key": "Quarterly",
+                  "doc_count": 278
+                },
+                {
+                  "key": "Five Yearly",
+                  "doc_count": 58
+                },
+                {
+                  "key": "Monthly",
+                  "doc_count": 32
+                },
+                {
+                  "key": "One-time",
+                  "doc_count": 26
+                }
+              ]
+            },
+            "granularity": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": "Decadal",
+                  "doc_count": 10474
+                },
+                {
+                  "key": "Others",
+                  "doc_count": 1296
+                },
+                {
+                  "key": "Annual",
+                  "doc_count": 757
+                },
+                {
+                  "key": "Quarterly",
+                  "doc_count": 85
+                },
+                {
+                  "key": "Five Yearly",
+                  "doc_count": 38
+                },
+                {
+                  "key": "Monthly",
+                  "doc_count": 31
+                },
+                {
+                  "key": "One-time",
+                  "doc_count": 21
+                },
+                {
+                  "key": "Daily",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Weekly",
+                  "doc_count": 1
+                }
+              ]
+            },
+            "field_public": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": "1",
+                  "doc_count": 13283
+                },
+                {
+                  "key": "3",
+                  "doc_count": 2
+                }
+              ]
+            },
+            "is_api_available": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": "1",
+                  "doc_count": 9836
+                },
+                {
+                  "key": "0",
+                  "doc_count": 3449
+                }
+              ]
+            },
+            "is_visualized": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": "0",
+                  "doc_count": 12680
+                },
+                {
+                  "key": "1",
+                  "doc_count": 381
+                }
+              ]
+            },
+            "sector": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": "Census and Surveys",
+                  "doc_count": 11455
+                },
+                {
+                  "key": "Census",
+                  "doc_count": 11402
+                },
+                {
+                  "key": "Population Enumerator",
+                  "doc_count": 10602
+                },
+                {
+                  "key": "Statistics",
+                  "doc_count": 1829
+                },
+                {
+                  "key": "Police",
+                  "doc_count": 355
+                },
+                {
+                  "key": "Home Affairs and Enforcement",
+                  "doc_count": 354
+                },
+                {
+                  "key": "All",
+                  "doc_count": 307
+                },
+                {
+                  "key": "Health and Family welfare",
+                  "doc_count": 164
+                },
+                {
+                  "key": "Health",
+                  "doc_count": 106
+                },
+                {
+                  "key": "Family Welfare",
+                  "doc_count": 92
+                },
+                {
+                  "key": "Education",
+                  "doc_count": 82
+                },
+                {
+                  "key": "Elementary",
+                  "doc_count": 68
+                },
+                {
+                  "key": "Secondary",
+                  "doc_count": 59
+                },
+                {
+                  "key": "Agriculture",
+                  "doc_count": 47
+                },
+                {
+                  "key": "Animal Husbandry",
+                  "doc_count": 47
+                },
+                {
+                  "key": "Housing",
+                  "doc_count": 40
+                },
+                {
+                  "key": "Road Transport",
+                  "doc_count": 40
+                },
+                {
+                  "key": "Transport",
+                  "doc_count": 40
+                },
+                {
+                  "key": "Urban",
+                  "doc_count": 38
+                },
+                {
+                  "key": "Urban Housing",
+                  "doc_count": 21
+                },
+                {
+                  "key": "Rural",
+                  "doc_count": 19
+                },
+                {
+                  "key": "Social Development",
+                  "doc_count": 15
+                },
+                {
+                  "key": "Development",
+                  "doc_count": 14
+                },
+                {
+                  "key": "EWS Housing",
+                  "doc_count": 12
+                },
+                {
+                  "key": "Others",
+                  "doc_count": 12
+                },
+                {
+                  "key": "Environment and Forest",
+                  "doc_count": 9
+                },
+                {
+                  "key": "Governance and Administration",
+                  "doc_count": 5
+                },
+                {
+                  "key": "Information and Communications",
+                  "doc_count": 4
+                },
+                {
+                  "key": "Rural Housing",
+                  "doc_count": 4
+                },
+                {
+                  "key": "Telecom",
+                  "doc_count": 4
+                },
+                {
+                  "key": "Economy",
+                  "doc_count": 3
+                },
+                {
+                  "key": "Finance",
+                  "doc_count": 3
+                },
+                {
+                  "key": "House listing and Housing Census",
+                  "doc_count": 3
+                },
+                {
+                  "key": "Industries",
+                  "doc_count": 3
+                },
+                {
+                  "key": "Labour and Employment",
+                  "doc_count": 3
+                },
+                {
+                  "key": "Local Government",
+                  "doc_count": 3
+                },
+                {
+                  "key": "Tribal",
+                  "doc_count": 3
+                },
+                {
+                  "key": "District Adminstration",
+                  "doc_count": 2
+                },
+                {
+                  "key": "Employment",
+                  "doc_count": 2
+                },
+                {
+                  "key": "Macro Economy",
+                  "doc_count": 2
+                },
+                {
+                  "key": "Water and Sanitation",
+                  "doc_count": 2
+                },
+                {
+                  "key": "Women",
+                  "doc_count": 2
+                },
+                {
+                  "key": "Army",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Defence",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Drinking Water",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Fishery",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Higher Education",
+                  "doc_count": 1
+                },
+                {
+                  "key": "National Population Register",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Sanitation",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Socio-economic & Caste Census",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Water Resources",
+                  "doc_count": 1
+                }
+              ]
+            },
+            "sector_resource": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": "Census and Surveys",
+                  "doc_count": 11457
+                },
+                {
+                  "key": "Census",
+                  "doc_count": 11402
+                },
+                {
+                  "key": "Population Enumerator",
+                  "doc_count": 10603
+                },
+                {
+                  "key": "Statistics",
+                  "doc_count": 1832
+                },
+                {
+                  "key": "Home Affairs and Enforcement",
+                  "doc_count": 362
+                },
+                {
+                  "key": "Police",
+                  "doc_count": 323
+                },
+                {
+                  "key": "Health and Family welfare",
+                  "doc_count": 178
+                },
+                {
+                  "key": "Health",
+                  "doc_count": 106
+                },
+                {
+                  "key": "Family Welfare",
+                  "doc_count": 92
+                },
+                {
+                  "key": "All",
+                  "doc_count": 89
+                },
+                {
+                  "key": "Education",
+                  "doc_count": 71
+                },
+                {
+                  "key": "Labour and Employment",
+                  "doc_count": 69
+                },
+                {
+                  "key": "Elementary",
+                  "doc_count": 68
+                },
+                {
+                  "key": "Housing",
+                  "doc_count": 59
+                },
+                {
+                  "key": "Secondary",
+                  "doc_count": 59
+                },
+                {
+                  "key": "Animal Husbandry",
+                  "doc_count": 47
+                },
+                {
+                  "key": "Social Development",
+                  "doc_count": 47
+                },
+                {
+                  "key": "Road Transport",
+                  "doc_count": 39
+                },
+                {
+                  "key": "Transport",
+                  "doc_count": 37
+                },
+                {
+                  "key": "Urban",
+                  "doc_count": 34
+                },
+                {
+                  "key": "Army",
+                  "doc_count": 30
+                },
+                {
+                  "key": "Urban Housing",
+                  "doc_count": 24
+                },
+                {
+                  "key": "Rural",
+                  "doc_count": 23
+                },
+                {
+                  "key": "Agriculture",
+                  "doc_count": 21
+                },
+                {
+                  "key": "Environment and Forest",
+                  "doc_count": 17
+                },
+                {
+                  "key": "Adult Education",
+                  "doc_count": 15
+                },
+                {
+                  "key": "Development",
+                  "doc_count": 14
+                },
+                {
+                  "key": "Others",
+                  "doc_count": 11
+                },
+                {
+                  "key": "Drinking Water",
+                  "doc_count": 10
+                },
+                {
+                  "key": "EWS Housing",
+                  "doc_count": 10
+                },
+                {
+                  "key": "Tribal",
+                  "doc_count": 9
+                },
+                {
+                  "key": "Water and Sanitation",
+                  "doc_count": 9
+                },
+                {
+                  "key": "Finance",
+                  "doc_count": 8
+                },
+                {
+                  "key": "Water Resources",
+                  "doc_count": 8
+                },
+                {
+                  "key": "Governance and Administration",
+                  "doc_count": 6
+                },
+                {
+                  "key": "Industries",
+                  "doc_count": 6
+                },
+                {
+                  "key": "Information and Communications",
+                  "doc_count": 6
+                },
+                {
+                  "key": "Telecom",
+                  "doc_count": 4
+                },
+                {
+                  "key": "Economy",
+                  "doc_count": 3
+                },
+                {
+                  "key": "House listing and Housing Census",
+                  "doc_count": 3
+                },
+                {
+                  "key": "Local Government",
+                  "doc_count": 3
+                },
+                {
+                  "key": "District Adminstration",
+                  "doc_count": 2
+                },
+                {
+                  "key": "Employment",
+                  "doc_count": 2
+                },
+                {
+                  "key": "Macro Economy",
+                  "doc_count": 2
+                },
+                {
+                  "key": "Panchayati Raj",
+                  "doc_count": 2
+                },
+                {
+                  "key": "Rural Housing",
+                  "doc_count": 2
+                },
+                {
+                  "key": "Socio-economic & Caste Census",
+                  "doc_count": 2
+                },
+                {
+                  "key": "Women",
+                  "doc_count": 2
+                },
+                {
+                  "key": "Defence",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Fishery",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Foreign Affairs",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Higher Education",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Information and Technology",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Judiciary",
+                  "doc_count": 1
+                },
+                {
+                  "key": "National Population Register",
+                  "doc_count": 1
+                },
+                {
+                  "key": "Sanitation",
+                  "doc_count": 1
+                }
+              ]
+            },
+            "external_api_reference": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": 0,
+                  "doc_count": 188
+                },
+                {
+                  "key": 4262941,
+                  "doc_count": 1
+                }
+              ]
+            },
+            "monthwise": {
+              "buckets": [
+                {
+                  "key_as_string": "11",
+                  "key": 1351728000000,
+                  "doc_count": 2
+                },
+                {
+                  "key_as_string": "12",
+                  "key": 1354320000000,
+                  "doc_count": 0
+                },
+                {
+                  "key_as_string": "1",
+                  "key": 1356998400000,
+                  "doc_count": 1
+                },
+                {
+                  "key_as_string": "2",
+                  "key": 1359676800000,
+                  "doc_count": 0
+                },
+                {
+                  "key_as_string": "3",
+                  "key": 1362096000000,
+                  "doc_count": 0
+                },
+                {
+                  "key_as_string": "4",
+                  "key": 1364774400000,
+                  "doc_count": 2
+                },
+                {
+                  "key_as_string": "5",
+                  "key": 1367366400000,
+                  "doc_count": 2
+                },
+                {
+                  "key_as_string": "6",
+                  "key": 1370044800000,
+                  "doc_count": 0
+                },
+                {
+                  "key_as_string": "7",
+                  "key": 1372636800000,
+                  "doc_count": 10
+                },
+                {
+                  "key_as_string": "8",
+                  "key": 1375315200000,
+                  "doc_count": 0
+                },
+                {
+                  "key_as_string": "9",
+                  "key": 1377993600000,
+                  "doc_count": 0
+                },
+                {
+                  "key_as_string": "10",
+                  "key": 1380585600000,
+                  "doc_count": 11
+                },
+                {
+                  "key_as_string": "11",
+                  "key": 1383264000000,
+                  "doc_count": 1
+                },
+                {
+                  "key_as_string": "12",
+                  "key": 1385856000000,
+                  "doc_count": 2
+                },
+                {
+                  "key_as_string": "1",
+                  "key": 1388534400000,
+                  "doc_count": 4
+                },
+                {
+                  "key_as_string": "2",
+                  "key": 1391212800000,
+                  "doc_count": 11
+                },
+                {
+                  "key_as_string": "3",
+                  "key": 1393632000000,
+                  "doc_count": 295
+                },
+                {
+                  "key_as_string": "4",
+                  "key": 1396310400000,
+                  "doc_count": 6
+                },
+                {
+                  "key_as_string": "5",
+                  "key": 1398902400000,
+                  "doc_count": 2
+                },
+                {
+                  "key_as_string": "6",
+                  "key": 1401580800000,
+                  "doc_count": 5
+                },
+                {
+                  "key_as_string": "7",
+                  "key": 1404172800000,
+                  "doc_count": 563
+                },
+                {
+                  "key_as_string": "8",
+                  "key": 1406851200000,
+                  "doc_count": 5
+                },
+                {
+                  "key_as_string": "9",
+                  "key": 1409529600000,
+                  "doc_count": 60
+                },
+                {
+                  "key_as_string": "10",
+                  "key": 1412121600000,
+                  "doc_count": 0
+                },
+                {
+                  "key_as_string": "11",
+                  "key": 1414800000000,
+                  "doc_count": 15
+                },
+                {
+                  "key_as_string": "12",
+                  "key": 1417392000000,
+                  "doc_count": 5
+                },
+                {
+                  "key_as_string": "1",
+                  "key": 1420070400000,
+                  "doc_count": 3
+                },
+                {
+                  "key_as_string": "2",
+                  "key": 1422748800000,
+                  "doc_count": 0
+                },
+                {
+                  "key_as_string": "3",
+                  "key": 1425168000000,
+                  "doc_count": 0
+                },
+                {
+                  "key_as_string": "4",
+                  "key": 1427846400000,
+                  "doc_count": 0
+                },
+                {
+                  "key_as_string": "5",
+                  "key": 1430438400000,
+                  "doc_count": 0
+                },
+                {
+                  "key_as_string": "6",
+                  "key": 1433116800000,
+                  "doc_count": 36
+                },
+                {
+                  "key_as_string": "7",
+                  "key": 1435708800000,
+                  "doc_count": 99
+                },
+                {
+                  "key_as_string": "8",
+                  "key": 1438387200000,
+                  "doc_count": 0
+                },
+                {
+                  "key_as_string": "9",
+                  "key": 1441065600000,
+                  "doc_count": 7
+                },
+                {
+                  "key_as_string": "10",
+                  "key": 1443657600000,
+                  "doc_count": 199
+                },
+                {
+                  "key_as_string": "11",
+                  "key": 1446336000000,
+                  "doc_count": 0
+                },
+                {
+                  "key_as_string": "12",
+                  "key": 1448928000000,
+                  "doc_count": 1
+                },
+                {
+                  "key_as_string": "1",
+                  "key": 1451606400000,
+                  "doc_count": 63
+                },
+                {
+                  "key_as_string": "2",
+                  "key": 1454284800000,
+                  "doc_count": 25
+                },
+                {
+                  "key_as_string": "3",
+                  "key": 1456790400000,
+                  "doc_count": 73
+                },
+                {
+                  "key_as_string": "4",
+                  "key": 1459468800000,
+                  "doc_count": 8
+                },
+                {
+                  "key_as_string": "5",
+                  "key": 1462060800000,
+                  "doc_count": 17
+                },
+                {
+                  "key_as_string": "6",
+                  "key": 1464739200000,
+                  "doc_count": 24
+                },
+                {
+                  "key_as_string": "7",
+                  "key": 1467331200000,
+                  "doc_count": 43
+                },
+                {
+                  "key_as_string": "8",
+                  "key": 1470009600000,
+                  "doc_count": 2019
+                },
+                {
+                  "key_as_string": "9",
+                  "key": 1472688000000,
+                  "doc_count": 2289
+                },
+                {
+                  "key_as_string": "10",
+                  "key": 1475280000000,
+                  "doc_count": 112
+                },
+                {
+                  "key_as_string": "11",
+                  "key": 1477958400000,
+                  "doc_count": 593
+                },
+                {
+                  "key_as_string": "12",
+                  "key": 1480550400000,
+                  "doc_count": 163
+                },
+                {
+                  "key_as_string": "1",
+                  "key": 1483228800000,
+                  "doc_count": 6
+                },
+                {
+                  "key_as_string": "2",
+                  "key": 1485907200000,
+                  "doc_count": 0
+                },
+                {
+                  "key_as_string": "3",
+                  "key": 1488326400000,
+                  "doc_count": 580
+                },
+                {
+                  "key_as_string": "4",
+                  "key": 1491004800000,
+                  "doc_count": 1833
+                },
+                {
+                  "key_as_string": "5",
+                  "key": 1493596800000,
+                  "doc_count": 7
+                },
+                {
+                  "key_as_string": "6",
+                  "key": 1496275200000,
+                  "doc_count": 20
+                },
+                {
+                  "key_as_string": "7",
+                  "key": 1498867200000,
+                  "doc_count": 13
+                },
+                {
+                  "key_as_string": "8",
+                  "key": 1501545600000,
+                  "doc_count": 0
+                },
+                {
+                  "key_as_string": "9",
+                  "key": 1504224000000,
+                  "doc_count": 20
+                },
+                {
+                  "key_as_string": "10",
+                  "key": 1506816000000,
+                  "doc_count": 0
+                },
+                {
+                  "key_as_string": "11",
+                  "key": 1509494400000,
+                  "doc_count": 14
+                },
+                {
+                  "key_as_string": "12",
+                  "key": 1512086400000,
+                  "doc_count": 0
+                },
+                {
+                  "key_as_string": "1",
+                  "key": 1514764800000,
+                  "doc_count": 1451
+                },
+                {
+                  "key_as_string": "2",
+                  "key": 1517443200000,
+                  "doc_count": 1272
+                },
+                {
+                  "key_as_string": "3",
+                  "key": 1519862400000,
+                  "doc_count": 6
+                },
+                {
+                  "key_as_string": "4",
+                  "key": 1522540800000,
+                  "doc_count": 0
+                },
+                {
+                  "key_as_string": "5",
+                  "key": 1525132800000,
+                  "doc_count": 3
+                },
+                {
+                  "key_as_string": "6",
+                  "key": 1527811200000,
+                  "doc_count": 9
+                },
+                {
+                  "key_as_string": "7",
+                  "key": 1530403200000,
+                  "doc_count": 0
+                },
+                {
+                  "key_as_string": "8",
+                  "key": 1533081600000,
+                  "doc_count": 6
+                },
+                {
+                  "key_as_string": "9",
+                  "key": 1535760000000,
+                  "doc_count": 3
+                },
+                {
+                  "key_as_string": "10",
+                  "key": 1538352000000,
+                  "doc_count": 2
+                },
+                {
+                  "key_as_string": "11",
+                  "key": 1541030400000,
+                  "doc_count": 0
+                },
+                {
+                  "key_as_string": "12",
+                  "key": 1543622400000,
+                  "doc_count": 25
+                },
+                {
+                  "key_as_string": "1",
+                  "key": 1546300800000,
+                  "doc_count": 2
+                },
+                {
+                  "key_as_string": "2",
+                  "key": 1548979200000,
+                  "doc_count": 98
+                },
+                {
+                  "key_as_string": "3",
+                  "key": 1551398400000,
+                  "doc_count": 35
+                },
+                {
+                  "key_as_string": "4",
+                  "key": 1554076800000,
+                  "doc_count": 44
+                },
+                {
+                  "key_as_string": "5",
+                  "key": 1556668800000,
+                  "doc_count": 24
+                },
+                {
+                  "key_as_string": "6",
+                  "key": 1559347200000,
+                  "doc_count": 3
+                },
+                {
+                  "key_as_string": "7",
+                  "key": 1561939200000,
+                  "doc_count": 37
+                },
+                {
+                  "key_as_string": "8",
+                  "key": 1564617600000,
+                  "doc_count": 21
+                },
+                {
+                  "key_as_string": "9",
+                  "key": 1567296000000,
+                  "doc_count": 6
+                },
+                {
+                  "key_as_string": "10",
+                  "key": 1569888000000,
+                  "doc_count": 16
+                },
+                {
+                  "key_as_string": "11",
+                  "key": 1572566400000,
+                  "doc_count": 23
+                },
+                {
+                  "key_as_string": "12",
+                  "key": 1575158400000,
+                  "doc_count": 22
+                },
+                {
+                  "key_as_string": "1",
+                  "key": 1577836800000,
+                  "doc_count": 2
+                },
+                {
+                  "key_as_string": "2",
+                  "key": 1580515200000,
+                  "doc_count": 14
+                },
+                {
+                  "key_as_string": "3",
+                  "key": 1583020800000,
+                  "doc_count": 25
+                },
+                {
+                  "key_as_string": "4",
+                  "key": 1585699200000,
+                  "doc_count": 22
+                },
+                {
+                  "key_as_string": "5",
+                  "key": 1588291200000,
+                  "doc_count": 28
+                },
+                {
+                  "key_as_string": "6",
+                  "key": 1590969600000,
+                  "doc_count": 7
+                },
+                {
+                  "key_as_string": "7",
+                  "key": 1593561600000,
+                  "doc_count": 53
+                },
+                {
+                  "key_as_string": "8",
+                  "key": 1596240000000,
+                  "doc_count": 5
+                },
+                {
+                  "key_as_string": "9",
+                  "key": 1598918400000,
+                  "doc_count": 64
+                },
+                {
+                  "key_as_string": "10",
+                  "key": 1601510400000,
+                  "doc_count": 45
+                },
+                {
+                  "key_as_string": "11",
+                  "key": 1604188800000,
+                  "doc_count": 47
+                },
+                {
+                  "key_as_string": "12",
+                  "key": 1606780800000,
+                  "doc_count": 75
+                },
+                {
+                  "key_as_string": "1",
+                  "key": 1609459200000,
+                  "doc_count": 41
+                },
+                {
+                  "key_as_string": "2",
+                  "key": 1612137600000,
+                  "doc_count": 27
+                },
+                {
+                  "key_as_string": "3",
+                  "key": 1614556800000,
+                  "doc_count": 19
+                },
+                {
+                  "key_as_string": "4",
+                  "key": 1617235200000,
+                  "doc_count": 1
+                },
+                {
+                  "key_as_string": "5",
+                  "key": 1619827200000,
+                  "doc_count": 4
+                },
+                {
+                  "key_as_string": "6",
+                  "key": 1622505600000,
+                  "doc_count": 11
+                },
+                {
+                  "key_as_string": "7",
+                  "key": 1625097600000,
+                  "doc_count": 46
+                },
+                {
+                  "key_as_string": "8",
+                  "key": 1627776000000,
+                  "doc_count": 24
+                },
+                {
+                  "key_as_string": "9",
+                  "key": 1630454400000,
+                  "doc_count": 20
+                },
+                {
+                  "key_as_string": "10",
+                  "key": 1633046400000,
+                  "doc_count": 1
+                },
+                {
+                  "key_as_string": "11",
+                  "key": 1635724800000,
+                  "doc_count": 11
+                },
+                {
+                  "key_as_string": "12",
+                  "key": 1638316800000,
+                  "doc_count": 13
+                },
+                {
+                  "key_as_string": "1",
+                  "key": 1640995200000,
+                  "doc_count": 20
+                },
+                {
+                  "key_as_string": "2",
+                  "key": 1643673600000,
+                  "doc_count": 6
+                },
+                {
+                  "key_as_string": "3",
+                  "key": 1646092800000,
+                  "doc_count": 18
+                },
+                {
+                  "key_as_string": "4",
+                  "key": 1648771200000,
+                  "doc_count": 21
+                },
+                {
+                  "key_as_string": "5",
+                  "key": 1651363200000,
+                  "doc_count": 0
+                },
+                {
+                  "key_as_string": "6",
+                  "key": 1654041600000,
+                  "doc_count": 0
+                },
+                {
+                  "key_as_string": "7",
+                  "key": 1656633600000,
+                  "doc_count": 9
+                },
+                {
+                  "key_as_string": "8",
+                  "key": 1659312000000,
+                  "doc_count": 0
+                },
+                {
+                  "key_as_string": "9",
+                  "key": 1661990400000,
+                  "doc_count": 10
+                },
+                {
+                  "key_as_string": "10",
+                  "key": 1664582400000,
+                  "doc_count": 0
+                },
+                {
+                  "key_as_string": "11",
+                  "key": 1667260800000,
+                  "doc_count": 2
+                },
+                {
+                  "key_as_string": "12",
+                  "key": 1669852800000,
+                  "doc_count": 11
+                },
+                {
+                  "key_as_string": "1",
+                  "key": 1672531200000,
+                  "doc_count": 8
+                },
+                {
+                  "key_as_string": "2",
+                  "key": 1675209600000,
+                  "doc_count": 9
+                },
+                {
+                  "key_as_string": "3",
+                  "key": 1677628800000,
+                  "doc_count": 3
+                },
+                {
+                  "key_as_string": "4",
+                  "key": 1680307200000,
+                  "doc_count": 5
+                },
+                {
+                  "key_as_string": "5",
+                  "key": 1682899200000,
+                  "doc_count": 5
+                },
+                {
+                  "key_as_string": "6",
+                  "key": 1685577600000,
+                  "doc_count": 6
+                },
+                {
+                  "key_as_string": "7",
+                  "key": 1688169600000,
+                  "doc_count": 22
+                },
+                {
+                  "key_as_string": "8",
+                  "key": 1690848000000,
+                  "doc_count": 14
+                },
+                {
+                  "key_as_string": "9",
+                  "key": 1693526400000,
+                  "doc_count": 10
+                },
+                {
+                  "key_as_string": "10",
+                  "key": 1696118400000,
+                  "doc_count": 5
+                },
+                {
+                  "key_as_string": "11",
+                  "key": 1698796800000,
+                  "doc_count": 4
+                },
+                {
+                  "key_as_string": "12",
+                  "key": 1701388800000,
+                  "doc_count": 1
+                },
+                {
+                  "key_as_string": "1",
+                  "key": 1704067200000,
+                  "doc_count": 6
+                },
+                {
+                  "key_as_string": "2",
+                  "key": 1706745600000,
+                  "doc_count": 4
+                },
+                {
+                  "key_as_string": "3",
+                  "key": 1709251200000,
+                  "doc_count": 2
+                },
+                {
+                  "key_as_string": "4",
+                  "key": 1711929600000,
+                  "doc_count": 2
+                },
+                {
+                  "key_as_string": "5",
+                  "key": 1714521600000,
+                  "doc_count": 4
+                },
+                {
+                  "key_as_string": "6",
+                  "key": 1717200000000,
+                  "doc_count": 0
+                },
+                {
+                  "key_as_string": "7",
+                  "key": 1719792000000,
+                  "doc_count": 0
+                },
+                {
+                  "key_as_string": "8",
+                  "key": 1722470400000,
+                  "doc_count": 14
+                },
+                {
+                  "key_as_string": "9",
+                  "key": 1725148800000,
+                  "doc_count": 8
+                },
+                {
+                  "key_as_string": "10",
+                  "key": 1727740800000,
+                  "doc_count": 8
+                },
+                {
+                  "key_as_string": "11",
+                  "key": 1730419200000,
+                  "doc_count": 8
+                },
+                {
+                  "key_as_string": "12",
+                  "key": 1733011200000,
+                  "doc_count": 2
+                },
+                {
+                  "key_as_string": "1",
+                  "key": 1735689600000,
+                  "doc_count": 1
+                },
+                {
+                  "key_as_string": "2",
+                  "key": 1738368000000,
+                  "doc_count": 8
+                },
+                {
+                  "key_as_string": "3",
+                  "key": 1740787200000,
+                  "doc_count": 1
+                },
+                {
+                  "key_as_string": "4",
+                  "key": 1743465600000,
+                  "doc_count": 0
+                },
+                {
+                  "key_as_string": "5",
+                  "key": 1746057600000,
+                  "doc_count": 10
+                },
+                {
+                  "key_as_string": "6",
+                  "key": 1748736000000,
+                  "doc_count": 8
+                },
+                {
+                  "key_as_string": "7",
+                  "key": 1751328000000,
+                  "doc_count": 3
+                },
+                {
+                  "key_as_string": "8",
+                  "key": 1754006400000,
+                  "doc_count": 0
+                },
+                {
+                  "key_as_string": "9",
+                  "key": 1756684800000,
+                  "doc_count": 0
+                },
+                {
+                  "key_as_string": "10",
+                  "key": 1759276800000,
+                  "doc_count": 1
+                },
+                {
+                  "key_as_string": "11",
+                  "key": 1761955200000,
+                  "doc_count": 0
+                },
+                {
+                  "key_as_string": "12",
+                  "key": 1764547200000,
+                  "doc_count": 0
+                },
+                {
+                  "key_as_string": "1",
+                  "key": 1767225600000,
+                  "doc_count": 0
+                },
+                {
+                  "key_as_string": "2",
+                  "key": 1769904000000,
+                  "doc_count": 20
+                },
+                {
+                  "key_as_string": "3",
+                  "key": 1772323200000,
+                  "doc_count": 0
+                },
+                {
+                  "key_as_string": "4",
+                  "key": 1775001600000,
+                  "doc_count": 0
+                },
+                {
+                  "key_as_string": "5",
+                  "key": 1777593600000,
+                  "doc_count": 0
+                },
+                {
+                  "key_as_string": "6",
+                  "key": 1780272000000,
+                  "doc_count": 0
+                },
+                {
+                  "key_as_string": "7",
+                  "key": 1782864000000,
+                  "doc_count": 4
+                }
+              ]
+            },
+            "yearwise": {
+              "buckets": [
+                {
+                  "key_as_string": "2012",
+                  "key": 1325376000000,
+                  "doc_count": 2
+                },
+                {
+                  "key_as_string": "2013",
+                  "key": 1356998400000,
+                  "doc_count": 29
+                },
+                {
+                  "key_as_string": "2014",
+                  "key": 1388534400000,
+                  "doc_count": 971
+                },
+                {
+                  "key_as_string": "2015",
+                  "key": 1420070400000,
+                  "doc_count": 345
+                },
+                {
+                  "key_as_string": "2016",
+                  "key": 1451606400000,
+                  "doc_count": 5429
+                },
+                {
+                  "key_as_string": "2017",
+                  "key": 1483228800000,
+                  "doc_count": 2493
+                },
+                {
+                  "key_as_string": "2018",
+                  "key": 1514764800000,
+                  "doc_count": 2777
+                },
+                {
+                  "key_as_string": "2019",
+                  "key": 1546300800000,
+                  "doc_count": 331
+                },
+                {
+                  "key_as_string": "2020",
+                  "key": 1577836800000,
+                  "doc_count": 387
+                },
+                {
+                  "key_as_string": "2021",
+                  "key": 1609459200000,
+                  "doc_count": 218
+                },
+                {
+                  "key_as_string": "2022",
+                  "key": 1640995200000,
+                  "doc_count": 97
+                },
+                {
+                  "key_as_string": "2023",
+                  "key": 1672531200000,
+                  "doc_count": 92
+                },
+                {
+                  "key_as_string": "2024",
+                  "key": 1704067200000,
+                  "doc_count": 58
+                },
+                {
+                  "key_as_string": "2025",
+                  "key": 1735689600000,
+                  "doc_count": 32
+                },
+                {
+                  "key_as_string": "2026",
+                  "key": 1767225600000,
+                  "doc_count": 24
+                }
+              ]
+            },
+            "resource_category": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": "Dataset",
+                  "doc_count": 13189
+                }
+              ]
+            },
+            "is_rated": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": 1,
+                  "doc_count": 12645
+                },
+                {
+                  "key": 0,
+                  "doc_count": 640
+                }
+              ]
+            },
+            "is_high_value_dataset": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": 0,
+                  "doc_count": 13245
+                },
+                {
+                  "key": 1,
+                  "doc_count": 40
+                }
+              ]
+            },
+            "is_priced": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": 0,
+                  "doc_count": 13285
+                }
+              ]
+            },
+            "is_webservice": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": 0,
+                  "doc_count": 13284
+                },
+                {
+                  "key": 1,
+                  "doc_count": 1
+                }
+              ]
+            },
+            "api_request_count_sum": {
+              "value": 180
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -3,22 +3,20 @@ from ...types import Dataset, Resource
 from ..interfaces.portal import Portal
 from ..adapters.ckan_adapter import CkanAdapter
 
-class PortalDataGovUS(Portal):
+class PortalDataGovAU(Portal):
     """
-    Implementação para catalog.data.gov (US)
+    Implementação para data.gov.au (Australia)
     """
     
     def __init__(self, **config):
         super().__init__(**config)
-        # URL base do catálogo CKAN dos EUA
-        self.adapter = CkanAdapter("https://catalog.data.gov")
+        self.adapter = CkanAdapter("https://data.gov.au/data")
 
     async def search(self, query: str) -> List[Dataset]:
         results = []
         async with self.adapter as ad:
-            # Data.gov as vezes tem redirects ou validações chatas, mas é CKAN standard
             if not await ad.connect():
-                print("Could not connect to data.gov")
+                print("Could not connect to data.gov.au")
                 return []
 
             raw_packages = await ad.search_packages(query)
@@ -38,8 +36,7 @@ class PortalDataGovUS(Portal):
 
     def _map_package_to_dataset(self, pkg: dict) -> Dataset:
         """
-        Mapeia CKAN US -> Hipólita Dataset. 
-        Similar ao BR, mas campos de metadados extra podem variar.
+        Mapeia CKAN AU -> Hipólita Dataset.
         """
         resources = []
         for res in pkg.get("resources", []):
@@ -65,5 +62,5 @@ class PortalDataGovUS(Portal):
             tags=tags,
             organization=pkg.get("organization", {}).get("title"),
             license=pkg.get("license_title"),
-            source_portal="data.gov"
+            source_portal="data.gov.au"
         )

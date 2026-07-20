@@ -1,0 +1,1808 @@
+{
+  "captured_at": "2026-07-20",
+  "calls": [
+    {
+      "url": "https://ckan.publishing.service.gov.uk/api/3/action/package_search",
+      "params": {
+        "q": "transport",
+        "rows": 10
+      },
+      "response": {
+        "help": "https://ckan.publishing.service.gov.uk/api/3/action/help_show?name=package_search",
+        "success": true,
+        "result": {
+          "count": 2173,
+          "facets": {},
+          "results": [
+            {
+              "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+              "id": "ff69f339-99a6-4e50-9ca0-de1be386f0b9",
+              "isopen": true,
+              "license_id": "uk-ogl",
+              "license_title": "UK Open Government Licence (OGL)",
+              "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+              "metadata_created": "2018-04-12T17:08:34.084254",
+              "metadata_modified": "2018-12-13T12:54:11.203295",
+              "name": "highways",
+              "notes": "A variety of multiple Data sets showing Transport Statistics in Plymouth. This DATA is taken from both internal sources in Plymouth City Council Departments and The Local Government data source and the Census of 2011. Please see information on each data item to ascertain individual source and accreditation.\r\n\r\nThis material is Crown Copyright. You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the Open Government Licence. To view this licence, visit www.nationalarchives.gov.uk/doc/open-government-licence \r\n",
+              "num_resources": 3,
+              "num_tags": 0,
+              "organization": {
+                "id": "00cb3d53-764a-466b-878d-6976afaf1bfe",
+                "name": "plymouth-city-council",
+                "title": "Plymouth City Council",
+                "type": "organization",
+                "description": "",
+                "image_url": "",
+                "created": "2014-11-21T11:48:50.617663",
+                "is_organization": true,
+                "approval_status": "pending",
+                "state": "active"
+              },
+              "owner_org": "00cb3d53-764a-466b-878d-6976afaf1bfe",
+              "private": false,
+              "state": "active",
+              "theme-primary": "transport",
+              "theme-secondary": [
+                "Government"
+              ],
+              "title": "Transport",
+              "type": "dataset",
+              "url": "http://lginform.local.gov.uk/",
+              "version": "",
+              "extras": [
+                {
+                  "key": "guid",
+                  "value": "ff69f339-99a6-4e50-9ca0-de1be386f0b9"
+                },
+                {
+                  "key": "harvest_object_id",
+                  "value": "7d3f930c-90fe-41e8-973a-e781d249a26f"
+                },
+                {
+                  "key": "import_source",
+                  "value": "harvest"
+                },
+                {
+                  "key": "metadata-date",
+                  "value": "2018-05-14"
+                },
+                {
+                  "key": "metadata_provenance",
+                  "value": "[{\"harvest_source_url\": \"http://plymouth.thedata.place/\", \"harvest_source_type\": \"ckan\", \"harvested_metadata_modified\": \"2018-05-14T09:09:43.648157\", \"harvest_source_title\": \"Dataplace harvest - Plymouth\", \"activity_occurred\": \"2018-12-13T12:54:11.156574\", \"activity\": \"harvest\", \"harvested_guid\": \"ff69f339-99a6-4e50-9ca0-de1be386f0b9\"}]"
+                },
+                {
+                  "key": "harvest_source_id",
+                  "value": "cb5400c9-e7d1-4113-8d56-4af05dd0d07b"
+                },
+                {
+                  "key": "harvest_source_title",
+                  "value": "Dataplace harvest - Plymouth"
+                }
+              ],
+              "resources": [
+                {
+                  "cache_last_updated": null,
+                  "cache_url": null,
+                  "created": "2017-10-09T10:42:05.531612",
+                  "description": "Data showing the amount of cars/vans per household in Plymouth in 2011. Source: Office for National Statistics Please note This material is Crown Copyright. You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the Open Government Licence. To view this licence, visit www.nationalarchives.gov.uk/doc/open-government-licence Information Policy Team, The National Archives, Kew, London TW9 4DU, or email:psi@nationalarchives.gsi.gov.uk. When reproducing this material, the source should be acknowledged",
+                  "format": "CSV",
+                  "hash": "",
+                  "id": "33cc5803-6357-4d27-9cea-d5b358f213b5",
+                  "last_modified": "2017-10-09T10:42:05.467215",
+                  "metadata_modified": "2017-10-09T10:42:05.531612",
+                  "mimetype": null,
+                  "mimetype_inner": null,
+                  "name": "Cars or Vans per Household 2011",
+                  "package_id": "ff69f339-99a6-4e50-9ca0-de1be386f0b9",
+                  "position": 0,
+                  "resource_type": null,
+                  "size": null,
+                  "state": "active",
+                  "url": "https://plymouth.thedata.place/dataset/ff69f339-99a6-4e50-9ca0-de1be386f0b9/resource/33cc5803-6357-4d27-9cea-d5b358f213b5/download/car-or-van-availability-by-household-composition-plymouth-2011.csv",
+                  "url_type": null
+                },
+                {
+                  "cache_last_updated": null,
+                  "cache_url": null,
+                  "created": "2017-10-09T12:33:30.875204",
+                  "description": "Data showing how people travel to work in Plymouth.Data showing how people travel to work in Plymouth 2011. Source: Office for National Statistics.\r\n\r\nAttribution\r\nThis material is Crown Copyright. You may re-use this information (not including logos) free of charge in any format or medium, under the terms of the Open Government Licence. To view this licence, visit www.nationalarchives.gov.uk/doc/open-government-licence Information Policy Team, The National Archives, Kew, London TW9 4DU, or email:psi@nationalarchives.gsi.gov.uk. When reproducing this material, the source should be acknowledged.",
+                  "format": "CSV",
+                  "hash": "",
+                  "id": "fe1b99f0-c8a6-4eb9-9a64-b98821667f25",
+                  "last_modified": "2017-10-09T12:33:30.812600",
+                  "metadata_modified": "2017-10-09T12:33:30.875204",
+                  "mimetype": null,
+                  "mimetype_inner": null,
+                  "name": "Methods of Travel to Work - 2011",
+                  "package_id": "ff69f339-99a6-4e50-9ca0-de1be386f0b9",
+                  "position": 1,
+                  "resource_type": null,
+                  "size": null,
+                  "state": "active",
+                  "url": "https://plymouth.thedata.place/dataset/ff69f339-99a6-4e50-9ca0-de1be386f0b9/resource/fe1b99f0-c8a6-4eb9-9a64-b98821667f25/download/006-03_methods-of-travel-to-work-cleaned.csv",
+                  "url_type": null
+                },
+                {
+                  "cache_last_updated": null,
+                  "cache_url": null,
+                  "created": "2018-05-14T09:09:43.678028",
+                  "description": "This data has been taken from LGInform http://lginform.local.gov.uk/ the data set ref ID 206. It shows the total expenditure for Highways and transport services (RSX) in Plymouth. This data has been taken from LGInform at http://lginform.local.gov.uk/ Data set reference ID:206 The data shows the total expenditure - Highways and transport services (RSX) in Plymouth. \r\n\r\nThis is total revenue expenditure and includes employee costs and running expenses. It is taken from the Revenue Outturn Service Expenditure Summary (RSX). \r\n\r\nThe data are revenue outturn estimates of local authority revenue expenditure. \r\n\r\nThese estimates are on a non-Financial Reporting Standard 17 (FRS17) and PFI “Off Balance Sheet”. \r\n\r\nSource name: Communities and Local Government Collection name: Revenue Outturn (RSX)\r\n\r\nPolarity: No polarity\r\n\r\nPolarity is how sentiment is measured \"Sentiment is usually considered to have \"poles\" positive and negative these are often translated into \"good\" and \"bad\" sentiment analysis is considered useful to tell us what is good and bad in our information stream\r\n\r\n  \r\nThis is the total revenue expenditure and includes employee costs and running expenses. It is taken from the Revenue Outturn Service Expenditure Summary (RSX). The data are revenue outturn estimates of local authority revenue expenditure. \r\n\r\nThese estimates are on a non-Financial Reporting Standard 17 (FRS17) and PFI “Off Balance Sheet”. \r\nSource name: Communities and Local Government\r\nCollection name: Revenue Outturn (RSX)\r\nPolarity: No polarity\r\n",
+                  "format": "CSV",
+                  "hash": "",
+                  "id": "82aaf890-3faa-4c2b-bd4c-32590844fa3b",
+                  "last_modified": null,
+                  "metadata_modified": "2018-05-14T09:09:43.678028",
+                  "mimetype": null,
+                  "mimetype_inner": null,
+                  "name": "total highways and transport expenditure",
+                  "package_id": "ff69f339-99a6-4e50-9ca0-de1be386f0b9",
+                  "position": 2,
+                  "resource_type": null,
+                  "size": null,
+                  "state": "active",
+                  "url": "https://plymouth.thedata.place/dataset/ff69f339-99a6-4e50-9ca0-de1be386f0b9/resource/82aaf890-3faa-4c2b-bd4c-32590844fa3b/download/total-highways-and-transport-expenditure-id206.csv",
+                  "url_type": null
+                }
+              ],
+              "tags": [],
+              "groups": [],
+              "relationships_as_subject": [],
+              "relationships_as_object": []
+            },
+            {
+              "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+              "id": "079a4a9f-3a86-4a40-abba-9521b9bb2801",
+              "isopen": false,
+              "license_id": null,
+              "license_title": null,
+              "metadata_created": "2026-06-24T21:01:03.473268",
+              "metadata_modified": "2026-07-16T06:01:47.492656",
+              "name": "public-transport-journeys-by-type-of-transport1",
+              "notes": "Number of journeys on the public transport network by TFL reporting period, by type of transport. Data is broken down by bus, underground, DLR, tram, Overground and cable car.Period lengths are different in periods 1 and 13, and the data is not adjusted to account for that.Docklands Light Railway journeys are based on automatic passenger counts at stations.Overground and Tram journeys are based on automatic on-carriage passenger counts.Reliable Overground journey numbers have only been available since October 2010.The IFS cloud cable car service began 28 June 2012. Weekly passenger statistics are available from the TFL website.",
+              "num_resources": 2,
+              "num_tags": 14,
+              "organization": {
+                "id": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+                "name": "greater-london-authority",
+                "title": "Greater London Authority",
+                "type": "organization",
+                "description": "",
+                "image_url": "",
+                "created": "2012-06-27T14:49:02.054509",
+                "is_organization": true,
+                "approval_status": "pending",
+                "state": "active"
+              },
+              "owner_org": "4fc67187-8f81-4eaa-8820-b18d0cbf1ff6",
+              "private": false,
+              "state": "active",
+              "title": "Public Transport Journeys by Type of Transport",
+              "type": "dataset",
+              "url": "https://data.london.gov.uk/dataset/public-transport-journeys-by-type-of-transport-ep8ow",
+              "version": null,
+              "extras": [
+                {
+                  "key": "dcat_issued",
+                  "value": "2014-09-16T14:11:01.000Z"
+                },
+                {
+                  "key": "dcat_modified",
+                  "value": "2026-06-17T15:25:20.352Z"
+                },
+                {
+                  "key": "dcat_publisher_name",
+                  "value": "Transport for London"
+                },
+                {
+                  "key": "guid",
+                  "value": "ep8ow"
+                },
+                {
+                  "key": "language",
+                  "value": ""
+                },
+                {
+                  "key": "harvest_object_id",
+                  "value": "cc8280af-4832-4a12-9e0a-5aab3c9b28aa"
+                },
+                {
+                  "key": "harvest_source_id",
+                  "value": "8f43c9d7-fe24-44a6-a4a4-9f4f77aa06f6"
+                },
+                {
+                  "key": "harvest_source_title",
+                  "value": "London Datastore - GLA"
+                }
+              ],
+              "resources": [
+                {
+                  "cache_last_updated": null,
+                  "cache_url": null,
+                  "created": "2026-07-16T06:01:47.597948",
+                  "description": "",
+                  "format": "",
+                  "hash": "",
+                  "id": "5390c25d-5c71-427d-93ec-a45710c69fd7",
+                  "last_modified": null,
+                  "metadata_modified": "2026-07-16T06:01:47.509331",
+                  "mimetype": null,
+                  "mimetype_inner": null,
+                  "name": "tfl-journeys-type",
+                  "package_id": "079a4a9f-3a86-4a40-abba-9521b9bb2801",
+                  "position": 0,
+                  "resource_type": null,
+                  "size": null,
+                  "state": "active",
+                  "url": "",
+                  "url_type": null
+                },
+                {
+                  "cache_last_updated": null,
+                  "cache_url": null,
+                  "created": "2026-07-16T06:01:47.597950",
+                  "description": "",
+                  "format": "",
+                  "hash": "",
+                  "id": "e9ba3e3d-e9e6-44ae-ac10-9538037c71c1",
+                  "last_modified": null,
+                  "metadata_modified": "2026-07-16T06:01:47.509412",
+                  "mimetype": null,
+                  "mimetype_inner": null,
+                  "name": "tfl-journeys-type",
+                  "package_id": "079a4a9f-3a86-4a40-abba-9521b9bb2801",
+                  "position": 1,
+                  "resource_type": null,
+                  "size": null,
+                  "state": "active",
+                  "url": "",
+                  "url_type": null
+                }
+              ],
+              "tags": [
+                {
+                  "display_name": "Waltham Forest",
+                  "id": "5056dcf4-dbf9-4bb2-80e3-72a5e8a42c65",
+                  "name": "Waltham Forest",
+                  "state": "active",
+                  "vocabulary_id": null
+                },
+                {
+                  "display_name": "Wandsworth",
+                  "id": "b1dec205-6571-488b-a898-cb351a3c5440",
+                  "name": "Wandsworth",
+                  "state": "active",
+                  "vocabulary_id": null
+                },
+                {
+                  "display_name": "Westminster",
+                  "id": "26e8ec62-ab96-4596-8e87-5e57c3bd3327",
+                  "name": "Westminster",
+                  "state": "active",
+                  "vocabulary_id": null
+                },
+                {
+                  "display_name": "buses",
+                  "id": "bb3f0c73-ee00-4a50-baa5-9bee9f813141",
+                  "name": "buses",
+                  "state": "active",
+                  "vocabulary_id": null
+                },
+                {
+                  "display_name": "cable-car",
+                  "id": "92b533f2-7d4f-4500-aeeb-623dd697ccab",
+                  "name": "cable-car",
+                  "state": "active",
+                  "vocabulary_id": null
+                },
+                {
+                  "display_name": "greenwich",
+                  "id": "0ea43b7c-95db-43ea-91ef-a9c959cde81b",
+                  "name": "greenwich",
+                  "state": "active",
+                  "vocabulary_id": null
+                },
+                {
+                  "display_name": "journeys",
+                  "id": "f592e4be-e37e-48ed-ba3c-0139b074e4b9",
+                  "name": "journeys",
+                  "state": "active",
+                  "vocabulary_id": null
+                },
+                {
+                  "display_name": "london",
+                  "id": "bcf596e7-92da-4380-af0f-9ade9fa9d7c6",
+                  "name": "london",
+                  "state": "active",
+                  "vocabulary_id": null
+                },
+                {
+                  "display_name": "network",
+                  "id": "5882128b-c12e-4e8b-b398-a9f359ec987f",
+                  "name": "network",
+                  "state": "active",
+                  "vocabulary_id": null
+                },
+                {
+                  "display_name": "newham",
+                  "id": "562a4361-a552-48da-9018-bf2c439393b1",
+                  "name": "newham",
+                  "state": "active",
+                  "vocabulary_id": null
+                },
+                {
+                  "display_name": "passengers",
+                  "id": "cf5a9935-976d-4e67-81ad-b90a1d4e2485",
+                  "name": "passengers",
+                  "state": "active",
+                  "vocabulary_id": null
+                },
+                {
+                  "display_name": "transport",
+                  "id": "b5992ed4-3223-4881-9d1c-bb2b381132d6",
+                  "name": "transport",
+                  "state": "active",
+                  "vocabulary_id": null
+                },
+                {
+                  "display_name": "travel",
+                  "id": "2b251b5c-e349-4407-8995-44b62c924771",
+                  "name": "travel",
+                  "state": "active",
+                  "vocabulary_id": null
+                },
+                {
+                  "display_name": "tube",
+                  "id": "a37c3bad-dab7-4c3c-8a7a-4042771a7a6f",
+                  "name": "tube",
+                  "state": "active",
+                  "vocabulary_id": null
+                }
+              ],
+              "groups": [],
+              "relationships_as_subject": [],
+              "relationships_as_object": []
+            },
+            {
+              "contact-email": "elwyn.ellis@tfgm.com",
+              "contact-name": "Highways Forecasting and Analytical Services",
+              "contact-phone": "0161 244 1791",
+              "creator_user_id": "ee3e01c4-665d-4cc8-9424-0fb055018041",
+              "foi-email": "",
+              "foi-name": "",
+              "foi-phone": "",
+              "foi-web": "",
+              "id": "16bb4b09-f69c-42f0-9e3e-9bcf6dc4f886",
+              "isopen": true,
+              "license_id": "uk-ogl",
+              "license_title": "UK Open Government Licence (OGL)",
+              "license_url": "http://reference.data.gov.uk/id/open-government-licence",
+              "metadata_created": "2014-07-28T10:59:23.804612",
+              "metadata_modified": "2022-11-11T20:18:13.520868",
+              "name": "transport-statistics-greater-manchester-2013-public-transport-section",
+              "notes": "This report presents results of HFAS’s (Transport for Greater Manchester Highways Forecasting and Analytical Services formerly known as GMTU) public transport monitoring.  It includes trends in countywide rail and Metrolink patronage.\t\t\t\t\t\t\r\n",
+              "num_resources": 9,
+              "num_tags": 0,
+              "organization": {
+                "id": "7014a984-5bc5-4a50-8ae6-306122e4ebed",
+                "name": "transport-for-greater-manchester",
+                "title": "Transport for Greater Manchester",
+                "type": "organization",
+                "description": "",
+                "image_url": "",
+                "created": "2014-06-17T10:21:22.988958",
+                "is_organization": true,
+                "approval_status": "pending",
+                "state": "active"
+              },
+              "owner_org": "7014a984-5bc5-4a50-8ae6-306122e4ebed",
+              "private": false,
+              "state": "active",
+              "theme-primary": "transport",
+              "title": "Transport Statistics Greater Manchester Public Transport Section",
+              "type": "dataset",
+              "url": null,
+              "version": null,
+              "extras": [
+                {
+                  "key": "date",
+                  "value": "2016"
+                },
+                {
+                  "key": "its-dataset",
+                  "value": "false"
+                },
+                {
+                  "key": "register",
+                  "value": "false"
+                },
+                {
+                  "key": "sla",
+                  "value": ""
+                }
+              ],
+              "resources": [
+                {
+                  "cache_last_updated": null,
+                  "cache_url": null,
+                  "created": "2018-06-25T14:17:27.589774",
+                  "datafile-date": "",
+                  "description": null,
+                  "format": "XLS",
+                  "hash": "",
+                  "id": "d1f7d484-a450-4d3b-8612-a0501d8d89c0",
+                  "last_modified": null,
+                  "metadata_modified": "2022-11-11T20:18:13.524451",
+                  "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                  "mimetype_inner": null,
+                  "name": "Transport Statistics Greater Manchester 2015 Public Transport Section",
+                  "package_id": "16bb4b09-f69c-42f0-9e3e-9bcf6dc4f886",
+                  "position": 0,
+                  "resource-type": "data-link",
+                  "resource_type": null,
+                  "size": null,
+                  "state": "active",
+                  "url": "https://www.gmtu.gov.uk/reports/transport2015/DSD%20Report%201878%20Rail%20and%20Metrolink%20Section%202015.xlsx",
+                  "url_type": null
+                },
+                {
+                  "cache_last_updated": null,
+                  "cache_url": null,
+                  "created": "2015-12-03T11:28:00.169061",
+                  "datafile-date": "",
+                  "description": null,
+                  "format": "XLS",
+                  "hash": "",
+                  "id": "f4a65626-2e20-42ab-9e73-1ed0a0c43a7b",
+                  "last_modified": null,
+                  "metadata_modified": "2022-11-11T20:18:00.963451",
+                  "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                  "mimetype_inner": null,
+                  "name": "Transport Statistics Greater Manchester 2014 Public Transport Section",
+                  "package_id": "16bb4b09-f69c-42f0-9e3e-9bcf6dc4f886",
+                  "position": 1,
+                  "resource-type": "data-link",
+                  "resource_type": null,
+                  "size": null,
+                  "state": "active",
+                  "url": "https://www.gmtu.gov.uk/reports/transport2014/HFAS%20Report%201840%20Rail%20&%20Metrolink%20Section%202014.xlsx",
+                  "url_type": null
+                },
+                {
+                  "cache_last_updated": null,
+                  "cache_url": null,
+                  "created": "2014-07-28T11:59:23.878429",
+                  "datafile-date": "",
+                  "description": null,
+                  "format": "XLS",
+                  "hash": "",
+                  "id": "10c3f550-e9aa-49fa-bf7d-f703bde20e6a",
+                  "last_modified": null,
+                  "metadata_modified": "2022-11-11T20:17:49.481584",
+                  "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                  "mimetype_inner": null,
+                  "name": "Transport Statistics Greater Manchester 2013 Public Transport Section",
+                  "package_id": "16bb4b09-f69c-42f0-9e3e-9bcf6dc4f886",
+                  "position": 2,
+                  "resource-type": "data-link",
+                  "resource_type": null,
+                  "size": null,
+                  "state": "active",
+                  "url": "https://www.gmtu.gov.uk/reports/transport2013/HFAS%20Report%201774%20Public%20Transport%20Tables%202013.xlsx",
+                  "url_type": null
+                },
+                {
+                  "cache_last_updated": null,
+                  "cache_url": null,
+                  "created": "2014-12-23T15:10:27.481258",
+                  "datafile-date": "",
+                  "description": null,
+                  "format": "XLS",
+                  "hash": "",
+                  "id": "f95d7e67-bbff-41bd-bf97-9b87d820e135",
+                  "last_modified": null,
+                  "metadata_modified": "2022-11-11T20:17:35.531384",
+                  "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                  "mimetype_inner": null,
+                  "name": "Transport Statistics Greater Manchester 2012 Public Transport Section",
+                  "package_id": "16bb4b09-f69c-42f0-9e3e-9bcf6dc4f886",
+                  "position": 3,
+                  "resource-type": "data-link",
+                  "resource_type": null,
+                  "size": null,
+                  "state": "active",
+                  "url": "https://www.gmtu.gov.uk/reports/transport2012/HFAS%20Report%201724%20Public%20Transport%20Tables%202012.xlsx",
+                  "url_type": null
+                },
+                {
+                  "cache_last_updated": null,
+                  "cache_url": null,
+                  "created": "2014-12-23T15:10:27.481282",
+                  "datafile-date": "",
+                  "description": null,
+                  "format": "XLS",
+                  "hash": "",
+                  "id": "df4a2e86-354b-4ca8-b37a-aeb567a07f06",
+                  "last_modified": null,
+                  "metadata_modified": "2022-11-11T20:17:23.018304",
+                  "mimetype": "application/vnd.ms-excel",
+                  "mimetype_inner": null,
+                  "name": "Transport Statistics Greater Manchester 2011 Public Transport Section",
+                  "package_id": "16bb4b09-f69c-42f0-9e3e-9bcf6dc4f886",
+                  "position": 4,
+                  "resource-type": "data-link",
+                  "resource_type": null,
+                  "size": null,
+                  "state": "active",
+                  "url": "https://www.gmtu.gov.uk/reports/transport2011/HFAS%20Report%201694%20Public%20Transport%20Tables%202011.xls",
+                  "url_type": null
+                },
+                {
+                  "cache_last_updated": null,
+                  "cache_url": null,
+                  "created": "2014-12-23T15:10:27.481292",
+                  "datafile-date": "",
+                  "description": null,
+                  "format": "XLS",
+                  "hash": "",
+                  "id": "f11f369b-58d3-43fc-ac95-84b394a414d7",
+                  "last_modified": null,
+                  "metadata_modified": "2022-11-11T20:17:03.133560",
+                  "mimetype": "application/vnd.ms-excel",
+                  "mimetype_inner": null,
+                  "name": "Transport Statistics Greater Manchester 2010 Public Transport Section",
+                  "package_id": "16bb4b09-f69c-42f0-9e3e-9bcf6dc4f886",
+                  "position": 5,
+                  "resource-type": "data-link",
+                  "resource_type": null,
+                  "size": null,
+                  "state": "active",
+                  "url": "https://www.gmtu.gov.uk/reports/transport2010/HFAS%20Report%201654%20Public%20Transport%20Section%202010.xls",
+                  "url_type": null
+                },
+                {
+                  "cache_last_updated": null,
+                  "cache_url": null,
+                  "created": "2014-12-23T15:10:27.481300",
+                  "datafile-date": "",
+                  "description": null,
+                  "format": "XLS",
+                  "hash": "",
+                  "id": "64935df3-a452-4c9a-9848-d598caad8354",
+                  "last_modified": null,
+                  "metadata_modified": "2022-11-11T20:16:48.660065",
+                  "mimetype": "application/vnd.ms-excel",
+                  "mimetype_inner": null,
+                  "name": "Transport Statistics Greater Manchester 2009 Public Transport Section",
+                  "package_id": "16bb4b09-f69c-42f0-9e3e-9bcf6dc4f886",
+                  "position": 6,
+                  "resource-type": "data-link",
+                  "resource_type": null,
+                  "size": null,
+                  "state": "active",
+                  "url": "https://www.gmtu.gov.uk/reports/transport2009/GMTU%20Report%201580%20Public%20Transport%20Tables%202009.xls",
+                  "url_type": null
+                },
+                {
+                  "cache_last_updated": null,
+                  "cache_url": null,
+                  "created": "2014-12-23T15:10:27.481309",
+                  "datafile-date": "",
+                  "description": null,
+                  "format": "XLS",
+                  "hash": "",
+                  "id": "428e4472-55ba-4a12-ad28-5926bf5d9a80",
+                  "last_modified": null,
+                  "metadata_modified": "2022-11-11T20:16:36.737854",
+                  "mimetype": "application/vnd.ms-excel",
+                  "mimetype_inner": null,
+                  "name": "Transport Statistics Greater Manchester 2008 Public Transport Section",
+                  "package_id": "16bb4b09-f69c-42f0-9e3e-9bcf6dc4f886",
+                  "position": 7,
+                  "resource-type": "data-link",
+                  "resource_type": null,
+                  "size": null,
+                  "state": "active",
+                  "url": "https://www.gmtu.gov.uk/reports/transport2008/GMTU%20Report%201476%20Public%20Transport%20Tables%202008.xls",
+                  "url_type": null
+                },
+                {
+                  "cache_last_updated": null,
+                  "cache_url": null,
+                  "created": "2018-06-25T15:12:26.957539",
+                  "datafile-date": "",
+                  "description": null,
+                  "format": "XLS",
+                  "hash": "",
+                  "id": "8ad98f30-21cb-493a-8d7e-15664a6288e1",
+                  "last_modified": null,
+                  "metadata_modified": "2022-11-11T20:16:24.164711",
+                  "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                  "mimetype_inner": null,
+                  "name": "Transport Statistics Greater Manchester 2016 Public Transport Section",
+                  "package_id": "16bb4b09-f69c-42f0-9e3e-9bcf6dc4f886",
+                  "position": 8,
+                  "resource-type": "data-link",
+                  "resource_type": null,
+                  "size": null,
+                  "state": "active",
+                  "url": "https://www.gmtu.gov.uk/reports/transport2016/DSD%20Report%201912%20Rail%20and%20Metrolink%20Section%202016.xlsx",
+                  "url_type": null
+                }
+              ],
+              "tags": [],
+              "groups": [],
+              "relationships_as_subject": [],
+              "relationships_as_object": []
+            },
+            {
+              "creator_user_id": "ab19a913-1fd8-4ec6-9595-cb579a9fd0b2",
+              "date_released": "2008-08-25",
+              "date_updated": "2008-08-25",
+              "geographic_coverage": "111000: Great Britain (England, Scotland, Wales)",
+              "geographic_granularity": "Country",
+              "id": "5f890ce9-b1e1-4385-8d4e-a4e217298e50",
+              "isopen": true,
+              "license_id": "uk-ogl",
+              "license_title": "UK Open Government Licence (OGL)",
+              "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+              "metadata_created": "2011-12-10T23:37:57.459931",
+              "metadata_modified": "2026-07-08T13:31:58.272094",
+              "name": "transport_trends",
+              "notes": "Provides summary figures on road vehicles, traffic, accidents, toll bridges, bus and rail passengers, road and rail freight, air and water transport, personal travel and comparisons with GB.\n\nSource agency: Scottish Government\n\nDesignation: National Statistics\n\nLanguage: English\n\nAlternative title: Transport Trends, Scotland",
+              "num_resources": 0,
+              "num_tags": 0,
+              "odi-certificate": {
+                "status": "final",
+                "source": "Automatically awarded by ODI",
+                "certification_type": "automatically awarded",
+                "level": "bronze",
+                "title": "Transport Trends",
+                "created_at": "2014-10-29T17:11:21Z",
+                "jurisdiction": "GB",
+                "certificate_url": "https://certificates.theodi.org/en/datasets/11386/certificate",
+                "badge_url": "https://certificates.theodi.org/en/datasets/11386/certificate/badge.png",
+                "cert_title": "Bronze level certificate"
+              },
+              "organization": {
+                "id": "292b9d2f-6cf0-4790-a1e1-56b7e268ee0e",
+                "name": "scottish-government",
+                "title": "Scottish Government",
+                "type": "organization",
+                "description": "",
+                "image_url": "",
+                "created": "2012-06-27T14:48:42.923246",
+                "is_organization": true,
+                "approval_status": "approved",
+                "state": "active"
+              },
+              "owner_org": "292b9d2f-6cf0-4790-a1e1-56b7e268ee0e",
+              "precision": "",
+              "private": false,
+              "state": "active",
+              "temporal_coverage-from": "",
+              "temporal_coverage-to": "",
+              "temporal_granularity": "",
+              "theme-primary": "transport",
+              "title": "Transport Trends",
+              "type": "dataset",
+              "update_frequency": "",
+              "url": null,
+              "version": null,
+              "extras": [
+                {
+                  "key": "categories",
+                  "value": "Travel and Transport"
+                },
+                {
+                  "key": "external_reference",
+                  "value": "ONSHUB"
+                },
+                {
+                  "key": "geographical_granularity",
+                  "value": "Country"
+                },
+                {
+                  "key": "import_source",
+                  "value": "ONS-ons_data_2008-08"
+                },
+                {
+                  "key": "last_major_modification",
+                  "value": "2013-03-11T14:47:23.475975"
+                },
+                {
+                  "key": "national_statistic",
+                  "value": "yes"
+                },
+                {
+                  "key": "series",
+                  "value": "Transport Trends"
+                }
+              ],
+              "resources": [],
+              "tags": [],
+              "groups": [],
+              "relationships_as_subject": [],
+              "relationships_as_object": []
+            },
+            {
+              "contact-email": "transport.policy@southampton.gov.uk",
+              "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+              "id": "e537a0d3-cf43-41d1-bca4-0ba7983f3c96",
+              "isopen": false,
+              "license_id": "",
+              "license_title": "",
+              "metadata_created": "2014-12-09T11:50:09.155194",
+              "metadata_modified": "2016-02-10T17:04:04.586555",
+              "name": "transport-improvements",
+              "notes": "Local Plan Review Proposed Modifications 2005 - Development plan for the city.\nTransport Improvements.",
+              "num_resources": 2,
+              "num_tags": 0,
+              "organization": {
+                "id": "c40949a1-5b52-4df5-bce1-01edfc06a900",
+                "name": "southampton-city-council",
+                "title": "Southampton City Council",
+                "type": "organization",
+                "description": "",
+                "image_url": "",
+                "created": "2012-06-27T14:50:17.378774",
+                "is_organization": true,
+                "approval_status": "approved",
+                "state": "active"
+              },
+              "owner_org": "c40949a1-5b52-4df5-bce1-01edfc06a900",
+              "private": false,
+              "state": "active",
+              "temporal_coverage-from": [],
+              "temporal_coverage-to": [],
+              "theme-primary": "towns-and-cities",
+              "theme-secondary": [
+                "Transport"
+              ],
+              "title": "Transport Improvements",
+              "type": "dataset",
+              "url": null,
+              "version": null,
+              "extras": [
+                {
+                  "key": "UKLP",
+                  "value": "True"
+                },
+                {
+                  "key": "access_constraints",
+                  "value": "[\"No public access limitations apply\"]"
+                },
+                {
+                  "key": "bbox-east-long",
+                  "value": "-1.317928271936501"
+                },
+                {
+                  "key": "bbox-north-lat",
+                  "value": "50.96030669612456"
+                },
+                {
+                  "key": "bbox-south-lat",
+                  "value": "50.8740129006997"
+                },
+                {
+                  "key": "bbox-west-long",
+                  "value": "-1.4897155361934273"
+                },
+                {
+                  "key": "coupled-resource",
+                  "value": "[]"
+                },
+                {
+                  "key": "dataset-reference-date",
+                  "value": "[{\"type\": \"publication\", \"value\": \"2014-12-09\"}]"
+                },
+                {
+                  "key": "frequency-of-update",
+                  "value": "asNeeded"
+                },
+                {
+                  "key": "guid",
+                  "value": "6707ec8c-88bb-4238-b35e-6a5045bcce61"
+                },
+                {
+                  "key": "harvest_object_id",
+                  "value": "93393acd-77fa-41e8-8b97-f1f262eec5a2"
+                },
+                {
+                  "key": "harvest_source_reference",
+                  "value": "https://locationmde.data.gov.uk/metadata-harvesting/c40949a1-5b52-4df5-bce1-01edfc06a900/125-LocalPlan_Transport.xml"
+                },
+                {
+                  "key": "import_source",
+                  "value": "harvest"
+                },
+                {
+                  "key": "licence",
+                  "value": "Public Sector End User Licence - INSPIRE (http://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html) - http://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html"
+                },
+                {
+                  "key": "metadata-date",
+                  "value": "2014-12-09"
+                },
+                {
+                  "key": "metadata-language",
+                  "value": "eng"
+                },
+                {
+                  "key": "provider",
+                  "value": ""
+                },
+                {
+                  "key": "resource-type",
+                  "value": "dataset"
+                },
+                {
+                  "key": "responsible-party",
+                  "value": "Southampton City Council (author)"
+                },
+                {
+                  "key": "spatial",
+                  "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-1.317928271936501, 50.8740129006997],[-1.317928271936501, 50.96030669612456], [-1.4897155361934273, 50.96030669612456], [-1.4897155361934273, 50.8740129006997], [-1.317928271936501, 50.8740129006997]]]}"
+                },
+                {
+                  "key": "spatial-data-service-type",
+                  "value": ""
+                },
+                {
+                  "key": "spatial-reference-system",
+                  "value": ""
+                },
+                {
+                  "key": "harvest_source_id",
+                  "value": "1ac4c929-f173-4056-bfe9-a1f458b55380"
+                },
+                {
+                  "key": "harvest_source_title",
+                  "value": "UK Location Metadata WAF"
+                }
+              ],
+              "resources": [
+                {
+                  "archiver": "{'is_broken_printable': 'Downloaded OK', 'updated': '2016-02-06T17:34:35.005329', 'cache_filepath': u'/media/hulk/ckan_resource_cache/c2/c2a0b6df-df00-4a13-b477-10a2477f9eb7/wms', 'last_success': '2016-02-06T17:34:35.005329', 'size': u'178371', 'is_broken': False, 'failure_count': 0, 'etag': None, 'status': 'Archived successfully', 'url_redirected_to': None, 'hash': u'f39a3cffcad9ab4ef4fd3f8e063da9a7906b5f43', 'status_id': 0, 'reason': u'', 'last_modified': None, 'resource_timestamp': '2016-02-01T14:29:10.241929', 'mimetype': u'text/xml', 'cache_url': u'http://data.gov.uk/data/resource_cache/c2/c2a0b6df-df00-4a13-b477-10a2477f9eb7/wms', 'created': '2014-12-09T11:50:14.484581', 'first_failure': None}",
+                  "cache_last_updated": null,
+                  "cache_url": null,
+                  "ckan_recommended_wms_preview": "True",
+                  "created": "2014-12-09T11:50:09.233238",
+                  "description": "Resource locator",
+                  "format": "WMS",
+                  "hash": "",
+                  "id": "c2a0b6df-df00-4a13-b477-10a2477f9eb7",
+                  "last_modified": null,
+                  "metadata_modified": "2014-12-09T11:50:09.233238",
+                  "mimetype": null,
+                  "mimetype_inner": null,
+                  "name": "WMS",
+                  "package_id": "e537a0d3-cf43-41d1-bca4-0ba7983f3c96",
+                  "position": 0,
+                  "qa": "{'updated': '2016-02-07T11:40:07.593465', 'openness_score': 0, 'archival_timestamp': '2016-02-06T17:34:35.005329', 'format': u'WMS', 'created': '2014-12-09T11:50:15.465751', 'resource_timestamp': None, 'openness_score_reason': u'License not open'}",
+                  "resource_locator_function": "search",
+                  "resource_locator_protocol": "",
+                  "resource_type": "file",
+                  "size": null,
+                  "state": "active",
+                  "url": "http://www.southampton.gov.uk/geoserver/Inspire/wms?service=wms&version=1.3.0&request=GetCapabilities",
+                  "url_type": null,
+                  "verified": "True",
+                  "verified_date": "2014-12-09T11:50:08.664524",
+                  "wms_base_urls": "http://www.southampton.gov.uk/geoserver/Inspire/ows"
+                },
+                {
+                  "archiver": "{'is_broken_printable': 'Downloaded OK', 'updated': '2016-02-06T17:34:35.231973', 'cache_filepath': u'/media/hulk/ckan_resource_cache/d9/d955f929-1110-4961-b877-11427e8d99ae/wfs', 'last_success': '2016-02-06T17:34:35.231973', 'size': u'30346', 'is_broken': False, 'failure_count': 0, 'etag': None, 'status': 'Archived successfully', 'url_redirected_to': None, 'hash': u'4b829152bf71cec56f9f6cd393ad7bd5f4bdb838', 'status_id': 0, 'reason': u'', 'last_modified': None, 'resource_timestamp': '2016-02-01T14:29:10.241929', 'mimetype': u'application/xml', 'cache_url': u'http://data.gov.uk/data/resource_cache/d9/d955f929-1110-4961-b877-11427e8d99ae/wfs', 'created': '2014-12-09T11:50:12.174778', 'first_failure': None}",
+                  "cache_last_updated": null,
+                  "cache_url": null,
+                  "created": "2014-12-09T11:50:09.233250",
+                  "description": "Resource locator",
+                  "format": "WFS",
+                  "hash": "",
+                  "id": "d955f929-1110-4961-b877-11427e8d99ae",
+                  "last_modified": null,
+                  "metadata_modified": "2014-12-09T11:50:09.233250",
+                  "mimetype": null,
+                  "mimetype_inner": null,
+                  "name": "WFS",
+                  "package_id": "e537a0d3-cf43-41d1-bca4-0ba7983f3c96",
+                  "position": 1,
+                  "qa": "{'updated': '2016-02-07T11:40:07.638057', 'openness_score': 0, 'archival_timestamp': '2016-02-06T17:34:35.231973', 'format': u'WFS', 'created': '2014-12-09T11:50:14.649145', 'resource_timestamp': None, 'openness_score_reason': u'License not open'}",
+                  "resource_locator_function": "download",
+                  "resource_locator_protocol": "",
+                  "resource_type": "file",
+                  "size": null,
+                  "state": "active",
+                  "url": "http://www.southampton.gov.uk/geoserver/Inspire/wfs?service=wfs&version=1.1.0&request=GetCapabilities",
+                  "url_type": null
+                }
+              ],
+              "tags": [],
+              "groups": [],
+              "relationships_as_subject": [],
+              "relationships_as_object": []
+            },
+            {
+              "contact-email": "Jan.Tuthill@sunderland.gov.uk",
+              "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+              "id": "e0885b27-edce-41c4-9495-f437bff9f812",
+              "isopen": false,
+              "license_id": "",
+              "license_title": "",
+              "metadata_created": "2015-02-19T12:30:10.373449",
+              "metadata_modified": "2016-02-10T16:52:02.220826",
+              "name": "transport-schemes2",
+              "notes": "Digitised pland of proposed major road schemes and information realting to the extents of the scheme",
+              "num_resources": 1,
+              "num_tags": 0,
+              "organization": {
+                "id": "25f02a9e-aeb2-4abd-ab20-ebc260956847",
+                "name": "sunderland-city-council",
+                "title": "Sunderland City Council",
+                "type": "organization",
+                "description": "",
+                "image_url": "",
+                "created": "2012-06-27T14:48:41.720613",
+                "is_organization": true,
+                "approval_status": "approved",
+                "state": "active"
+              },
+              "owner_org": "25f02a9e-aeb2-4abd-ab20-ebc260956847",
+              "private": false,
+              "state": "active",
+              "temporal_coverage-from": [],
+              "temporal_coverage-to": [],
+              "theme-primary": "transport",
+              "theme-secondary": [],
+              "title": "Transport Schemes",
+              "type": "dataset",
+              "url": null,
+              "version": null,
+              "extras": [
+                {
+                  "key": "UKLP",
+                  "value": "True"
+                },
+                {
+                  "key": "access_constraints",
+                  "value": "[\"no limitation\"]"
+                },
+                {
+                  "key": "bbox-east-long",
+                  "value": "-1.34761"
+                },
+                {
+                  "key": "bbox-north-lat",
+                  "value": "54.94433"
+                },
+                {
+                  "key": "bbox-south-lat",
+                  "value": "54.80014"
+                },
+                {
+                  "key": "bbox-west-long",
+                  "value": "-1.58175"
+                },
+                {
+                  "key": "coupled-resource",
+                  "value": "[]"
+                },
+                {
+                  "key": "dataset-reference-date",
+                  "value": "[{\"type\": \"publication\", \"value\": \"2001-02-19\"}, {\"type\": \"revision\", \"value\": \"2007-01-17\"}, {\"type\": \"creation\", \"value\": \"2001-02-19\"}]"
+                },
+                {
+                  "key": "frequency-of-update",
+                  "value": ""
+                },
+                {
+                  "key": "guid",
+                  "value": "TransportSchemes"
+                },
+                {
+                  "key": "harvest_object_id",
+                  "value": "aa47d650-6096-47b7-9ac1-6c3350043d3e"
+                },
+                {
+                  "key": "harvest_source_reference",
+                  "value": "https://locationmde.data.gov.uk/metadata-harvesting/25f02a9e-aeb2-4abd-ab20-ebc260956847/444-TransportSchemes.xml"
+                },
+                {
+                  "key": "import_source",
+                  "value": "harvest"
+                },
+                {
+                  "key": "licence",
+                  "value": "No conditions apply"
+                },
+                {
+                  "key": "metadata-date",
+                  "value": "2015-03-03"
+                },
+                {
+                  "key": "metadata-language",
+                  "value": "eng"
+                },
+                {
+                  "key": "provider",
+                  "value": ""
+                },
+                {
+                  "key": "resource-type",
+                  "value": "dataset"
+                },
+                {
+                  "key": "responsible-party",
+                  "value": "Sunderland City Council (pointOfContact)"
+                },
+                {
+                  "key": "spatial",
+                  "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-1.34761, 54.80014],[-1.34761, 54.94433], [-1.58175, 54.94433], [-1.58175, 54.80014], [-1.34761, 54.80014]]]}"
+                },
+                {
+                  "key": "spatial-data-service-type",
+                  "value": ""
+                },
+                {
+                  "key": "spatial-reference-system",
+                  "value": ""
+                },
+                {
+                  "key": "harvest_source_id",
+                  "value": "24e23dd9-3391-4760-83dc-d4f6c3eefb53"
+                },
+                {
+                  "key": "harvest_source_title",
+                  "value": "INSPIRE data from Sunderland City Council"
+                }
+              ],
+              "resources": [
+                {
+                  "archiver": "{'is_broken_printable': 'Downloaded OK', 'updated': '2016-02-06T17:34:40.254133', 'cache_filepath': u'/media/hulk/ckan_resource_cache/f9/f959fe12-23bd-4521-86ed-ccaf24d35027/CHttpHandler.ashx', 'last_success': '2016-02-06T17:34:40.254133', 'size': u'1368226', 'is_broken': False, 'failure_count': 0, 'etag': None, 'status': 'Archived successfully', 'url_redirected_to': None, 'hash': u'04fb6c8ff816ae4ec81eba5379941732dad34c5d', 'status_id': 0, 'reason': u'', 'last_modified': None, 'resource_timestamp': '2016-01-26T11:59:12.230029', 'mimetype': u'application/vnd.google-earth.kmz', 'cache_url': u'http://data.gov.uk/data/resource_cache/f9/f959fe12-23bd-4521-86ed-ccaf24d35027/CHttpHandler.ashx', 'created': '2015-03-03T13:11:59.134348', 'first_failure': None}",
+                  "cache_last_updated": null,
+                  "cache_url": null,
+                  "created": "2015-03-03T12:50:30.521765",
+                  "description": "Resource locator",
+                  "format": "KML",
+                  "hash": "",
+                  "id": "f959fe12-23bd-4521-86ed-ccaf24d35027",
+                  "last_modified": null,
+                  "metadata_modified": "2015-03-03T12:50:30.521765",
+                  "mimetype": null,
+                  "mimetype_inner": null,
+                  "name": "KMZ",
+                  "package_id": "e0885b27-edce-41c4-9495-f437bff9f812",
+                  "position": 0,
+                  "qa": "{'updated': '2016-02-07T11:40:08.455045', 'openness_score': 0, 'archival_timestamp': '2016-02-06T17:34:40.254133', 'format': u'KML', 'created': '2015-03-03T13:32:15.122981', 'resource_timestamp': None, 'openness_score_reason': u'License not open'}",
+                  "resource_locator_function": "download",
+                  "resource_locator_protocol": "",
+                  "resource_type": "file",
+                  "size": null,
+                  "state": "active",
+                  "url": "http://www.sunderland.gov.uk/CHttpHandler.ashx?id=16405&p=0&fsize=1Mb&ftype=Transport%20Schemes.KMZ",
+                  "url_type": null
+                }
+              ],
+              "tags": [],
+              "groups": [],
+              "relationships_as_subject": [],
+              "relationships_as_object": []
+            },
+            {
+              "contact-email": "gis@brent.gov.uk",
+              "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+              "id": "74174c68-8b20-4402-b895-f8552d4ebd9c",
+              "isopen": false,
+              "license_id": "",
+              "license_title": "",
+              "metadata_created": "2014-02-10T17:10:06.078378",
+              "metadata_modified": "2026-07-08T13:32:05.051158",
+              "name": "transport-schemes",
+              "notes": "Proposed transportation Schemes for 2013/14 in the London Borough of Brent",
+              "num_resources": 1,
+              "num_tags": 0,
+              "organization": {
+                "id": "90c121a9-6a5a-412d-aafd-552e7fd82714",
+                "name": "london-borough-of-brent",
+                "title": "London Borough of Brent",
+                "type": "organization",
+                "description": "",
+                "image_url": "",
+                "created": "2012-06-27T14:48:47.654623",
+                "is_organization": true,
+                "approval_status": "approved",
+                "state": "active"
+              },
+              "owner_org": "90c121a9-6a5a-412d-aafd-552e7fd82714",
+              "private": false,
+              "state": "active",
+              "temporal_coverage-from": [
+                "2014-01-07"
+              ],
+              "temporal_coverage-to": [
+                "2016-12-31"
+              ],
+              "theme-primary": "transport",
+              "theme-secondary": [
+                "Towns & Cities"
+              ],
+              "title": "Transport Schemes",
+              "type": "dataset",
+              "url": null,
+              "version": null,
+              "extras": [
+                {
+                  "key": "UKLP",
+                  "value": "True"
+                },
+                {
+                  "key": "access_constraints",
+                  "value": "[\"http://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html\", \"http://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/end-user-licence.html\"]"
+                },
+                {
+                  "key": "bbox-east-long",
+                  "value": "-0.18992"
+                },
+                {
+                  "key": "bbox-north-lat",
+                  "value": "51.59624"
+                },
+                {
+                  "key": "bbox-south-lat",
+                  "value": "51.52714"
+                },
+                {
+                  "key": "bbox-west-long",
+                  "value": "-0.32303"
+                },
+                {
+                  "key": "coupled-resource",
+                  "value": "[]"
+                },
+                {
+                  "key": "dataset-reference-date",
+                  "value": "[{\"type\": \"creation\", \"value\": \"2010-07-16\"}]"
+                },
+                {
+                  "key": "frequency-of-update",
+                  "value": "unknown"
+                },
+                {
+                  "key": "guid",
+                  "value": "35e73274-f5ef-4154-b695-6ce033c67f2c"
+                },
+                {
+                  "key": "harvest_object_id",
+                  "value": "2bf51905-5165-471a-a93a-469becaca9b0"
+                },
+                {
+                  "key": "harvest_source_reference",
+                  "value": "http://inspire.misoportal.com/metadata/files/brent_council/transportation_schemes_v2.xml"
+                },
+                {
+                  "key": "last_major_modification",
+                  "value": "2014-02-10T17:10:06.078378"
+                },
+                {
+                  "key": "licence",
+                  "value": "Personal Use Constraints; PSMA Sharing Constraints"
+                },
+                {
+                  "key": "metadata-date",
+                  "value": "2014-02-10"
+                },
+                {
+                  "key": "metadata-language",
+                  "value": "eng"
+                },
+                {
+                  "key": "provider",
+                  "value": "Brent Council"
+                },
+                {
+                  "key": "resource-type",
+                  "value": "dataset"
+                },
+                {
+                  "key": "responsible-party",
+                  "value": "Brent Council (publisher)"
+                },
+                {
+                  "key": "spatial",
+                  "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-0.18992, 51.52714],[-0.18992, 51.59624], [-0.32303, 51.59624], [-0.32303, 51.52714], [-0.18992, 51.52714]]]}"
+                },
+                {
+                  "key": "spatial-data-service-type",
+                  "value": ""
+                },
+                {
+                  "key": "spatial-reference-system",
+                  "value": "urn:ogc:def:crs:EPSG::27700"
+                },
+                {
+                  "key": "harvest_source_id",
+                  "value": "c92a63ca-0672-4692-8c2c-f1446f59f669"
+                },
+                {
+                  "key": "harvest_source_title",
+                  "value": "London Borough of Brent"
+                }
+              ],
+              "resources": [
+                {
+                  "archiver": "{'is_broken_printable': 'Downloaded OK', 'updated': '2016-02-06T17:34:37.674952', 'cache_filepath': u'/media/hulk/ckan_resource_cache/d6/d6eec12d-3192-4e49-9eb6-ab19fd0fdcef/wms', 'last_success': '2016-02-06T17:34:37.674952', 'size': u'164233', 'is_broken': False, 'failure_count': 0, 'etag': None, 'status': 'Archived successfully', 'url_redirected_to': None, 'hash': u'90f00952ee9c8d23d900db5407288f85f32e2317', 'status_id': 0, 'reason': u'', 'last_modified': None, 'resource_timestamp': '2016-01-26T11:59:11.831153', 'mimetype': u'text/xml', 'cache_url': u'http://data.gov.uk/data/resource_cache/d6/d6eec12d-3192-4e49-9eb6-ab19fd0fdcef/wms', 'created': '2014-02-10T17:10:11.967704', 'first_failure': None}",
+                  "cache_last_updated": null,
+                  "cache_url": null,
+                  "created": "2014-02-10T17:10:06.111402",
+                  "description": "Resource locator",
+                  "format": "WMS",
+                  "id": "d6eec12d-3192-4e49-9eb6-ab19fd0fdcef",
+                  "last_modified": null,
+                  "metadata_modified": "2014-02-10T17:10:06.111402",
+                  "mimetype": null,
+                  "mimetype_inner": null,
+                  "name": "INSPIRE View Service",
+                  "package_id": "74174c68-8b20-4402-b895-f8552d4ebd9c",
+                  "position": 0,
+                  "qa": "{'updated': '2016-02-07T11:40:08.244672', 'openness_score': 0, 'archival_timestamp': '2016-02-06T17:34:37.674952', 'format': u'WMS', 'created': '2014-05-10T08:08:59.473322', 'resource_timestamp': '2014-05-10T07:08:59.378714', 'openness_score_reason': u'License not open'}",
+                  "resource_locator_function": "information",
+                  "resource_locator_protocol": "",
+                  "resource_type": "file",
+                  "size": null,
+                  "state": "active",
+                  "url": "http://inspire.misoportal.com/geoserver/brent_council_transportation_schemes/wms?request=getCapabilities",
+                  "url_type": null
+                }
+              ],
+              "tags": [],
+              "groups": [],
+              "relationships_as_subject": [],
+              "relationships_as_object": []
+            },
+            {
+              "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+              "id": "dd422e37-1173-4a76-8ebd-8e6a5c72d3ed",
+              "isopen": false,
+              "license_id": null,
+              "license_title": null,
+              "metadata_created": "2019-08-07T12:56:46.698384",
+              "metadata_modified": "2026-07-08T13:32:22.576996",
+              "name": "public-transport",
+              "notes": "shows the location of public transport services in lambeth",
+              "num_resources": 3,
+              "num_tags": 3,
+              "organization": {
+                "id": "e2f0e3e8-ce81-41c1-a9ab-16d65c6f92c9",
+                "name": "london-borough-of-lambeth",
+                "title": "London Borough of Lambeth",
+                "type": "organization",
+                "description": "",
+                "image_url": "",
+                "created": "2012-06-27T14:50:50.690510",
+                "is_organization": true,
+                "approval_status": "approved",
+                "state": "active"
+              },
+              "owner_org": "e2f0e3e8-ce81-41c1-a9ab-16d65c6f92c9",
+              "private": false,
+              "state": "active",
+              "title": "Public Transport",
+              "type": "dataset",
+              "url": "http://lambethopenmappingdata-lambethcouncil.opendata.arcgis.com/datasets/b9eeb8aa5d8949108d406b557bced486",
+              "version": null,
+              "extras": [
+                {
+                  "key": "dcat_issued",
+                  "value": "2015-12-01T14:22:38.000Z"
+                },
+                {
+                  "key": "dcat_modified",
+                  "value": "2016-09-28T09:59:37.000Z"
+                },
+                {
+                  "key": "guid",
+                  "value": "http://lambethopenmappingdata-lambethcouncil.opendata.arcgis.com/datasets/b9eeb8aa5d8949108d406b557bced486"
+                },
+                {
+                  "key": "language",
+                  "value": ""
+                },
+                {
+                  "key": "harvest_object_id",
+                  "value": "684dd788-2ed7-4030-8c9a-8a7679a1adcf"
+                },
+                {
+                  "key": "harvest_source_id",
+                  "value": "b730f0c1-cdb7-4378-9464-628f14dc1c25"
+                },
+                {
+                  "key": "harvest_source_title",
+                  "value": "Lambeth_Open_Data"
+                }
+              ],
+              "resources": [
+                {
+                  "cache_last_updated": null,
+                  "cache_url": null,
+                  "created": "2019-08-07T12:56:46.708104",
+                  "description": "",
+                  "format": "Esri REST",
+                  "hash": "",
+                  "id": "05501287-b543-4185-8b8b-7eaedd46b1a5",
+                  "last_modified": null,
+                  "metadata_modified": "2019-08-07T12:56:46.708104",
+                  "mimetype": null,
+                  "mimetype_inner": null,
+                  "name": "Esri Rest API",
+                  "package_id": "dd422e37-1173-4a76-8ebd-8e6a5c72d3ed",
+                  "position": 1,
+                  "resource_type": null,
+                  "size": null,
+                  "state": "active",
+                  "url": "https://gis.lambeth.gov.uk/arcgis/rest/services/PublicTransport/MapServer",
+                  "url_type": null
+                },
+                {
+                  "cache_last_updated": null,
+                  "cache_url": null,
+                  "created": "2019-08-07T12:56:46.708106",
+                  "description": "",
+                  "format": "OGC WFS",
+                  "hash": "",
+                  "id": "ebd48490-e49c-4e8f-bc7a-0d8876a92622",
+                  "last_modified": null,
+                  "metadata_modified": "2019-08-07T12:56:46.708106",
+                  "mimetype": null,
+                  "mimetype_inner": null,
+                  "name": "OGC WFS",
+                  "package_id": "dd422e37-1173-4a76-8ebd-8e6a5c72d3ed",
+                  "position": 2,
+                  "resource_type": null,
+                  "size": null,
+                  "state": "active",
+                  "url": "https://gis.lambeth.gov.uk/arcgis/services/PublicTransport/MapServer",
+                  "url_type": null
+                },
+                {
+                  "cache_last_updated": null,
+                  "cache_url": null,
+                  "created": "2019-08-07T12:56:46.708107",
+                  "description": "",
+                  "format": "OGC WMS",
+                  "hash": "",
+                  "id": "3416ad63-f62e-4ce9-80eb-b5a60b353520",
+                  "last_modified": null,
+                  "metadata_modified": "2019-08-07T12:56:46.708107",
+                  "mimetype": null,
+                  "mimetype_inner": null,
+                  "name": "OGC WMS",
+                  "package_id": "dd422e37-1173-4a76-8ebd-8e6a5c72d3ed",
+                  "position": 3,
+                  "resource_type": null,
+                  "size": null,
+                  "state": "active",
+                  "url": "https://gis.lambeth.gov.uk/arcgis/services/PublicTransport/MapServer",
+                  "url_type": null
+                }
+              ],
+              "tags": [
+                {
+                  "display_name": "maps",
+                  "id": "1c8951a7-f397-43a3-9307-297d57020995",
+                  "name": "maps",
+                  "state": "active",
+                  "vocabulary_id": null
+                },
+                {
+                  "display_name": "open data",
+                  "id": "1a504da1-ad7e-4eac-8da5-fd489a1cf968",
+                  "name": "open data",
+                  "state": "active",
+                  "vocabulary_id": null
+                },
+                {
+                  "display_name": "planning",
+                  "id": "d5e3a552-07a7-4262-a38d-337769833bda",
+                  "name": "planning",
+                  "state": "active",
+                  "vocabulary_id": null
+                }
+              ],
+              "groups": [],
+              "relationships_as_subject": [],
+              "relationships_as_object": []
+            },
+            {
+              "contact-email": "propertygis@wolverhampton.gov.uk",
+              "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+              "id": "4b2b7825-518b-4614-9341-ad7ad9d76dc0",
+              "isopen": false,
+              "license_id": "",
+              "license_title": "",
+              "metadata_created": "2015-12-15T09:58:51.384053",
+              "metadata_modified": "2016-02-10T18:36:31.838996",
+              "name": "transport-scheme",
+              "notes": "Wolverhampton Road Improvements",
+              "num_resources": 2,
+              "num_tags": 0,
+              "organization": {
+                "id": "53716b9a-6be0-4909-a7f7-b01f6862c38a",
+                "name": "wolverhampton-city-council",
+                "title": "Wolverhampton City Council",
+                "type": "organization",
+                "description": "",
+                "image_url": "",
+                "created": "2014-11-17T12:21:00.380463",
+                "is_organization": true,
+                "approval_status": "pending",
+                "state": "active"
+              },
+              "owner_org": "53716b9a-6be0-4909-a7f7-b01f6862c38a",
+              "private": false,
+              "state": "active",
+              "temporal_coverage-from": [],
+              "temporal_coverage-to": [],
+              "theme-primary": "transport",
+              "theme-secondary": [],
+              "title": "Transport Scheme",
+              "type": "dataset",
+              "url": null,
+              "version": null,
+              "extras": [
+                {
+                  "key": "UKLP",
+                  "value": "True"
+                },
+                {
+                  "key": "access_constraints",
+                  "value": "[\"Public Sector End User Licence - INSPIRE http://www.ordnancesurvey.gov.uk/business-and-goverment/public-sector/mapping-agreements/Inspire-licence.html\"]"
+                },
+                {
+                  "key": "bbox-east-long",
+                  "value": "-1.9507598841"
+                },
+                {
+                  "key": "bbox-north-lat",
+                  "value": "52.7050990132"
+                },
+                {
+                  "key": "bbox-south-lat",
+                  "value": "52.4882160549"
+                },
+                {
+                  "key": "bbox-west-long",
+                  "value": "-2.2872161829"
+                },
+                {
+                  "key": "coupled-resource",
+                  "value": "[]"
+                },
+                {
+                  "key": "dataset-reference-date",
+                  "value": "[{\"type\": \"publication\", \"value\": \"2015-12-15\"}]"
+                },
+                {
+                  "key": "frequency-of-update",
+                  "value": "asNeeded"
+                },
+                {
+                  "key": "guid",
+                  "value": "423b97e2-e57d-4c93-b938-ac410bafc053"
+                },
+                {
+                  "key": "harvest_object_id",
+                  "value": "d8c16373-864d-4298-8bab-e6e89d0afb00"
+                },
+                {
+                  "key": "harvest_source_reference",
+                  "value": "https://locationmde.data.gov.uk/metadata-harvesting/53716b9a-6be0-4909-a7f7-b01f6862c38a/369-Transport_Scheme.xml"
+                },
+                {
+                  "key": "import_source",
+                  "value": "harvest"
+                },
+                {
+                  "key": "licence",
+                  "value": "Public Sector End User Licence - INSPIRE http://www.ordnancesurvey.gov.uk/business-and-goverment/public-sector/mapping-agreements/Inspire-licence.html"
+                },
+                {
+                  "key": "metadata-date",
+                  "value": "2015-12-15"
+                },
+                {
+                  "key": "metadata-language",
+                  "value": "eng"
+                },
+                {
+                  "key": "provider",
+                  "value": "Wolverhampton City Council"
+                },
+                {
+                  "key": "resource-type",
+                  "value": "dataset"
+                },
+                {
+                  "key": "responsible-party",
+                  "value": "Wolverhampton City Council (publisher)"
+                },
+                {
+                  "key": "spatial",
+                  "value": "{\"type\":\"Polygon\",\"coordinates\":[[[-1.9507598841, 52.4882160549],[-1.9507598841, 52.7050990132], [-2.2872161829, 52.7050990132], [-2.2872161829, 52.4882160549], [-1.9507598841, 52.4882160549]]]}"
+                },
+                {
+                  "key": "spatial-data-service-type",
+                  "value": ""
+                },
+                {
+                  "key": "spatial-reference-system",
+                  "value": "http://www.opengis.net/def/crs/EPSG/0/27700"
+                },
+                {
+                  "key": "harvest_source_id",
+                  "value": "0d05b6e8-1fa9-4c8d-a363-688d2c907f88"
+                },
+                {
+                  "key": "harvest_source_title",
+                  "value": "Wolverhampton City Council"
+                }
+              ],
+              "resources": [
+                {
+                  "archiver": "{'is_broken_printable': 'Downloaded OK', 'updated': '2016-02-06T17:34:36.696474', 'cache_filepath': u'/media/hulk/ckan_resource_cache/0b/0b7cb192-42a1-4823-b442-991324284d54/WMSServer', 'last_success': '2016-02-06T17:34:36.696474', 'size': u'33914', 'is_broken': False, 'failure_count': 0, 'etag': None, 'status': 'Archived successfully', 'url_redirected_to': None, 'hash': u'97adff14f79e0acb0cc6e3dd1034a157d6ba6ce3', 'status_id': 0, 'reason': u'', 'last_modified': None, 'resource_timestamp': '2016-02-01T14:41:02.549805', 'mimetype': u'text/xml', 'cache_url': u'http://data.gov.uk/data/resource_cache/0b/0b7cb192-42a1-4823-b442-991324284d54/WMSServer', 'created': '2015-12-19T16:35:25.653605', 'first_failure': None}",
+                  "cache_last_updated": null,
+                  "cache_url": null,
+                  "ckan_recommended_wms_preview": "True",
+                  "created": "2015-12-15T09:58:51.478527",
+                  "description": "information",
+                  "format": "WMS",
+                  "hash": "",
+                  "id": "0b7cb192-42a1-4823-b442-991324284d54",
+                  "last_modified": null,
+                  "metadata_modified": "2015-12-15T09:58:51.478527",
+                  "mimetype": null,
+                  "mimetype_inner": null,
+                  "name": "ViewserviceWMS",
+                  "package_id": "4b2b7825-518b-4614-9341-ad7ad9d76dc0",
+                  "position": 0,
+                  "qa": "{'updated': '2016-02-07T11:40:08.163571', 'openness_score': 0, 'archival_timestamp': '2016-02-06T17:34:36.696474', 'format': u'WMS', 'created': '2015-12-20T18:36:14.883920', 'resource_timestamp': None, 'openness_score_reason': u'License not open'}",
+                  "resource_locator_function": "information",
+                  "resource_locator_protocol": "",
+                  "resource_type": "file",
+                  "size": null,
+                  "state": "active",
+                  "url": "http://maps.wolverhampton.gov.uk/arcgis/services/WolverhamptonInspireService/MapServer/WMSServer?request=GetCapabilities",
+                  "url_type": null,
+                  "verified": "True",
+                  "verified_date": "2015-12-15T09:58:51.108201",
+                  "wms_base_urls": "http://maps.wolverhampton.gov.uk/arcgis/services/WolverhamptonInspireService/MapServer/WmsServer"
+                },
+                {
+                  "archiver": "{'is_broken_printable': 'Downloaded OK', 'updated': '2016-02-06T17:34:37.256898', 'cache_filepath': u'/media/hulk/ckan_resource_cache/73/7308d8b7-a049-49e8-84b5-ebc8df6a4348/WFSServer', 'last_success': '2016-02-06T17:34:37.256898', 'size': u'16221', 'is_broken': False, 'failure_count': 0, 'etag': None, 'status': 'Archived successfully', 'url_redirected_to': None, 'hash': u'05ded380c6b79f6b157210e842489e466dac28f1', 'status_id': 0, 'reason': u'', 'last_modified': None, 'resource_timestamp': '2016-02-01T14:41:02.549805', 'mimetype': u'text/xml', 'cache_url': u'http://data.gov.uk/data/resource_cache/73/7308d8b7-a049-49e8-84b5-ebc8df6a4348/WFSServer', 'created': '2015-12-19T16:35:26.249949', 'first_failure': None}",
+                  "cache_last_updated": null,
+                  "cache_url": null,
+                  "created": "2015-12-15T09:58:51.478547",
+                  "description": "download",
+                  "format": "WFS",
+                  "hash": "",
+                  "id": "7308d8b7-a049-49e8-84b5-ebc8df6a4348",
+                  "last_modified": null,
+                  "metadata_modified": "2015-12-15T09:58:51.478547",
+                  "mimetype": null,
+                  "mimetype_inner": null,
+                  "name": "DownloadServiceWFS",
+                  "package_id": "4b2b7825-518b-4614-9341-ad7ad9d76dc0",
+                  "position": 1,
+                  "qa": "{'updated': '2016-02-07T11:40:08.171352', 'openness_score': 0, 'archival_timestamp': '2016-02-06T17:34:37.256898', 'format': u'WFS', 'created': '2015-12-20T18:36:15.282840', 'resource_timestamp': None, 'openness_score_reason': u'License not open'}",
+                  "resource_locator_function": "download",
+                  "resource_locator_protocol": "",
+                  "resource_type": "file",
+                  "size": null,
+                  "state": "active",
+                  "url": "http://maps.wolverhampton.gov.uk/arcgis/services/WolverhamptonInspireService/MapServer/WFSServer?request=GetCapabilities",
+                  "url_type": null
+                }
+              ],
+              "tags": [],
+              "groups": [],
+              "relationships_as_subject": [],
+              "relationships_as_object": []
+            },
+            {
+              "creator_user_id": "60e687bf-a6d8-43e2-a50e-efab84b27952",
+              "id": "bdcc2953-ed72-4f21-b012-43cbd5bbc395",
+              "isopen": true,
+              "license_id": "uk-ogl",
+              "license_title": "UK Open Government Licence (OGL)",
+              "license_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+              "metadata_created": "2025-12-02T14:20:43.340085",
+              "metadata_modified": "2025-12-02T14:20:43.340088",
+              "name": "osni-open-data-50k-transport-transport-lines7",
+              "notes": "OSNI Open Data 50k Transport Lines. The transport layer contains all motorways, A, B, C class\r\nand minor roads in Northern Ireland. OSNI 1:50,000 transport layer is a vector dataset providing\r\ninformation on roads, road names and railways for Northern Ireland. By download or use of this\r\ndataset you agree to abide by the LPS Open Government Data License.",
+              "num_resources": 4,
+              "num_tags": 7,
+              "organization": {
+                "id": "8549022f-fa16-43e4-a56f-6a45ca875199",
+                "name": "open-data-ni",
+                "title": "OpenDataNI",
+                "type": "organization",
+                "description": "[OpenDataNI] (https://www.opendatani.gov.uk) is the brand name for the Open Data portal which facilitates easy access to Northern Ireland public sector data for both reuse and redistribution. \r\n\r\nOpenDataNI has been developed as part of the Digital NI initiative. Digital NI aims to help establish a culture within Northern Ireland that develops and enhances Digital capability not just through interactions with Government, but also with local companies and throughout communities. Within government the Digital Transformation Service is facilitating this cultural shift through a number of methods, transforming Government services, making data open and available and encouraging and coaching those who lack digital skills.\r\n\r\nIt is recognised that opening up our data is the right thing to do in terms of transparency, accountability and efficiency of the Public Sector in Northern Ireland. It has the potential to encourage new commercial opportunities and drive economic growth and innovation across public and private sectors.",
+                "image_url": "",
+                "created": "2016-02-19T11:29:30.452048",
+                "is_organization": true,
+                "approval_status": "pending",
+                "state": "active"
+              },
+              "owner_org": "8549022f-fa16-43e4-a56f-6a45ca875199",
+              "private": false,
+              "state": "active",
+              "title": "OSNI Open Data - 50K Transport - Transport lines",
+              "type": "dataset",
+              "url": null,
+              "version": null,
+              "resources": [
+                {
+                  "cache_last_updated": null,
+                  "cache_url": null,
+                  "created": "2025-11-26T14:14:39.229794",
+                  "datastore_active": false,
+                  "description": "",
+                  "format": "ZIP",
+                  "hash": "",
+                  "id": "c576a4c4-67d1-45cc-89bf-0f6025ad133e",
+                  "last_modified": "2025-11-26T14:14:39.187560",
+                  "metadata_modified": "2025-12-02T14:20:43.324302",
+                  "mimetype": "application/zip",
+                  "mimetype_inner": null,
+                  "name": "Shapefile",
+                  "package_id": "bdcc2953-ed72-4f21-b012-43cbd5bbc395",
+                  "position": 0,
+                  "resource_type": null,
+                  "size": 2901966,
+                  "state": "active",
+                  "url": "https://admin.opendatani.gov.uk/dataset/bdcc2953-ed72-4f21-b012-43cbd5bbc395/resource/c576a4c4-67d1-45cc-89bf-0f6025ad133e/download/osni_open_data_50k_transport_transport_lines.zip",
+                  "url_type": null
+                },
+                {
+                  "cache_last_updated": null,
+                  "cache_url": null,
+                  "created": "2025-11-26T14:14:59.701636",
+                  "datastore_active": false,
+                  "description": "",
+                  "format": "CSV",
+                  "hash": "",
+                  "id": "8ed2007e-fe65-4ae7-84de-ba837aae4fee",
+                  "last_modified": "2025-11-26T14:14:59.661225",
+                  "metadata_modified": "2025-12-02T14:20:43.325312",
+                  "mimetype": "text/csv",
+                  "mimetype_inner": null,
+                  "name": "CSV",
+                  "package_id": "bdcc2953-ed72-4f21-b012-43cbd5bbc395",
+                  "position": 1,
+                  "resource_type": null,
+                  "size": 1053340,
+                  "state": "active",
+                  "url": "https://admin.opendatani.gov.uk/dataset/bdcc2953-ed72-4f21-b012-43cbd5bbc395/resource/8ed2007e-fe65-4ae7-84de-ba837aae4fee/download/osni_open_data_50k_transport_transport_lines.csv",
+                  "url_type": null
+                },
+                {
+                  "cache_last_updated": null,
+                  "cache_url": null,
+                  "created": "2025-11-26T16:27:14.061635",
+                  "datastore_active": false,
+                  "description": "",
+                  "format": "GeoJSON",
+                  "hash": "",
+                  "id": "d09e7052-6390-4953-92da-ec3479100a7b",
+                  "last_modified": "2025-11-26T16:27:13.995109",
+                  "metadata_modified": "2025-12-02T14:20:43.326277",
+                  "mimetype": "application/geo+json",
+                  "mimetype_inner": null,
+                  "name": "GeoJSON",
+                  "package_id": "bdcc2953-ed72-4f21-b012-43cbd5bbc395",
+                  "position": 2,
+                  "resource_type": null,
+                  "size": 12271281,
+                  "state": "active",
+                  "url": "https://admin.opendatani.gov.uk/dataset/bdcc2953-ed72-4f21-b012-43cbd5bbc395/resource/d09e7052-6390-4953-92da-ec3479100a7b/download/osni_open_data_50k_transport_transport_lines.geojson",
+                  "url_type": null
+                },
+                {
+                  "cache_last_updated": null,
+                  "cache_url": null,
+                  "created": "2025-11-27T10:25:35.208572",
+                  "datastore_active": false,
+                  "description": "",
+                  "format": "KML",
+                  "hash": "",
+                  "id": "4bc8f9d9-d5b8-450e-9af6-2f6ba8044586",
+                  "last_modified": "2025-11-27T10:25:35.133645",
+                  "metadata_modified": "2025-12-02T14:20:43.327217",
+                  "mimetype": null,
+                  "mimetype_inner": null,
+                  "name": "KML",
+                  "package_id": "bdcc2953-ed72-4f21-b012-43cbd5bbc395",
+                  "position": 3,
+                  "resource_type": null,
+                  "size": 19208859,
+                  "state": "active",
+                  "url": "https://admin.opendatani.gov.uk/dataset/bdcc2953-ed72-4f21-b012-43cbd5bbc395/resource/4bc8f9d9-d5b8-450e-9af6-2f6ba8044586/download/osni_open_data_-_50k_transport_-_transport_lines.kml",
+                  "url_type": null
+                }
+              ],
+              "tags": [
+                {
+                  "display_name": "50K",
+                  "id": "43e94a2b-23bd-4539-bba2-d87fb03d0180",
+                  "name": "50K",
+                  "state": "active",
+                  "vocabulary_id": null
+                },
+                {
+                  "display_name": "Lines",
+                  "id": "1eaf5612-e55a-481d-acef-7c8df0253a05",
+                  "name": "Lines",
+                  "state": "active",
+                  "vocabulary_id": null
+                },
+                {
+                  "display_name": "Northern Ireland",
+                  "id": "24c60a29-f10f-4579-8dc5-d425ae455b1e",
+                  "name": "Northern Ireland",
+                  "state": "active",
+                  "vocabulary_id": null
+                },
+                {
+                  "display_name": "OSNI",
+                  "id": "615fc2ab-10d1-4591-b983-f17b6272e561",
+                  "name": "OSNI",
+                  "state": "active",
+                  "vocabulary_id": null
+                },
+                {
+                  "display_name": "Open Data",
+                  "id": "71ad9cd7-cf9c-433d-aeb3-b4475c414df4",
+                  "name": "Open Data",
+                  "state": "active",
+                  "vocabulary_id": null
+                },
+                {
+                  "display_name": "Transport",
+                  "id": "3518fa70-3ee9-4152-b45d-5727372975e9",
+                  "name": "Transport",
+                  "state": "active",
+                  "vocabulary_id": null
+                },
+                {
+                  "display_name": "Vector",
+                  "id": "0bdc3a54-afb2-4cd0-8c30-d3bf106c36a8",
+                  "name": "Vector",
+                  "state": "active",
+                  "vocabulary_id": null
+                }
+              ],
+              "extras": [
+                {
+                  "key": "harvest_object_id",
+                  "value": "8024227d-0555-442f-918e-63a2c26d9919"
+                },
+                {
+                  "key": "harvest_source_id",
+                  "value": "593f302a-a7ff-4fc6-b269-e90bfd541ce3"
+                },
+                {
+                  "key": "harvest_source_title",
+                  "value": "OpenDataNI"
+                }
+              ],
+              "groups": [],
+              "relationships_as_subject": [],
+              "relationships_as_object": []
+            }
+          ],
+          "sort": "score desc, metadata_modified desc",
+          "search_facets": {}
+        }
+      }
+    }
+  ]
+}

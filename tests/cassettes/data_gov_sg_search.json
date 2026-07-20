@@ -1,0 +1,138 @@
+{
+  "captured_at": "2026-07-20",
+  "calls": [
+    {
+      "url": "https://api-production.data.gov.sg/v2/public/api/datasets",
+      "params": {
+        "query": "population",
+        "page": 1
+      },
+      "response": {
+        "code": 0,
+        "data": {
+          "datasets": [
+            {
+              "datasetId": "d_9e7de44094f876f6804b8b5bcee45c81",
+              "createdAt": "2025-05-06T01:44:58+08:00",
+              "name": "Historical Rainfall across Singapore (2020)",
+              "status": "active",
+              "description": "Historical rainfall across Singapore. All timestamps are provided in Singapore Time (SGT), formatted in ISO 8601.\n\n⠀\n\nDisclaimer: This dataset may contain missing records and has not undergone quality control procedures applied to climate data and records. For official climate records or climate data reports, please contact sales_climo@nea.gov.sg. Please note that fees may apply for data and report preparation.",
+              "format": "CSV",
+              "lastUpdatedAt": "2025-05-06T01:51:22+08:00",
+              "managedByAgencyName": "National Environment Agency",
+              "coverageStart": "2020-01-01T08:00:00+08:00",
+              "coverageEnd": "2020-12-31T08:00:00+08:00"
+            },
+            {
+              "datasetId": "d_8c432e951780543c0facf9049afb40cb",
+              "createdAt": "2024-10-24T20:01:35+08:00",
+              "name": "Resident Employees Aged 15 Years and Over by Highest Qualification Attained, Nature of Employment and Sex (General Household Survey 2005)",
+              "status": "active",
+              "description": "Source: SINGAPORE DEPARTMENT OF STATISTICS\r\n\r\nData Last Updated: 29/03/2016\r\n\r\nUpdate Frequency: 10 years\r\n\r\nSurvey period: General Household Survey 2005\r\n\r\nFootnotes: Note: Data exclude national servicemen.\r\n\r\nAdapted from: https://tablebuilder.singstat.gov.sg/table/CT/8805",
+              "format": "CSV",
+              "lastUpdatedAt": "2026-07-20T20:00:50+08:00",
+              "managedByAgencyName": "Singapore Department of Statistics"
+            },
+            {
+              "datasetId": "d_ca32584c91ee07d091a4ce75fa868414",
+              "createdAt": "2026-02-26T19:31:32+08:00",
+              "name": "Overall Unemployment Rate, Quarterly",
+              "status": "active",
+              "description": "Data refer to the quarterly overall unemployment rate.\nSeasonally adjusted data are revised using the latest set of seasonal factors and updated in line with standard seasonal adjustment procedure. The revision is done once a year, taking into account observations for the latest available year.\nSource: Labour Force Survey, Manpower Research & Statistics Department, MOM, except data for June 1995, June 2000 and June 2005, which are from the Population Census 2000, General Household Surveys 1995 & 2005 conducted by the Singapore Department of Statistics.",
+              "format": "CSV",
+              "lastUpdatedAt": "2026-03-20T14:28:26+08:00",
+              "managedByAgencyName": "Ministry of Manpower",
+              "coverageStart": "1992-03-01T08:00:00+08:00",
+              "coverageEnd": "2025-12-01T08:00:00+08:00"
+            },
+            {
+              "datasetId": "d_f0b6868ab1c4b2fb1ac9aa7f0e722e4f",
+              "createdAt": "2016-06-23T19:37:04+08:00",
+              "name": "Total Employees' Trade Union Membership",
+              "status": "active",
+              "description": "Number of Employees' Trade Union Membership by Year",
+              "format": "CSV",
+              "lastUpdatedAt": "2025-05-07T16:16:31+08:00",
+              "managedByAgencyName": "Ministry of Manpower",
+              "coverageStart": "2014-01-01T08:00:00+08:00",
+              "coverageEnd": "2024-01-01T08:00:00+08:00"
+            },
+            {
+              "datasetId": "d_fbd803776b29cbfee6fa4063d29830e0",
+              "createdAt": "2025-11-03T21:04:10+08:00",
+              "name": "MP08 Mapsheet Major Road Name-CA",
+              "status": "active",
+              "description": "Annotation of Major Road Name for Central Area.",
+              "format": "GEOJSON",
+              "lastUpdatedAt": "2025-11-15T10:07:20+08:00",
+              "managedByAgencyName": "Urban Redevelopment Authority",
+              "coverageStart": "2011-03-26T00:00:00+08:00"
+            },
+            {
+              "datasetId": "d_6d144381f0f4b775e29364b85f04b9af",
+              "createdAt": "2024-10-22T14:20:03+08:00",
+              "name": "Key Data Of Gross Domestic Product In Chained (2015) Dollars, By Industry (SSIC 2020), Quarterly, Seasonally Adjusted",
+              "status": "active",
+              "description": "Source: SINGAPORE DEPARTMENT OF STATISTICS\r\n\r\nData Last Updated: 25/05/2026\r\n\r\nUpdate Frequency: Quarterly\r\n\r\nFootnotes: Data series will be updated during advance and preliminary GDP releases.\r\n\r\nAdapted from: https://tablebuilder.singstat.gov.sg/table/TS/M015942",
+              "format": "CSV",
+              "lastUpdatedAt": "2026-07-07T22:01:14+08:00",
+              "managedByAgencyName": "Singapore Department of Statistics",
+              "coverageStart": "1975-01-01T08:00:00+08:00",
+              "coverageEnd": "2026-03-31T08:00:00+08:00"
+            },
+            {
+              "datasetId": "d_34a1f6789a62e1aa88415364cb1c6622",
+              "createdAt": "2025-09-09T13:30:37+08:00",
+              "name": "RP CET Enrolment 2020-2024",
+              "status": "active",
+              "description": "The numbers comprise of Part-time Diploma Programme & Post-Diploma Programme",
+              "format": "XLSX",
+              "lastUpdatedAt": "2025-09-09T13:32:54+08:00",
+              "managedByAgencyName": "Republic Polytechnic"
+            },
+            {
+              "datasetId": "d_0d78329a03f290956a7dc53fc47daebb",
+              "createdAt": "2016-12-08T00:28:41+08:00",
+              "name": "Temasek Polytechnic Part-Time Enrolment Figures Breakdown, Annual (2015-2017)",
+              "status": "active",
+              "description": "Contains Part-Time Course Enrolment Figures for the courses conducted in the Academic Year 2015, 2016 and 2017.",
+              "format": "CSV",
+              "lastUpdatedAt": "2024-06-06T14:23:09+08:00",
+              "managedByAgencyName": "Temasek Polytechnic",
+              "coverageStart": "2015-04-20T08:00:00+08:00",
+              "coverageEnd": "2018-04-15T08:00:00+08:00"
+            },
+            {
+              "datasetId": "d_c1fcecb3467c7151de6863391cdb4846",
+              "createdAt": "2026-05-25T16:10:00+08:00",
+              "name": "Overall SPS Population",
+              "status": "active",
+              "description": "This will includes incare population and community corrections population.",
+              "format": "CSV",
+              "lastUpdatedAt": "2026-05-25T16:11:11+08:00",
+              "managedByAgencyName": "Singapore Prison Service",
+              "coverageStart": "2017-01-01T08:00:00+08:00",
+              "coverageEnd": "2025-01-01T08:00:00+08:00"
+            },
+            {
+              "datasetId": "d_a5ff719648a0e6d4b4c623ee383ab686",
+              "createdAt": "2023-11-01T10:54:54+08:00",
+              "name": "Gross Domestic Product, Year On Year Growth Rate, Quarterly",
+              "status": "active",
+              "description": "Source: SINGAPORE DEPARTMENT OF STATISTICS\r\n\r\nData Last Updated: 25/05/2026\r\n\r\nUpdate Frequency: Quarterly\r\n\r\nFootnotes: For more information on national accounts methodologies, please visit Singstat website (https://www.singstat.gov.sg/find-data/explore-data-themes/economy-prices/national-accounts/related-information) to view and download related publications.\r\n\r\nAdapted from: https://tablebuilder.singstat.gov.sg/table/TS/M015631",
+              "format": "CSV",
+              "lastUpdatedAt": "2026-07-01T23:01:02+08:00",
+              "managedByAgencyName": "Singapore Department of Statistics",
+              "coverageStart": "1976-01-01T08:00:00+08:00",
+              "coverageEnd": "2026-03-31T08:00:00+08:00"
+            }
+          ],
+          "pages": 443,
+          "rowCount": 4426,
+          "totalRowCount": 4426
+        },
+        "errorMsg": ""
+      }
+    }
+  ]
+}

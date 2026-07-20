@@ -13,7 +13,7 @@ class PortalDataGovIN(Portal):
 
     def __init__(self, **config):
         super().__init__(**config)
-        self.adapter = ApiAdapter("https://data.gov.in")
+        self.adapter = ApiAdapter("https://www.data.gov.in")
 
     async def search(self, query: str) -> List[Dataset]:
         results = []
@@ -46,7 +46,7 @@ class PortalDataGovIN(Portal):
 
             url = f"{self.adapter.base_url}{self.BASE_API_PATH}"
             params = {
-                "filters[uuid]": dataset_id,
+                "filters[catalog_uuid]": dataset_id,
                 "format": "json",
                 "limit": 1,
             }

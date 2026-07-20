@@ -1,0 +1,1259 @@
+{
+  "captured_at": "2026-07-20",
+  "calls": [
+    {
+      "url": "https://api.gsa.gov/technology/datagov/v4/search",
+      "params": {
+        "q": "health",
+        "per_page": 10
+      },
+      "response": {
+        "after": "WzExMC45Njk3MSwxMywiZDIwM2Q3NTEtNTgxOC00NDU5LWExZDEtNTQwYTBhNjUzYWZiIl0=",
+        "results": [
+          {
+            "_score": 119.948494,
+            "_sort": [
+              119.948494,
+              33,
+              "34c698d0-88a0-45b8-9c2f-c4dfcc94d118"
+            ],
+            "dcat": {
+              "@type": "dcat:Dataset",
+              "accessLevel": "public",
+              "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Department of Health Care Access and Information, Healthcare Analytics Branch / Office of Health Workforce Development",
+                "hasEmail": "mailto:dataandreports@hcai.ca.gov"
+              },
+              "description": "The dataset contains a ratio of the number of patient encounters (i.e., Inpatient Hospitalizations and Emergency Department visits) with a behavioral health diagnosis, per healthcare provider license with a specialty in behavioral health. The ratio is categorized based on the values of the Numerator to Denominator. Larger ratios may indicate a greater need for providers specializing in behavioral health. Smaller ratios may indicate a lower need for providers specializing in behavioral health. The dataset also contains the numbers of the top ten behavioral health diagnoses, by diagnosis category, that were present during the encounters. The table is broken down by county, and it is limited to hospital Inpatient and Emergency Department settings.",
+              "distribution": [
+                {
+                  "@type": "dcat:Distribution",
+                  "describedBy": "https://data.ca.gov/api/action/datastore_search?resource_id=c0c3c837-6cfd-4fae-bad8-4dd6be702c36&limit=0",
+                  "describedByType": "application/json",
+                  "downloadURL": "https://data.chhs.ca.gov/dataset/47deb586-9408-4c2f-8546-c36cffacfb88/resource/b625cae2-5730-4929-a355-6c2c8031d7b5/download/behavioral-health-hospital-providers-encounters-diagnoses.csv",
+                  "format": "CSV",
+                  "mediaType": "text/csv",
+                  "title": "Behavioral Health and Workforce - Dataset"
+                },
+                {
+                  "@type": "dcat:Distribution",
+                  "description": "Data Dictionary for https://data.chhs.ca.gov/dataset/47deb586-9408-4c2f-8546-c36cffacfb88/resource/b625cae2-5730-4929-a355-6c2c8031d7b5/download/behavioral-health-hospital-providers-encounters-diagnoses.csv",
+                  "downloadURL": "https://data.ca.gov/datastore/dictionary_download/c0c3c837-6cfd-4fae-bad8-4dd6be702c36",
+                  "format": "CSV",
+                  "isDataDictionary": true,
+                  "mediaType": "text/csv",
+                  "title": "Data Dictionary - Behavioral Health and Workforce - Dataset"
+                },
+                {
+                  "@type": "dcat:Distribution",
+                  "downloadURL": "https://data.chhs.ca.gov/dataset/47deb586-9408-4c2f-8546-c36cffacfb88/resource/d6c8aeeb-d70f-470f-8ee2-4d691d9c2b3d/download/behavioral-health-and-workforce-n3ey9qaw.zip",
+                  "format": "ZIP",
+                  "mediaType": "application/zip",
+                  "title": "All resource data"
+                }
+              ],
+              "identifier": "0d1b5477-282d-4474-81ff-46a38fc2b7c4",
+              "issued": "2025-03-25T22:36:11.249835",
+              "keyword": [
+                "behavioral health",
+                "department of health care access and information",
+                "ed visit",
+                "emergency department",
+                "hcai",
+                "health workforce",
+                "healthcare",
+                "hospitalizations",
+                "inpatient",
+                "license",
+                "mental health",
+                "mental health disorder",
+                "provider",
+                "specialty",
+                "substance use disorder",
+                "sud"
+              ],
+              "license": "http://www.opendefinition.org/licenses/cc-by",
+              "modified": "2025-11-06T23:04:44.564077",
+              "publisher": {
+                "@type": "org:Organization",
+                "name": "Department of Health Care Access and Information"
+              },
+              "theme": [
+                "Health and Human Services"
+              ],
+              "title": "Behavioral Health and Workforce"
+            },
+            "description": "The dataset contains a ratio of the number of patient encounters (i.e., Inpatient Hospitalizations and Emergency Department visits) with a behavioral health diagnosis, per healthcare provider license with a specialty in behavioral health. The ratio is categorized based on the values of the Numerator to Denominator. Larger ratios may indicate a greater need for providers specializing in behavioral health. Smaller ratios may indicate a lower need for providers specializing in behavioral health. The dataset also contains the numbers of the top ten behavioral health diagnoses, by diagnosis category, that were present during the encounters. The table is broken down by county, and it is limited to hospital Inpatient and Emergency Department settings.",
+            "distribution_titles": [
+              "Behavioral Health and Workforce - Dataset",
+              "Data Dictionary - Behavioral Health and Workforce - Dataset",
+              "All resource data"
+            ],
+            "harvest_record": "https://catalog.data.gov/harvest_record/0d79d320-5ba3-44df-8527-6d30586def0e",
+            "harvest_record_raw": "https://catalog.data.gov/harvest_record/0d79d320-5ba3-44df-8527-6d30586def0e/raw",
+            "has_spatial": false,
+            "identifier": "0d1b5477-282d-4474-81ff-46a38fc2b7c4",
+            "keyword": [
+              "behavioral health",
+              "department of health care access and information",
+              "ed visit",
+              "emergency department",
+              "hcai",
+              "health workforce",
+              "healthcare",
+              "hospitalizations",
+              "inpatient",
+              "license",
+              "mental health",
+              "mental health disorder",
+              "provider",
+              "specialty",
+              "substance use disorder",
+              "sud"
+            ],
+            "last_harvested_date": "2025-11-28T19:18:38.507304",
+            "organization": {
+              "aliases": [
+                "ca"
+              ],
+              "description": null,
+              "id": "ae56c24b-46d3-4688-965e-94bdc208164f",
+              "logo": "https://raw.githubusercontent.com/GSA/logo/refs/heads/master/state_CA.png",
+              "name": "State of California",
+              "organization_type": "State Government",
+              "slug": "california"
+            },
+            "popularity": 33,
+            "publisher": "Department of Health Care Access and Information",
+            "slug": "behavioral-health-and-workforce",
+            "spatial_centroid": null,
+            "spatial_shape": null,
+            "theme": [
+              "Health and Human Services"
+            ],
+            "title": "Behavioral Health and Workforce"
+          },
+          {
+            "_score": 117.35343,
+            "_sort": [
+              117.35343,
+              57,
+              "74414625-89ea-4dae-a00d-19054afd5e7c"
+            ],
+            "dcat": {
+              "@type": "dcat:Dataset",
+              "accessLevel": "public",
+              "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "California Department of Public Health, Center for Health Statistics and Informatics, Vital Statistics Branch",
+                "hasEmail": "mailto:opendata@cdph.ca.gov"
+              },
+              "description": "County Health Status Profiles is an annually published report for the State of California by the California Department of Public Health in collaboration with the California Conference of Local Health Officers. Health indicators are measured for 58 counties and California statewide that can be directly compared to national standards and populations of similar composition. Where available, the measurements are ranked and compared with target rates established for Healthy People National Objectives.\r\n\r\nFor tables where the health indicator denominator and numerator are derived from the same data source, the denominator excludes records for which the health indicator data is missing and unable to be imputed.\r\n\r\nFor more information see the [County Health Status Profiles report](https://www.cdph.ca.gov/Programs/CHSI/Pages/County-Health-Status-Profiles.aspx).",
+              "distribution": [
+                {
+                  "@type": "dcat:Distribution",
+                  "describedBy": "https://data.ca.gov/api/action/datastore_search?resource_id=12fb8a9f-8c3b-4895-afc2-33668571e76a&limit=0",
+                  "describedByType": "application/json",
+                  "description": "This data table contains the data for Tables 1 through 29 for County Health Status Profiles 2021. For more information see the [County Health Status Profiles report](https://www.cdph.ca.gov/Programs/CHSI/Pages/County-Health-Status-Profiles.aspx).",
+                  "downloadURL": "https://data.chhs.ca.gov/dataset/8ceba47b-6357-4946-9fb9-cbe8c02ca9ad/resource/3781a514-d658-4779-abb5-3c71e15c1944/download/chsp_2021_odp_2021-04-08.csv",
+                  "format": "CSV",
+                  "mediaType": "text/csv",
+                  "title": "County Health Status Profiles 2021: Tables 1-29"
+                },
+                {
+                  "@type": "dcat:Distribution",
+                  "describedBy": "https://data.ca.gov/api/action/datastore_search?resource_id=ac397183-529a-4073-8b90-a3992e4cd29c&limit=0",
+                  "describedByType": "application/json",
+                  "description": "This data table contains the data for Tables 1 through 29 for County Health Status Profiles 2025. For more information see the County Health Status Profiles report.",
+                  "downloadURL": "https://data.chhs.ca.gov/dataset/8ceba47b-6357-4946-9fb9-cbe8c02ca9ad/resource/610d4269-d7fb-4af4-ad4a-75d44c80742a/download/chsp_2025_odp.csv",
+                  "format": "CSV",
+                  "mediaType": "text/csv",
+                  "title": "County Health Status Profiles 2025: Tables 1-29"
+                },
+                {
+                  "@type": "dcat:Distribution",
+                  "describedBy": "https://data.ca.gov/api/action/datastore_search?resource_id=b9cebed8-8c67-4d49-91be-1733d05b55f0&limit=0",
+                  "describedByType": "application/json",
+                  "description": "This data table contains the data for Tables 1 through 29 for County Health Status Profiles 2024. For more information see the County Health Status Profiles report.",
+                  "downloadURL": "https://data.chhs.ca.gov/dataset/8ceba47b-6357-4946-9fb9-cbe8c02ca9ad/resource/0dc57617-ddfa-4e90-a47d-264cf211730e/download/chsp_2024_odp.csv",
+                  "format": "CSV",
+                  "mediaType": "text/csv",
+                  "title": "County Health Status Profiles 2024: Tables 1-29"
+                },
+                {
+                  "@type": "dcat:Distribution",
+                  "describedBy": "https://data.ca.gov/api/action/datastore_search?resource_id=c8ba6633-c53d-4395-9e84-e6187366a8b5&limit=0",
+                  "describedByType": "application/json",
+                  "description": "This data table contains the data for Tables 1 through 29 for County Health Status Profiles 2023. For more information see the [County Health Status Profiles report](https://www.cdph.ca.gov/Programs/CHSI/Pages/County-Health-Status-Profiles.aspx).",
+                  "downloadURL": "https://data.chhs.ca.gov/dataset/8ceba47b-6357-4946-9fb9-cbe8c02ca9ad/resource/2d1417bc-f703-4977-8d58-ae1a0caf0be8/download/chsp2023_odp_20230221.csv",
+                  "format": "CSV",
+                  "mediaType": "text/csv",
+                  "title": "County Health Status Profiles 2023: Tables 1-29"
+                },
+                {
+                  "@type": "dcat:Distribution",
+                  "describedBy": "https://data.ca.gov/api/action/datastore_search?resource_id=dbe4e54e-e148-4788-b0a9-13d6be96027a&limit=0",
+                  "describedByType": "application/json",
+                  "description": "This data table contains the data for Tables 1 through 29 for County Health Status Profiles 2022. For more information see the [County Health Status Profiles report](https://www.cdph.ca.gov/Programs/CHSI/Pages/County-Health-Status-Profiles.aspx).",
+                  "downloadURL": "https://data.chhs.ca.gov/dataset/8ceba47b-6357-4946-9fb9-cbe8c02ca9ad/resource/9a60e446-cdc2-4413-97a9-1a686f3887c3/download/chsp_2022_odp_2022-04-08.csv",
+                  "format": "CSV",
+                  "mediaType": "text/csv",
+                  "title": "County Health Status Profiles 2022: Tables 1-29"
+                },
+                {
+                  "@type": "dcat:Distribution",
+                  "describedBy": "https://data.ca.gov/api/action/datastore_search?resource_id=feb9806e-87cf-4666-8a31-e9356d791dbd&limit=0",
+                  "describedByType": "application/json",
+                  "downloadURL": "https://data.chhs.ca.gov/dataset/8ceba47b-6357-4946-9fb9-cbe8c02ca9ad/resource/46c81f49-65ab-4cd9-8d10-74ffc3dfb66d/download/data-dictionary-county-health-status-profiles.csv",
+                  "format": "CSV",
+                  "mediaType": "text/csv",
+                  "title": "Data Dictionary - County Health Status Profiles"
+                },
+                {
+                  "@type": "dcat:Distribution",
+                  "downloadURL": "https://data.chhs.ca.gov/dataset/8ceba47b-6357-4946-9fb9-cbe8c02ca9ad/resource/d37591c5-1cd1-4b01-b14c-b61d739cd3db/download/county-health-status-profiles-kc4cl60_.zip",
+                  "format": "ZIP",
+                  "mediaType": "application/zip",
+                  "title": "All resource data"
+                }
+              ],
+              "identifier": "94afd41d-d2eb-4495-9205-c9690a91f5ea",
+              "issued": "2021-04-08T15:39:59.820602",
+              "keyword": [
+                "CDPH",
+                "CHSI",
+                "Healthy People",
+                "births",
+                "california department of public health",
+                "county",
+                "deaths",
+                "health indicators",
+                "infant mortality",
+                "morbidity",
+                "mortality",
+                "vital statistics"
+              ],
+              "license": "http://www.opendefinition.org/licenses/cc-by",
+              "modified": "2026-04-08T22:01:10.286564",
+              "publisher": {
+                "@type": "org:Organization",
+                "name": "California Department of Public Health"
+              },
+              "theme": [
+                "Health and Human Services"
+              ],
+              "title": "County Health Status Profiles"
+            },
+            "description": "County Health Status Profiles is an annually published report for the State of California by the California Department of Public Health in collaboration with the California Conference of Local Health Officers. Health indicators are measured for 58 counties and California statewide that can be directly compared to national standards and populations of similar composition. Where available, the measurements are ranked and compared with target rates established for Healthy People National Objectives.\r\n\r\nFor tables where the health indicator denominator and numerator are derived from the same data source, the denominator excludes records for which the health indicator data is missing and unable to be imputed.\r\n\r\nFor more information see the [County Health Status Profiles report](https://www.cdph.ca.gov/Programs/CHSI/Pages/County-Health-Status-Profiles.aspx).",
+            "distribution_titles": [
+              "County Health Status Profiles 2021: Tables 1-29",
+              "County Health Status Profiles 2025: Tables 1-29",
+              "County Health Status Profiles 2024: Tables 1-29",
+              "County Health Status Profiles 2023: Tables 1-29",
+              "County Health Status Profiles 2022: Tables 1-29",
+              "Data Dictionary - County Health Status Profiles",
+              "All resource data"
+            ],
+            "harvest_record": "https://catalog.data.gov/harvest_record/4751895b-35be-44e9-b573-8f0f60b012a0",
+            "harvest_record_raw": "https://catalog.data.gov/harvest_record/4751895b-35be-44e9-b573-8f0f60b012a0/raw",
+            "has_spatial": false,
+            "identifier": "94afd41d-d2eb-4495-9205-c9690a91f5ea",
+            "keyword": [
+              "CDPH",
+              "CHSI",
+              "Healthy People",
+              "births",
+              "california department of public health",
+              "county",
+              "deaths",
+              "health indicators",
+              "infant mortality",
+              "morbidity",
+              "mortality",
+              "vital statistics"
+            ],
+            "last_harvested_date": "2026-05-27T19:54:24.567696",
+            "organization": {
+              "aliases": [
+                "ca"
+              ],
+              "description": null,
+              "id": "ae56c24b-46d3-4688-965e-94bdc208164f",
+              "logo": "https://raw.githubusercontent.com/GSA/logo/refs/heads/master/state_CA.png",
+              "name": "State of California",
+              "organization_type": "State Government",
+              "slug": "california"
+            },
+            "popularity": 57,
+            "publisher": "California Department of Public Health",
+            "slug": "county-health-status-profiles",
+            "spatial_centroid": null,
+            "spatial_shape": null,
+            "theme": [
+              "Health and Human Services"
+            ],
+            "title": "County Health Status Profiles"
+          },
+          {
+            "_score": 117.042465,
+            "_sort": [
+              117.042465,
+              17,
+              "a91de464-1c5a-4c7f-bb63-8f8a6835fd58"
+            ],
+            "dcat": {
+              "@type": "dcat:Dataset",
+              "accessLevel": "public",
+              "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Licensing and Certification Division / Licensing Branch 2 / Mental Health Licensing Section / Licensing Unit 2",
+                "hasEmail": "mailto:opendata@dhcs.ca.gov"
+              },
+              "description": "This dataset contains an alphabetical list, by county, of all Mental Health Rehabilitation Centers (MHRC) and Psychiatric Health Facilities (PHF) licensed by the Department of Health Care Services (DHCS). Within DHCS, the Licensing and Certification Division (LCD), Licensing Branch 2, Mental Health Licensing (MHL) Section is responsible for assuring that quality mental health treatment and services are provided to all program participants in a safe and healthy environment through licensure and oversight of a statewide system of 24-hour psychiatric and rehabilitation care facilities.",
+              "distribution": [
+                {
+                  "@type": "dcat:Distribution",
+                  "describedBy": "https://data.ca.gov/api/action/datastore_search?resource_id=377d091b-204e-4b1c-8161-fa4ddc0e0fd7&limit=0",
+                  "describedByType": "application/json",
+                  "description": "County Code descriptions associated with the  facility list.",
+                  "downloadURL": "https://data.chhs.ca.gov/dataset/272b9ce1-1bcf-4bf4-8294-ab3704b79608/resource/ff6478dd-200c-4c44-a545-d32eac14e9fb/download/mhl-section-ca-county-code-list-april-2021.csv",
+                  "format": "CSV",
+                  "mediaType": "text/csv",
+                  "title": "County Code List"
+                },
+                {
+                  "@type": "dcat:Distribution",
+                  "description": "This dataset contains an alphabetical list, by county, of all Mental Health Rehabilitation Centers (MHRC) and Psychiatric Health Facilities (PHF) licensed by the Department of Health Care Services (DHCS). Within DHCS, the Licensing and Certification Division (LCD), Licensing Branch 2, Mental Health Licensing (MHL) Section is responsible for assuring that quality mental health treatment and services are provided to all program participants in a safe and healthy environment through licensure and oversight of a statewide system of 24-hour psychiatric and rehabilitation care facilities.",
+                  "downloadURL": "https://data.chhs.ca.gov/dataset/272b9ce1-1bcf-4bf4-8294-ab3704b79608/resource/ef9f4daf-892c-45f6-b46a-3037c5a93b23/download/mhls-mhrc-phf-facilities-june-2026.csv",
+                  "format": "CSV",
+                  "mediaType": "text/csv",
+                  "title": "DHCS Licensed Mental Health Rehabilitation Centers (MHRC) and Psychiatric Health Facilities (PHF)"
+                },
+                {
+                  "@type": "dcat:Distribution",
+                  "downloadURL": "https://data.chhs.ca.gov/dataset/272b9ce1-1bcf-4bf4-8294-ab3704b79608/resource/b9a0ffdb-b2ff-4d1d-af43-8f9d213d71f0/download/licensed-mental-health-rehabilitation-centers-mhrc-and-psychiatric-health-facilities-phf-3cv_n24.zip",
+                  "format": "ZIP",
+                  "mediaType": "application/zip",
+                  "title": "All resource data"
+                }
+              ],
+              "identifier": "3f8e3773-aaa7-4b84-ad68-ed9f434d9e15",
+              "issued": "2020-05-19T22:51:05.822710",
+              "keyword": [
+                "Care",
+                "Centers",
+                "Certification",
+                "DHCS",
+                "Facilities",
+                "Health",
+                "Health Care Services Licensing",
+                "Licensing",
+                "MHRC",
+                "Mental",
+                "PHF",
+                "Psychiatric",
+                "Rehabilitation",
+                "Services",
+                "california department of health care services"
+              ],
+              "license": "http://www.opendefinition.org/licenses/cc-by",
+              "modified": "2026-06-18T19:56:52.279250",
+              "publisher": {
+                "@type": "org:Organization",
+                "name": "California Department of Health Care Services"
+              },
+              "theme": [
+                "Health and Human Services"
+              ],
+              "title": "Licensed Mental Health Rehabilitation Centers (MHRC) and Psychiatric Health Facilities (PHF)"
+            },
+            "description": "This dataset contains an alphabetical list, by county, of all Mental Health Rehabilitation Centers (MHRC) and Psychiatric Health Facilities (PHF) licensed by the Department of Health Care Services (DHCS). Within DHCS, the Licensing and Certification Division (LCD), Licensing Branch 2, Mental Health Licensing (MHL) Section is responsible for assuring that quality mental health treatment and services are provided to all program participants in a safe and healthy environment through licensure and oversight of a statewide system of 24-hour psychiatric and rehabilitation care facilities.",
+            "distribution_titles": [
+              "County Code List",
+              "DHCS Licensed Mental Health Rehabilitation Centers (MHRC) and Psychiatric Health Facilities (PHF)",
+              "All resource data"
+            ],
+            "harvest_record": "https://catalog.data.gov/harvest_record/d312caea-5ae1-4e10-987b-066148b8b592",
+            "harvest_record_raw": "https://catalog.data.gov/harvest_record/d312caea-5ae1-4e10-987b-066148b8b592/raw",
+            "has_spatial": false,
+            "identifier": "3f8e3773-aaa7-4b84-ad68-ed9f434d9e15",
+            "keyword": [
+              "Care",
+              "Centers",
+              "Certification",
+              "DHCS",
+              "Facilities",
+              "Health",
+              "Health Care Services Licensing",
+              "Licensing",
+              "MHRC",
+              "Mental",
+              "PHF",
+              "Psychiatric",
+              "Rehabilitation",
+              "Services",
+              "california department of health care services"
+            ],
+            "last_harvested_date": "2026-06-26T20:24:47.096446",
+            "organization": {
+              "aliases": [
+                "ca"
+              ],
+              "description": null,
+              "id": "ae56c24b-46d3-4688-965e-94bdc208164f",
+              "logo": "https://raw.githubusercontent.com/GSA/logo/refs/heads/master/state_CA.png",
+              "name": "State of California",
+              "organization_type": "State Government",
+              "slug": "california"
+            },
+            "popularity": 17,
+            "publisher": "California Department of Health Care Services",
+            "slug": "licensed-mental-health-rehabilitation-centers-mhrc-and-psychiatric-health-facilities-phf",
+            "spatial_centroid": null,
+            "spatial_shape": null,
+            "theme": [
+              "Health and Human Services"
+            ],
+            "title": "Licensed Mental Health Rehabilitation Centers (MHRC) and Psychiatric Health Facilities (PHF)"
+          },
+          {
+            "_score": 114.739105,
+            "_sort": [
+              114.739105,
+              0,
+              "6dab6ed6-1044-4233-b032-dbfd58411b33"
+            ],
+            "dcat": {
+              "@type": "dcat:Dataset",
+              "accessLevel": "public",
+              "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Behavioral Health",
+                "hasEmail": "mailto:opendata@dhcs.ca.gov"
+              },
+              "description": "The Behavioral Health Public County Profile represents DHCS’s effort to consolidate key county behavioral health information into a consistent and accessible format, helping reduce fragmented data sources and improve transparency. This marks a significant step forward in modernizing and streamlining access to behavioral health data. The initial version of the Behavioral Health Public County Profile provides a high-level snapshot of key information, including –draft Integrated Plan status, county demographics, and homelessness and housing visualizations, as well as a quick reference guide within the display for the public to better understand the information being presented. Using standardized definitions and shared identifiers, the Behavioral Health Public County Profile data is comparable between counties and statewide and will be aligned in public reporting. The Behavioral Health Public County Profile visualizations will be continuously updated as new data sets and behavioral health reporting becomes available.  \r\n\r\nDHCS is releasing the Behavioral Health County Profile in phases based on data availability and reporting timelines. The initial version includes the following sections: \r\n\r\n* Overview\r\n* Demographics (general population and Medi-Cal behavioral health)\r\n* Integrated Plan (draft submission status) \r\n* Homeless/Housing \r\n\r\nThe Behavioral Health County Profile makes county behavioral health data comparable statewide and provides aligned public reporting. It provides a digestible snapshot of Integrated Plans, funding information, compliance status, and performance over time—and will be enhanced with additional data sets so DHCS and counties can work from the same facts at the same time. This marks an important step forward in behavioral health data access just two years after California voters passed the Behavioral Health Services Act (BHSA).",
+              "distribution": [
+                {
+                  "@type": "dcat:Distribution",
+                  "describedBy": "https://data.ca.gov/api/action/datastore_search?resource_id=9cff1be0-095e-4283-a502-1d6687d4590b&limit=0",
+                  "describedByType": "application/json",
+                  "description": "The Homeless/Housing file provides county-level data on individuals at risk of or experiencing homelessness who interact with community housing services and public Behavioral Health delivery systems.",
+                  "downloadURL": "https://data.chhs.ca.gov/dataset/c17f77c4-9333-4557-b404-063a6be9d682/resource/39b4a109-39e0-4a39-9940-6ae0d3349444/download/bht-county-profile-homlessness_5.19.26.csv",
+                  "format": "CSV",
+                  "mediaType": "text/csv",
+                  "title": "Behavioral Health Public County Profile - Homeless/Housing"
+                },
+                {
+                  "@type": "dcat:Distribution",
+                  "describedBy": "https://data.ca.gov/api/action/datastore_search?resource_id=bd8a82c2-223b-4e12-9504-83f5233553b4&limit=0",
+                  "describedByType": "application/json",
+                  "description": "The Demographics file provides county‑level demographic indicators used to support statewide behavioral health planning, program evaluation, and transformation efforts led by the California Department of Health Care Services (DHCS). This file consolidates demographic attributes from multiple state and federal sources such as Census data, Medi-Cal enrollment systems, and aggregated county submissions in order to provide a consistent view of the population characteristics related to behavioral health needs and service capacity across all 58 California counties.",
+                  "downloadURL": "https://data.chhs.ca.gov/dataset/c17f77c4-9333-4557-b404-063a6be9d682/resource/305e64c3-d1e7-4f7f-b451-02331c0c4abc/download/bht-county-profile-demographic.csv",
+                  "format": "CSV",
+                  "mediaType": "text/csv",
+                  "title": "Behavioral Health Public County Profile - Demographics"
+                },
+                {
+                  "@type": "dcat:Distribution",
+                  "describedBy": "https://data.ca.gov/api/action/datastore_search?resource_id=d35badcb-5232-4fde-83da-23bd8ba5b686&limit=0",
+                  "describedByType": "application/json",
+                  "description": "The Overview file provides a consolidated summary of a County Behavioral Health Departments contact information, County Population, Medi-Cal Managed Care Plans operating within a county, County Medi-Cal Enrollment, and previous County Behavioral Health Medi-Cal services.",
+                  "downloadURL": "https://data.chhs.ca.gov/dataset/c17f77c4-9333-4557-b404-063a6be9d682/resource/22d05142-ec81-4975-9149-bb8d3cd8be3f/download/bht-county-profile-overview.csv",
+                  "format": "CSV",
+                  "mediaType": "text/csv",
+                  "title": "Behavioral Health Public County Profile - Overview"
+                },
+                {
+                  "@type": "dcat:Distribution",
+                  "description": "Data Dictionary for https://data.chhs.ca.gov/dataset/c17f77c4-9333-4557-b404-063a6be9d682/resource/22d05142-ec81-4975-9149-bb8d3cd8be3f/download/bht-county-profile-overview.csv",
+                  "downloadURL": "https://data.ca.gov/datastore/dictionary_download/d35badcb-5232-4fde-83da-23bd8ba5b686",
+                  "format": "CSV",
+                  "isDataDictionary": true,
+                  "mediaType": "text/csv",
+                  "title": "Data Dictionary - Behavioral Health Public County Profile - Overview"
+                },
+                {
+                  "@type": "dcat:Distribution",
+                  "description": "Data Dictionary for https://data.chhs.ca.gov/dataset/c17f77c4-9333-4557-b404-063a6be9d682/resource/305e64c3-d1e7-4f7f-b451-02331c0c4abc/download/bht-county-profile-demographic.csv",
+                  "downloadURL": "https://data.ca.gov/datastore/dictionary_download/bd8a82c2-223b-4e12-9504-83f5233553b4",
+                  "format": "CSV",
+                  "isDataDictionary": true,
+                  "mediaType": "text/csv",
+                  "title": "Data Dictionary - Behavioral Health Public County Profile - Demographics"
+                },
+                {
+                  "@type": "dcat:Distribution",
+                  "description": "The Integrated Plan file contains county‑level submission data associated with the new Behavioral Health Integrated Plans required under Proposition 1 and the Behavioral Health Services Act. These plans serve as each county’s comprehensive, prospective three‑year blueprint for local behavioral health service delivery, funding allocation, equity goals, and outcome expectations. County Integrated Plans outline how counties will structure and invest in mental health and substance use disorder services, including community planning, housing interventions, Medi‑Cal‑aligned service expansions, and workforce strategies.",
+                  "downloadURL": "https://data.chhs.ca.gov/dataset/c17f77c4-9333-4557-b404-063a6be9d682/resource/3025720c-23b6-44d4-9fc7-71add7b71638/download/bht_county_profile_ip_status.csv",
+                  "format": "CSV",
+                  "mediaType": "text/csv",
+                  "title": "Behavioral Health Public County Profile - Integrated Plan Status"
+                },
+                {
+                  "@type": "dcat:Distribution",
+                  "downloadURL": "https://data.chhs.ca.gov/dataset/c17f77c4-9333-4557-b404-063a6be9d682/resource/25a09694-9631-4a7f-a15a-9d6a59a9b1e8/download/bh-county-profile-9y5mqkd6.zip",
+                  "format": "ZIP",
+                  "mediaType": "application/zip",
+                  "title": "All resource data"
+                }
+              ],
+              "identifier": "d3f916e5-66d5-4fe1-bf51-b99d0335b205",
+              "issued": "2026-03-20T22:50:14.817745",
+              "keyword": [
+                "BHSA",
+                "Behavioral Health",
+                "Compliance Status",
+                "County",
+                "County Profile data",
+                "DHCS",
+                "Demographics",
+                "Funding",
+                "Homeless",
+                "Housing",
+                "Integrated Plan Status",
+                "Medi-Cal",
+                "Statewide",
+                "california department of health care services"
+              ],
+              "license": "http://www.opendefinition.org/licenses/cc-by",
+              "modified": "2026-06-03T18:13:04.220711",
+              "publisher": {
+                "@type": "org:Organization",
+                "name": "California Department of Health Care Services"
+              },
+              "theme": [
+                "Health and Human Services"
+              ],
+              "title": "Behavioral Health Public County Profile"
+            },
+            "description": "The Behavioral Health Public County Profile represents DHCS’s effort to consolidate key county behavioral health information into a consistent and accessible format, helping reduce fragmented data sources and improve transparency. This marks a significant step forward in modernizing and streamlining access to behavioral health data. The initial version of the Behavioral Health Public County Profile provides a high-level snapshot of key information, including –draft Integrated Plan status, county demographics, and homelessness and housing visualizations, as well as a quick reference guide within the display for the public to better understand the information being presented. Using standardized definitions and shared identifiers, the Behavioral Health Public County Profile data is comparable between counties and statewide and will be aligned in public reporting. The Behavioral Health Public County Profile visualizations will be continuously updated as new data sets and behavioral health reporting becomes available.  \r\n\r\nDHCS is releasing the Behavioral Health County Profile in phases based on data availability and reporting timelines. The initial version includes the following sections: \r\n\r\n* Overview\r\n* Demographics (general population and Medi-Cal behavioral health)\r\n* Integrated Plan (draft submission status) \r\n* Homeless/Housing \r\n\r\nThe Behavioral Health County Profile makes county behavioral health data comparable statewide and provides aligned public reporting. It provides a digestible snapshot of Integrated Plans, funding information, compliance status, and performance over time—and will be enhanced with additional data sets so DHCS and counties can work from the same facts at the same time. This marks an important step forward in behavioral health data access just two years after California voters passed the Behavioral Health Services Act (BHSA).",
+            "distribution_titles": [
+              "Behavioral Health Public County Profile - Homeless/Housing",
+              "Behavioral Health Public County Profile - Demographics",
+              "Behavioral Health Public County Profile - Overview",
+              "Data Dictionary - Behavioral Health Public County Profile - Overview",
+              "Data Dictionary - Behavioral Health Public County Profile - Demographics",
+              "Behavioral Health Public County Profile - Integrated Plan Status",
+              "All resource data"
+            ],
+            "harvest_record": "https://catalog.data.gov/harvest_record/56d1c353-1eb6-4f37-86cd-9a4381a877e2",
+            "harvest_record_raw": "https://catalog.data.gov/harvest_record/56d1c353-1eb6-4f37-86cd-9a4381a877e2/raw",
+            "has_spatial": false,
+            "identifier": "d3f916e5-66d5-4fe1-bf51-b99d0335b205",
+            "keyword": [
+              "BHSA",
+              "Behavioral Health",
+              "Compliance Status",
+              "County",
+              "County Profile data",
+              "DHCS",
+              "Demographics",
+              "Funding",
+              "Homeless",
+              "Housing",
+              "Integrated Plan Status",
+              "Medi-Cal",
+              "Statewide",
+              "california department of health care services"
+            ],
+            "last_harvested_date": "2026-06-26T20:25:07.573023",
+            "organization": {
+              "aliases": [
+                "ca"
+              ],
+              "description": null,
+              "id": "ae56c24b-46d3-4688-965e-94bdc208164f",
+              "logo": "https://raw.githubusercontent.com/GSA/logo/refs/heads/master/state_CA.png",
+              "name": "State of California",
+              "organization_type": "State Government",
+              "slug": "california"
+            },
+            "popularity": 0,
+            "publisher": "California Department of Health Care Services",
+            "slug": "behavioral-health-public-county-profile",
+            "spatial_centroid": null,
+            "spatial_shape": null,
+            "theme": [
+              "Health and Human Services"
+            ],
+            "title": "Behavioral Health Public County Profile"
+          },
+          {
+            "_score": 113.11301,
+            "_sort": [
+              113.11301,
+              0,
+              "0a57012e-e45e-4399-83cd-eaa3975686eb"
+            ],
+            "dcat": {
+              "@type": "dcat:Dataset",
+              "accessLevel": "public",
+              "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Department of Health Care Access and Information, Healthcare Analytics Branch",
+                "hasEmail": "mailto:dataandreports@hcai.ca.gov"
+              },
+              "description": "This dataset contains Statewide counts of inpatient hospitalizations and emergency department visits for patients with Behavioral Health Disorders; stratified by age group, race/ethnicity, sex, and expected payer.",
+              "distribution": [
+                {
+                  "@type": "dcat:Distribution",
+                  "describedBy": "https://data.ca.gov/api/action/datastore_search?resource_id=6580c041-261d-46b3-9f57-47c65e78b969&limit=0",
+                  "describedByType": "application/json",
+                  "description": "Data dictionary for \"Behavioral Health Hospital Encounters: Age, Race, Sex, Expected Payer (Statewide)\" data set.",
+                  "downloadURL": "https://data.chhs.ca.gov/dataset/c34db6d1-be9e-4d22-8bd4-da02de95513f/resource/80e9184f-5a9f-47bb-b334-532437b0c999/download/data-dictionary-behavioral-health-encounters.xlsx",
+                  "format": "XLSX",
+                  "mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                  "title": "Data dictionary-Behavioral Health Hospital Encounters: Age, Race, Sex, Expected Payer (Statewide)"
+                },
+                {
+                  "@type": "dcat:Distribution",
+                  "describedBy": "https://data.ca.gov/api/action/datastore_search?resource_id=9ba60791-e996-45f1-b622-9878c1213b1d&limit=0",
+                  "describedByType": "application/json",
+                  "description": "This dataset contains Statewide counts of inpatient hospitalizations and emergency department visits for patients with Behavioral Health Disorders; stratified by age group, race/ethnicity, sex, and expected payer.",
+                  "downloadURL": "https://data.chhs.ca.gov/dataset/c34db6d1-be9e-4d22-8bd4-da02de95513f/resource/4122368e-ab54-4443-a11e-ddfc5e217879/download/hospital-encounters-for-behavioral-health.csv",
+                  "format": "CSV",
+                  "mediaType": "text/csv",
+                  "title": "Hospital Encounters for Behavioral Health"
+                },
+                {
+                  "@type": "dcat:Distribution",
+                  "description": "Data Dictionary for https://data.chhs.ca.gov/dataset/c34db6d1-be9e-4d22-8bd4-da02de95513f/resource/4122368e-ab54-4443-a11e-ddfc5e217879/download/hospital-encounters-for-behavioral-health.csv",
+                  "downloadURL": "https://data.ca.gov/datastore/dictionary_download/9ba60791-e996-45f1-b622-9878c1213b1d",
+                  "format": "CSV",
+                  "isDataDictionary": true,
+                  "mediaType": "text/csv",
+                  "title": "Data Dictionary - Hospital Encounters for Behavioral Health"
+                },
+                {
+                  "@type": "dcat:Distribution",
+                  "downloadURL": "https://data.chhs.ca.gov/dataset/c34db6d1-be9e-4d22-8bd4-da02de95513f/resource/1ac89840-6d1b-43c2-ab9b-dc55e384960f/download/hospital-encounters-for-behavioral-health-8b6t49tf.zip",
+                  "format": "ZIP",
+                  "mediaType": "application/zip",
+                  "title": "All resource data"
+                }
+              ],
+              "identifier": "dfbe92a4-6045-49e5-ace7-4fe55a5626a1",
+              "issued": "2022-05-31T17:41:10.473622",
+              "keyword": [
+                "Behavioral Health",
+                "ED Visit",
+                "HCAI",
+                "Inpatient",
+                "Mental Health",
+                "Mental Health Disorder",
+                "SUD",
+                "Substance Use Disorder",
+                "department of health care access and information",
+                "emergency department",
+                "hospitalizations"
+              ],
+              "license": "http://www.opendefinition.org/licenses/cc-by",
+              "modified": "2026-03-25T16:52:20.820372",
+              "publisher": {
+                "@type": "org:Organization",
+                "name": "Department of Health Care Access and Information"
+              },
+              "theme": [
+                "Health and Human Services"
+              ],
+              "title": "Hospital Encounters for Behavioral Health"
+            },
+            "description": "This dataset contains Statewide counts of inpatient hospitalizations and emergency department visits for patients with Behavioral Health Disorders; stratified by age group, race/ethnicity, sex, and expected payer.",
+            "distribution_titles": [
+              "Data dictionary-Behavioral Health Hospital Encounters: Age, Race, Sex, Expected Payer (Statewide)",
+              "Hospital Encounters for Behavioral Health",
+              "Data Dictionary - Hospital Encounters for Behavioral Health",
+              "All resource data"
+            ],
+            "harvest_record": "https://catalog.data.gov/harvest_record/3c39e7aa-66f8-4716-b58e-95d8efde6619",
+            "harvest_record_raw": "https://catalog.data.gov/harvest_record/3c39e7aa-66f8-4716-b58e-95d8efde6619/raw",
+            "has_spatial": false,
+            "identifier": "dfbe92a4-6045-49e5-ace7-4fe55a5626a1",
+            "keyword": [
+              "Behavioral Health",
+              "ED Visit",
+              "HCAI",
+              "Inpatient",
+              "Mental Health",
+              "Mental Health Disorder",
+              "SUD",
+              "Substance Use Disorder",
+              "department of health care access and information",
+              "emergency department",
+              "hospitalizations"
+            ],
+            "last_harvested_date": "2026-03-28T19:38:03.338643",
+            "organization": {
+              "aliases": [
+                "ca"
+              ],
+              "description": null,
+              "id": "ae56c24b-46d3-4688-965e-94bdc208164f",
+              "logo": "https://raw.githubusercontent.com/GSA/logo/refs/heads/master/state_CA.png",
+              "name": "State of California",
+              "organization_type": "State Government",
+              "slug": "california"
+            },
+            "popularity": 0,
+            "publisher": "Department of Health Care Access and Information",
+            "slug": "hospital-encounters-for-behavioral-health",
+            "spatial_centroid": null,
+            "spatial_shape": null,
+            "theme": [
+              "Health and Human Services"
+            ],
+            "title": "Hospital Encounters for Behavioral Health"
+          },
+          {
+            "_score": 112.14102,
+            "_sort": [
+              112.14102,
+              0,
+              "0a134bba-5b45-4906-8d25-7e17164f5149"
+            ],
+            "dcat": {
+              "@type": "dcat:Dataset",
+              "accessLevel": "public",
+              "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Behavioral Health Oversight and Monitoring Division",
+                "hasEmail": "mailto:opendata@dhcs.ca.gov"
+              },
+              "description": "This dataset captures county‑submitted Network Adequacy compliance data, evaluating whether health plans meet standards for timely access, geographic availability (time or distance), provider capacity, and service composition. The dataset supports monitoring and reporting on whether counties and health plans provide equitable, sufficient, and accessible care to beneficiaries.",
+              "distribution": [
+                {
+                  "@type": "dcat:Distribution",
+                  "describedBy": "https://data.ca.gov/api/action/datastore_search?resource_id=c644f82a-466a-4303-99bf-5e1a9df34e81&limit=0",
+                  "describedByType": "application/json",
+                  "description": "This file contains tabular records of county‑submitted Network Adequacy compliance information. The file is structured with one worksheet where on a single tab each row represents a single compliance record based on County Name, Fiscal Year, Plan Type, Service Type, Beneficiary Group (Adults 21 and over or Children/Youth 0–20) . All fields are stored as numeric or text values, making the file suitable for filtering, sorting, and analysis of compliance outcomes across counties, fiscal years, service categories and age groups.",
+                  "downloadURL": "https://data.chhs.ca.gov/dataset/f6ac01d1-59df-4c97-8be5-11a9d54bb6c5/resource/86704ce9-f9aa-4737-98c4-776801822bf4/download/data-refresh-10-08-2025_updated19dec.csv",
+                  "format": "CSV",
+                  "mediaType": "text/csv",
+                  "title": "Behavioral Health Network Adequacy Data Refresh"
+                },
+                {
+                  "@type": "dcat:Distribution",
+                  "description": "Data Dictionary for https://data.chhs.ca.gov/dataset/f6ac01d1-59df-4c97-8be5-11a9d54bb6c5/resource/86704ce9-f9aa-4737-98c4-776801822bf4/download/data-refresh-10-08-2025_updated19dec.csv",
+                  "downloadURL": "https://data.ca.gov/datastore/dictionary_download/c644f82a-466a-4303-99bf-5e1a9df34e81",
+                  "format": "CSV",
+                  "isDataDictionary": true,
+                  "mediaType": "text/csv",
+                  "title": "Data Dictionary - Behavioral Health Network Adequacy Data Refresh"
+                },
+                {
+                  "@type": "dcat:Distribution",
+                  "downloadURL": "https://data.chhs.ca.gov/dataset/f6ac01d1-59df-4c97-8be5-11a9d54bb6c5/resource/cf0c2ff9-c961-41cf-a356-8dcb29623379/download/bh-network-adequacy-udl2mibn.zip",
+                  "format": "ZIP",
+                  "mediaType": "application/zip",
+                  "title": "All resource data"
+                }
+              ],
+              "identifier": "96d46df4-846c-4cf4-8a06-68cfb7188c9e",
+              "issued": "2025-11-14T17:57:34.683314",
+              "keyword": [
+                "BH",
+                "Behavioral Health",
+                "Capacity and Composition",
+                "DHCS",
+                "Network Adequacy",
+                "Time or Distance",
+                "Timely Access",
+                "california department of health care services"
+              ],
+              "license": "http://www.opendefinition.org/licenses/cc-by",
+              "modified": "2025-12-19T17:54:54.296902",
+              "publisher": {
+                "@type": "org:Organization",
+                "name": "California Department of Health Care Services"
+              },
+              "theme": [
+                "Health and Human Services"
+              ],
+              "title": "Behavioral Health Network Adequacy"
+            },
+            "description": "This dataset captures county‑submitted Network Adequacy compliance data, evaluating whether health plans meet standards for timely access, geographic availability (time or distance), provider capacity, and service composition. The dataset supports monitoring and reporting on whether counties and health plans provide equitable, sufficient, and accessible care to beneficiaries.",
+            "distribution_titles": [
+              "Behavioral Health Network Adequacy Data Refresh",
+              "Data Dictionary - Behavioral Health Network Adequacy Data Refresh",
+              "All resource data"
+            ],
+            "harvest_record": "https://catalog.data.gov/harvest_record/12b2a0d9-0054-4e67-b38e-a4199e2a896d",
+            "harvest_record_raw": "https://catalog.data.gov/harvest_record/12b2a0d9-0054-4e67-b38e-a4199e2a896d/raw",
+            "has_spatial": false,
+            "identifier": "96d46df4-846c-4cf4-8a06-68cfb7188c9e",
+            "keyword": [
+              "BH",
+              "Behavioral Health",
+              "Capacity and Composition",
+              "DHCS",
+              "Network Adequacy",
+              "Time or Distance",
+              "Timely Access",
+              "california department of health care services"
+            ],
+            "last_harvested_date": "2025-12-28T19:19:14.995103",
+            "organization": {
+              "aliases": [
+                "ca"
+              ],
+              "description": null,
+              "id": "ae56c24b-46d3-4688-965e-94bdc208164f",
+              "logo": "https://raw.githubusercontent.com/GSA/logo/refs/heads/master/state_CA.png",
+              "name": "State of California",
+              "organization_type": "State Government",
+              "slug": "california"
+            },
+            "popularity": 0,
+            "publisher": "California Department of Health Care Services",
+            "slug": "behavioral-health-network-adequacy",
+            "spatial_centroid": null,
+            "spatial_shape": null,
+            "theme": [
+              "Health and Human Services"
+            ],
+            "title": "Behavioral Health Network Adequacy"
+          },
+          {
+            "_score": 111.89537,
+            "_sort": [
+              111.89537,
+              95,
+              "aa6994ee-2806-460d-9382-7a674196fe98"
+            ],
+            "dcat": {
+              "@type": "dcat:Dataset",
+              "accessLevel": "public",
+              "bureauCode": [
+                "009:30"
+              ],
+              "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Brooklyn Lupari, SAMHSA/CBHSQ c/o SAMHDA Support",
+                "hasEmail": "mailto:samhda-support@samhsa.hhs.gov"
+              },
+              "description": "<p>The National Mental Health Services Survey (N-MHSS) is an annual survey designed to collect statistical information on the numbers and characteristics of all known mental health treatment facilities within the 50 States, the District of Columbia, and the U.S. territories. In every other year, beginning in 2014, the survey also collects statistical information on the numbers and demographic characteristics of persons served in these treatment facilities as of a specified survey reference date.<br />\nThe N-MHSS is the only source of national and State-level data on the mental health service delivery system reported by both publicly-operated and privately-operated specialty mental health treatment facilities, including: public psychiatric hospitals; private psychiatric hospitals, non-federal general hospitals with separate psychiatric units; U.S. Department of Veterans Affairs medical centers; residential treatment centers for children; residential treatment centers for adults; outpatient or day treatment or partial hospitalization mental health facilities; and multi-setting (non-hospital) mental health facilities.</p>\n<p>The N-MHSS complements the information collected through SAMHSA's survey of substance abuse treatment facilities, the National Survey of Substance Abuse Treatment Services (N-SSATS). Treatment facility Information from the N-MHSS is used to populate the mental health component of SAMHSA's online Behavioral Health Treatment Services Locator. <a href=\"http://findtreatment.samhsa.gov/This\">http://findtreatment.samhsa.gov/This</a> study has 1 Data Set.</p>",
+              "distribution": [
+                {
+                  "@type": "dcat:Distribution",
+                  "description": "National Mental Health Services Survey (N-MHSS-2010) \n",
+                  "downloadURL": "https://datafiles.samhsa.gov/study/national-mental-health-services-survey-n-mhss-2010-nid13561",
+                  "mediaType": "text/html",
+                  "title": "https://datafiles.samhsa.gov/study/national-mental-health-services-survey-n-mhss-2010-nid13561"
+                }
+              ],
+              "identifier": "https://datafiles.samhsa.gov/study/national-mental-health-services-survey-n-mhss-2010-nid13561",
+              "issued": "2016-05-23",
+              "keyword": [
+                "mental health",
+                "mental health services",
+                "treatment facilities",
+                "treatment programs"
+              ],
+              "landingPage": "https://healthdata.gov/dataset/national-mental-health-services-survey-n-mhss-2010-0",
+              "modified": "2023-07-25",
+              "programCode": [
+                "009:030"
+              ],
+              "publisher": {
+                "@type": "org:Organization",
+                "name": "Substance Abuse & Mental Health Services Administration"
+              },
+              "title": "National Mental Health Services Survey (N-MHSS-2010)"
+            },
+            "description": "<p>The National Mental Health Services Survey (N-MHSS) is an annual survey designed to collect statistical information on the numbers and characteristics of all known mental health treatment facilities within the 50 States, the District of Columbia, and the U.S. territories. In every other year, beginning in 2014, the survey also collects statistical information on the numbers and demographic characteristics of persons served in these treatment facilities as of a specified survey reference date.<br />\nThe N-MHSS is the only source of national and State-level data on the mental health service delivery system reported by both publicly-operated and privately-operated specialty mental health treatment facilities, including: public psychiatric hospitals; private psychiatric hospitals, non-federal general hospitals with separate psychiatric units; U.S. Department of Veterans Affairs medical centers; residential treatment centers for children; residential treatment centers for adults; outpatient or day treatment or partial hospitalization mental health facilities; and multi-setting (non-hospital) mental health facilities.</p>\n<p>The N-MHSS complements the information collected through SAMHSA's survey of substance abuse treatment facilities, the National Survey of Substance Abuse Treatment Services (N-SSATS). Treatment facility Information from the N-MHSS is used to populate the mental health component of SAMHSA's online Behavioral Health Treatment Services Locator. <a href=\"http://findtreatment.samhsa.gov/This\">http://findtreatment.samhsa.gov/This</a> study has 1 Data Set.</p>",
+            "distribution_titles": [
+              "https://datafiles.samhsa.gov/study/national-mental-health-services-survey-n-mhss-2010-nid13561"
+            ],
+            "harvest_record": "https://catalog.data.gov/harvest_record/fe530829-2b19-47db-9908-07743f3e421e",
+            "harvest_record_raw": "https://catalog.data.gov/harvest_record/fe530829-2b19-47db-9908-07743f3e421e/raw",
+            "has_spatial": false,
+            "identifier": "https://datafiles.samhsa.gov/study/national-mental-health-services-survey-n-mhss-2010-nid13561",
+            "keyword": [
+              "mental health",
+              "mental health services",
+              "treatment facilities",
+              "treatment programs"
+            ],
+            "last_harvested_date": "2025-08-08T23:51:52.218389",
+            "organization": {
+              "aliases": [
+                "US",
+                "dept"
+              ],
+              "description": null,
+              "id": "2c2fc21f-21d0-4450-af01-cf8c69b44156",
+              "logo": "https://raw.githubusercontent.com/GSA/logo/refs/heads/master/hhs.png",
+              "name": "U.S. Department of Health & Human Services",
+              "organization_type": "Federal Government",
+              "slug": "hhs"
+            },
+            "popularity": 95,
+            "publisher": "Substance Abuse & Mental Health Services Administration",
+            "slug": "national-mental-health-services-survey-n-mhss-2010",
+            "spatial_centroid": null,
+            "spatial_shape": null,
+            "theme": [],
+            "title": "National Mental Health Services Survey (N-MHSS-2010)"
+          },
+          {
+            "_score": 111.77592,
+            "_sort": [
+              111.77592,
+              0,
+              "23df9b50-9b24-4d5a-a3aa-b6d2a94d62ea"
+            ],
+            "dcat": {
+              "@type": "dcat:Dataset",
+              "accessLevel": "public",
+              "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Data Analytics Division, Data Science Branch",
+                "hasEmail": "mailto:OpenData@dhcs.ca.gov"
+              },
+              "description": "Core Set Measures for Mental Health data includes a range of mental health and substance use-related quality measures that state Medicaid programs are required to report to the Centers for Medicare and Medicaid Services (CMS). These measures are part of CMS’s effort to improve behavioral health outcomes and are drawn from both the Child and Adult Core Sets.",
+              "distribution": [
+                {
+                  "@type": "dcat:Distribution",
+                  "describedBy": "https://data.ca.gov/api/action/datastore_search?resource_id=1bdd079a-3ee6-452e-a595-11427fb726c1&limit=0",
+                  "describedByType": "application/json",
+                  "description": "Mental Health Core Set Measure data contains rates for Core Set Measures by county and year: AMM-AD, APP-CH, FUH-AD, FUH-CH, SAA-AD.",
+                  "downloadURL": "https://data.chhs.ca.gov/dataset/874e4b73-e8a5-43fa-9558-c8ce5e2b456d/resource/45251828-0260-4537-8194-f26f23220801/download/coreset_report_my2020-2023_supp.csv",
+                  "format": "CSV",
+                  "mediaType": "text/csv",
+                  "title": "Mental Health Core Set Measure Rates by County"
+                },
+                {
+                  "@type": "dcat:Distribution",
+                  "description": "Data Dictionary for https://data.chhs.ca.gov/dataset/874e4b73-e8a5-43fa-9558-c8ce5e2b456d/resource/45251828-0260-4537-8194-f26f23220801/download/coreset_report_my2020-2023_supp.csv",
+                  "downloadURL": "https://data.ca.gov/datastore/dictionary_download/1bdd079a-3ee6-452e-a595-11427fb726c1",
+                  "format": "CSV",
+                  "isDataDictionary": true,
+                  "mediaType": "text/csv",
+                  "title": "Data Dictionary - Mental Health Core Set Measure Rates by County"
+                },
+                {
+                  "@type": "dcat:Distribution",
+                  "downloadURL": "https://data.chhs.ca.gov/dataset/874e4b73-e8a5-43fa-9558-c8ce5e2b456d/resource/15efcfa4-b927-4c4e-be61-3139fa017f85/download/mh-core-set-measures-n166zge0.zip",
+                  "format": "ZIP",
+                  "mediaType": "application/zip",
+                  "title": "All resource data"
+                }
+              ],
+              "identifier": "2acc59d0-aa65-4db0-a8b5-1dbf33e92c6e",
+              "issued": "2025-11-10T18:27:09.630284",
+              "keyword": [
+                "AMM-AD",
+                "APP-CH",
+                "CSM",
+                "Core Set Measures",
+                "DHCS",
+                "FUH-AD",
+                "FUH-CH",
+                "Mental Health",
+                "SAA-AD",
+                "california department of health care services"
+              ],
+              "license": "http://www.opendefinition.org/licenses/cc-by",
+              "modified": "2025-12-19T17:26:51.138390",
+              "publisher": {
+                "@type": "org:Organization",
+                "name": "California Department of Health Care Services"
+              },
+              "theme": [
+                "Health and Human Services"
+              ],
+              "title": "Core Set Measures for Mental Health"
+            },
+            "description": "Core Set Measures for Mental Health data includes a range of mental health and substance use-related quality measures that state Medicaid programs are required to report to the Centers for Medicare and Medicaid Services (CMS). These measures are part of CMS’s effort to improve behavioral health outcomes and are drawn from both the Child and Adult Core Sets.",
+            "distribution_titles": [
+              "Mental Health Core Set Measure Rates by County",
+              "Data Dictionary - Mental Health Core Set Measure Rates by County",
+              "All resource data"
+            ],
+            "harvest_record": "https://catalog.data.gov/harvest_record/53e1634f-1831-4878-aa57-ea29128e3b32",
+            "harvest_record_raw": "https://catalog.data.gov/harvest_record/53e1634f-1831-4878-aa57-ea29128e3b32/raw",
+            "has_spatial": false,
+            "identifier": "2acc59d0-aa65-4db0-a8b5-1dbf33e92c6e",
+            "keyword": [
+              "AMM-AD",
+              "APP-CH",
+              "CSM",
+              "Core Set Measures",
+              "DHCS",
+              "FUH-AD",
+              "FUH-CH",
+              "Mental Health",
+              "SAA-AD",
+              "california department of health care services"
+            ],
+            "last_harvested_date": "2025-12-28T19:19:15.200268",
+            "organization": {
+              "aliases": [
+                "ca"
+              ],
+              "description": null,
+              "id": "ae56c24b-46d3-4688-965e-94bdc208164f",
+              "logo": "https://raw.githubusercontent.com/GSA/logo/refs/heads/master/state_CA.png",
+              "name": "State of California",
+              "organization_type": "State Government",
+              "slug": "california"
+            },
+            "popularity": 0,
+            "publisher": "California Department of Health Care Services",
+            "slug": "core-set-measures-for-mental-health",
+            "spatial_centroid": null,
+            "spatial_shape": null,
+            "theme": [
+              "Health and Human Services"
+            ],
+            "title": "Core Set Measures for Mental Health"
+          },
+          {
+            "_score": 111.32334,
+            "_sort": [
+              111.32334,
+              0,
+              "e1b47831-2559-482f-80d5-f3561416e483"
+            ],
+            "dcat": {
+              "@type": "dcat:Dataset",
+              "accessLevel": "public",
+              "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Department of Health Care Access and Information, Office of Health Workforce Development",
+                "hasEmail": "mailto:workforceData@hcai.ca.gov"
+              },
+              "description": "This dataset contains statistically weighted estimates of initial education levels, highest education levels, and initial education locations for 43 key health workforce professions actively licensed in California as of July 1st, 2023. These metrics can be compared by workforce category, license type, time since license issue date (in years), race & ethnicity group, assigned sex at birth, and CHIS region.",
+              "distribution": [
+                {
+                  "@type": "dcat:Distribution",
+                  "describedBy": "https://data.ca.gov/api/action/datastore_search?resource_id=0475acfe-98fc-4e9d-9f98-8757063e5cd5&limit=0",
+                  "describedByType": "application/json",
+                  "description": "This dataset contains statistically weighted estimates of initial education levels, and highest education levels for 43 key health workforce professions actively licensed in California. These metrics can be compared by workforce category, license type, assigned sex at birth, and CHIS region.",
+                  "downloadURL": "https://data.chhs.ca.gov/dataset/6e177995-2ecb-45cd-9bab-1599e59b521a/resource/cce9fd30-6fea-4a97-9d9a-b4ac6f432bcc/download/health-workforce-education-data-assignedsexatbirth.xlsx",
+                  "format": "XLSX",
+                  "mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                  "title": "Health Workforce Education Data - Assigned Sex At Birth"
+                },
+                {
+                  "@type": "dcat:Distribution",
+                  "describedBy": "https://data.ca.gov/api/action/datastore_search?resource_id=5dabeb92-3923-455d-b2fd-88241d572a79&limit=0",
+                  "describedByType": "application/json",
+                  "description": "This dataset contains statistically weighted estimates of initial education levels, and highest education levels for 43 key health workforce professions actively licensed in California. These metrics can be compared by workforce category, license type, race & ethnicity group, and CHIS region.",
+                  "downloadURL": "https://data.chhs.ca.gov/dataset/6e177995-2ecb-45cd-9bab-1599e59b521a/resource/dcea6626-df57-45b2-9e18-dc4e8caa209b/download/health-workforce-education-data-raceethnicity.xlsx",
+                  "format": "XLSX",
+                  "mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                  "title": "Health Workforce Education Data - Race & Ethnicity"
+                },
+                {
+                  "@type": "dcat:Distribution",
+                  "describedBy": "https://data.ca.gov/api/action/datastore_search?resource_id=6a1ad76f-1f53-4d31-92b0-126e8b6716d2&limit=0",
+                  "describedByType": "application/json",
+                  "description": "This dataset contains statistically weighted estimates of initial education levels, and highest education levels for 43 key health workforce professions actively licensed in California. These metrics can be compared by workforce category, license type, time since license issue date (in years), and CHIS region.",
+                  "downloadURL": "https://data.chhs.ca.gov/dataset/6e177995-2ecb-45cd-9bab-1599e59b521a/resource/25a001b5-5fdd-4f25-96ce-63f08ed0ad29/download/health-workforce-education-data-licenseissuedate.xlsx",
+                  "format": "XLSX",
+                  "mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                  "title": "Health Workforce Education Data - License Issue Date"
+                },
+                {
+                  "@type": "dcat:Distribution",
+                  "describedBy": "https://data.ca.gov/api/action/datastore_search?resource_id=ae78dd77-1be9-450c-be65-135cd10cab9a&limit=0",
+                  "describedByType": "application/json",
+                  "description": "The file contains the data dictionary for the Health Workforce Education Dataset.",
+                  "downloadURL": "https://data.chhs.ca.gov/dataset/6e177995-2ecb-45cd-9bab-1599e59b521a/resource/8101cbf4-bb70-4b92-b54d-dc957fe5a532/download/health-workforce-education-data-dictionary.xlsx",
+                  "format": "XLSX",
+                  "mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                  "title": "Health Workforce Education Data - Data Dictionary"
+                },
+                {
+                  "@type": "dcat:Distribution",
+                  "describedBy": "https://data.ca.gov/api/action/datastore_search?resource_id=b21b413e-4ea6-4e17-bb51-ea2c67070eb6&limit=0",
+                  "describedByType": "application/json",
+                  "description": "This dataset contains statistically weighted estimates of initial education levels and initial education locations for 43 key health workforce professions actively licensed in California. These metrics can be compared by workforce category, license type, and CHIS region.",
+                  "downloadURL": "https://data.chhs.ca.gov/dataset/6e177995-2ecb-45cd-9bab-1599e59b521a/resource/8cf9bea8-badc-4526-a1eb-67406c2363f7/download/health-workforce-education-data-schoollocation.xlsx",
+                  "format": "XLSX",
+                  "mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                  "title": "Health Workforce Education Data - School Location"
+                },
+                {
+                  "@type": "dcat:Distribution",
+                  "describedBy": "https://data.ca.gov/api/action/datastore_search?resource_id=c77bd194-812b-49c1-a7ef-aac7e1906af7&limit=0",
+                  "describedByType": "application/json",
+                  "description": "This dataset contains statistically weighted estimates of initial education levels, and highest education levels for 43 key health workforce professions actively licensed in California. These metrics can be compared by workforce category, license type, and CHIS region.",
+                  "downloadURL": "https://data.chhs.ca.gov/dataset/6e177995-2ecb-45cd-9bab-1599e59b521a/resource/a168f5fa-0827-44f6-8189-e96d6e45459d/download/health-workforce-education-data-region.xlsx",
+                  "format": "XLSX",
+                  "mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                  "title": "Health Workforce Education Data - Region"
+                },
+                {
+                  "@type": "dcat:Distribution",
+                  "downloadURL": "https://data.chhs.ca.gov/dataset/6e177995-2ecb-45cd-9bab-1599e59b521a/resource/010ff207-d7f6-46aa-bf53-e0234d3dec7c/download/health-workforce-education-data-z96cl0d1.zip",
+                  "format": "ZIP",
+                  "mediaType": "application/zip",
+                  "title": "All resource data"
+                }
+              ],
+              "identifier": "ffba1e85-43e7-418e-8552-ca8a3b1498c6",
+              "issued": "2023-11-22T16:30:22.296890",
+              "keyword": [
+                "Health Workforce",
+                "RDC",
+                "Research Data Center",
+                "department of health care access and information"
+              ],
+              "license": "http://www.opendefinition.org/licenses/cc-by",
+              "modified": "2025-11-07T01:00:29.362147",
+              "publisher": {
+                "@type": "org:Organization",
+                "name": "Department of Health Care Access and Information"
+              },
+              "theme": [
+                "Health and Human Services"
+              ],
+              "title": "Health Workforce Education Data"
+            },
+            "description": "This dataset contains statistically weighted estimates of initial education levels, highest education levels, and initial education locations for 43 key health workforce professions actively licensed in California as of July 1st, 2023. These metrics can be compared by workforce category, license type, time since license issue date (in years), race & ethnicity group, assigned sex at birth, and CHIS region.",
+            "distribution_titles": [
+              "Health Workforce Education Data - Assigned Sex At Birth",
+              "Health Workforce Education Data - Race & Ethnicity",
+              "Health Workforce Education Data - License Issue Date",
+              "Health Workforce Education Data - Data Dictionary",
+              "Health Workforce Education Data - School Location",
+              "Health Workforce Education Data - Region",
+              "All resource data"
+            ],
+            "harvest_record": "https://catalog.data.gov/harvest_record/ea1342f6-edda-4b20-b555-fe00fea8a3a5",
+            "harvest_record_raw": "https://catalog.data.gov/harvest_record/ea1342f6-edda-4b20-b555-fe00fea8a3a5/raw",
+            "has_spatial": false,
+            "identifier": "ffba1e85-43e7-418e-8552-ca8a3b1498c6",
+            "keyword": [
+              "Health Workforce",
+              "RDC",
+              "Research Data Center",
+              "department of health care access and information"
+            ],
+            "last_harvested_date": "2025-11-28T19:18:28.400741",
+            "organization": {
+              "aliases": [
+                "ca"
+              ],
+              "description": null,
+              "id": "ae56c24b-46d3-4688-965e-94bdc208164f",
+              "logo": "https://raw.githubusercontent.com/GSA/logo/refs/heads/master/state_CA.png",
+              "name": "State of California",
+              "organization_type": "State Government",
+              "slug": "california"
+            },
+            "popularity": 0,
+            "publisher": "Department of Health Care Access and Information",
+            "slug": "health-workforce-education-data",
+            "spatial_centroid": null,
+            "spatial_shape": null,
+            "theme": [
+              "Health and Human Services"
+            ],
+            "title": "Health Workforce Education Data"
+          },
+          {
+            "_score": 110.96971,
+            "_sort": [
+              110.96971,
+              13,
+              "d203d751-5818-4459-a1d1-540a0a653afb"
+            ],
+            "dcat": {
+              "@type": "dcat:Dataset",
+              "accessLevel": "public",
+              "bureauCode": [
+                "009:00"
+              ],
+              "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "ONC Request",
+                "hasEmail": "mailto:onc.request@hhs.gov"
+              },
+              "describedBy": "https://www.healthit.gov/data/datasets/hospital-public-health-reporting",
+              "description": "The Centers for Medicare &amp; Medicaid Services (CMS) EHR Incentive Program provides incentive payments for eligible hospitals to adopt and meaningfully use certified health IT. Among the requirements to receive an incentive payment, participating hospitals must report on public health measures. These measures include the electronic reporting of data regarding: immunizations, emergency department visits (syndromic surveillance), reportable infectious disease laboratory results, and electronic patient data to specialized registries, like cancert. As of 2015, stage 2 of the EHR Incentive Program requires hospitals to report on three public health measures, when applicable, and modified stage 2 of the program requires hospitals to report on two of the three measures. This dataset includes the percentage of hospitals who reported on these measures in program years, 2013, 2014 and 2015.",
+              "distribution": [
+                {
+                  "@type": "dcat:Distribution",
+                  "downloadURL": "https://www.healthit.gov/sites/default/files/data/datasets/hospital-mu-public-health-measures.csv",
+                  "mediaType": "text/csv",
+                  "title": "hospital-mu-public-health-measures.csv"
+                }
+              ],
+              "identifier": "vzcc5ta0-36kx-g2f7-uzay-ps4jb0jt6xdw",
+              "issued": "2023-10-03",
+              "keyword": [
+                "cms ehr incentive program",
+                "emergency department visits",
+                "health information technology",
+                "health it",
+                "interoperability",
+                "public health measures",
+                "public health measures reporting"
+              ],
+              "landingPage": "https://www.healthit.gov/data/datasets/hospital-public-health-reporting",
+              "modified": "2017-01-01",
+              "programCode": [
+                "009:110"
+              ],
+              "publisher": {
+                "@type": "org:Organization",
+                "name": "Office of the National Coordinator for Health Information Technology"
+              },
+              "references": [
+                "https://www.healthit.gov/data/quickstats/hospital-selection-public-health-measures-state"
+              ],
+              "theme": [
+                "ASTP"
+              ],
+              "title": "Hospital Public Health Reporting"
+            },
+            "description": "The Centers for Medicare &amp; Medicaid Services (CMS) EHR Incentive Program provides incentive payments for eligible hospitals to adopt and meaningfully use certified health IT. Among the requirements to receive an incentive payment, participating hospitals must report on public health measures. These measures include the electronic reporting of data regarding: immunizations, emergency department visits (syndromic surveillance), reportable infectious disease laboratory results, and electronic patient data to specialized registries, like cancert. As of 2015, stage 2 of the EHR Incentive Program requires hospitals to report on three public health measures, when applicable, and modified stage 2 of the program requires hospitals to report on two of the three measures. This dataset includes the percentage of hospitals who reported on these measures in program years, 2013, 2014 and 2015.",
+            "distribution_titles": [
+              "hospital-mu-public-health-measures.csv"
+            ],
+            "harvest_record": "https://catalog.data.gov/harvest_record/ecb013c5-9943-4e1e-ab74-90975ea3694e",
+            "harvest_record_raw": "https://catalog.data.gov/harvest_record/ecb013c5-9943-4e1e-ab74-90975ea3694e/raw",
+            "has_spatial": false,
+            "identifier": "vzcc5ta0-36kx-g2f7-uzay-ps4jb0jt6xdw",
+            "keyword": [
+              "cms ehr incentive program",
+              "emergency department visits",
+              "health information technology",
+              "health it",
+              "interoperability",
+              "public health measures",
+              "public health measures reporting"
+            ],
+            "last_harvested_date": "2025-08-09T02:51:20.280686",
+            "organization": {
+              "aliases": [
+                "US",
+                "dept"
+              ],
+              "description": null,
+              "id": "2c2fc21f-21d0-4450-af01-cf8c69b44156",
+              "logo": "https://raw.githubusercontent.com/GSA/logo/refs/heads/master/hhs.png",
+              "name": "U.S. Department of Health & Human Services",
+              "organization_type": "Federal Government",
+              "slug": "hhs"
+            },
+            "popularity": 13,
+            "publisher": "Office of the National Coordinator for Health Information Technology",
+            "slug": "hospital-public-health-reporting",
+            "spatial_centroid": null,
+            "spatial_shape": null,
+            "theme": [
+              "ASTP"
+            ],
+            "title": "Hospital Public Health Reporting"
+          }
+        ],
+        "sort": "relevance"
+      }
+    }
+  ]
+}

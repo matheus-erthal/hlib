@@ -1,0 +1,3543 @@
+{
+  "captured_at": "2026-07-20",
+  "calls": [
+    {
+      "url": "https://www.data.gouv.fr/api/1/datasets/",
+      "params": {
+        "q": "transport",
+        "page_size": 10
+      },
+      "response": {
+        "data": [
+          {
+            "access_audiences": [],
+            "access_type": "open",
+            "access_type_reason": null,
+            "access_type_reason_category": null,
+            "acronym": null,
+            "archived": null,
+            "authorization_request_url": null,
+            "badges": [],
+            "contact_points": [],
+            "created_at": "2015-08-31T10:38:47.310000+00:00",
+            "deleted": null,
+            "description": "Ce jeu de données provient de la Banque de Données Macro-économiques de l'INSEE. La BDM est la principale base de données de séries et indices sur l'ensemble des domaines économiques et sociaux. Elle met à disposition toutes les informations nécessaires au diagnostic conjoncturel, et plus généralement à l'analyse des fluctuations de l'activité économique, aux niveaux global et sectoriel, dans une présentation harmonisée, pour un ensemble de séries en provenance de sources multiples.\n\nTransports :\n\n    Immatriculations de véhicules neufs - Premiers résultats\n    Transports de marchandises selon le réseau et la localisation\n    Transports terrestres de marchandises selon le réseau et le type de marchandises\n    Livraisons de carburants\n    Statistiques de circulation routière\n    Statistiques relatives à l'automobile\n    Transports de voyageurs selon le réseau\n    Indice de coût du transport routier",
+            "description_short": null,
+            "extras": {},
+            "featured": false,
+            "frequency": "monthly",
+            "frequency_date": "2015-11-17T00:00:00+00:00",
+            "harvest": null,
+            "id": "55e4129788ee386899a46ec1",
+            "internal": {
+              "created_at_internal": "2015-08-31T10:38:47.310000+00:00",
+              "last_modified_internal": "2019-02-20T16:45:15.798000+00:00"
+            },
+            "last_modified": "2019-02-20T16:45:15.798000+00:00",
+            "last_update": "2026-07-10T05:07:36.139000+00:00",
+            "license": "fr-lo",
+            "metrics": {
+              "dataservices": 0,
+              "discussions": 3,
+              "discussions_open": 3,
+              "followers": 1,
+              "followers_by_months": {
+                "2024-08": 0,
+                "2024-09": 0,
+                "2024-10": 0,
+                "2024-11": 0,
+                "2024-12": 0,
+                "2025-01": 1,
+                "2025-02": 0,
+                "2025-03": 0,
+                "2025-04": 0,
+                "2025-05": 0,
+                "2025-06": 0,
+                "2025-07": 0,
+                "2025-08": 0
+              },
+              "resources_downloads": 1645,
+              "reuses": 1,
+              "reuses_by_months": {
+                "2024-08": 0,
+                "2024-09": 0,
+                "2024-10": 0,
+                "2024-11": 0,
+                "2024-12": 0,
+                "2025-01": 0,
+                "2025-02": 0,
+                "2025-03": 0,
+                "2025-04": 0,
+                "2025-05": 0,
+                "2025-06": 0,
+                "2025-07": 0,
+                "2025-08": 0
+              },
+              "views": 15635
+            },
+            "organization": {
+              "acronym": null,
+              "badges": [
+                {
+                  "kind": "public-service"
+                },
+                {
+                  "kind": "certified"
+                }
+              ],
+              "class": "Organization",
+              "id": "534fff81a3a7292c64a77e5c",
+              "logo": "https://udata-avatars.s3.rbx.io.cloud.ovh.net/64/f90b7bc5674a8c9160fad0ec1def4d.png",
+              "logo_thumbnail": "https://udata-avatars.s3.rbx.io.cloud.ovh.net/64/f90b7bc5674a8c9160fad0ec1def4d-100.png",
+              "name": "Institut national de la statistique et des études économiques (Insee)",
+              "page": "https://www.data.gouv.fr/organizations/institut-national-de-la-statistique-et-des-etudes-economiques-insee",
+              "permissions": {
+                "delete": false,
+                "edit": false,
+                "harvest": false,
+                "members": false,
+                "private": false
+              },
+              "slug": "institut-national-de-la-statistique-et-des-etudes-economiques-insee",
+              "uri": "https://www.data.gouv.fr/api/1/organizations/institut-national-de-la-statistique-et-des-etudes-economiques-insee/"
+            },
+            "owner": null,
+            "page": "https://www.data.gouv.fr/datasets/transports",
+            "permissions": {
+              "delete": false,
+              "edit": false,
+              "edit_resources": false
+            },
+            "private": false,
+            "quality": {
+              "all_resources_available": true,
+              "dataset_description_quality": true,
+              "has_open_format": true,
+              "has_resources": true,
+              "license": true,
+              "resources_documentation": false,
+              "score": 0.8888888888888888,
+              "spatial": true,
+              "temporal_coverage": true,
+              "update_frequency": true,
+              "update_fulfilled_in_time": true
+            },
+            "resources": [
+              {
+                "checksum": null,
+                "created_at": "2015-11-17T17:06:51.116000+00:00",
+                "description": null,
+                "extras": {
+                  "analysis:check_id": 49758313,
+                  "analysis:checksum": "2dd8533b0c828e18ad9ce9fde40f29ed01c00850",
+                  "analysis:content-length": 62012,
+                  "analysis:last-modified-at": "2026-07-10T05:07:36.139538+00:00",
+                  "analysis:last-modified-detection": "content-length-header",
+                  "analysis:mime-type": "application/javascript",
+                  "check:available": true,
+                  "check:cors:status": 200,
+                  "check:count-availability": 44,
+                  "check:date": "2026-07-10T05:07:36.145021+00:00",
+                  "check:headers:charset": "utf-8",
+                  "check:headers:content-length": 62012,
+                  "check:headers:content-type": "text/html",
+                  "check:id": 49758313,
+                  "check:status": 200,
+                  "check:timeout": false,
+                  "check:url": "https://www.insee.fr/fr/statistiques?debut=0&theme=66&categorie=10"
+                },
+                "filesize": null,
+                "filetype": "remote",
+                "format": "html",
+                "harvest": null,
+                "id": "14ef4d5e-a317-4edc-9993-5bca0ec92796",
+                "internal": {
+                  "created_at_internal": "2015-11-17T17:06:51.116000+00:00",
+                  "last_modified_internal": "2019-02-20T16:45:15.798000+00:00"
+                },
+                "last_modified": "2026-07-10T05:07:36.139538+00:00",
+                "latest": "https://www.data.gouv.fr/api/1/datasets/r/14ef4d5e-a317-4edc-9993-5bca0ec92796",
+                "metrics": {
+                  "nb_hits": 0,
+                  "nb_uniq_visitors": 0,
+                  "nb_visits": 0,
+                  "views": 1647
+                },
+                "mime": "text/html",
+                "preview_url": null,
+                "schema": null,
+                "title": "Séries chronologiques actives",
+                "type": "main",
+                "url": "https://www.insee.fr/fr/statistiques?debut=0&theme=66&categorie=10"
+              }
+            ],
+            "schema": null,
+            "slug": "transports",
+            "spatial": {
+              "geom": null,
+              "granularity": "country",
+              "zones": [
+                "country:fr"
+              ]
+            },
+            "tags": [
+              "automobiles",
+              "carburant",
+              "immatriculations",
+              "transports",
+              "voitures"
+            ],
+            "temporal_coverage": {
+              "end": "2015-07-01",
+              "start": "1982-01-01"
+            },
+            "title": "Transports",
+            "uri": "https://www.data.gouv.fr/api/1/datasets/transports/"
+          },
+          {
+            "access_audiences": [],
+            "access_type": "open",
+            "access_type_reason": null,
+            "access_type_reason_category": null,
+            "acronym": null,
+            "archived": null,
+            "authorization_request_url": null,
+            "badges": [],
+            "contact_points": [],
+            "created_at": "2014-07-01T15:02:22.576000+00:00",
+            "deleted": null,
+            "description": "Données relatives au transport ",
+            "description_short": null,
+            "extras": {
+              "datagouv_ckan_id": "175ecf84-877e-42d8-829a-960339c99cd0",
+              "datagouv_ckan_last_sync": "2014-09-16T10:22:41.480000"
+            },
+            "featured": false,
+            "frequency": "unknown",
+            "frequency_date": null,
+            "harvest": null,
+            "id": "53ba5b91a3a729219b7beae9",
+            "internal": {
+              "created_at_internal": "2014-07-01T15:02:22.576000+00:00",
+              "last_modified_internal": "2016-03-10T23:39:43.037000+00:00"
+            },
+            "last_modified": "2016-03-10T23:39:43.037000+00:00",
+            "last_update": "2014-09-02T15:44:46.643000+00:00",
+            "license": "cc-zero",
+            "metrics": {
+              "dataservices": 0,
+              "discussions": 0,
+              "discussions_open": 0,
+              "followers": 0,
+              "followers_by_months": {
+                "2024-08": 0,
+                "2024-09": 0,
+                "2024-10": 0,
+                "2024-11": 0,
+                "2024-12": 0,
+                "2025-01": 0,
+                "2025-02": 0,
+                "2025-03": 0,
+                "2025-04": 0,
+                "2025-05": 0,
+                "2025-06": 0,
+                "2025-07": 0,
+                "2025-08": 0
+              },
+              "resources_downloads": 494,
+              "reuses": 0,
+              "reuses_by_months": {
+                "2024-08": 0,
+                "2024-09": 0,
+                "2024-10": 0,
+                "2024-11": 0,
+                "2024-12": 0,
+                "2025-01": 0,
+                "2025-02": 0,
+                "2025-03": 0,
+                "2025-04": 0,
+                "2025-05": 0,
+                "2025-06": 0,
+                "2025-07": 0,
+                "2025-08": 0
+              },
+              "views": 4024
+            },
+            "organization": {
+              "acronym": null,
+              "badges": [
+                {
+                  "kind": "local-authority"
+                },
+                {
+                  "kind": "certified"
+                }
+              ],
+              "class": "Organization",
+              "id": "53ae7fc3a3a729709f56d4f4",
+              "logo": "https://udata-avatars.s3.rbx.io.cloud.ovh.net/a2/dda710d184465193b4a7a22594e626.png",
+              "logo_thumbnail": "https://udata-avatars.s3.rbx.io.cloud.ovh.net/a2/dda710d184465193b4a7a22594e626-100.png",
+              "name": "Mairie de Monacia d'Aullène",
+              "page": "https://www.data.gouv.fr/organizations/mairie-de-monacia-d-aullene",
+              "permissions": {
+                "delete": false,
+                "edit": false,
+                "harvest": false,
+                "members": false,
+                "private": false
+              },
+              "slug": "mairie-de-monacia-d-aullene",
+              "uri": "https://www.data.gouv.fr/api/1/organizations/mairie-de-monacia-d-aullene/"
+            },
+            "owner": null,
+            "page": "https://www.data.gouv.fr/datasets/transport",
+            "permissions": {
+              "delete": false,
+              "edit": false,
+              "edit_resources": false
+            },
+            "private": false,
+            "quality": {
+              "all_resources_available": true,
+              "dataset_description_quality": false,
+              "has_open_format": true,
+              "has_resources": true,
+              "license": true,
+              "resources_documentation": true,
+              "score": 0.4444444444444444,
+              "spatial": false,
+              "temporal_coverage": false,
+              "update_frequency": false
+            },
+            "resources": [
+              {
+                "checksum": null,
+                "created_at": "2014-07-07T10:34:25.438000+00:00",
+                "description": "Parkings auto à Monacia d'Aullène ",
+                "extras": {
+                  "analysis:checksum": "f0a7cc05a905d6619a81ba8eb1bde2b07eaafe1e",
+                  "analysis:content-length": 150,
+                  "analysis:mime-type": "text/plain",
+                  "analysis:parsing:finished_at": "2023-06-01 16:02:12.093997+02",
+                  "analysis:parsing:parsing_table": "050b0f09c82267519c7e9e4f17a5514b",
+                  "check:available": true,
+                  "check:cors:allow-credentials": "true",
+                  "check:cors:allow-headers": "Origin,Authorization,Accept,DNT,User-Agent,If-Modified-Since,Cache-Control,Content-Type,Range,sentry-trace,baggage",
+                  "check:cors:allow-methods": "GET, OPTIONS",
+                  "check:cors:allow-origin": "*",
+                  "check:cors:max-age": "1728000",
+                  "check:cors:status": 204,
+                  "check:date": "2026-02-15T18:41:28.339671+00:00",
+                  "check:headers:content-length": 150,
+                  "check:headers:content-type": "text/csv",
+                  "check:id": 41720605,
+                  "check:status": 200,
+                  "check:timeout": false
+                },
+                "filesize": null,
+                "filetype": "file",
+                "format": "csv, api",
+                "harvest": null,
+                "id": "580f2c63-8d22-490a-9ad3-eaef71edcae3",
+                "internal": {
+                  "created_at_internal": "2014-07-07T10:34:25.438000+00:00",
+                  "last_modified_internal": "2014-07-01T15:04:59.235000+00:00"
+                },
+                "last_modified": "2014-07-01T15:04:59.235000+00:00",
+                "latest": "https://www.data.gouv.fr/api/1/datasets/r/580f2c63-8d22-490a-9ad3-eaef71edcae3",
+                "metrics": {
+                  "nb_hits": 0,
+                  "nb_uniq_visitors": 0,
+                  "nb_visits": 0,
+                  "views": 264
+                },
+                "mime": null,
+                "preview_url": "https://explore.data.gouv.fr/fr/resources/580f2c63-8d22-490a-9ad3-eaef71edcae3",
+                "schema": null,
+                "title": "Parkings Monacia ",
+                "type": "main",
+                "url": "https://www.data.gouv.fr/storage/f/2014-07-01T17-04-46/parkings-monacia.csv"
+              },
+              {
+                "checksum": null,
+                "created_at": "2014-09-04T07:53:16.092000+00:00",
+                "description": "Horaires des arrêts  de bus départementaux  sur la commune  (1 arrêt )-Ligne régulière Ajaccio/Porto Vecchio /Bonifacio  et Bonifacio /Porto Vecchio /Ajaccio  ",
+                "extras": {
+                  "analysis:checksum": "9b08e6af168187be04bd06e2e4651e81b320f58c",
+                  "analysis:content-length": 1768,
+                  "analysis:last-modified-at": "2014-10-15T01:32:47+00:00",
+                  "analysis:last-modified-detection": "last-modified-header",
+                  "analysis:mime-type": "application/zip",
+                  "check:available": true,
+                  "check:cors:allow-credentials": "true",
+                  "check:cors:allow-headers": "Origin,Authorization,Accept,DNT,User-Agent,If-Modified-Since,Cache-Control,Content-Type,Range,sentry-trace,baggage",
+                  "check:cors:allow-methods": "GET, OPTIONS",
+                  "check:cors:allow-origin": "*",
+                  "check:cors:max-age": "1728000",
+                  "check:cors:status": 204,
+                  "check:date": "2026-02-15T01:04:24.478209+00:00",
+                  "check:headers:content-length": 1768,
+                  "check:headers:content-type": "application/zip",
+                  "check:id": 41592692,
+                  "check:status": 200,
+                  "check:timeout": false
+                },
+                "filesize": null,
+                "filetype": "file",
+                "format": "gtfs",
+                "harvest": null,
+                "id": "5dcd2c38-e53f-4d24-9c88-dc8030815290",
+                "internal": {
+                  "created_at_internal": "2014-09-04T07:53:16.092000+00:00",
+                  "last_modified_internal": "2014-09-02T15:44:46.643000+00:00"
+                },
+                "last_modified": "2014-09-02T15:44:46.643000+00:00",
+                "latest": "https://www.data.gouv.fr/api/1/datasets/r/5dcd2c38-e53f-4d24-9c88-dc8030815290",
+                "metrics": {
+                  "nb_hits": 0,
+                  "nb_uniq_visitors": 0,
+                  "nb_visits": 0,
+                  "views": 263
+                },
+                "mime": null,
+                "preview_url": null,
+                "schema": null,
+                "title": "Horaires des arrêts de transport du bus Départemental  - Ligne régulière",
+                "type": "main",
+                "url": "https://www.data.gouv.fr/storage/f/2014-09-02T17-38-39/arret-monacia-ligne-reguliere.zip"
+              }
+            ],
+            "schema": null,
+            "slug": "transport",
+            "spatial": null,
+            "tags": [],
+            "temporal_coverage": null,
+            "title": "Transport ",
+            "uri": "https://www.data.gouv.fr/api/1/datasets/transport/"
+          },
+          {
+            "access_audiences": [],
+            "access_type": "open",
+            "access_type_reason": null,
+            "access_type_reason_category": null,
+            "acronym": null,
+            "archived": null,
+            "authorization_request_url": null,
+            "badges": [],
+            "contact_points": [],
+            "created_at": "2023-02-22T00:00:00+00:00",
+            "deleted": null,
+            "description": "Représentation graphique et attributs des lignes de bus du réseau Transpors du Pays Voironnais (Nom de la ligne, accessibilité PMR, arrêts...)   \nURL: https://data.mobilites-m.fr/api/lines/json?types=ligne&reseaux;=TPV   \n  \nUne documentation plus complète de l'API M permettant notamment de filtrer les données est disponible à l'adresse suivante : https://data.mobilites-m.fr/donnees#referentiel",
+            "description_short": null,
+            "extras": {
+              "FTP_API": "hub",
+              "ckan:frequency": "trimestrial",
+              "ckan:spatial-text": "Pays Voironnais",
+              "data_interop": "0",
+              "data_rgpd": "0",
+              "date_deposit": "2023-08-03",
+              "date_modification": "2023-08-03",
+              "date_moissonnage_last_modification": "2023-02-22T15:58:28.454080",
+              "edition_security": "{\"roles\":[\"administrator\"],\"users\":[\"*119*\",\"*116*\",\"*1*\"]}",
+              "encoding": "UTF-8",
+              "features": "geo,table",
+              "harvest_object_id": "6d173055-a95a-4769-a997-74ae813f363a",
+              "harvest_source_id": "f55e025c-84c6-4c12-8d40-9e78806fd207",
+              "harvest_source_title": "TEST GRENOBLE",
+              "nb_download": "00000034",
+              "nb_views": "00000249",
+              "records_count": "0000000014",
+              "responsible-organisation-1": "{\"organisation-role\":\"\",\"organisation-name\":\"\",\"contact-info\":{\"email\":\"\",\"individual-name\":\"\",\"position-name\":\"\",\"phone\":\"\",\"address\":\"\",\"postal-code\":\"\",\"city\":\"\",\"country\":\"\"}}",
+              "themes": "[\"transport_et_mobilite\"]",
+              "uploader": "spe"
+            },
+            "featured": false,
+            "frequency": "unknown",
+            "frequency_date": null,
+            "harvest": {
+              "backend": "CKAN",
+              "created_at": "2023-02-22T00:00:00+00:00",
+              "domain": "grenoble-backoffice.data4citizen.com",
+              "last_update": "2026-07-20T00:06:09.707000+00:00",
+              "remote_id": "ab4d3e51-f91b-476d-91c3-50e7b4db12fd",
+              "remote_url": "https://grenoble-backoffice.data4citizen.com//dataset/lignes-de-transport-du-reseau-transports-du-pays-voironnais",
+              "source_id": "5c019110634f41551628b573"
+            },
+            "id": "65c2cb9b63ecd614c2e5f9fe",
+            "internal": {
+              "created_at_internal": "2024-02-07T00:15:23.793000+00:00",
+              "last_modified_internal": "2024-02-07T00:15:23.793000+00:00"
+            },
+            "last_modified": "2024-02-07T00:15:23.793000+00:00",
+            "last_update": "2023-08-03T12:56:16+00:00",
+            "license": "odc-odbl",
+            "metrics": {
+              "dataservices": 0,
+              "discussions": 0,
+              "discussions_open": 0,
+              "followers": 0,
+              "followers_by_months": {
+                "2025-01": 0,
+                "2025-02": 0,
+                "2025-03": 0,
+                "2025-04": 0,
+                "2025-05": 0,
+                "2025-06": 0,
+                "2025-07": 0,
+                "2025-08": 0,
+                "2025-09": 0,
+                "2025-10": 0,
+                "2025-11": 0,
+                "2025-12": 0,
+                "2026-01": 0
+              },
+              "resources_downloads": 477,
+              "reuses": 0,
+              "reuses_by_months": {
+                "2025-01": 0,
+                "2025-02": 0,
+                "2025-03": 0,
+                "2025-04": 0,
+                "2025-05": 0,
+                "2025-06": 0,
+                "2025-07": 0,
+                "2025-08": 0,
+                "2025-09": 0,
+                "2025-10": 0,
+                "2025-11": 0,
+                "2025-12": 0,
+                "2026-01": 0
+              },
+              "views": 1859
+            },
+            "organization": {
+              "acronym": "SMMAG",
+              "badges": [
+                {
+                  "kind": "certified"
+                },
+                {
+                  "kind": "public-service"
+                }
+              ],
+              "class": "Organization",
+              "id": "575fc7f0c751df0e1dac31a0",
+              "logo": "https://udata-avatars.s3.rbx.io.cloud.ovh.net/9e/8cb873d4ec48dda1c8f31abe7d5802.png",
+              "logo_thumbnail": "https://udata-avatars.s3.rbx.io.cloud.ovh.net/9e/8cb873d4ec48dda1c8f31abe7d5802-100.png",
+              "name": "Syndicat Mixte des Mobilités de l'Aire Grenobloise",
+              "page": "https://www.data.gouv.fr/organizations/syndicat-mixte-des-mobilites-de-laire-grenobloise",
+              "permissions": {
+                "delete": false,
+                "edit": false,
+                "harvest": false,
+                "members": false,
+                "private": false
+              },
+              "slug": "syndicat-mixte-des-mobilites-de-laire-grenobloise",
+              "uri": "https://www.data.gouv.fr/api/1/organizations/syndicat-mixte-des-mobilites-de-laire-grenobloise/"
+            },
+            "owner": null,
+            "page": "https://www.data.gouv.fr/datasets/lignes-de-transport-du-reseau-transports-du-pays-voironnais-1",
+            "permissions": {
+              "delete": false,
+              "edit": false,
+              "edit_resources": false
+            },
+            "private": false,
+            "quality": {
+              "all_resources_available": true,
+              "dataset_description_quality": true,
+              "has_open_format": true,
+              "has_resources": true,
+              "license": true,
+              "resources_documentation": false,
+              "score": 0.4444444444444444,
+              "spatial": false,
+              "temporal_coverage": false,
+              "update_frequency": false
+            },
+            "resources": [
+              {
+                "checksum": null,
+                "created_at": "2023-08-03T00:00:00+00:00",
+                "description": "",
+                "extras": {
+                  "analysis:checksum": "dd16f4ddd2a54298c6e9251ba2b2f1cc94b84ea2",
+                  "analysis:content-length": 56757,
+                  "analysis:last-modified-at": "2023-08-03T12:56:06+00:00",
+                  "analysis:last-modified-detection": "last-modified-header",
+                  "analysis:mime-type": "application/json",
+                  "check:available": true,
+                  "check:cors:allow-credentials": "true",
+                  "check:cors:allow-headers": "DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range",
+                  "check:cors:allow-methods": "GET, POST, PUT, DELETE, OPTIONS",
+                  "check:cors:allow-origin": "*",
+                  "check:cors:status": 200,
+                  "check:date": "2026-03-17T14:58:59.780481+00:00",
+                  "check:headers:content-length": 56757,
+                  "check:headers:content-type": "application/json",
+                  "check:id": 43761561,
+                  "check:status": 200,
+                  "check:timeout": false
+                },
+                "filesize": null,
+                "filetype": "remote",
+                "format": "json",
+                "harvest": {
+                  "issued_at": "2023-08-03T00:00:00+00:00",
+                  "last_update": "2026-07-20T00:06:09.707000+00:00"
+                },
+                "id": "77b42458-dbdb-4b15-9bee-22a4557e1968",
+                "internal": {
+                  "created_at_internal": "2024-02-07T00:15:23.832000+00:00",
+                  "last_modified_internal": "2024-02-07T00:15:23.832000+00:00"
+                },
+                "last_modified": "2023-08-03T12:56:06+00:00",
+                "latest": "https://www.data.gouv.fr/api/1/datasets/r/77b42458-dbdb-4b15-9bee-22a4557e1968",
+                "metrics": {
+                  "views": 254
+                },
+                "mime": "application/json",
+                "preview_url": null,
+                "schema": {
+                  "name": null,
+                  "url": null,
+                  "version": null
+                },
+                "title": "lignes_transport_reseau_tpv.json",
+                "type": "main",
+                "url": "https://data.metropolegrenoble.fr/sites/default/files/dataset/2023/08/03/ab4d3e51-f91b-476d-91c3-50e7b4db12fd/lignes_transport_reseau_tpv.json"
+              },
+              {
+                "checksum": null,
+                "created_at": "2023-08-03T00:00:00+00:00",
+                "description": "",
+                "extras": {
+                  "analysis:checksum": "434df4ee6b8feb46a07004615d0f9a7a01641842",
+                  "analysis:content-length": 56069,
+                  "analysis:last-modified-at": "2023-08-03T12:56:16+00:00",
+                  "analysis:last-modified-detection": "last-modified-header",
+                  "analysis:mime-type": "application/csv",
+                  "check:available": true,
+                  "check:cors:allow-credentials": "true",
+                  "check:cors:allow-headers": "DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range",
+                  "check:cors:allow-methods": "GET, POST, PUT, DELETE, OPTIONS",
+                  "check:cors:allow-origin": "*",
+                  "check:cors:status": 200,
+                  "check:date": "2026-03-16T16:36:56.607570+00:00",
+                  "check:headers:content-length": 56069,
+                  "check:headers:content-type": "text/csv",
+                  "check:id": 43678083,
+                  "check:status": 200,
+                  "check:timeout": false
+                },
+                "filesize": null,
+                "filetype": "remote",
+                "format": "csv",
+                "harvest": {
+                  "issued_at": "2023-08-03T00:00:00+00:00",
+                  "last_update": "2026-07-20T00:06:09.707000+00:00"
+                },
+                "id": "30d584cf-804f-44a3-945a-2f4cac782918",
+                "internal": {
+                  "created_at_internal": "2024-02-07T00:15:23.832000+00:00",
+                  "last_modified_internal": "2024-02-07T00:15:23.832000+00:00"
+                },
+                "last_modified": "2023-08-03T12:56:16+00:00",
+                "latest": "https://www.data.gouv.fr/api/1/datasets/r/30d584cf-804f-44a3-945a-2f4cac782918",
+                "metrics": {
+                  "views": 253
+                },
+                "mime": "text/csv",
+                "preview_url": null,
+                "schema": {
+                  "name": null,
+                  "url": null,
+                  "version": null
+                },
+                "title": "lignes_transport_reseau_tpv.csv",
+                "type": "main",
+                "url": "https://data.metropolegrenoble.fr/sites/default/files/dataset/2023/08/03/ab4d3e51-f91b-476d-91c3-50e7b4db12fd/csv_gen_ab4d3e51_f91b_476d_91c3_50e7b4db12fd_64cba3ef6493c.csv"
+              }
+            ],
+            "schema": null,
+            "slug": "lignes-de-transport-du-reseau-transports-du-pays-voironnais-1",
+            "spatial": null,
+            "tags": [
+              "arret",
+              "bus",
+              "ligne",
+              "metromobilite",
+              "mobilites",
+              "trace",
+              "transport",
+              "voironnais"
+            ],
+            "temporal_coverage": null,
+            "title": "Lignes de transport du réseau Transports du Pays Voironnais",
+            "uri": "https://www.data.gouv.fr/api/1/datasets/lignes-de-transport-du-reseau-transports-du-pays-voironnais-1/"
+          },
+          {
+            "access_audiences": [],
+            "access_type": "open",
+            "access_type_reason": null,
+            "access_type_reason_category": null,
+            "acronym": null,
+            "archived": null,
+            "authorization_request_url": null,
+            "badges": [],
+            "contact_points": [],
+            "created_at": "2021-12-20T12:14:27.778000+00:00",
+            "deleted": null,
+            "description": "Offre de transport du réseau urbain Agglobus et de transports scolaires (GTFS)",
+            "description_short": null,
+            "extras": {
+              "transport:url": "https://transport.data.gouv.fr/datasets/transport-du-reseau-urbain-agglobus-et-de-transports-scolaires-gtfs"
+            },
+            "featured": false,
+            "frequency": "unknown",
+            "frequency_date": null,
+            "harvest": null,
+            "id": "61c065936154db12e7e1359d",
+            "internal": {
+              "created_at_internal": "2021-12-20T12:14:27.778000+00:00",
+              "last_modified_internal": "2026-07-01T07:07:38.802000+00:00"
+            },
+            "last_modified": "2026-07-01T07:07:38.802000+00:00",
+            "last_update": "2026-07-01T07:07:38.798000+00:00",
+            "license": "lov2",
+            "metrics": {
+              "dataservices": 0,
+              "discussions": 14,
+              "discussions_open": 13,
+              "followers": 2,
+              "followers_by_months": {
+                "2024-08": 0,
+                "2024-09": 0,
+                "2024-10": 0,
+                "2024-11": 0,
+                "2024-12": 0,
+                "2025-01": 0,
+                "2025-02": 0,
+                "2025-03": 0,
+                "2025-04": 0,
+                "2025-05": 0,
+                "2025-06": 0,
+                "2025-07": 0,
+                "2025-08": 0
+              },
+              "resources_downloads": 57039,
+              "reuses": 5,
+              "reuses_by_months": {
+                "2025-06": 0,
+                "2025-07": 0,
+                "2025-08": 0,
+                "2025-09": 0,
+                "2025-10": 0,
+                "2025-11": 0,
+                "2025-12": 0,
+                "2026-01": 0,
+                "2026-02": 0,
+                "2026-03": 0,
+                "2026-04": 0,
+                "2026-05": 1,
+                "2026-06": 0
+              },
+              "views": 5495
+            },
+            "organization": {
+              "acronym": null,
+              "badges": [
+                {
+                  "kind": "certified"
+                },
+                {
+                  "kind": "local-authority"
+                }
+              ],
+              "class": "Organization",
+              "id": "5bf2d970634f414ab5643cee",
+              "logo": "https://udata-avatars.s3.rbx.io.cloud.ovh.net/58/160028eb1240668f424bb8c79ce46c.jpg",
+              "logo_thumbnail": "https://udata-avatars.s3.rbx.io.cloud.ovh.net/58/160028eb1240668f424bb8c79ce46c-100.jpg",
+              "name": "Open Data Rodez Agglomération",
+              "page": "https://www.data.gouv.fr/organizations/open-data-rodez-agglomeration",
+              "permissions": {
+                "delete": false,
+                "edit": false,
+                "harvest": false,
+                "members": false,
+                "private": false
+              },
+              "slug": "open-data-rodez-agglomeration",
+              "uri": "https://www.data.gouv.fr/api/1/organizations/open-data-rodez-agglomeration/"
+            },
+            "owner": null,
+            "page": "https://www.data.gouv.fr/datasets/transport-du-reseau-urbain-agglobus-et-de-transports-scolaires-gtfs",
+            "permissions": {
+              "delete": false,
+              "edit": false,
+              "edit_resources": false
+            },
+            "private": false,
+            "quality": {
+              "all_resources_available": true,
+              "dataset_description_quality": false,
+              "has_open_format": true,
+              "has_resources": true,
+              "license": true,
+              "resources_documentation": false,
+              "score": 0.4444444444444444,
+              "spatial": true,
+              "temporal_coverage": false,
+              "update_frequency": false
+            },
+            "resources": [
+              {
+                "checksum": {
+                  "type": "sha1",
+                  "value": "24ff7d7471b3dd60bc1965de6721253147ab0ce6"
+                },
+                "created_at": "2023-08-03T08:39:15.878000+00:00",
+                "description": null,
+                "extras": {
+                  "analysis:check_id": 49313419,
+                  "analysis:checksum": "24ff7d7471b3dd60bc1965de6721253147ab0ce6",
+                  "analysis:content-length": 401427,
+                  "analysis:last-modified-at": "2026-07-01T07:07:38+00:00",
+                  "analysis:last-modified-detection": "last-modified-header",
+                  "analysis:mime-type": "application/zip",
+                  "check:available": true,
+                  "check:cors:allow-credentials": "true",
+                  "check:cors:allow-headers": "Origin,Authorization,Accept,DNT,User-Agent,If-Modified-Since,Cache-Control,Content-Type,Range,sentry-trace,baggage",
+                  "check:cors:allow-methods": "GET, OPTIONS",
+                  "check:cors:allow-origin": "*",
+                  "check:cors:max-age": "1728000",
+                  "check:cors:status": 204,
+                  "check:date": "2026-07-01T07:00:48.553000",
+                  "check:headers:content-length": 401427,
+                  "check:headers:content-type": "application/zip",
+                  "check:id": 49313332,
+                  "check:status": 200,
+                  "check:timeout": false
+                },
+                "filesize": 401427,
+                "filetype": "file",
+                "format": "zip",
+                "harvest": null,
+                "id": "f17028a4-61ff-4b84-8856-f7c8937a2c28",
+                "internal": {
+                  "created_at_internal": "2023-08-03T08:39:15.878000+00:00",
+                  "last_modified_internal": "2026-07-01T07:07:38.798000+00:00"
+                },
+                "last_modified": "2026-07-01T07:07:38.798000+00:00",
+                "latest": "https://www.data.gouv.fr/api/1/datasets/r/f17028a4-61ff-4b84-8856-f7c8937a2c28",
+                "metrics": {
+                  "views": 55876
+                },
+                "mime": "application/zip",
+                "preview_url": null,
+                "schema": {
+                  "name": null,
+                  "url": null,
+                  "version": null
+                },
+                "title": "gtfs-rodezagglo.zip",
+                "type": "main",
+                "url": "https://static.data.gouv.fr/resources/transport-du-reseau-urbain-agglobus-et-de-transports-scolaires-gtfs/20260701-070738/gtfsrodezagglo.zip"
+              }
+            ],
+            "schema": null,
+            "slug": "transport-du-reseau-urbain-agglobus-et-de-transports-scolaires-gtfs",
+            "spatial": {
+              "geom": null,
+              "granularity": "fr:epci",
+              "zones": [
+                "fr:epci:241200187"
+              ]
+            },
+            "tags": [
+              "agglobus",
+              "bus",
+              "rodez",
+              "rodez-agglomeration"
+            ],
+            "temporal_coverage": null,
+            "title": "Transport du réseau urbain Agglobus et de transports scolaires (GTFS)",
+            "uri": "https://www.data.gouv.fr/api/1/datasets/transport-du-reseau-urbain-agglobus-et-de-transports-scolaires-gtfs/"
+          },
+          {
+            "access_audiences": [],
+            "access_type": "open",
+            "access_type_reason": null,
+            "access_type_reason_category": null,
+            "acronym": null,
+            "archived": null,
+            "authorization_request_url": null,
+            "badges": [
+              {
+                "kind": "inspire"
+              }
+            ],
+            "contact_points": [
+              {
+                "contact_form": null,
+                "email": "ddt-sat@loir-et-cher.gouv.fr",
+                "id": "691fc8650139d2f8f22082b3",
+                "name": "DDT 41 (Direction Départementale des Territoires du Loir-et-Cher)",
+                "organization": {
+                  "acronym": "DDT 41",
+                  "badges": [
+                    {
+                      "kind": "certified"
+                    },
+                    {
+                      "kind": "public-service"
+                    }
+                  ],
+                  "class": "Organization",
+                  "id": "558e9d43c751df75fea453d1",
+                  "logo": "https://udata-avatars.s3.rbx.io.cloud.ovh.net/2015-06-27/4c70d12fa81640779cf1e839015bc60e/logo_DDT.png",
+                  "logo_thumbnail": "https://udata-avatars.s3.rbx.io.cloud.ovh.net/2015-06-27/4c70d12fa81640779cf1e839015bc60e/logo_DDT-100.png",
+                  "name": "Direction Départementale des Territoires de Loir-et-Cher",
+                  "page": "https://www.data.gouv.fr/organizations/direction-departementale-des-territoires-de-loir-et-cher",
+                  "permissions": {
+                    "delete": false,
+                    "edit": false,
+                    "harvest": false,
+                    "members": false,
+                    "private": false
+                  },
+                  "slug": "direction-departementale-des-territoires-de-loir-et-cher",
+                  "uri": "https://www.data.gouv.fr/api/1/organizations/direction-departementale-des-territoires-de-loir-et-cher/"
+                },
+                "owner": null,
+                "role": "rightsHolder"
+              }
+            ],
+            "created_at": "2017-07-13T00:00:00+00:00",
+            "deleted": null,
+            "description": "Tronçons routiers pour lesquels est autorisé le transport de Bois ronds conformément à l'arrêté transport Bois ronds en loir-et-Cher du 26 juillet 2010.",
+            "description_short": null,
+            "extras": {
+              "dcat": {
+                "accessRights": [
+                  "Pas de restriction d'accès public selon INSPIRE"
+                ],
+                "provenance": [
+                  "Tronçons des routes extraits du référentiel de la BD TOPO\n______________________\nCarto2 : Itinéraires de transport des bois ronds en Loir-et-Cher"
+                ],
+                "spatial_resolution": "1/100000"
+              }
+            },
+            "featured": false,
+            "frequency": "unknown",
+            "frequency_date": null,
+            "harvest": {
+              "backend": "CSW-ISO-19139",
+              "created_at": "2018-03-01T00:00:00+00:00",
+              "dct_identifier": "http://catalogue.geo-ide.developpement-durable.gouv.fr/dd26c1e9-37c2-4499-a476-07edda5fa5d9",
+              "domain": "ogc.geo-ide.developpement-durable.gouv.fr",
+              "issued_at": "2017-07-13T00:00:00+00:00",
+              "last_update": "2026-07-20T02:08:12.060000+00:00",
+              "modified_at": "2024-05-28T00:00:00+00:00",
+              "remote_id": "http://catalogue.geo-ide.developpement-durable.gouv.fr/dd26c1e9-37c2-4499-a476-07edda5fa5d9",
+              "remote_url": "http://catalogue.geo-ide.developpement-durable.gouv.fr/catalogue/srv/fre/catalog.search#/metadata/fr-120066022-jdd-2c0d4b8a-494b-4b4e-bf31-db8686c4e090",
+              "source_id": "673779c02d411aa8ce0df3a4",
+              "uri": "http://catalogue.geo-ide.developpement-durable.gouv.fr/dd26c1e9-37c2-4499-a476-07edda5fa5d9"
+            },
+            "id": "67377bbd8705bc2edfc254e8",
+            "internal": {
+              "created_at_internal": "2024-11-15T16:50:05.723000+00:00",
+              "last_modified_internal": "2024-11-15T16:50:05.723000+00:00"
+            },
+            "last_modified": "2024-05-28T00:00:00+00:00",
+            "last_update": "2024-05-28T00:00:00+00:00",
+            "license": "lov2",
+            "metrics": {
+              "dataservices": 0,
+              "discussions": 0,
+              "discussions_open": 0,
+              "followers": 0,
+              "followers_by_months": {
+                "2025-01": 0,
+                "2025-02": 0,
+                "2025-03": 0,
+                "2025-04": 0,
+                "2025-05": 0,
+                "2025-06": 0,
+                "2025-07": 0,
+                "2025-08": 0,
+                "2025-09": 0,
+                "2025-10": 0,
+                "2025-11": 0,
+                "2025-12": 0,
+                "2026-01": 0
+              },
+              "resources_downloads": 262,
+              "reuses": 0,
+              "reuses_by_months": {
+                "2025-01": 0,
+                "2025-02": 0,
+                "2025-03": 0,
+                "2025-04": 0,
+                "2025-05": 0,
+                "2025-06": 0,
+                "2025-07": 0,
+                "2025-08": 0,
+                "2025-09": 0,
+                "2025-10": 0,
+                "2025-11": 0,
+                "2025-12": 0,
+                "2026-01": 0
+              },
+              "views": 858
+            },
+            "organization": {
+              "acronym": "DDT 41",
+              "badges": [
+                {
+                  "kind": "certified"
+                },
+                {
+                  "kind": "public-service"
+                }
+              ],
+              "class": "Organization",
+              "id": "558e9d43c751df75fea453d1",
+              "logo": "https://udata-avatars.s3.rbx.io.cloud.ovh.net/2015-06-27/4c70d12fa81640779cf1e839015bc60e/logo_DDT.png",
+              "logo_thumbnail": "https://udata-avatars.s3.rbx.io.cloud.ovh.net/2015-06-27/4c70d12fa81640779cf1e839015bc60e/logo_DDT-100.png",
+              "name": "Direction Départementale des Territoires de Loir-et-Cher",
+              "page": "https://www.data.gouv.fr/organizations/direction-departementale-des-territoires-de-loir-et-cher",
+              "permissions": {
+                "delete": false,
+                "edit": false,
+                "harvest": false,
+                "members": false,
+                "private": false
+              },
+              "slug": "direction-departementale-des-territoires-de-loir-et-cher",
+              "uri": "https://www.data.gouv.fr/api/1/organizations/direction-departementale-des-territoires-de-loir-et-cher/"
+            },
+            "owner": null,
+            "page": "https://www.data.gouv.fr/datasets/transport-reseau-de-transports-bois-ronds-en-loir-et-cher",
+            "permissions": {
+              "delete": false,
+              "edit": false,
+              "edit_resources": false
+            },
+            "private": false,
+            "quality": {
+              "all_resources_available": true,
+              "dataset_description_quality": false,
+              "has_open_format": true,
+              "has_resources": true,
+              "license": true,
+              "resources_documentation": false,
+              "score": 0.4444444444444444,
+              "spatial": true,
+              "temporal_coverage": false,
+              "update_frequency": false
+            },
+            "resources": [
+              {
+                "checksum": null,
+                "created_at": "2024-11-15T16:50:05.730000+00:00",
+                "description": "",
+                "extras": {
+                  "analysis:checksum": "f39bd23e2584d135b172b22b5609582af853c888",
+                  "analysis:content-length": 443798,
+                  "analysis:mime-type": "application/zip",
+                  "check:available": true,
+                  "check:date": "2024-11-17T11:33:44.282238+00:00",
+                  "check:headers:content-length": 443798,
+                  "check:headers:content-type": "application/zip",
+                  "check:status": 200,
+                  "check:timeout": false,
+                  "dcat": {
+                    "accessRights": [
+                      "Pas de restriction d'accès public selon INSPIRE"
+                    ],
+                    "license": [
+                      "Aucun des articles de la loi ne peut être invoqué pour justifier d'une restriction d'accès public.",
+                      "Licence Ouverte / Open Licence Version 2.0 https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+                    ]
+                  }
+                },
+                "filesize": null,
+                "filetype": "remote",
+                "format": "esri shapefile (shp)",
+                "harvest": {
+                  "last_update": "2026-07-20T02:08:12.051000+00:00"
+                },
+                "id": "69c3b1bc-9cad-4ed6-9a91-ce5bf6f47e13",
+                "internal": {
+                  "created_at_internal": "2024-11-15T16:50:05.730000+00:00",
+                  "last_modified_internal": "2024-11-15T16:50:05.730000+00:00"
+                },
+                "last_modified": "2024-11-15T16:50:05.730000+00:00",
+                "latest": "https://www.data.gouv.fr/api/1/datasets/r/69c3b1bc-9cad-4ed6-9a91-ce5bf6f47e13",
+                "metrics": {
+                  "views": 45
+                },
+                "mime": null,
+                "preview_url": null,
+                "schema": null,
+                "title": "Téléchargement simple (Atom) du jeu et des documents associés via internet",
+                "type": "main",
+                "url": "https://atom.geo-ide.developpement-durable.gouv.fr/atomArchive/GetResource?id=dd26c1e9-37c2-4499-a476-07edda5fa5d9&dataType=dataset"
+              },
+              {
+                "checksum": null,
+                "created_at": "2024-11-15T16:50:05.732000+00:00",
+                "description": "",
+                "extras": {
+                  "dcat": {
+                    "accessRights": [
+                      "Pas de restriction d'accès public selon INSPIRE"
+                    ],
+                    "license": [
+                      "Aucun des articles de la loi ne peut être invoqué pour justifier d'une restriction d'accès public.",
+                      "Licence Ouverte / Open Licence Version 2.0 https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+                    ]
+                  }
+                },
+                "filesize": null,
+                "filetype": "remote",
+                "format": "esri shapefile (shp)",
+                "harvest": {
+                  "last_update": "2026-07-20T02:08:12.051000+00:00"
+                },
+                "id": "fa3e21cd-22f0-485e-b4e8-937c89faf8fe",
+                "internal": {
+                  "created_at_internal": "2024-11-15T16:50:05.732000+00:00",
+                  "last_modified_internal": "2024-11-15T16:50:05.732000+00:00"
+                },
+                "last_modified": "2024-11-15T16:50:05.732000+00:00",
+                "latest": "https://www.data.gouv.fr/api/1/datasets/r/fa3e21cd-22f0-485e-b4e8-937c89faf8fe",
+                "metrics": {
+                  "views": 66
+                },
+                "mime": null,
+                "preview_url": null,
+                "schema": null,
+                "title": "Téléchargement simple (Atom) du jeu et des documents associés via intranet",
+                "type": "main",
+                "url": "https://atom.geo-ide.e2.rie.gouv.fr/atomArchive/GetResource?id=dd26c1e9-37c2-4499-a476-07edda5fa5d9&dataType=dataset"
+              },
+              {
+                "checksum": null,
+                "created_at": "2024-11-15T16:50:05.734000+00:00",
+                "description": "",
+                "extras": {
+                  "analysis:checksum": "a66c3cf19a702b767182b1cc92082802f011b7ed",
+                  "analysis:content-length": 21278,
+                  "analysis:mime-type": "text/xml",
+                  "check:available": true,
+                  "check:date": "2024-11-17T15:06:54.403539+00:00",
+                  "check:headers:content-length": 21278,
+                  "check:headers:content-type": "text/xml",
+                  "check:status": 200,
+                  "check:timeout": false,
+                  "dcat": {
+                    "accessRights": [
+                      "Pas de restriction d'accès public selon INSPIRE"
+                    ],
+                    "license": [
+                      "Aucun des articles de la loi ne peut être invoqué pour justifier d'une restriction d'accès public.",
+                      "Licence Ouverte / Open Licence Version 2.0 https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+                    ]
+                  }
+                },
+                "filesize": null,
+                "filetype": "remote",
+                "format": "wms",
+                "harvest": {
+                  "last_update": "2026-07-20T02:08:12.052000+00:00"
+                },
+                "id": "4c4d0a41-8caa-4e0f-aef2-468afcdd43e7",
+                "internal": {
+                  "created_at_internal": "2024-11-15T16:50:05.734000+00:00",
+                  "last_modified_internal": "2024-11-15T16:50:05.734000+00:00"
+                },
+                "last_modified": "2024-11-15T16:50:05.734000+00:00",
+                "latest": "https://www.data.gouv.fr/api/1/datasets/r/4c4d0a41-8caa-4e0f-aef2-468afcdd43e7",
+                "metrics": {
+                  "views": 39
+                },
+                "mime": null,
+                "preview_url": null,
+                "schema": null,
+                "title": "URL du GetCapabilities du service wms sur internet",
+                "type": "api",
+                "url": "https://ogc.geo-ide.developpement-durable.gouv.fr/wxs?map=/opt/data/stack/mapfiles/1.4/org_38024/dd26c1e9-37c2-4499-a476-07edda5fa5d9.internet.map&SERVICE=WMS&REQUEST=GetCapabilities"
+              },
+              {
+                "checksum": null,
+                "created_at": "2024-11-15T16:50:05.736000+00:00",
+                "description": "",
+                "extras": {
+                  "analysis:checksum": "1ab28e52024f74e1860f27ec2547e7072f896b0b",
+                  "analysis:content-length": 17288,
+                  "analysis:mime-type": "text/xml",
+                  "check:available": true,
+                  "check:date": "2024-11-17T10:26:36.200091+00:00",
+                  "check:headers:content-length": 17288,
+                  "check:headers:content-type": "text/xml",
+                  "check:status": 200,
+                  "check:timeout": false,
+                  "dcat": {
+                    "accessRights": [
+                      "Pas de restriction d'accès public selon INSPIRE"
+                    ],
+                    "license": [
+                      "Aucun des articles de la loi ne peut être invoqué pour justifier d'une restriction d'accès public.",
+                      "Licence Ouverte / Open Licence Version 2.0 https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+                    ]
+                  }
+                },
+                "filesize": null,
+                "filetype": "remote",
+                "format": "wfs",
+                "harvest": {
+                  "last_update": "2026-07-20T02:08:12.052000+00:00"
+                },
+                "id": "ec84ab44-734f-4266-8596-0aa27d745d12",
+                "internal": {
+                  "created_at_internal": "2024-11-15T16:50:05.736000+00:00",
+                  "last_modified_internal": "2024-11-15T16:50:05.736000+00:00"
+                },
+                "last_modified": "2024-11-15T16:50:05.736000+00:00",
+                "latest": "https://www.data.gouv.fr/api/1/datasets/r/ec84ab44-734f-4266-8596-0aa27d745d12",
+                "metrics": {
+                  "views": 29
+                },
+                "mime": null,
+                "preview_url": null,
+                "schema": null,
+                "title": "URL du GetCapabilities du service wfs sur internet",
+                "type": "api",
+                "url": "https://ogc.geo-ide.developpement-durable.gouv.fr/wxs?map=/opt/data/stack/mapfiles/1.4/org_38024/dd26c1e9-37c2-4499-a476-07edda5fa5d9.internet.map&SERVICE=WFS&REQUEST=GetCapabilities"
+              },
+              {
+                "checksum": null,
+                "created_at": "2024-11-15T16:50:05.738000+00:00",
+                "description": "",
+                "extras": {
+                  "dcat": {
+                    "accessRights": [
+                      "Pas de restriction d'accès public selon INSPIRE"
+                    ],
+                    "license": [
+                      "Aucun des articles de la loi ne peut être invoqué pour justifier d'une restriction d'accès public.",
+                      "Licence Ouverte / Open Licence Version 2.0 https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+                    ]
+                  }
+                },
+                "filesize": null,
+                "filetype": "remote",
+                "format": "wms",
+                "harvest": {
+                  "last_update": "2026-07-20T02:08:12.052000+00:00"
+                },
+                "id": "f3f41654-6916-4c9a-9d62-a3abeec4bffd",
+                "internal": {
+                  "created_at_internal": "2024-11-15T16:50:05.738000+00:00",
+                  "last_modified_internal": "2024-11-15T16:50:05.738000+00:00"
+                },
+                "last_modified": "2024-11-15T16:50:05.738000+00:00",
+                "latest": "https://www.data.gouv.fr/api/1/datasets/r/f3f41654-6916-4c9a-9d62-a3abeec4bffd",
+                "metrics": {
+                  "views": 53
+                },
+                "mime": null,
+                "preview_url": null,
+                "schema": null,
+                "title": "URL du GetCapabilities du service wms sur intranet",
+                "type": "api",
+                "url": "https://ogc.geo-ide.e2.rie.gouv.fr/wxs?map=/opt/data/stack/mapfiles/1.4/org_38024/dd26c1e9-37c2-4499-a476-07edda5fa5d9.intranet.map&SERVICE=WMS&REQUEST=GetCapabilities"
+              },
+              {
+                "checksum": null,
+                "created_at": "2024-11-15T16:50:05.740000+00:00",
+                "description": "",
+                "extras": {
+                  "dcat": {
+                    "accessRights": [
+                      "Pas de restriction d'accès public selon INSPIRE"
+                    ],
+                    "license": [
+                      "Aucun des articles de la loi ne peut être invoqué pour justifier d'une restriction d'accès public.",
+                      "Licence Ouverte / Open Licence Version 2.0 https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+                    ]
+                  }
+                },
+                "filesize": null,
+                "filetype": "remote",
+                "format": "wfs",
+                "harvest": {
+                  "last_update": "2026-07-20T02:08:12.053000+00:00"
+                },
+                "id": "d61b6e81-2cb3-4337-ba92-04e62e516d7f",
+                "internal": {
+                  "created_at_internal": "2024-11-15T16:50:05.740000+00:00",
+                  "last_modified_internal": "2024-11-15T16:50:05.740000+00:00"
+                },
+                "last_modified": "2024-11-15T16:50:05.740000+00:00",
+                "latest": "https://www.data.gouv.fr/api/1/datasets/r/d61b6e81-2cb3-4337-ba92-04e62e516d7f",
+                "metrics": {
+                  "views": 42
+                },
+                "mime": null,
+                "preview_url": null,
+                "schema": null,
+                "title": "URL du GetCapabilities du service wfs sur intranet",
+                "type": "api",
+                "url": "https://ogc.geo-ide.e2.rie.gouv.fr/wxs?map=/opt/data/stack/mapfiles/1.4/org_38024/dd26c1e9-37c2-4499-a476-07edda5fa5d9.intranet.map&SERVICE=WFS&REQUEST=GetCapabilities"
+              }
+            ],
+            "schema": {
+              "name": null,
+              "url": "http://www.opengis.net/def/crs/EPSG/0/2154",
+              "version": null
+            },
+            "slug": "transport-reseau-de-transports-bois-ronds-en-loir-et-cher",
+            "spatial": {
+              "geom": {
+                "coordinates": [
+                  [
+                    [
+                      [
+                        2.2477438,
+                        48.1328316
+                      ],
+                      [
+                        0.5803191,
+                        48.1328316
+                      ],
+                      [
+                        0.5803191,
+                        47.1862183
+                      ],
+                      [
+                        2.2477438,
+                        47.1862183
+                      ],
+                      [
+                        2.2477438,
+                        48.1328316
+                      ]
+                    ]
+                  ]
+                ],
+                "type": "MultiPolygon"
+              },
+              "granularity": "other",
+              "zones": []
+            },
+            "tags": [
+              "donnees-ouvertes",
+              "i-carto2",
+              "i-route",
+              "inspire",
+              "reseaux-de-transport",
+              "transports-infrastructure-routier"
+            ],
+            "temporal_coverage": null,
+            "title": "Transport - Réseau de transports Bois ronds en Loir-et-Cher",
+            "uri": "https://www.data.gouv.fr/api/1/datasets/transport-reseau-de-transports-bois-ronds-en-loir-et-cher/"
+          },
+          {
+            "access_audiences": [],
+            "access_type": "open",
+            "access_type_reason": null,
+            "access_type_reason_category": null,
+            "acronym": null,
+            "archived": null,
+            "authorization_request_url": null,
+            "badges": [],
+            "contact_points": [
+              {
+                "contact_form": null,
+                "email": null,
+                "id": "67b7c243505e606d20e260b4",
+                "name": "Métropole Aix-Marseille Provence",
+                "organization": {
+                  "acronym": "MAMP",
+                  "badges": [
+                    {
+                      "kind": "certified"
+                    },
+                    {
+                      "kind": "public-service"
+                    }
+                  ],
+                  "class": "Organization",
+                  "id": "59afbe7cc751df1980d8d1b5",
+                  "logo": "https://udata-avatars.s3.rbx.io.cloud.ovh.net/dd/6d243575424515af9c56a31539a5dd.jpg",
+                  "logo_thumbnail": "https://udata-avatars.s3.rbx.io.cloud.ovh.net/dd/6d243575424515af9c56a31539a5dd-100.jpg",
+                  "name": "Métropole d'Aix-Marseille-Provence",
+                  "page": "https://www.data.gouv.fr/organizations/metropole-aix-marseille-provence",
+                  "permissions": {
+                    "delete": false,
+                    "edit": false,
+                    "harvest": false,
+                    "members": false,
+                    "private": false
+                  },
+                  "slug": "metropole-aix-marseille-provence",
+                  "uri": "https://www.data.gouv.fr/api/1/organizations/metropole-aix-marseille-provence/"
+                },
+                "owner": null,
+                "role": "creator"
+              },
+              {
+                "contact_form": null,
+                "email": null,
+                "id": "67b7c243505e606d20e260b3",
+                "name": "Métropole Aix-Marseille Provence",
+                "organization": {
+                  "acronym": "MAMP",
+                  "badges": [
+                    {
+                      "kind": "certified"
+                    },
+                    {
+                      "kind": "public-service"
+                    }
+                  ],
+                  "class": "Organization",
+                  "id": "59afbe7cc751df1980d8d1b5",
+                  "logo": "https://udata-avatars.s3.rbx.io.cloud.ovh.net/dd/6d243575424515af9c56a31539a5dd.jpg",
+                  "logo_thumbnail": "https://udata-avatars.s3.rbx.io.cloud.ovh.net/dd/6d243575424515af9c56a31539a5dd-100.jpg",
+                  "name": "Métropole d'Aix-Marseille-Provence",
+                  "page": "https://www.data.gouv.fr/organizations/metropole-aix-marseille-provence",
+                  "permissions": {
+                    "delete": false,
+                    "edit": false,
+                    "harvest": false,
+                    "members": false,
+                    "private": false
+                  },
+                  "slug": "metropole-aix-marseille-provence",
+                  "uri": "https://www.data.gouv.fr/api/1/organizations/metropole-aix-marseille-provence/"
+                },
+                "owner": null,
+                "role": "publisher"
+              }
+            ],
+            "created_at": "2024-07-09T14:30:07+00:00",
+            "deleted": null,
+            "description": "Le jeu de données \"Lignes des réseaux de transport RTM (Régie des Transports de Marseille)\" est un fichier GTFS routes qui répertorie les lignes associées **au réseau de transport RTM**(Régie des Transports de Marseille), qui dessert les communes de Marseille, Allauch, et Plan-de-Cuques.\n\nÀ partir de 2022, les lignes maritimes RTM NAV ont également été intégrées à ce jeu de données, enrichissant ainsi la couverture et la diversité des modes de transport disponibles.\n\nChaque ligne est identifiée par un ID unique ('ID') et est caractérisée par un nom court ('Short Name') et un nom long ('Long Name'). Le type de route ('Route Type') indique le mode de transport tel que bus, métro, tramway, etc. La couleur de la ligne ('Color') est souvent utilisée pour l'identification visuelle des lignes sur les cartes et les applications. \n\nCes lignes sont essentielles pour la planification et l'organisation des services de transport en commun, offrant des connexions entre différents quartiers et municipalités. Le fichier inclut également des détails sur la forme géométrique de chaque ligne ('Shape'), décrivant le tracé spécifique de chaque itinéraire.",
+            "description_short": null,
+            "extras": {
+              "dcat": {
+                "license": [
+                  "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+                ],
+                "rights": [
+                  "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+                ]
+              }
+            },
+            "featured": false,
+            "frequency": "unknown",
+            "frequency_date": null,
+            "harvest": {
+              "backend": "DCAT",
+              "dct_identifier": "https://data.ampmetropole.fr/explore/dataset/lignes-des-reseaux-de-transport-rtm-regie-des-transports-de-marseille/",
+              "domain": "data.ampmetropole.fr",
+              "issued_at": "2024-07-09T14:30:07+00:00",
+              "last_update": "2026-07-20T00:08:44.462000+00:00",
+              "modified_at": "2024-07-09T14:30:07+00:00",
+              "remote_id": "https://data.ampmetropole.fr/explore/dataset/lignes-des-reseaux-de-transport-rtm-regie-des-transports-de-marseille/",
+              "remote_url": "https://data.ampmetropole.fr/explore/dataset/lignes-des-reseaux-de-transport-rtm-regie-des-transports-de-marseille/",
+              "source_id": "633c4314a184a25b2e68b5dd",
+              "uri": "https://data.ampmetropole.fr/explore/dataset/lignes-des-reseaux-de-transport-rtm-regie-des-transports-de-marseille/"
+            },
+            "id": "668dcf087d4ae0039936b4f6",
+            "internal": {
+              "created_at_internal": "2024-07-10T00:00:08.351000+00:00",
+              "last_modified_internal": "2024-07-10T00:00:08.351000+00:00"
+            },
+            "last_modified": "2024-07-09T14:30:07+00:00",
+            "last_update": "2024-07-09T14:30:07+00:00",
+            "license": "lov2",
+            "metrics": {
+              "dataservices": 2,
+              "discussions": 0,
+              "discussions_open": 0,
+              "followers": 0,
+              "followers_by_months": {
+                "2025-01": 0,
+                "2025-02": 0,
+                "2025-03": 0,
+                "2025-04": 0,
+                "2025-05": 0,
+                "2025-06": 0,
+                "2025-07": 0,
+                "2025-08": 0,
+                "2025-09": 0,
+                "2025-10": 0,
+                "2025-11": 0,
+                "2025-12": 0,
+                "2026-01": 0
+              },
+              "resources_downloads": 1261,
+              "reuses": 0,
+              "reuses_by_months": {
+                "2025-01": 0,
+                "2025-02": 0,
+                "2025-03": 0,
+                "2025-04": 0,
+                "2025-05": 0,
+                "2025-06": 0,
+                "2025-07": 0,
+                "2025-08": 0,
+                "2025-09": 0,
+                "2025-10": 0,
+                "2025-11": 0,
+                "2025-12": 0,
+                "2026-01": 0
+              },
+              "views": 10774
+            },
+            "organization": {
+              "acronym": "MAMP",
+              "badges": [
+                {
+                  "kind": "certified"
+                },
+                {
+                  "kind": "public-service"
+                }
+              ],
+              "class": "Organization",
+              "id": "59afbe7cc751df1980d8d1b5",
+              "logo": "https://udata-avatars.s3.rbx.io.cloud.ovh.net/dd/6d243575424515af9c56a31539a5dd.jpg",
+              "logo_thumbnail": "https://udata-avatars.s3.rbx.io.cloud.ovh.net/dd/6d243575424515af9c56a31539a5dd-100.jpg",
+              "name": "Métropole d'Aix-Marseille-Provence",
+              "page": "https://www.data.gouv.fr/organizations/metropole-aix-marseille-provence",
+              "permissions": {
+                "delete": false,
+                "edit": false,
+                "harvest": false,
+                "members": false,
+                "private": false
+              },
+              "slug": "metropole-aix-marseille-provence",
+              "uri": "https://www.data.gouv.fr/api/1/organizations/metropole-aix-marseille-provence/"
+            },
+            "owner": null,
+            "page": "https://www.data.gouv.fr/datasets/lignes-des-reseaux-de-transport-rtm-regie-des-transports-de-marseille",
+            "permissions": {
+              "delete": false,
+              "edit": false,
+              "edit_resources": false
+            },
+            "private": false,
+            "quality": {
+              "all_resources_available": true,
+              "dataset_description_quality": true,
+              "has_open_format": true,
+              "has_resources": true,
+              "license": true,
+              "resources_documentation": true,
+              "score": 0.5555555555555556,
+              "spatial": false,
+              "temporal_coverage": false,
+              "update_frequency": false
+            },
+            "resources": [
+              {
+                "checksum": null,
+                "created_at": "2024-07-09T14:30:07+00:00",
+                "description": "Lignes des réseaux de transport RTM (Régie des Transports de Marseille) (csv)",
+                "extras": {
+                  "analysis:checksum": "7f7b7173c21962d3de5aee86e92a7c62623ea01e",
+                  "analysis:content-length": 2366763,
+                  "analysis:last-modified-at": "2024-07-09T14:30:07+00:00",
+                  "analysis:last-modified-detection": "harvest-resource-metadata",
+                  "analysis:mime-type": "text/plain",
+                  "analysis:parsing:finished_at": "2025-05-06T03:10:58.342731+00:00",
+                  "analysis:parsing:parsing_table": "9cd1f1300ba9233aca7fe5849f74669a",
+                  "analysis:parsing:started_at": "2025-05-06T03:10:57.356019+00:00",
+                  "check:available": true,
+                  "check:cors:allow-headers": "Authorization, X-Requested-With, Origin, ODS-API-Analytics-App, ODS-API-Analytics-Embed-Type, ODS-API-Analytics-Embed-Referrer, ODS-Widgets-Version, Accept",
+                  "check:cors:allow-methods": "POST, GET, OPTIONS",
+                  "check:cors:allow-origin": "*",
+                  "check:cors:expose-headers": "ODS-Explore-API-Deprecation, Link, X-RateLimit-Remaining, X-RateLimit-Limit, X-RateLimit-Reset, X-RateLimit-dataset-Remaining, X-RateLimit-dataset-Limit, X-RateLimit-dataset-Reset",
+                  "check:cors:max-age": "1000",
+                  "check:cors:status": 200,
+                  "check:date": "2026-02-21T15:17:17.684786+00:00",
+                  "check:headers:content-type": "text/csv",
+                  "check:id": 42187434,
+                  "check:status": 200,
+                  "check:timeout": false,
+                  "dcat": {
+                    "license": [
+                      "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+                    ],
+                    "rights": [
+                      "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+                    ]
+                  }
+                },
+                "filesize": null,
+                "filetype": "remote",
+                "format": "csv",
+                "harvest": {
+                  "issued_at": "2024-07-09T14:30:07+00:00",
+                  "last_update": "2026-07-20T00:08:44.458000+00:00",
+                  "modified_at": "2024-07-09T14:30:07+00:00",
+                  "uri": "https://data.ampmetropole.fr/api/explore/v2.1/catalog/datasets/lignes-des-reseaux-de-transport-rtm-regie-des-transports-de-marseille/exports/csv?use_labels=true"
+                },
+                "id": "1632c06b-21e0-413e-938e-28cccf889550",
+                "internal": {
+                  "created_at_internal": "2024-07-10T00:00:08.351000+00:00",
+                  "last_modified_internal": "2024-07-10T00:00:08.351000+00:00"
+                },
+                "last_modified": "2024-07-09T14:30:07+00:00",
+                "latest": "https://www.data.gouv.fr/api/1/datasets/r/1632c06b-21e0-413e-938e-28cccf889550",
+                "metrics": {
+                  "views": 364
+                },
+                "mime": "text/csv",
+                "preview_url": "https://explore.data.gouv.fr/fr/resources/1632c06b-21e0-413e-938e-28cccf889550",
+                "schema": null,
+                "title": "lignes-des-reseaux-de-transport-rtm-regie-des-transports-de-marseille.csv",
+                "type": "main",
+                "url": "https://data.ampmetropole.fr/api/explore/v2.1/catalog/datasets/lignes-des-reseaux-de-transport-rtm-regie-des-transports-de-marseille/exports/csv?use_labels=true"
+              },
+              {
+                "checksum": null,
+                "created_at": "2024-07-09T14:30:07+00:00",
+                "description": "Lignes des réseaux de transport RTM (Régie des Transports de Marseille) (json)",
+                "extras": {
+                  "analysis:checksum": "f83d9b5c326676c594463411961668a38ff66ea4",
+                  "analysis:content-length": 2393160,
+                  "analysis:last-modified-at": "2024-07-09T14:30:07+00:00",
+                  "analysis:last-modified-detection": "harvest-resource-metadata",
+                  "analysis:mime-type": "application/json",
+                  "check:available": true,
+                  "check:cors:allow-headers": "Authorization, X-Requested-With, Origin, ODS-API-Analytics-App, ODS-API-Analytics-Embed-Type, ODS-API-Analytics-Embed-Referrer, ODS-Widgets-Version, Accept",
+                  "check:cors:allow-methods": "POST, GET, OPTIONS",
+                  "check:cors:allow-origin": "*",
+                  "check:cors:expose-headers": "ODS-Explore-API-Deprecation, Link, X-RateLimit-Remaining, X-RateLimit-Limit, X-RateLimit-Reset, X-RateLimit-dataset-Remaining, X-RateLimit-dataset-Limit, X-RateLimit-dataset-Reset",
+                  "check:cors:max-age": "1000",
+                  "check:cors:status": 200,
+                  "check:date": "2026-01-31T16:49:06.438054+00:00",
+                  "check:headers:content-type": "application/json",
+                  "check:id": 40638133,
+                  "check:status": 200,
+                  "check:timeout": false,
+                  "dcat": {
+                    "license": [
+                      "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+                    ],
+                    "rights": [
+                      "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+                    ]
+                  }
+                },
+                "filesize": null,
+                "filetype": "remote",
+                "format": "json",
+                "harvest": {
+                  "issued_at": "2024-07-09T14:30:07+00:00",
+                  "last_update": "2026-07-20T00:08:44.459000+00:00",
+                  "modified_at": "2024-07-09T14:30:07+00:00",
+                  "uri": "https://data.ampmetropole.fr/api/explore/v2.1/catalog/datasets/lignes-des-reseaux-de-transport-rtm-regie-des-transports-de-marseille/exports/json"
+                },
+                "id": "daafa4f0-d576-47b2-b540-dd48631264ec",
+                "internal": {
+                  "created_at_internal": "2024-07-10T00:00:08.352000+00:00",
+                  "last_modified_internal": "2024-07-10T00:00:08.352000+00:00"
+                },
+                "last_modified": "2024-07-09T14:30:07+00:00",
+                "latest": "https://www.data.gouv.fr/api/1/datasets/r/daafa4f0-d576-47b2-b540-dd48631264ec",
+                "metrics": {
+                  "views": 236
+                },
+                "mime": "application/json",
+                "preview_url": null,
+                "schema": null,
+                "title": "lignes-des-reseaux-de-transport-rtm-regie-des-transports-de-marseille.json",
+                "type": "main",
+                "url": "https://data.ampmetropole.fr/api/explore/v2.1/catalog/datasets/lignes-des-reseaux-de-transport-rtm-regie-des-transports-de-marseille/exports/json"
+              },
+              {
+                "checksum": null,
+                "created_at": "2024-07-09T14:30:07+00:00",
+                "description": "Lignes des réseaux de transport RTM (Régie des Transports de Marseille) (geojson)",
+                "extras": {
+                  "analysis:checksum": "50177e65c5e1d00701e2a54993b633f708d77218",
+                  "analysis:content-length": 2213080,
+                  "analysis:last-modified-at": "2024-07-09T14:30:07+00:00",
+                  "analysis:last-modified-detection": "harvest-resource-metadata",
+                  "analysis:mime-type": "application/json",
+                  "check:available": true,
+                  "check:cors:allow-headers": "Authorization, X-Requested-With, Origin, ODS-API-Analytics-App, ODS-API-Analytics-Embed-Type, ODS-API-Analytics-Embed-Referrer, ODS-Widgets-Version, Accept",
+                  "check:cors:allow-methods": "POST, GET, OPTIONS",
+                  "check:cors:allow-origin": "*",
+                  "check:cors:expose-headers": "ODS-Explore-API-Deprecation, Link, X-RateLimit-Remaining, X-RateLimit-Limit, X-RateLimit-Reset, X-RateLimit-dataset-Remaining, X-RateLimit-dataset-Limit, X-RateLimit-dataset-Reset",
+                  "check:cors:max-age": "1000",
+                  "check:cors:status": 200,
+                  "check:date": "2026-02-05T09:51:42.992019+00:00",
+                  "check:headers:content-type": "application/json",
+                  "check:id": 40919386,
+                  "check:status": 200,
+                  "check:timeout": false,
+                  "dcat": {
+                    "license": [
+                      "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+                    ],
+                    "rights": [
+                      "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+                    ]
+                  }
+                },
+                "filesize": null,
+                "filetype": "remote",
+                "format": "json",
+                "harvest": {
+                  "issued_at": "2024-07-09T14:30:07+00:00",
+                  "last_update": "2026-07-20T00:08:44.459000+00:00",
+                  "modified_at": "2024-07-09T14:30:07+00:00",
+                  "uri": "https://data.ampmetropole.fr/api/explore/v2.1/catalog/datasets/lignes-des-reseaux-de-transport-rtm-regie-des-transports-de-marseille/exports/geojson"
+                },
+                "id": "3524e5df-9f33-403f-8d69-16a82dad8e57",
+                "internal": {
+                  "created_at_internal": "2024-07-10T00:00:08.352000+00:00",
+                  "last_modified_internal": "2024-07-10T00:00:08.352000+00:00"
+                },
+                "last_modified": "2024-07-09T14:30:07+00:00",
+                "latest": "https://www.data.gouv.fr/api/1/datasets/r/3524e5df-9f33-403f-8d69-16a82dad8e57",
+                "metrics": {
+                  "views": 356
+                },
+                "mime": "application/json",
+                "preview_url": null,
+                "schema": null,
+                "title": "lignes-des-reseaux-de-transport-rtm-regie-des-transports-de-marseille.geojson",
+                "type": "main",
+                "url": "https://data.ampmetropole.fr/api/explore/v2.1/catalog/datasets/lignes-des-reseaux-de-transport-rtm-regie-des-transports-de-marseille/exports/geojson"
+              },
+              {
+                "checksum": null,
+                "created_at": "2024-07-09T14:30:07+00:00",
+                "description": "Lignes des réseaux de transport RTM (Régie des Transports de Marseille) (shp)",
+                "extras": {
+                  "analysis:checksum": "abf5721ba7045caed9c16bf6175d9daf159d0389",
+                  "analysis:content-length": 483443,
+                  "analysis:last-modified-at": "2024-07-09T14:30:07+00:00",
+                  "analysis:last-modified-detection": "harvest-resource-metadata",
+                  "analysis:mime-type": "application/zip",
+                  "check:available": true,
+                  "check:cors:allow-headers": "Authorization, X-Requested-With, Origin, ODS-API-Analytics-App, ODS-API-Analytics-Embed-Type, ODS-API-Analytics-Embed-Referrer, ODS-Widgets-Version, Accept",
+                  "check:cors:allow-methods": "POST, GET, OPTIONS",
+                  "check:cors:allow-origin": "*",
+                  "check:cors:expose-headers": "ODS-Explore-API-Deprecation, Link, X-RateLimit-Remaining, X-RateLimit-Limit, X-RateLimit-Reset, X-RateLimit-dataset-Remaining, X-RateLimit-dataset-Limit, X-RateLimit-dataset-Reset",
+                  "check:cors:max-age": "1000",
+                  "check:cors:status": 200,
+                  "check:date": "2026-02-09T15:02:25.064398+00:00",
+                  "check:headers:content-type": "application/zip",
+                  "check:id": 41172050,
+                  "check:status": 200,
+                  "check:timeout": false,
+                  "dcat": {
+                    "license": [
+                      "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+                    ],
+                    "rights": [
+                      "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+                    ]
+                  }
+                },
+                "filesize": null,
+                "filetype": "remote",
+                "format": "zip",
+                "harvest": {
+                  "issued_at": "2024-07-09T14:30:07+00:00",
+                  "last_update": "2026-07-20T00:08:44.459000+00:00",
+                  "modified_at": "2024-07-09T14:30:07+00:00",
+                  "uri": "https://data.ampmetropole.fr/api/explore/v2.1/catalog/datasets/lignes-des-reseaux-de-transport-rtm-regie-des-transports-de-marseille/exports/shp"
+                },
+                "id": "24a40cc1-d227-4ea2-9dac-f889e89ab09a",
+                "internal": {
+                  "created_at_internal": "2024-07-10T00:00:08.352000+00:00",
+                  "last_modified_internal": "2024-07-10T00:00:08.352000+00:00"
+                },
+                "last_modified": "2024-07-09T14:30:07+00:00",
+                "latest": "https://www.data.gouv.fr/api/1/datasets/r/24a40cc1-d227-4ea2-9dac-f889e89ab09a",
+                "metrics": {
+                  "views": 273
+                },
+                "mime": "application/zip",
+                "preview_url": null,
+                "schema": null,
+                "title": "lignes-des-reseaux-de-transport-rtm-regie-des-transports-de-marseille.zip",
+                "type": "main",
+                "url": "https://data.ampmetropole.fr/api/explore/v2.1/catalog/datasets/lignes-des-reseaux-de-transport-rtm-regie-des-transports-de-marseille/exports/shp"
+              }
+            ],
+            "schema": null,
+            "slug": "lignes-des-reseaux-de-transport-rtm-regie-des-transports-de-marseille",
+            "spatial": null,
+            "tags": [
+              "mobilite",
+              "routes",
+              "rtm",
+              "transport",
+              "transports"
+            ],
+            "temporal_coverage": null,
+            "title": "Lignes des réseaux de transport RTM (Régie des Transports de Marseille)",
+            "uri": "https://www.data.gouv.fr/api/1/datasets/lignes-des-reseaux-de-transport-rtm-regie-des-transports-de-marseille/"
+          },
+          {
+            "access_audiences": [],
+            "access_type": "open",
+            "access_type_reason": null,
+            "access_type_reason_category": null,
+            "acronym": null,
+            "archived": null,
+            "authorization_request_url": null,
+            "badges": [
+              {
+                "kind": "inspire"
+              }
+            ],
+            "contact_points": [
+              {
+                "contact_form": null,
+                "email": "ddt-sat@loir-et-cher.gouv.fr",
+                "id": "67377ae28705bc2edfc2544b",
+                "name": "DDT 41 (Direction Départementale des Territoires du Loir-et-Cher)",
+                "organization": {
+                  "acronym": "DDT 41",
+                  "badges": [
+                    {
+                      "kind": "certified"
+                    },
+                    {
+                      "kind": "public-service"
+                    }
+                  ],
+                  "class": "Organization",
+                  "id": "558e9d43c751df75fea453d1",
+                  "logo": "https://udata-avatars.s3.rbx.io.cloud.ovh.net/2015-06-27/4c70d12fa81640779cf1e839015bc60e/logo_DDT.png",
+                  "logo_thumbnail": "https://udata-avatars.s3.rbx.io.cloud.ovh.net/2015-06-27/4c70d12fa81640779cf1e839015bc60e/logo_DDT-100.png",
+                  "name": "Direction Départementale des Territoires de Loir-et-Cher",
+                  "page": "https://www.data.gouv.fr/organizations/direction-departementale-des-territoires-de-loir-et-cher",
+                  "permissions": {
+                    "delete": false,
+                    "edit": false,
+                    "harvest": false,
+                    "members": false,
+                    "private": false
+                  },
+                  "slug": "direction-departementale-des-territoires-de-loir-et-cher",
+                  "uri": "https://www.data.gouv.fr/api/1/organizations/direction-departementale-des-territoires-de-loir-et-cher/"
+                },
+                "owner": null,
+                "role": "contact"
+              }
+            ],
+            "created_at": "2017-07-13T00:00:00+00:00",
+            "deleted": null,
+            "description": "Est considéré comme transport exceptionnel, le transport ou la circulation de marchandises, engins ou véhicules dont les dimensions et/ou la masse dépasse(nt) les limites réglementaires définies dans le code de la route.\n\nLe code de la route précise la définition du transport exceptionnel à l'article R.433-1 puis les principes de circulation de ce type de transport dans les articles R.433-2 à R.433-4 et R.433-6.\n\nUn transport exceptionnel doit faire l'objet d'une autorisation préalable préfectorale. L'arrêté du préfet portant autorisation de transport exceptionnel mentionne les mesures à prendre pour faciliter la circulation publique, préserver la sécurité et empêcher tout dommage aux routes, aux ouvrages d'art et aux dépendances du domaine public et, le cas échéant, l'itinéraire à suivre.",
+            "description_short": null,
+            "extras": {
+              "dcat": {
+                "accessRights": [
+                  "Pas de restriction d'accès public selon INSPIRE"
+                ],
+                "provenance": [
+                  "."
+                ],
+                "spatial_resolution": "1/5000"
+              }
+            },
+            "featured": false,
+            "frequency": "unknown",
+            "frequency_date": null,
+            "harvest": {
+              "backend": "CSW-ISO-19139",
+              "created_at": "2017-07-17T00:00:00+00:00",
+              "dct_identifier": "http://catalogue.geo-ide.developpement-durable.gouv.fr/565304cd-f6ca-49f4-b6dc-a7efe4bdda83",
+              "domain": "ogc.geo-ide.developpement-durable.gouv.fr",
+              "issued_at": "2017-07-13T00:00:00+00:00",
+              "last_update": "2026-07-20T02:07:33.528000+00:00",
+              "modified_at": "2017-07-13T00:00:00+00:00",
+              "remote_id": "http://catalogue.geo-ide.developpement-durable.gouv.fr/565304cd-f6ca-49f4-b6dc-a7efe4bdda83",
+              "remote_url": "http://catalogue.geo-ide.developpement-durable.gouv.fr/catalogue/srv/fre/catalog.search#/metadata/fr-120066022-jdd-0a79e6a7-8234-4763-87f0-6f16f087e8e5",
+              "source_id": "673779c02d411aa8ce0df3a4",
+              "uri": "http://catalogue.geo-ide.developpement-durable.gouv.fr/565304cd-f6ca-49f4-b6dc-a7efe4bdda83"
+            },
+            "id": "67377b9b8705bc2edfc254d7",
+            "internal": {
+              "created_at_internal": "2024-11-15T16:49:31.825000+00:00",
+              "last_modified_internal": "2024-11-15T16:49:31.825000+00:00"
+            },
+            "last_modified": "2017-07-13T00:00:00+00:00",
+            "last_update": "2017-07-13T00:00:00+00:00",
+            "license": "lov2",
+            "metrics": {
+              "dataservices": 0,
+              "discussions": 0,
+              "discussions_open": 0,
+              "followers": 1,
+              "followers_by_months": {
+                "2025-01": 0,
+                "2025-02": 0,
+                "2025-03": 0,
+                "2025-04": 0,
+                "2025-05": 0,
+                "2025-06": 0,
+                "2025-07": 0,
+                "2025-08": 0,
+                "2025-09": 0,
+                "2025-10": 0,
+                "2025-11": 0,
+                "2025-12": 0,
+                "2026-01": 0
+              },
+              "resources_downloads": 242,
+              "reuses": 0,
+              "reuses_by_months": {
+                "2025-01": 0,
+                "2025-02": 0,
+                "2025-03": 0,
+                "2025-04": 0,
+                "2025-05": 0,
+                "2025-06": 0,
+                "2025-07": 0,
+                "2025-08": 0,
+                "2025-09": 0,
+                "2025-10": 0,
+                "2025-11": 0,
+                "2025-12": 0,
+                "2026-01": 0
+              },
+              "views": 764
+            },
+            "organization": {
+              "acronym": "DDT 41",
+              "badges": [
+                {
+                  "kind": "certified"
+                },
+                {
+                  "kind": "public-service"
+                }
+              ],
+              "class": "Organization",
+              "id": "558e9d43c751df75fea453d1",
+              "logo": "https://udata-avatars.s3.rbx.io.cloud.ovh.net/2015-06-27/4c70d12fa81640779cf1e839015bc60e/logo_DDT.png",
+              "logo_thumbnail": "https://udata-avatars.s3.rbx.io.cloud.ovh.net/2015-06-27/4c70d12fa81640779cf1e839015bc60e/logo_DDT-100.png",
+              "name": "Direction Départementale des Territoires de Loir-et-Cher",
+              "page": "https://www.data.gouv.fr/organizations/direction-departementale-des-territoires-de-loir-et-cher",
+              "permissions": {
+                "delete": false,
+                "edit": false,
+                "harvest": false,
+                "members": false,
+                "private": false
+              },
+              "slug": "direction-departementale-des-territoires-de-loir-et-cher",
+              "uri": "https://www.data.gouv.fr/api/1/organizations/direction-departementale-des-territoires-de-loir-et-cher/"
+            },
+            "owner": null,
+            "page": "https://www.data.gouv.fr/datasets/transport-itineraire-des-convois-de-transport-exceptionnel-en-loir-et-cher-1",
+            "permissions": {
+              "delete": false,
+              "edit": false,
+              "edit_resources": false
+            },
+            "private": false,
+            "quality": {
+              "all_resources_available": true,
+              "dataset_description_quality": true,
+              "has_open_format": true,
+              "has_resources": true,
+              "license": true,
+              "resources_documentation": false,
+              "score": 0.5555555555555556,
+              "spatial": true,
+              "temporal_coverage": false,
+              "update_frequency": false
+            },
+            "resources": [
+              {
+                "checksum": null,
+                "created_at": "2024-11-15T16:49:31.835000+00:00",
+                "description": "",
+                "extras": {
+                  "analysis:checksum": "f252b7d8f5ad38ad9df7beeaee4511113c7b9efa",
+                  "analysis:content-length": 21797,
+                  "analysis:mime-type": "application/zip",
+                  "check:available": true,
+                  "check:date": "2024-11-17T11:23:45.571931+00:00",
+                  "check:headers:content-length": 21797,
+                  "check:headers:content-type": "application/zip",
+                  "check:status": 200,
+                  "check:timeout": false,
+                  "dcat": {
+                    "accessRights": [
+                      "Pas de restriction d'accès public selon INSPIRE"
+                    ],
+                    "license": [
+                      "Aucun des articles de la loi ne peut être invoqué pour justifier d'une restriction d'accès public.",
+                      "Licence Ouverte / Open Licence Version 2.0 https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+                    ]
+                  }
+                },
+                "filesize": null,
+                "filetype": "remote",
+                "format": "esri shapefile (shp)",
+                "harvest": {
+                  "last_update": "2026-07-20T02:07:33.516000+00:00"
+                },
+                "id": "ca1c9278-3bfe-4811-80b2-747c046f5d43",
+                "internal": {
+                  "created_at_internal": "2024-11-15T16:49:31.835000+00:00",
+                  "last_modified_internal": "2024-11-15T16:49:31.835000+00:00"
+                },
+                "last_modified": "2024-11-15T16:49:31.835000+00:00",
+                "latest": "https://www.data.gouv.fr/api/1/datasets/r/ca1c9278-3bfe-4811-80b2-747c046f5d43",
+                "metrics": {
+                  "views": 47
+                },
+                "mime": null,
+                "preview_url": null,
+                "schema": null,
+                "title": "Téléchargement simple (Atom) du jeu et des documents associés via internet",
+                "type": "main",
+                "url": "https://atom.geo-ide.developpement-durable.gouv.fr/atomArchive/GetResource?id=565304cd-f6ca-49f4-b6dc-a7efe4bdda83&dataType=dataset"
+              },
+              {
+                "checksum": null,
+                "created_at": "2024-11-15T16:49:31.837000+00:00",
+                "description": "",
+                "extras": {
+                  "dcat": {
+                    "accessRights": [
+                      "Pas de restriction d'accès public selon INSPIRE"
+                    ],
+                    "license": [
+                      "Aucun des articles de la loi ne peut être invoqué pour justifier d'une restriction d'accès public.",
+                      "Licence Ouverte / Open Licence Version 2.0 https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+                    ]
+                  }
+                },
+                "filesize": null,
+                "filetype": "remote",
+                "format": "esri shapefile (shp)",
+                "harvest": {
+                  "last_update": "2026-07-20T02:07:33.516000+00:00"
+                },
+                "id": "e66631b8-2b1b-41a5-b6ba-15a51853bb97",
+                "internal": {
+                  "created_at_internal": "2024-11-15T16:49:31.837000+00:00",
+                  "last_modified_internal": "2024-11-15T16:49:31.837000+00:00"
+                },
+                "last_modified": "2024-11-15T16:49:31.837000+00:00",
+                "latest": "https://www.data.gouv.fr/api/1/datasets/r/e66631b8-2b1b-41a5-b6ba-15a51853bb97",
+                "metrics": {
+                  "views": 58
+                },
+                "mime": null,
+                "preview_url": null,
+                "schema": null,
+                "title": "Téléchargement simple (Atom) du jeu et des documents associés via intranet",
+                "type": "main",
+                "url": "https://atom.geo-ide.e2.rie.gouv.fr/atomArchive/GetResource?id=565304cd-f6ca-49f4-b6dc-a7efe4bdda83&dataType=dataset"
+              },
+              {
+                "checksum": null,
+                "created_at": "2024-11-15T16:49:31.839000+00:00",
+                "description": "",
+                "extras": {
+                  "analysis:checksum": "0b16633f15d51fd42b31bcc839bd7c95751b9453",
+                  "analysis:content-length": 23321,
+                  "analysis:mime-type": "text/xml",
+                  "check:available": true,
+                  "check:date": "2024-11-17T10:59:59.219976+00:00",
+                  "check:headers:content-length": 23321,
+                  "check:headers:content-type": "text/xml",
+                  "check:status": 200,
+                  "check:timeout": false,
+                  "dcat": {
+                    "accessRights": [
+                      "Pas de restriction d'accès public selon INSPIRE"
+                    ],
+                    "license": [
+                      "Aucun des articles de la loi ne peut être invoqué pour justifier d'une restriction d'accès public.",
+                      "Licence Ouverte / Open Licence Version 2.0 https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+                    ]
+                  }
+                },
+                "filesize": null,
+                "filetype": "remote",
+                "format": "wms",
+                "harvest": {
+                  "last_update": "2026-07-20T02:07:33.517000+00:00"
+                },
+                "id": "f9167a06-beb9-4696-af4e-c45e323cf947",
+                "internal": {
+                  "created_at_internal": "2024-11-15T16:49:31.839000+00:00",
+                  "last_modified_internal": "2024-11-15T16:49:31.839000+00:00"
+                },
+                "last_modified": "2024-11-15T16:49:31.839000+00:00",
+                "latest": "https://www.data.gouv.fr/api/1/datasets/r/f9167a06-beb9-4696-af4e-c45e323cf947",
+                "metrics": {
+                  "views": 32
+                },
+                "mime": null,
+                "preview_url": null,
+                "schema": null,
+                "title": "URL du GetCapabilities du service wms sur internet",
+                "type": "api",
+                "url": "https://ogc.geo-ide.developpement-durable.gouv.fr/wxs?map=/opt/data/stack/mapfiles/1.4/org_38024/565304cd-f6ca-49f4-b6dc-a7efe4bdda83.internet.map&SERVICE=WMS&REQUEST=GetCapabilities"
+              },
+              {
+                "checksum": null,
+                "created_at": "2024-11-15T16:49:31.841000+00:00",
+                "description": "",
+                "extras": {
+                  "analysis:checksum": "702474ee41df4126ebe300c8970829ae2ca4900a",
+                  "analysis:content-length": 18629,
+                  "analysis:mime-type": "text/xml",
+                  "check:available": true,
+                  "check:date": "2024-11-17T14:09:33.697796+00:00",
+                  "check:headers:content-length": 18629,
+                  "check:headers:content-type": "text/xml",
+                  "check:status": 200,
+                  "check:timeout": false,
+                  "dcat": {
+                    "accessRights": [
+                      "Pas de restriction d'accès public selon INSPIRE"
+                    ],
+                    "license": [
+                      "Aucun des articles de la loi ne peut être invoqué pour justifier d'une restriction d'accès public.",
+                      "Licence Ouverte / Open Licence Version 2.0 https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+                    ]
+                  }
+                },
+                "filesize": null,
+                "filetype": "remote",
+                "format": "wfs",
+                "harvest": {
+                  "last_update": "2026-07-20T02:07:33.517000+00:00"
+                },
+                "id": "b9b0e63c-00fb-4a3f-962d-d730cdb7b19b",
+                "internal": {
+                  "created_at_internal": "2024-11-15T16:49:31.841000+00:00",
+                  "last_modified_internal": "2024-11-15T16:49:31.841000+00:00"
+                },
+                "last_modified": "2024-11-15T16:49:31.841000+00:00",
+                "latest": "https://www.data.gouv.fr/api/1/datasets/r/b9b0e63c-00fb-4a3f-962d-d730cdb7b19b",
+                "metrics": {
+                  "views": 36
+                },
+                "mime": null,
+                "preview_url": null,
+                "schema": null,
+                "title": "URL du GetCapabilities du service wfs sur internet",
+                "type": "api",
+                "url": "https://ogc.geo-ide.developpement-durable.gouv.fr/wxs?map=/opt/data/stack/mapfiles/1.4/org_38024/565304cd-f6ca-49f4-b6dc-a7efe4bdda83.internet.map&SERVICE=WFS&REQUEST=GetCapabilities"
+              },
+              {
+                "checksum": null,
+                "created_at": "2024-11-15T16:49:31.843000+00:00",
+                "description": "",
+                "extras": {
+                  "dcat": {
+                    "accessRights": [
+                      "Pas de restriction d'accès public selon INSPIRE"
+                    ],
+                    "license": [
+                      "Aucun des articles de la loi ne peut être invoqué pour justifier d'une restriction d'accès public.",
+                      "Licence Ouverte / Open Licence Version 2.0 https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+                    ]
+                  }
+                },
+                "filesize": null,
+                "filetype": "remote",
+                "format": "wms",
+                "harvest": {
+                  "last_update": "2026-07-20T02:07:33.517000+00:00"
+                },
+                "id": "a09789b1-8043-45f7-93c2-9a443b9b33e3",
+                "internal": {
+                  "created_at_internal": "2024-11-15T16:49:31.843000+00:00",
+                  "last_modified_internal": "2024-11-15T16:49:31.843000+00:00"
+                },
+                "last_modified": "2024-11-15T16:49:31.843000+00:00",
+                "latest": "https://www.data.gouv.fr/api/1/datasets/r/a09789b1-8043-45f7-93c2-9a443b9b33e3",
+                "metrics": {
+                  "views": 38
+                },
+                "mime": null,
+                "preview_url": null,
+                "schema": null,
+                "title": "URL du GetCapabilities du service wms sur intranet",
+                "type": "api",
+                "url": "https://ogc.geo-ide.e2.rie.gouv.fr/wxs?map=/opt/data/stack/mapfiles/1.4/org_38024/565304cd-f6ca-49f4-b6dc-a7efe4bdda83.intranet.map&SERVICE=WMS&REQUEST=GetCapabilities"
+              },
+              {
+                "checksum": null,
+                "created_at": "2024-11-15T16:49:31.845000+00:00",
+                "description": "",
+                "extras": {
+                  "dcat": {
+                    "accessRights": [
+                      "Pas de restriction d'accès public selon INSPIRE"
+                    ],
+                    "license": [
+                      "Aucun des articles de la loi ne peut être invoqué pour justifier d'une restriction d'accès public.",
+                      "Licence Ouverte / Open Licence Version 2.0 https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+                    ]
+                  }
+                },
+                "filesize": null,
+                "filetype": "remote",
+                "format": "wfs",
+                "harvest": {
+                  "last_update": "2026-07-20T02:07:33.518000+00:00"
+                },
+                "id": "05d5700b-f36b-4598-91c3-0a04f6c68f39",
+                "internal": {
+                  "created_at_internal": "2024-11-15T16:49:31.845000+00:00",
+                  "last_modified_internal": "2024-11-15T16:49:31.845000+00:00"
+                },
+                "last_modified": "2024-11-15T16:49:31.845000+00:00",
+                "latest": "https://www.data.gouv.fr/api/1/datasets/r/05d5700b-f36b-4598-91c3-0a04f6c68f39",
+                "metrics": {
+                  "views": 44
+                },
+                "mime": null,
+                "preview_url": null,
+                "schema": null,
+                "title": "URL du GetCapabilities du service wfs sur intranet",
+                "type": "api",
+                "url": "https://ogc.geo-ide.e2.rie.gouv.fr/wxs?map=/opt/data/stack/mapfiles/1.4/org_38024/565304cd-f6ca-49f4-b6dc-a7efe4bdda83.intranet.map&SERVICE=WFS&REQUEST=GetCapabilities"
+              }
+            ],
+            "schema": {
+              "name": null,
+              "url": "http://www.opengis.net/def/crs/EPSG/0/2154",
+              "version": null
+            },
+            "slug": "transport-itineraire-des-convois-de-transport-exceptionnel-en-loir-et-cher-1",
+            "spatial": {
+              "geom": {
+                "coordinates": [
+                  [
+                    [
+                      [
+                        2.2477438,
+                        48.1328316
+                      ],
+                      [
+                        0.5803191,
+                        48.1328316
+                      ],
+                      [
+                        0.5803191,
+                        47.1862183
+                      ],
+                      [
+                        2.2477438,
+                        47.1862183
+                      ],
+                      [
+                        2.2477438,
+                        48.1328316
+                      ]
+                    ]
+                  ]
+                ],
+                "type": "MultiPolygon"
+              },
+              "granularity": "other",
+              "zones": []
+            },
+            "tags": [
+              "donnees-ouvertes",
+              "inspire",
+              "reseaux-de-transport",
+              "transports-deplacements-transport-exceptionnel"
+            ],
+            "temporal_coverage": null,
+            "title": "Transport - Itinéraire des convois de transport exceptionnel en Loir-et-Cher",
+            "uri": "https://www.data.gouv.fr/api/1/datasets/transport-itineraire-des-convois-de-transport-exceptionnel-en-loir-et-cher-1/"
+          },
+          {
+            "access_audiences": [],
+            "access_type": "open",
+            "access_type_reason": null,
+            "access_type_reason_category": null,
+            "acronym": null,
+            "archived": null,
+            "authorization_request_url": null,
+            "badges": [],
+            "contact_points": [],
+            "created_at": "2025-06-19T22:03:25.098000+00:00",
+            "deleted": null,
+            "description": "La représentation graphique transport fluvial Navigône du réseau TCL est un objet linéaire qui localise la ligne et son parcours de terminus à terminus.\nLa représentation graphique des lignes est caractérisée par des informations de gestion (nom de la la ligne, code interne du tracé, code de la ligne, type de tracé, nom du tracé, sens, code et nom de l'origine et de la destination, famille de transport, date de début et de fin du tracé, code et nom du type de ligne, accessibilité PMR, trigramme de la ligne, nom de la version du tracé, date de dernière mise à jour des données) et de tracés (polylignes de terminus à terminus).",
+            "description_short": null,
+            "extras": {
+              "inspire:identifier": "73be2b73-da82-48ec-9045-3648664befbb",
+              "inspire:resource_identifier": "https://data.grandlyon.com/geonetwork/srv/api/records/73be2b73-da82-48ec-9045-3648664befbb"
+            },
+            "featured": false,
+            "frequency": "daily",
+            "frequency_date": null,
+            "harvest": null,
+            "id": "6854892d3abd09db25d260ec",
+            "internal": {
+              "created_at_internal": "2025-06-19T22:03:25.098000+00:00",
+              "last_modified_internal": "2026-07-20T22:04:38.375000+00:00"
+            },
+            "last_modified": "2026-07-20T22:04:38.375000+00:00",
+            "last_update": "2026-07-08T21:48:22.292000+00:00",
+            "license": "lov2",
+            "metrics": {
+              "dataservices": 1,
+              "discussions": 0,
+              "discussions_open": 0,
+              "followers": 0,
+              "followers_by_months": {
+                "2025-01": 0,
+                "2025-02": 0,
+                "2025-03": 0,
+                "2025-04": 0,
+                "2025-05": 0,
+                "2025-06": 0,
+                "2025-07": 0,
+                "2025-08": 0,
+                "2025-09": 0,
+                "2025-10": 0,
+                "2025-11": 0,
+                "2025-12": 0,
+                "2026-01": 0
+              },
+              "resources_downloads": 870,
+              "reuses": 0,
+              "reuses_by_months": {
+                "2025-01": 0,
+                "2025-02": 0,
+                "2025-03": 0,
+                "2025-04": 0,
+                "2025-05": 0,
+                "2025-06": 0,
+                "2025-07": 0,
+                "2025-08": 0,
+                "2025-09": 0,
+                "2025-10": 0,
+                "2025-11": 0,
+                "2025-12": 0,
+                "2026-01": 0
+              },
+              "views": 706
+            },
+            "organization": {
+              "acronym": null,
+              "badges": [],
+              "class": "Organization",
+              "id": "68e3b9ef0e29271b26914921",
+              "logo": "https://udata-avatars.s3.rbx.io.cloud.ovh.net/10/b2ef812932415baba7352e8dda0708.png",
+              "logo_thumbnail": "https://udata-avatars.s3.rbx.io.cloud.ovh.net/10/b2ef812932415baba7352e8dda0708-100.png",
+              "name": "SYTRAL Mobilités",
+              "page": "https://www.data.gouv.fr/organizations/sytral-mobilites",
+              "permissions": {
+                "delete": false,
+                "edit": false,
+                "harvest": false,
+                "members": false,
+                "private": false
+              },
+              "slug": "sytral-mobilites",
+              "uri": "https://www.data.gouv.fr/api/1/organizations/sytral-mobilites/"
+            },
+            "owner": null,
+            "page": "https://www.data.gouv.fr/datasets/ligne-de-transport-fluvial-navigone-du-reseau-transports-en-commun-lyonnais",
+            "permissions": {
+              "delete": false,
+              "edit": false,
+              "edit_resources": false
+            },
+            "private": false,
+            "quality": {
+              "all_resources_available": true,
+              "dataset_description_quality": true,
+              "has_open_format": true,
+              "has_resources": true,
+              "license": true,
+              "resources_documentation": true,
+              "score": 0.8888888888888888,
+              "spatial": true,
+              "temporal_coverage": true,
+              "update_frequency": true,
+              "update_fulfilled_in_time": false
+            },
+            "resources": [
+              {
+                "checksum": null,
+                "created_at": "2026-05-19T22:04:10.348000+00:00",
+                "description": "Export Shapefile de sytral:tcl_sytral.tcllignefluv",
+                "extras": {
+                  "analysis:check_id": 48712973,
+                  "analysis:checksum": "d352f3afc55cbdd530df31d252247b16a775167b",
+                  "analysis:content-length": 3610,
+                  "analysis:last-modified-at": "2026-06-20T07:55:19.685663+00:00",
+                  "analysis:last-modified-detection": "content-length-header",
+                  "analysis:mime-type": "application/zip",
+                  "analysis:parsing:finished_at": "2026-06-20T07:55:22.009740+00:00",
+                  "analysis:parsing:ogc_metadata": {
+                    "detected_layer": {
+                      "default_crs": "EPSG:4171",
+                      "name": "sytral:tcl_sytral.tcllignefluv"
+                    },
+                    "format": "wfs",
+                    "output_formats": [
+                      "application/gml+xml; version=3.2",
+                      "GML2",
+                      "KML",
+                      "SHAPE-ZIP",
+                      "application/geo+json",
+                      "application/json",
+                      "application/ld+json",
+                      "application/vnd.google-earth.kml xml",
+                      "application/vnd.google-earth.kml+xml",
+                      "application/vnd.ogc.fg+json",
+                      "csv",
+                      "gml3",
+                      "gml32",
+                      "json",
+                      "text/csv",
+                      "text/html",
+                      "text/javascript",
+                      "text/xml; subtype=gml/2.1.2",
+                      "text/xml; subtype=gml/3.1.1",
+                      "text/xml; subtype=gml/3.2"
+                    ],
+                    "version": "2.0.0"
+                  },
+                  "analysis:parsing:started_at": "2026-06-20T07:55:21.855851+00:00",
+                  "check:available": true,
+                  "check:cors:allow-headers": "authorization,if-modified-since,origin,x-requested-with,access-control-request-headers,range,content-type,access-control-request-method,accept",
+                  "check:cors:allow-methods": "HEAD,POST,GET,OPTIONS,PUT",
+                  "check:cors:allow-origin": "*",
+                  "check:cors:expose-headers": "Access-Control-Allow-Origin,Access-Control-Allow-Credentials",
+                  "check:cors:max-age": "10",
+                  "check:cors:status": 200,
+                  "check:date": "2026-06-20T07:55:19.693000",
+                  "check:headers:content-length": 3610,
+                  "check:headers:content-type": "application/zip",
+                  "check:id": 48712973,
+                  "check:status": 200,
+                  "check:timeout": false
+                },
+                "filesize": null,
+                "filetype": "remote",
+                "format": "shp",
+                "harvest": null,
+                "id": "211572ba-10fe-42a0-9899-2bf627eb4903",
+                "internal": {
+                  "created_at_internal": "2026-05-19T22:04:10.348000+00:00",
+                  "last_modified_internal": "2026-05-19T22:04:10.348000+00:00"
+                },
+                "last_modified": "2026-06-20T07:55:19.685663+00:00",
+                "latest": "https://www.data.gouv.fr/api/1/datasets/r/211572ba-10fe-42a0-9899-2bf627eb4903",
+                "metrics": {
+                  "views": 9
+                },
+                "mime": null,
+                "preview_url": null,
+                "schema": null,
+                "title": "sytral:tcl_sytral.tcllignefluv",
+                "type": "other",
+                "url": "https://data.grandlyon.com/geoserver/sytral/ows?SERVICE=WFS&VERSION=2.0.0&request=GetFeature&typename=sytral:tcl_sytral.tcllignefluv&outputFormat=shape-zip&SRSNAME=EPSG:2154"
+              },
+              {
+                "checksum": null,
+                "created_at": "2026-05-19T22:04:10.349000+00:00",
+                "description": "Export GeoJSON de sytral:tcl_sytral.tcllignefluv",
+                "extras": {
+                  "analysis:check_id": 49692804,
+                  "analysis:checksum": "837bd57d2cf68ba8411819a1812ed5658a484a30",
+                  "analysis:content-length": 4871,
+                  "analysis:last-modified-at": "2026-07-08T21:48:22.292254+00:00",
+                  "analysis:last-modified-detection": "content-length-header",
+                  "analysis:mime-type": "application/json",
+                  "analysis:parsing:pmtiles_size": 3744,
+                  "analysis:parsing:pmtiles_url": "https://hydra.s3.rbx.io.cloud.ovh.net/pmtiles/64d02649-5c75-4522-bc6b-0834b9a1382b.pmtiles",
+                  "check:available": true,
+                  "check:cors:allow-headers": "authorization,if-modified-since,origin,x-requested-with,access-control-request-headers,range,content-type,access-control-request-method,accept",
+                  "check:cors:allow-methods": "HEAD,POST,GET,OPTIONS,PUT",
+                  "check:cors:allow-origin": "*",
+                  "check:cors:expose-headers": "Access-Control-Allow-Origin,Access-Control-Allow-Credentials",
+                  "check:cors:max-age": "10",
+                  "check:cors:status": 200,
+                  "check:date": "2026-07-08T21:48:22.297000",
+                  "check:headers:content-length": 4871,
+                  "check:headers:content-type": "application/json",
+                  "check:id": 49692804,
+                  "check:status": 200,
+                  "check:timeout": false
+                },
+                "filesize": null,
+                "filetype": "remote",
+                "format": "geojson",
+                "harvest": null,
+                "id": "64d02649-5c75-4522-bc6b-0834b9a1382b",
+                "internal": {
+                  "created_at_internal": "2026-05-19T22:04:10.349000+00:00",
+                  "last_modified_internal": "2026-05-19T22:04:10.349000+00:00"
+                },
+                "last_modified": "2026-07-08T21:48:22.292254+00:00",
+                "latest": "https://www.data.gouv.fr/api/1/datasets/r/64d02649-5c75-4522-bc6b-0834b9a1382b",
+                "metrics": {
+                  "views": 392
+                },
+                "mime": null,
+                "preview_url": null,
+                "schema": null,
+                "title": "sytral:tcl_sytral.tcllignefluv",
+                "type": "other",
+                "url": "https://data.grandlyon.com/geoserver/sytral/ows?SERVICE=WFS&VERSION=2.0.0&request=GetFeature&typename=sytral:tcl_sytral.tcllignefluv&outputFormat=application/json&SRSNAME=EPSG:4326"
+              },
+              {
+                "checksum": null,
+                "created_at": "2026-05-19T22:04:10.349000+00:00",
+                "description": "Export CSV de sytral:tcl_sytral.tcllignefluv",
+                "extras": {
+                  "analysis:check_id": 49692801,
+                  "analysis:checksum": "710ba4281aa1397ca7e13f57c11e068e77953fbc",
+                  "analysis:content-length": 5302,
+                  "analysis:last-modified-at": "2026-07-08T21:48:05.339118+00:00",
+                  "analysis:last-modified-detection": "content-length-header",
+                  "analysis:mime-type": "text/csv",
+                  "analysis:parsing:finished_at": "2026-07-09T09:22:08.958176+00:00",
+                  "analysis:parsing:parsing_table": "0be56c73f399b851466ef774a43e93f7",
+                  "analysis:parsing:started_at": "2026-07-09T09:22:08.793489+00:00",
+                  "check:available": true,
+                  "check:cors:allow-headers": "authorization,if-modified-since,origin,x-requested-with,access-control-request-headers,range,content-type,access-control-request-method,accept",
+                  "check:cors:allow-methods": "HEAD,POST,GET,OPTIONS,PUT",
+                  "check:cors:allow-origin": "*",
+                  "check:cors:expose-headers": "Access-Control-Allow-Origin,Access-Control-Allow-Credentials",
+                  "check:cors:max-age": "10",
+                  "check:cors:status": 200,
+                  "check:date": "2026-07-08T21:48:05.344000",
+                  "check:headers:content-length": 5302,
+                  "check:headers:content-type": "text/csv",
+                  "check:id": 49692801,
+                  "check:status": 200,
+                  "check:timeout": false
+                },
+                "filesize": null,
+                "filetype": "remote",
+                "format": "csv",
+                "harvest": null,
+                "id": "d524a930-e810-4584-98af-61201992a189",
+                "internal": {
+                  "created_at_internal": "2026-05-19T22:04:10.349000+00:00",
+                  "last_modified_internal": "2026-05-19T22:04:10.349000+00:00"
+                },
+                "last_modified": "2026-07-08T21:48:05.339118+00:00",
+                "latest": "https://www.data.gouv.fr/api/1/datasets/r/d524a930-e810-4584-98af-61201992a189",
+                "metrics": {
+                  "views": 381
+                },
+                "mime": null,
+                "preview_url": "https://explore.data.gouv.fr/fr/resources/d524a930-e810-4584-98af-61201992a189",
+                "schema": null,
+                "title": "sytral:tcl_sytral.tcllignefluv",
+                "type": "other",
+                "url": "https://data.grandlyon.com/geoserver/sytral/ows?SERVICE=WFS&VERSION=2.0.0&request=GetFeature&typename=sytral:tcl_sytral.tcllignefluv&outputFormat=CSV&SRSNAME=EPSG:4326"
+              }
+            ],
+            "schema": null,
+            "slug": "ligne-de-transport-fluvial-navigone-du-reseau-transports-en-commun-lyonnais",
+            "spatial": {
+              "geom": {
+                "coordinates": [
+                  [
+                    [
+                      [
+                        4.808918,
+                        45.741976
+                      ],
+                      [
+                        4.808918,
+                        45.785372
+                      ],
+                      [
+                        4.831142,
+                        45.785372
+                      ],
+                      [
+                        4.831142,
+                        45.741976
+                      ],
+                      [
+                        4.808918,
+                        45.741976
+                      ]
+                    ]
+                  ]
+                ],
+                "type": "MultiPolygon"
+              },
+              "granularity": "other",
+              "zones": []
+            },
+            "tags": [],
+            "temporal_coverage": {
+              "end": "2026-12-31",
+              "start": "2026-01-01"
+            },
+            "title": "Ligne de transport fluvial Navigône du réseau Transports en Commun Lyonnais",
+            "uri": "https://www.data.gouv.fr/api/1/datasets/ligne-de-transport-fluvial-navigone-du-reseau-transports-en-commun-lyonnais/"
+          },
+          {
+            "access_audiences": [],
+            "access_type": "open",
+            "access_type_reason": null,
+            "access_type_reason_category": null,
+            "acronym": null,
+            "archived": null,
+            "authorization_request_url": null,
+            "badges": [
+              {
+                "kind": "inspire"
+              }
+            ],
+            "contact_points": [
+              {
+                "contact_form": null,
+                "email": "ddt-sat@loir-et-cher.gouv.fr",
+                "id": "691fc8650139d2f8f22082b3",
+                "name": "DDT 41 (Direction Départementale des Territoires du Loir-et-Cher)",
+                "organization": {
+                  "acronym": "DDT 41",
+                  "badges": [
+                    {
+                      "kind": "certified"
+                    },
+                    {
+                      "kind": "public-service"
+                    }
+                  ],
+                  "class": "Organization",
+                  "id": "558e9d43c751df75fea453d1",
+                  "logo": "https://udata-avatars.s3.rbx.io.cloud.ovh.net/2015-06-27/4c70d12fa81640779cf1e839015bc60e/logo_DDT.png",
+                  "logo_thumbnail": "https://udata-avatars.s3.rbx.io.cloud.ovh.net/2015-06-27/4c70d12fa81640779cf1e839015bc60e/logo_DDT-100.png",
+                  "name": "Direction Départementale des Territoires de Loir-et-Cher",
+                  "page": "https://www.data.gouv.fr/organizations/direction-departementale-des-territoires-de-loir-et-cher",
+                  "permissions": {
+                    "delete": false,
+                    "edit": false,
+                    "harvest": false,
+                    "members": false,
+                    "private": false
+                  },
+                  "slug": "direction-departementale-des-territoires-de-loir-et-cher",
+                  "uri": "https://www.data.gouv.fr/api/1/organizations/direction-departementale-des-territoires-de-loir-et-cher/"
+                },
+                "owner": null,
+                "role": "rightsHolder"
+              },
+              {
+                "contact_form": null,
+                "email": "ddt-sat@loir-et-cher.gouv.fr",
+                "id": "691fc8650139d2f8f22082b3",
+                "name": "DDT 41 (Direction Départementale des Territoires du Loir-et-Cher)",
+                "organization": {
+                  "acronym": "DDT 41",
+                  "badges": [
+                    {
+                      "kind": "certified"
+                    },
+                    {
+                      "kind": "public-service"
+                    }
+                  ],
+                  "class": "Organization",
+                  "id": "558e9d43c751df75fea453d1",
+                  "logo": "https://udata-avatars.s3.rbx.io.cloud.ovh.net/2015-06-27/4c70d12fa81640779cf1e839015bc60e/logo_DDT.png",
+                  "logo_thumbnail": "https://udata-avatars.s3.rbx.io.cloud.ovh.net/2015-06-27/4c70d12fa81640779cf1e839015bc60e/logo_DDT-100.png",
+                  "name": "Direction Départementale des Territoires de Loir-et-Cher",
+                  "page": "https://www.data.gouv.fr/organizations/direction-departementale-des-territoires-de-loir-et-cher",
+                  "permissions": {
+                    "delete": false,
+                    "edit": false,
+                    "harvest": false,
+                    "members": false,
+                    "private": false
+                  },
+                  "slug": "direction-departementale-des-territoires-de-loir-et-cher",
+                  "uri": "https://www.data.gouv.fr/api/1/organizations/direction-departementale-des-territoires-de-loir-et-cher/"
+                },
+                "owner": null,
+                "role": "rightsHolder"
+              }
+            ],
+            "created_at": "2024-07-05T00:00:00+00:00",
+            "deleted": null,
+            "description": "Ce jeu de données comporte l’ensemble des lignes spéciales scolaires du réseau de transport régional Rémi en Loir-et-Cher",
+            "description_short": null,
+            "extras": {
+              "dcat": {
+                "accessRights": [
+                  "Pas de restriction d'accès public selon INSPIRE"
+                ],
+                "provenance": [
+                  "Région Centre - Val de Loire"
+                ],
+                "spatial_resolution": "1/10000"
+              }
+            },
+            "featured": false,
+            "frequency": "unknown",
+            "frequency_date": null,
+            "harvest": {
+              "backend": "CSW-ISO-19139",
+              "dct_identifier": "http://catalogue.geo-ide.developpement-durable.gouv.fr/5fe64f80-5e2a-44ad-a68a-420a80d2cfb4",
+              "domain": "ogc.geo-ide.developpement-durable.gouv.fr",
+              "issued_at": "2024-07-05T00:00:00+00:00",
+              "last_update": "2026-07-20T02:08:49.959000+00:00",
+              "modified_at": "2024-07-05T00:00:00+00:00",
+              "remote_id": "http://catalogue.geo-ide.developpement-durable.gouv.fr/5fe64f80-5e2a-44ad-a68a-420a80d2cfb4",
+              "remote_url": "http://catalogue.geo-ide.developpement-durable.gouv.fr/catalogue/srv/fre/catalog.search#/metadata/fr-120066022-jdd-1383d363-fc11-4df9-9036-3fd4b36fddc0",
+              "source_id": "673779c02d411aa8ce0df3a4",
+              "uri": "http://catalogue.geo-ide.developpement-durable.gouv.fr/5fe64f80-5e2a-44ad-a68a-420a80d2cfb4"
+            },
+            "id": "67377be88705bc2edfc254ff",
+            "internal": {
+              "created_at_internal": "2024-11-15T16:50:48.802000+00:00",
+              "last_modified_internal": "2024-11-15T16:50:48.802000+00:00"
+            },
+            "last_modified": "2024-07-05T00:00:00+00:00",
+            "last_update": "2024-07-05T00:00:00+00:00",
+            "license": "lov2",
+            "metrics": {
+              "dataservices": 0,
+              "discussions": 0,
+              "discussions_open": 0,
+              "followers": 0,
+              "followers_by_months": {
+                "2025-01": 0,
+                "2025-02": 0,
+                "2025-03": 0,
+                "2025-04": 0,
+                "2025-05": 0,
+                "2025-06": 0,
+                "2025-07": 0,
+                "2025-08": 0,
+                "2025-09": 0,
+                "2025-10": 0,
+                "2025-11": 0,
+                "2025-12": 0,
+                "2026-01": 0
+              },
+              "resources_downloads": 357,
+              "reuses": 1,
+              "reuses_by_months": {
+                "2025-06": 0,
+                "2025-07": 0,
+                "2025-08": 0,
+                "2025-09": 0,
+                "2025-10": 0,
+                "2025-11": 0,
+                "2025-12": 0,
+                "2026-01": 0,
+                "2026-02": 0,
+                "2026-03": 0,
+                "2026-04": 0,
+                "2026-05": 1,
+                "2026-06": 0
+              },
+              "views": 986
+            },
+            "organization": {
+              "acronym": "DDT 41",
+              "badges": [
+                {
+                  "kind": "certified"
+                },
+                {
+                  "kind": "public-service"
+                }
+              ],
+              "class": "Organization",
+              "id": "558e9d43c751df75fea453d1",
+              "logo": "https://udata-avatars.s3.rbx.io.cloud.ovh.net/2015-06-27/4c70d12fa81640779cf1e839015bc60e/logo_DDT.png",
+              "logo_thumbnail": "https://udata-avatars.s3.rbx.io.cloud.ovh.net/2015-06-27/4c70d12fa81640779cf1e839015bc60e/logo_DDT-100.png",
+              "name": "Direction Départementale des Territoires de Loir-et-Cher",
+              "page": "https://www.data.gouv.fr/organizations/direction-departementale-des-territoires-de-loir-et-cher",
+              "permissions": {
+                "delete": false,
+                "edit": false,
+                "harvest": false,
+                "members": false,
+                "private": false
+              },
+              "slug": "direction-departementale-des-territoires-de-loir-et-cher",
+              "uri": "https://www.data.gouv.fr/api/1/organizations/direction-departementale-des-territoires-de-loir-et-cher/"
+            },
+            "owner": null,
+            "page": "https://www.data.gouv.fr/datasets/transport-deplacement-lignes-de-transport-scolaire-remi-en-loir-et-cher",
+            "permissions": {
+              "delete": false,
+              "edit": false,
+              "edit_resources": false
+            },
+            "private": false,
+            "quality": {
+              "all_resources_available": true,
+              "dataset_description_quality": false,
+              "has_open_format": true,
+              "has_resources": true,
+              "license": true,
+              "resources_documentation": false,
+              "score": 0.4444444444444444,
+              "spatial": true,
+              "temporal_coverage": false,
+              "update_frequency": false
+            },
+            "resources": [
+              {
+                "checksum": null,
+                "created_at": "2024-11-15T16:50:48.809000+00:00",
+                "description": "",
+                "extras": {
+                  "analysis:checksum": "2033ab818c6af44582cf6b5f602872dd84c69452",
+                  "analysis:content-length": 2639423,
+                  "analysis:mime-type": "application/zip",
+                  "check:available": true,
+                  "check:date": "2024-11-17T09:19:08.033275+00:00",
+                  "check:headers:content-length": 2639423,
+                  "check:headers:content-type": "application/zip",
+                  "check:status": 200,
+                  "check:timeout": false,
+                  "dcat": {
+                    "accessRights": [
+                      "Pas de restriction d'accès public selon INSPIRE"
+                    ],
+                    "license": [
+                      "Voir les conditions particulières applicables à chaque jeu de données",
+                      "Aucun des articles de la loi ne peut être invoqué pour justifier d'une restriction d'accès public.",
+                      "Licence Ouverte / Open Licence Version 2.0 https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+                    ]
+                  }
+                },
+                "filesize": null,
+                "filetype": "remote",
+                "format": "esri shapefile (shp)",
+                "harvest": {
+                  "last_update": "2026-07-20T02:08:49.942000+00:00"
+                },
+                "id": "a3397a3c-c131-48fe-b2e4-d4abfb32adaf",
+                "internal": {
+                  "created_at_internal": "2024-11-15T16:50:48.809000+00:00",
+                  "last_modified_internal": "2024-11-15T16:50:48.809000+00:00"
+                },
+                "last_modified": "2024-11-15T16:50:48.809000+00:00",
+                "latest": "https://www.data.gouv.fr/api/1/datasets/r/a3397a3c-c131-48fe-b2e4-d4abfb32adaf",
+                "metrics": {
+                  "views": 68
+                },
+                "mime": null,
+                "preview_url": null,
+                "schema": null,
+                "title": "Téléchargement simple (Atom) du jeu et des documents associés via internet",
+                "type": "main",
+                "url": "https://atom.geo-ide.developpement-durable.gouv.fr/atomArchive/GetResource?id=5fe64f80-5e2a-44ad-a68a-420a80d2cfb4&dataType=dataset"
+              },
+              {
+                "checksum": null,
+                "created_at": "2024-11-15T16:50:48.812000+00:00",
+                "description": "",
+                "extras": {
+                  "dcat": {
+                    "accessRights": [
+                      "Pas de restriction d'accès public selon INSPIRE"
+                    ],
+                    "license": [
+                      "Voir les conditions particulières applicables à chaque jeu de données",
+                      "Aucun des articles de la loi ne peut être invoqué pour justifier d'une restriction d'accès public.",
+                      "Licence Ouverte / Open Licence Version 2.0 https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+                    ]
+                  }
+                },
+                "filesize": null,
+                "filetype": "remote",
+                "format": "esri shapefile (shp)",
+                "harvest": {
+                  "last_update": "2026-07-20T02:08:49.943000+00:00"
+                },
+                "id": "51a643ef-61b6-4488-85c2-cbf7b06931b4",
+                "internal": {
+                  "created_at_internal": "2024-11-15T16:50:48.812000+00:00",
+                  "last_modified_internal": "2024-11-15T16:50:48.812000+00:00"
+                },
+                "last_modified": "2024-11-15T16:50:48.812000+00:00",
+                "latest": "https://www.data.gouv.fr/api/1/datasets/r/51a643ef-61b6-4488-85c2-cbf7b06931b4",
+                "metrics": {
+                  "views": 83
+                },
+                "mime": null,
+                "preview_url": null,
+                "schema": null,
+                "title": "Téléchargement simple (Atom) du jeu et des documents associés via intranet",
+                "type": "main",
+                "url": "https://atom.geo-ide.e2.rie.gouv.fr/atomArchive/GetResource?id=5fe64f80-5e2a-44ad-a68a-420a80d2cfb4&dataType=dataset"
+              },
+              {
+                "checksum": null,
+                "created_at": "2024-11-15T16:50:48.814000+00:00",
+                "description": "",
+                "extras": {
+                  "analysis:checksum": "418445a41260499871caa432c759d3a9313125d9",
+                  "analysis:content-length": 21228,
+                  "analysis:mime-type": "text/xml",
+                  "check:available": true,
+                  "check:date": "2024-11-17T06:20:59.558336+00:00",
+                  "check:headers:content-length": 21228,
+                  "check:headers:content-type": "text/xml",
+                  "check:status": 200,
+                  "check:timeout": false,
+                  "dcat": {
+                    "accessRights": [
+                      "Pas de restriction d'accès public selon INSPIRE"
+                    ],
+                    "license": [
+                      "Voir les conditions particulières applicables à chaque jeu de données",
+                      "Aucun des articles de la loi ne peut être invoqué pour justifier d'une restriction d'accès public.",
+                      "Licence Ouverte / Open Licence Version 2.0 https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+                    ]
+                  }
+                },
+                "filesize": null,
+                "filetype": "remote",
+                "format": "wms",
+                "harvest": {
+                  "last_update": "2026-07-20T02:08:49.943000+00:00"
+                },
+                "id": "ae8297bb-4570-49bd-99be-1c6ca4e08509",
+                "internal": {
+                  "created_at_internal": "2024-11-15T16:50:48.814000+00:00",
+                  "last_modified_internal": "2024-11-15T16:50:48.814000+00:00"
+                },
+                "last_modified": "2024-11-15T16:50:48.814000+00:00",
+                "latest": "https://www.data.gouv.fr/api/1/datasets/r/ae8297bb-4570-49bd-99be-1c6ca4e08509",
+                "metrics": {
+                  "views": 44
+                },
+                "mime": null,
+                "preview_url": null,
+                "schema": null,
+                "title": "URL du GetCapabilities du service wms sur internet",
+                "type": "api",
+                "url": "https://ogc.geo-ide.developpement-durable.gouv.fr/wxs?map=/opt/data/stack/mapfiles/1.4/org_38024/5fe64f80-5e2a-44ad-a68a-420a80d2cfb4.internet.map&SERVICE=WMS&REQUEST=GetCapabilities"
+              },
+              {
+                "checksum": null,
+                "created_at": "2024-11-15T16:50:48.816000+00:00",
+                "description": "",
+                "extras": {
+                  "analysis:checksum": "acdedd318ad94059f9f6d2eee4e89fdad97bddb6",
+                  "analysis:content-length": 17257,
+                  "analysis:mime-type": "text/xml",
+                  "check:available": true,
+                  "check:date": "2024-11-17T14:50:57.895904+00:00",
+                  "check:headers:content-length": 17257,
+                  "check:headers:content-type": "text/xml",
+                  "check:status": 200,
+                  "check:timeout": false,
+                  "dcat": {
+                    "accessRights": [
+                      "Pas de restriction d'accès public selon INSPIRE"
+                    ],
+                    "license": [
+                      "Voir les conditions particulières applicables à chaque jeu de données",
+                      "Aucun des articles de la loi ne peut être invoqué pour justifier d'une restriction d'accès public.",
+                      "Licence Ouverte / Open Licence Version 2.0 https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+                    ]
+                  }
+                },
+                "filesize": null,
+                "filetype": "remote",
+                "format": "wfs",
+                "harvest": {
+                  "last_update": "2026-07-20T02:08:49.944000+00:00"
+                },
+                "id": "83abc192-506f-4eb2-8ee2-533471ab78c2",
+                "internal": {
+                  "created_at_internal": "2024-11-15T16:50:48.816000+00:00",
+                  "last_modified_internal": "2024-11-15T16:50:48.816000+00:00"
+                },
+                "last_modified": "2024-11-15T16:50:48.816000+00:00",
+                "latest": "https://www.data.gouv.fr/api/1/datasets/r/83abc192-506f-4eb2-8ee2-533471ab78c2",
+                "metrics": {
+                  "views": 54
+                },
+                "mime": null,
+                "preview_url": null,
+                "schema": null,
+                "title": "URL du GetCapabilities du service wfs sur internet",
+                "type": "api",
+                "url": "https://ogc.geo-ide.developpement-durable.gouv.fr/wxs?map=/opt/data/stack/mapfiles/1.4/org_38024/5fe64f80-5e2a-44ad-a68a-420a80d2cfb4.internet.map&SERVICE=WFS&REQUEST=GetCapabilities"
+              },
+              {
+                "checksum": null,
+                "created_at": "2024-11-15T16:50:48.818000+00:00",
+                "description": "",
+                "extras": {
+                  "dcat": {
+                    "accessRights": [
+                      "Pas de restriction d'accès public selon INSPIRE"
+                    ],
+                    "license": [
+                      "Voir les conditions particulières applicables à chaque jeu de données",
+                      "Aucun des articles de la loi ne peut être invoqué pour justifier d'une restriction d'accès public.",
+                      "Licence Ouverte / Open Licence Version 2.0 https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+                    ]
+                  }
+                },
+                "filesize": null,
+                "filetype": "remote",
+                "format": "wms",
+                "harvest": {
+                  "last_update": "2026-07-20T02:08:49.944000+00:00"
+                },
+                "id": "ce3f2e1a-2e8f-4944-9c86-ac038b7ecf3f",
+                "internal": {
+                  "created_at_internal": "2024-11-15T16:50:48.818000+00:00",
+                  "last_modified_internal": "2024-11-15T16:50:48.818000+00:00"
+                },
+                "last_modified": "2024-11-15T16:50:48.818000+00:00",
+                "latest": "https://www.data.gouv.fr/api/1/datasets/r/ce3f2e1a-2e8f-4944-9c86-ac038b7ecf3f",
+                "metrics": {
+                  "views": 54
+                },
+                "mime": null,
+                "preview_url": null,
+                "schema": null,
+                "title": "URL du GetCapabilities du service wms sur intranet",
+                "type": "api",
+                "url": "https://ogc.geo-ide.e2.rie.gouv.fr/wxs?map=/opt/data/stack/mapfiles/1.4/org_38024/5fe64f80-5e2a-44ad-a68a-420a80d2cfb4.intranet.map&SERVICE=WMS&REQUEST=GetCapabilities"
+              },
+              {
+                "checksum": null,
+                "created_at": "2024-11-15T16:50:48.820000+00:00",
+                "description": "",
+                "extras": {
+                  "dcat": {
+                    "accessRights": [
+                      "Pas de restriction d'accès public selon INSPIRE"
+                    ],
+                    "license": [
+                      "Voir les conditions particulières applicables à chaque jeu de données",
+                      "Aucun des articles de la loi ne peut être invoqué pour justifier d'une restriction d'accès public.",
+                      "Licence Ouverte / Open Licence Version 2.0 https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+                    ]
+                  }
+                },
+                "filesize": null,
+                "filetype": "remote",
+                "format": "wfs",
+                "harvest": {
+                  "last_update": "2026-07-20T02:08:49.945000+00:00"
+                },
+                "id": "922a4b48-d295-4aef-a1de-b84ce5c9a5cf",
+                "internal": {
+                  "created_at_internal": "2024-11-15T16:50:48.820000+00:00",
+                  "last_modified_internal": "2024-11-15T16:50:48.820000+00:00"
+                },
+                "last_modified": "2024-11-15T16:50:48.820000+00:00",
+                "latest": "https://www.data.gouv.fr/api/1/datasets/r/922a4b48-d295-4aef-a1de-b84ce5c9a5cf",
+                "metrics": {
+                  "views": 49
+                },
+                "mime": null,
+                "preview_url": null,
+                "schema": null,
+                "title": "URL du GetCapabilities du service wfs sur intranet",
+                "type": "api",
+                "url": "https://ogc.geo-ide.e2.rie.gouv.fr/wxs?map=/opt/data/stack/mapfiles/1.4/org_38024/5fe64f80-5e2a-44ad-a68a-420a80d2cfb4.intranet.map&SERVICE=WFS&REQUEST=GetCapabilities"
+              }
+            ],
+            "schema": {
+              "name": null,
+              "url": "http://www.opengis.net/def/crs/EPSG/0/2154",
+              "version": null
+            },
+            "slug": "transport-deplacement-lignes-de-transport-scolaire-remi-en-loir-et-cher",
+            "spatial": {
+              "geom": {
+                "coordinates": [
+                  [
+                    [
+                      [
+                        2.2477438,
+                        48.1328316
+                      ],
+                      [
+                        0.5803191,
+                        48.1328316
+                      ],
+                      [
+                        0.5803191,
+                        47.1862183
+                      ],
+                      [
+                        2.2477438,
+                        47.1862183
+                      ],
+                      [
+                        2.2477438,
+                        48.1328316
+                      ]
+                    ]
+                  ]
+                ],
+                "type": "MultiPolygon"
+              },
+              "granularity": "other",
+              "zones": []
+            },
+            "tags": [
+              "donnees-ouvertes",
+              "i-scolaire",
+              "inspire",
+              "reseaux-de-transport",
+              "transports-deplacements-transport-collectif"
+            ],
+            "temporal_coverage": null,
+            "title": "Transport déplacement - Lignes de transport scolaire Rémi en Loir-et-Cher",
+            "uri": "https://www.data.gouv.fr/api/1/datasets/transport-deplacement-lignes-de-transport-scolaire-remi-en-loir-et-cher/"
+          },
+          {
+            "access_audiences": [],
+            "access_type": "open",
+            "access_type_reason": null,
+            "access_type_reason_category": null,
+            "acronym": null,
+            "archived": null,
+            "authorization_request_url": null,
+            "badges": [],
+            "contact_points": [
+              {
+                "contact_form": null,
+                "email": null,
+                "id": "67b7c243505e606d20e260b4",
+                "name": "Métropole Aix-Marseille Provence",
+                "organization": {
+                  "acronym": "MAMP",
+                  "badges": [
+                    {
+                      "kind": "certified"
+                    },
+                    {
+                      "kind": "public-service"
+                    }
+                  ],
+                  "class": "Organization",
+                  "id": "59afbe7cc751df1980d8d1b5",
+                  "logo": "https://udata-avatars.s3.rbx.io.cloud.ovh.net/dd/6d243575424515af9c56a31539a5dd.jpg",
+                  "logo_thumbnail": "https://udata-avatars.s3.rbx.io.cloud.ovh.net/dd/6d243575424515af9c56a31539a5dd-100.jpg",
+                  "name": "Métropole d'Aix-Marseille-Provence",
+                  "page": "https://www.data.gouv.fr/organizations/metropole-aix-marseille-provence",
+                  "permissions": {
+                    "delete": false,
+                    "edit": false,
+                    "harvest": false,
+                    "members": false,
+                    "private": false
+                  },
+                  "slug": "metropole-aix-marseille-provence",
+                  "uri": "https://www.data.gouv.fr/api/1/organizations/metropole-aix-marseille-provence/"
+                },
+                "owner": null,
+                "role": "creator"
+              },
+              {
+                "contact_form": null,
+                "email": null,
+                "id": "67b7c243505e606d20e260b3",
+                "name": "Métropole Aix-Marseille Provence",
+                "organization": {
+                  "acronym": "MAMP",
+                  "badges": [
+                    {
+                      "kind": "certified"
+                    },
+                    {
+                      "kind": "public-service"
+                    }
+                  ],
+                  "class": "Organization",
+                  "id": "59afbe7cc751df1980d8d1b5",
+                  "logo": "https://udata-avatars.s3.rbx.io.cloud.ovh.net/dd/6d243575424515af9c56a31539a5dd.jpg",
+                  "logo_thumbnail": "https://udata-avatars.s3.rbx.io.cloud.ovh.net/dd/6d243575424515af9c56a31539a5dd-100.jpg",
+                  "name": "Métropole d'Aix-Marseille-Provence",
+                  "page": "https://www.data.gouv.fr/organizations/metropole-aix-marseille-provence",
+                  "permissions": {
+                    "delete": false,
+                    "edit": false,
+                    "harvest": false,
+                    "members": false,
+                    "private": false
+                  },
+                  "slug": "metropole-aix-marseille-provence",
+                  "uri": "https://www.data.gouv.fr/api/1/organizations/metropole-aix-marseille-provence/"
+                },
+                "owner": null,
+                "role": "publisher"
+              }
+            ],
+            "created_at": "2024-06-07T13:00:38+00:00",
+            "deleted": null,
+            "description": "Le jeu de données 'Points d'arrêt des réseaux de transport' est un fichier GTFS stops qui répertorie **les points d'arrêt associées au réseau de transport RTM**(Régie des Transports de Marseille), qui dessert les communes de Marseille, Allauch, et Plan-de-Cuques.\n\nÀ partir de 2022, les lignes maritimes RTM NAV ont également été intégrées à ce jeu de données, enrichissant ainsi la couverture et la diversité des modes de transport disponibles.\n\nChaque point d'arrêt est identifié par un ID unique et est décrit par son nom ('Name') et sa localisation géographique ('Coordinates').\n\nLes noms des points d'arrêt sont accompagnés de descriptions détaillant leur emplacement précis, souvent indiquant des rues ou des zones spécifiques.\n\nCe fichier inclut également des informations sur le type de localisation, l'accessibilité en fauteuil roulant, et d'autres détails pertinents pour la planification et l'exploitation des services de transport en commun.",
+            "description_short": null,
+            "extras": {},
+            "featured": false,
+            "frequency": "unknown",
+            "frequency_date": null,
+            "harvest": {
+              "backend": "DCAT",
+              "dct_identifier": "https://data.ampmetropole.fr/explore/dataset/ol-points-d-arret-des-reseaux-de-transport-en-commun/",
+              "domain": "data.ampmetropole.fr",
+              "issued_at": "2024-06-07T13:00:38+00:00",
+              "last_update": "2026-07-20T00:08:50.944000+00:00",
+              "modified_at": "2024-06-07T13:00:38+00:00",
+              "remote_id": "https://data.ampmetropole.fr/explore/dataset/ol-points-d-arret-des-reseaux-de-transport-en-commun/",
+              "remote_url": "https://data.ampmetropole.fr/explore/dataset/ol-points-d-arret-des-reseaux-de-transport-en-commun/",
+              "source_id": "633c4314a184a25b2e68b5dd",
+              "uri": "https://data.ampmetropole.fr/explore/dataset/ol-points-d-arret-des-reseaux-de-transport-en-commun/"
+            },
+            "id": "668dcf077d4ae0039936b4f4",
+            "internal": {
+              "created_at_internal": "2024-07-10T00:00:07.928000+00:00",
+              "last_modified_internal": "2024-07-10T00:00:07.928000+00:00"
+            },
+            "last_modified": "2024-06-07T13:00:38+00:00",
+            "last_update": "2024-06-07T13:00:38+00:00",
+            "license": "notspecified",
+            "metrics": {
+              "dataservices": 2,
+              "discussions": 0,
+              "discussions_open": 0,
+              "followers": 0,
+              "followers_by_months": {
+                "2025-01": 0,
+                "2025-02": 0,
+                "2025-03": 0,
+                "2025-04": 0,
+                "2025-05": 0,
+                "2025-06": 0,
+                "2025-07": 0,
+                "2025-08": 0,
+                "2025-09": 0,
+                "2025-10": 0,
+                "2025-11": 0,
+                "2025-12": 0,
+                "2026-01": 0
+              },
+              "resources_downloads": 861,
+              "reuses": 0,
+              "reuses_by_months": {
+                "2025-01": 0,
+                "2025-02": 0,
+                "2025-03": 0,
+                "2025-04": 0,
+                "2025-05": 0,
+                "2025-06": 0,
+                "2025-07": 0,
+                "2025-08": 0,
+                "2025-09": 0,
+                "2025-10": 0,
+                "2025-11": 0,
+                "2025-12": 0,
+                "2026-01": 0
+              },
+              "views": 2351
+            },
+            "organization": {
+              "acronym": "MAMP",
+              "badges": [
+                {
+                  "kind": "certified"
+                },
+                {
+                  "kind": "public-service"
+                }
+              ],
+              "class": "Organization",
+              "id": "59afbe7cc751df1980d8d1b5",
+              "logo": "https://udata-avatars.s3.rbx.io.cloud.ovh.net/dd/6d243575424515af9c56a31539a5dd.jpg",
+              "logo_thumbnail": "https://udata-avatars.s3.rbx.io.cloud.ovh.net/dd/6d243575424515af9c56a31539a5dd-100.jpg",
+              "name": "Métropole d'Aix-Marseille-Provence",
+              "page": "https://www.data.gouv.fr/organizations/metropole-aix-marseille-provence",
+              "permissions": {
+                "delete": false,
+                "edit": false,
+                "harvest": false,
+                "members": false,
+                "private": false
+              },
+              "slug": "metropole-aix-marseille-provence",
+              "uri": "https://www.data.gouv.fr/api/1/organizations/metropole-aix-marseille-provence/"
+            },
+            "owner": null,
+            "page": "https://www.data.gouv.fr/datasets/points-darret-des-reseaux-de-transport-rtm-regie-des-transports-de-marseille",
+            "permissions": {
+              "delete": false,
+              "edit": false,
+              "edit_resources": false
+            },
+            "private": false,
+            "quality": {
+              "all_resources_available": true,
+              "dataset_description_quality": true,
+              "has_open_format": true,
+              "has_resources": true,
+              "license": true,
+              "resources_documentation": true,
+              "score": 0.5555555555555556,
+              "spatial": false,
+              "temporal_coverage": false,
+              "update_frequency": false
+            },
+            "resources": [
+              {
+                "checksum": null,
+                "created_at": "2024-06-07T13:00:38+00:00",
+                "description": "Points d'arrêt des réseaux de transport RTM (Régie des Transports de Marseille) (csv)",
+                "extras": {
+                  "analysis:checksum": "7121aeddd4a400cc6dc0a35e67ce7d50404a9af2",
+                  "analysis:content-length": 192120,
+                  "analysis:last-modified-at": "2024-06-07T13:00:38+00:00",
+                  "analysis:last-modified-detection": "harvest-resource-metadata",
+                  "analysis:mime-type": "text/plain",
+                  "analysis:parsing:finished_at": "2025-05-05T13:32:51.314404+00:00",
+                  "analysis:parsing:parquet_size": 92335,
+                  "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/e78c51b50ed148503d36e47a056b5fef.parquet",
+                  "analysis:parsing:parsing_table": "e78c51b50ed148503d36e47a056b5fef",
+                  "analysis:parsing:started_at": "2025-05-05T13:32:35.935556+00:00",
+                  "check:available": true,
+                  "check:cors:allow-headers": "Authorization, X-Requested-With, Origin, ODS-API-Analytics-App, ODS-API-Analytics-Embed-Type, ODS-API-Analytics-Embed-Referrer, ODS-Widgets-Version, Accept",
+                  "check:cors:allow-methods": "POST, GET, OPTIONS",
+                  "check:cors:allow-origin": "*",
+                  "check:cors:expose-headers": "ODS-Explore-API-Deprecation, Link, X-RateLimit-Remaining, X-RateLimit-Limit, X-RateLimit-Reset, X-RateLimit-dataset-Remaining, X-RateLimit-dataset-Limit, X-RateLimit-dataset-Reset",
+                  "check:cors:max-age": "1000",
+                  "check:cors:status": 200,
+                  "check:date": "2026-02-09T01:38:57.214621+00:00",
+                  "check:headers:content-type": "text/csv",
+                  "check:id": 41137302,
+                  "check:status": 200,
+                  "check:timeout": false
+                },
+                "filesize": null,
+                "filetype": "remote",
+                "format": "csv",
+                "harvest": {
+                  "issued_at": "2024-06-07T13:00:38+00:00",
+                  "last_update": "2026-07-20T00:08:50.941000+00:00",
+                  "modified_at": "2024-06-07T13:00:38+00:00",
+                  "uri": "https://data.ampmetropole.fr/api/explore/v2.1/catalog/datasets/ol-points-d-arret-des-reseaux-de-transport-en-commun/exports/csv?use_labels=true"
+                },
+                "id": "08f0f7e8-7561-4d69-8e7a-57280fb2cd8e",
+                "internal": {
+                  "created_at_internal": "2024-07-10T00:00:07.929000+00:00",
+                  "last_modified_internal": "2024-07-10T00:00:07.929000+00:00"
+                },
+                "last_modified": "2024-06-07T13:00:38+00:00",
+                "latest": "https://www.data.gouv.fr/api/1/datasets/r/08f0f7e8-7561-4d69-8e7a-57280fb2cd8e",
+                "metrics": {
+                  "views": 247
+                },
+                "mime": "text/csv",
+                "preview_url": "https://explore.data.gouv.fr/fr/resources/08f0f7e8-7561-4d69-8e7a-57280fb2cd8e",
+                "schema": null,
+                "title": "ol-points-d-arret-des-reseaux-de-transport-en-commun.csv",
+                "type": "main",
+                "url": "https://data.ampmetropole.fr/api/explore/v2.1/catalog/datasets/ol-points-d-arret-des-reseaux-de-transport-en-commun/exports/csv?use_labels=true"
+              },
+              {
+                "checksum": null,
+                "created_at": "2024-06-07T13:00:38+00:00",
+                "description": "Points d'arrêt des réseaux de transport RTM (Régie des Transports de Marseille) (json)",
+                "extras": {
+                  "analysis:checksum": "ea0e79ce6d123ff00e70059a823aeade56f263b7",
+                  "analysis:content-length": 802160,
+                  "analysis:last-modified-at": "2024-06-07T13:00:38+00:00",
+                  "analysis:last-modified-detection": "harvest-resource-metadata",
+                  "analysis:mime-type": "application/json",
+                  "check:available": true,
+                  "check:cors:allow-headers": "Authorization, X-Requested-With, Origin, ODS-API-Analytics-App, ODS-API-Analytics-Embed-Type, ODS-API-Analytics-Embed-Referrer, ODS-Widgets-Version, Accept",
+                  "check:cors:allow-methods": "POST, GET, OPTIONS",
+                  "check:cors:allow-origin": "*",
+                  "check:cors:expose-headers": "ODS-Explore-API-Deprecation, Link, X-RateLimit-Remaining, X-RateLimit-Limit, X-RateLimit-Reset, X-RateLimit-dataset-Remaining, X-RateLimit-dataset-Limit, X-RateLimit-dataset-Reset",
+                  "check:cors:max-age": "1000",
+                  "check:cors:status": 200,
+                  "check:date": "2026-02-23T08:27:42.057456+00:00",
+                  "check:headers:content-type": "application/json",
+                  "check:id": 42305004,
+                  "check:status": 200,
+                  "check:timeout": false
+                },
+                "filesize": null,
+                "filetype": "remote",
+                "format": "json",
+                "harvest": {
+                  "issued_at": "2024-06-07T13:00:38+00:00",
+                  "last_update": "2026-07-20T00:08:50.941000+00:00",
+                  "modified_at": "2024-06-07T13:00:38+00:00",
+                  "uri": "https://data.ampmetropole.fr/api/explore/v2.1/catalog/datasets/ol-points-d-arret-des-reseaux-de-transport-en-commun/exports/json"
+                },
+                "id": "fccaefc4-9bff-49fb-ae1b-db08d4b25207",
+                "internal": {
+                  "created_at_internal": "2024-07-10T00:00:07.930000+00:00",
+                  "last_modified_internal": "2024-07-10T00:00:07.930000+00:00"
+                },
+                "last_modified": "2024-06-07T13:00:38+00:00",
+                "latest": "https://www.data.gouv.fr/api/1/datasets/r/fccaefc4-9bff-49fb-ae1b-db08d4b25207",
+                "metrics": {
+                  "views": 229
+                },
+                "mime": "application/json",
+                "preview_url": null,
+                "schema": null,
+                "title": "ol-points-d-arret-des-reseaux-de-transport-en-commun.json",
+                "type": "main",
+                "url": "https://data.ampmetropole.fr/api/explore/v2.1/catalog/datasets/ol-points-d-arret-des-reseaux-de-transport-en-commun/exports/json"
+              },
+              {
+                "checksum": null,
+                "created_at": "2024-06-07T13:00:38+00:00",
+                "description": "Points d'arrêt des réseaux de transport RTM (Régie des Transports de Marseille) (geojson)",
+                "extras": {
+                  "analysis:checksum": "90d3f77e8b092cbd9d3820a337043051f19bb875",
+                  "analysis:content-length": 853012,
+                  "analysis:last-modified-at": "2024-06-07T13:00:38+00:00",
+                  "analysis:last-modified-detection": "harvest-resource-metadata",
+                  "analysis:mime-type": "application/json",
+                  "check:available": true,
+                  "check:cors:allow-headers": "Authorization, X-Requested-With, Origin, ODS-API-Analytics-App, ODS-API-Analytics-Embed-Type, ODS-API-Analytics-Embed-Referrer, ODS-Widgets-Version, Accept",
+                  "check:cors:allow-methods": "POST, GET, OPTIONS",
+                  "check:cors:allow-origin": "*",
+                  "check:cors:expose-headers": "ODS-Explore-API-Deprecation, Link, X-RateLimit-Remaining, X-RateLimit-Limit, X-RateLimit-Reset, X-RateLimit-dataset-Remaining, X-RateLimit-dataset-Limit, X-RateLimit-dataset-Reset",
+                  "check:cors:max-age": "1000",
+                  "check:cors:status": 200,
+                  "check:date": "2026-02-23T10:15:49.695035+00:00",
+                  "check:headers:content-type": "application/json",
+                  "check:id": 42310658,
+                  "check:status": 200,
+                  "check:timeout": false
+                },
+                "filesize": null,
+                "filetype": "remote",
+                "format": "json",
+                "harvest": {
+                  "issued_at": "2024-06-07T13:00:38+00:00",
+                  "last_update": "2026-07-20T00:08:50.942000+00:00",
+                  "modified_at": "2024-06-07T13:00:38+00:00",
+                  "uri": "https://data.ampmetropole.fr/api/explore/v2.1/catalog/datasets/ol-points-d-arret-des-reseaux-de-transport-en-commun/exports/geojson"
+                },
+                "id": "ca1ea373-a808-4811-bfaa-5105f7f9fba5",
+                "internal": {
+                  "created_at_internal": "2024-07-10T00:00:07.930000+00:00",
+                  "last_modified_internal": "2024-07-10T00:00:07.930000+00:00"
+                },
+                "last_modified": "2024-06-07T13:00:38+00:00",
+                "latest": "https://www.data.gouv.fr/api/1/datasets/r/ca1ea373-a808-4811-bfaa-5105f7f9fba5",
+                "metrics": {
+                  "views": 195
+                },
+                "mime": "application/json",
+                "preview_url": null,
+                "schema": null,
+                "title": "ol-points-d-arret-des-reseaux-de-transport-en-commun.geojson",
+                "type": "main",
+                "url": "https://data.ampmetropole.fr/api/explore/v2.1/catalog/datasets/ol-points-d-arret-des-reseaux-de-transport-en-commun/exports/geojson"
+              },
+              {
+                "checksum": null,
+                "created_at": "2024-06-07T13:00:38+00:00",
+                "description": "Points d'arrêt des réseaux de transport RTM (Régie des Transports de Marseille) (shp)",
+                "extras": {
+                  "analysis:checksum": "2b4ea65a61430e9b7c2d6603f7befd49cd916e31",
+                  "analysis:content-length": 136589,
+                  "analysis:last-modified-at": "2024-06-07T13:00:38+00:00",
+                  "analysis:last-modified-detection": "harvest-resource-metadata",
+                  "analysis:mime-type": "application/zip",
+                  "check:available": true,
+                  "check:cors:allow-headers": "Authorization, X-Requested-With, Origin, ODS-API-Analytics-App, ODS-API-Analytics-Embed-Type, ODS-API-Analytics-Embed-Referrer, ODS-Widgets-Version, Accept",
+                  "check:cors:allow-methods": "POST, GET, OPTIONS",
+                  "check:cors:allow-origin": "*",
+                  "check:cors:expose-headers": "ODS-Explore-API-Deprecation, Link, X-RateLimit-Remaining, X-RateLimit-Limit, X-RateLimit-Reset, X-RateLimit-dataset-Remaining, X-RateLimit-dataset-Limit, X-RateLimit-dataset-Reset",
+                  "check:cors:max-age": "1000",
+                  "check:cors:status": 200,
+                  "check:date": "2026-02-15T15:23:45.284423+00:00",
+                  "check:headers:content-type": "application/zip",
+                  "check:id": 41697026,
+                  "check:status": 200,
+                  "check:timeout": false
+                },
+                "filesize": null,
+                "filetype": "remote",
+                "format": "zip",
+                "harvest": {
+                  "issued_at": "2024-06-07T13:00:38+00:00",
+                  "last_update": "2026-07-20T00:08:50.942000+00:00",
+                  "modified_at": "2024-06-07T13:00:38+00:00",
+                  "uri": "https://data.ampmetropole.fr/api/explore/v2.1/catalog/datasets/ol-points-d-arret-des-reseaux-de-transport-en-commun/exports/shp"
+                },
+                "id": "c3b84da5-9192-48a8-b073-95fc81eaf9e6",
+                "internal": {
+                  "created_at_internal": "2024-07-10T00:00:07.930000+00:00",
+                  "last_modified_internal": "2024-07-10T00:00:07.930000+00:00"
+                },
+                "last_modified": "2024-06-07T13:00:38+00:00",
+                "latest": "https://www.data.gouv.fr/api/1/datasets/r/c3b84da5-9192-48a8-b073-95fc81eaf9e6",
+                "metrics": {
+                  "views": 203
+                },
+                "mime": "application/zip",
+                "preview_url": null,
+                "schema": null,
+                "title": "ol-points-d-arret-des-reseaux-de-transport-en-commun.zip",
+                "type": "main",
+                "url": "https://data.ampmetropole.fr/api/explore/v2.1/catalog/datasets/ol-points-d-arret-des-reseaux-de-transport-en-commun/exports/shp"
+              }
+            ],
+            "schema": null,
+            "slug": "points-darret-des-reseaux-de-transport-rtm-regie-des-transports-de-marseille",
+            "spatial": null,
+            "tags": [
+              "deplacement",
+              "mobilite",
+              "rtm",
+              "stops",
+              "transport",
+              "transports"
+            ],
+            "temporal_coverage": null,
+            "title": "Points d'arrêt des réseaux de transport RTM (Régie des Transports de Marseille)",
+            "uri": "https://www.data.gouv.fr/api/1/datasets/points-darret-des-reseaux-de-transport-rtm-regie-des-transports-de-marseille/"
+          }
+        ],
+        "next_page": "https://www.data.gouv.fr/api/1/datasets/?q=transport&page_size=10&page=2",
+        "page": 1,
+        "page_size": 10,
+        "previous_page": null,
+        "total": 890
+      }
+    }
+  ]
+}

@@ -1,49 +1,57 @@
 import pytest
 from aioresponses import aioresponses
-from hipolita import search_data, search_data_async, get_dataset, get_dataset_async, fetch_dataset_data, fetch_dataset_data_async, PortalType
+from hlib import search_data, search_data_async, get_dataset, get_dataset_async, fetch_dataset_data, fetch_dataset_data_async, PortalType
 
 @pytest.mark.asyncio
 async def test_search_all_aggregates_results_async():
-    """Testa se busca 'ALL' agrega resultados de ambos os portais via função assíncrona."""
-    
+    """Testa busca em uma lista de portais (cada um com sua própria config), agregando resultados."""
+
     # Mock BR response
     mock_br_resp = {
         "conjuntosDados": [{"id": "br1", "title": "BR Dataset", "nomeOrganizacao": "Org BR"}]
     }
-    # Mock US response
+    # Mock US response (API v4, DCAT-US)
     mock_us_resp = {
-        "success": True,
-        "result": {"results": [{"id": "us1", "title": "US Dataset", "organization": {"title": "Org US"}}]}
+        "results": [{"identifier": "us1", "title": "US Dataset", "organization": {"name": "Org US"}}]
     }
-    
+
     with aioresponses() as m:
         # Connect checks
         m.get("https://dados.gov.br/", status=200) # BR Connect
-        m.get("https://catalog.data.gov/api/3/action/package_search?rows=0", status=200) # US Connect
-        
+
         # Searches
         m.get("https://dados.gov.br/dados/api/publico/conjuntos-dados?isPrivado=false&nomeConjuntoDados=test&pagina=1&registrosPorPagina=10", payload=mock_br_resp)
-        m.get("https://catalog.data.gov/api/3/action/package_search?q=test&rows=10", payload=mock_us_resp)
-        
-        results = await search_data_async("test", PortalType.ALL, api_key="TEST_KEY")
-        
+        m.get("https://api.gsa.gov/technology/datagov/v4/search?q=test&per_page=10", payload=mock_us_resp)
+
+        # A config de cada portal fica isolada dentro do próprio item da lista
+        # — a api_key do BR não vaza para o portal dos EUA (nem vice-versa).
+        results = await search_data_async("test", [
+            {"portal": "dados_gov_br", "api_key": "TEST_KEY"},
+            {"portal": "data_gov_us"},
+        ])
+
         assert len(results) == 2
         titles = [d.title for d in results]
         assert "BR Dataset" in titles
         assert "US Dataset" in titles
 
+
+@pytest.mark.asyncio
+async def test_search_list_forbids_top_level_auth_config():
+    """Testa que passar **auth_config junto com uma lista de portais levanta ValueError."""
+    with pytest.raises(ValueError, match="Quando 'portal' é uma lista"):
+        await search_data_async("test", ["data_gov_us", "dados_gov_br"], api_key="TEST_KEY")
+
 def test_search_sync_wrapper():
     """Testa o wrapper síncrono search_data."""
     
     mock_us_resp = {
-        "success": True,
-        "result": {"results": [{"id": "us1", "title": "US Dataset", "organization": {"title": "Org US"}}]}
+        "results": [{"identifier": "us1", "title": "US Dataset", "organization": {"name": "Org US"}}]
     }
-    
+
     with aioresponses() as m:
-         m.get("https://catalog.data.gov/api/3/action/package_search?rows=0", status=200)
-         m.get("https://catalog.data.gov/api/3/action/package_search?q=sync_test&rows=10", payload=mock_us_resp)
-         
+         m.get("https://api.gsa.gov/technology/datagov/v4/search?q=sync_test&per_page=10", payload=mock_us_resp)
+
          # search_data (sync) utiliza asyncio.run internamente
          results = search_data("sync_test", PortalType.DATA_GOV_US)
          assert len(results) == 1
@@ -69,13 +77,11 @@ def test_search_invalid_portal():
 def test_search_by_string_key():
     """Testa se busca funciona passando portal como string."""
     mock_us_resp = {
-        "success": True,
-        "result": {"results": [{"id": "us1", "title": "US Dataset"}]}
+        "results": [{"identifier": "us1", "title": "US Dataset"}]
     }
     with aioresponses() as m:
-        m.get("https://catalog.data.gov/api/3/action/package_search?rows=0", status=200)
-        m.get("https://catalog.data.gov/api/3/action/package_search?q=test&rows=10", payload=mock_us_resp)
-        
+        m.get("https://api.gsa.gov/technology/datagov/v4/search?q=test&per_page=10", payload=mock_us_resp)
+
         # Passando portal como string 'data_gov_us'
         results = search_data("test", portal="data_gov_us")
         assert len(results) == 1
@@ -151,19 +157,18 @@ def test_search_by_string_key_singapore():
 # ==========================================
 
 def test_get_dataset_core_us():
-    """Testa get_dataset via core para portal US."""
+    """Testa get_dataset via core para portal US (API v4, paginação por identifier)."""
     mock_resp = {
-        "success": True,
-        "result": {
-            "id": "us1",
-            "title": "US Dataset Detail",
-            "organization": {"title": "US Org"},
-            "resources": [],
-            "tags": [],
-        }
+        "results": [
+            {
+                "identifier": "us1",
+                "title": "US Dataset Detail",
+                "organization": {"name": "US Org"},
+            }
+        ]
     }
     with aioresponses() as m:
-        m.get("https://catalog.data.gov/api/3/action/package_show?id=us1", payload=mock_resp)
+        m.get("https://api.gsa.gov/technology/datagov/v4/search?per_page=100", payload=mock_resp)
         ds = get_dataset("us1", portal="data_gov_us")
         assert ds is not None
         assert ds.title == "US Dataset Detail"
@@ -208,10 +213,10 @@ async def test_get_dataset_async_singapore():
         assert ds.title == "SG Detail"
 
 
-def test_get_dataset_all_raises():
-    """Testa que get_dataset com ALL levanta ValueError."""
-    with pytest.raises(ValueError, match="requires a specific portal"):
-        get_dataset("id", portal="all")
+def test_get_dataset_list_raises():
+    """Testa que get_dataset com uma lista de portais levanta ValueError."""
+    with pytest.raises(ValueError, match="requires a single specific portal"):
+        get_dataset("id", portal=["data_gov_us", "dados_gov_br"])
 
 
 def test_get_dataset_invalid_portal():
@@ -221,8 +226,8 @@ def test_get_dataset_invalid_portal():
 
 
 def test_get_dataset_fails_silently():
-    """Testa que get_dataset com fails_silently=True retorna None para ALL."""
-    result = get_dataset("id", portal="all", fails_silently=True)
+    """Testa que get_dataset com fails_silently=True retorna None para portal inválido."""
+    result = get_dataset("id", portal="portal_inexistente", fails_silently=True)
     assert result is None
 
 
@@ -231,23 +236,25 @@ def test_get_dataset_fails_silently():
 # ==========================================
 
 def test_fetch_dataset_data_core_csv():
-    """Testa fetch_dataset_data via core com recurso CSV."""
+    """Testa fetch_dataset_data via core com recurso CSV (API v4 do data.gov)."""
     mock_resp = {
-        "success": True,
-        "result": {
-            "id": "us1",
-            "title": "US Core CSV",
-            "organization": {"title": "Org"},
-            "resources": [
-                {"id": "r1", "name": "data.csv", "format": "CSV", "url": "http://example.com/data.csv"}
-            ],
-            "tags": [],
-        }
+        "results": [
+            {
+                "identifier": "us1",
+                "title": "US Core CSV",
+                "organization": {"name": "Org"},
+                "dcat": {
+                    "distribution": [
+                        {"title": "data.csv", "format": "CSV", "downloadURL": "http://example.com/data.csv"}
+                    ]
+                },
+            }
+        ]
     }
     csv_content = b"a,b\n1,2"
 
     with aioresponses() as m:
-        m.get("https://catalog.data.gov/api/3/action/package_show?id=us1", payload=mock_resp)
+        m.get("https://api.gsa.gov/technology/datagov/v4/search?per_page=100", payload=mock_resp)
         m.get("http://example.com/data.csv", body=csv_content, content_type="text/csv")
 
         result = fetch_dataset_data("us1", portal="data_gov_us")
@@ -256,14 +263,14 @@ def test_fetch_dataset_data_core_csv():
         assert result.meta["title"] == "US Core CSV"
 
 
-def test_fetch_dataset_data_all_raises():
-    """Testa que fetch_dataset_data com ALL levanta ValueError."""
-    with pytest.raises(ValueError, match="requires a specific portal"):
-        fetch_dataset_data("id", portal="all")
+def test_fetch_dataset_data_list_raises():
+    """Testa que fetch_dataset_data com uma lista de portais levanta ValueError."""
+    with pytest.raises(ValueError, match="requires a single specific portal"):
+        fetch_dataset_data("id", portal=["data_gov_us", "dados_gov_br"])
 
 
 def test_fetch_dataset_data_fails_silently():
     """Testa que fetch_dataset_data com fails_silently retorna DataFrameWithMeta vazio."""
-    result = fetch_dataset_data("id", portal="all", fails_silently=True)
+    result = fetch_dataset_data("id", portal="portal_inexistente", fails_silently=True)
     assert result.df.empty
     assert "error" in result.meta

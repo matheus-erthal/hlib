@@ -39,7 +39,6 @@ class Dataset:
 from enum import Enum, auto
 
 class PortalType(Enum):
-    ALL = "all"
     DADOS_GOV_BR = "dados_gov_br"
     DATA_GOV_US = "data_gov_us"
     DATA_GOV_UK = "data_gov_uk"

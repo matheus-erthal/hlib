@@ -16,7 +16,7 @@ class DataAdapter(ABC):
 
     async def __aenter__(self):
         headers = {
-            "User-Agent": "Hipolita/1.0 (Research Project; contact@example.com)"
+            "User-Agent": "Hipolita/1.0"
         }
         self.session = aiohttp.ClientSession(headers=headers)
         return self

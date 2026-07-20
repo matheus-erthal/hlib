@@ -1,0 +1,292 @@
+{
+  "captured_at": "2026-07-20",
+  "calls": [
+    {
+      "url": "https://data.gov.au/data/api/3/action/package_show",
+      "params": {
+        "id": "dbe42b69-771a-4332-92be-6817bd5d4a0a"
+      },
+      "response": {
+        "help": "https://data.gov.au/data/api/3/action/help_show?name=package_show",
+        "success": true,
+        "result": {
+          "archived": false,
+          "author_email": null,
+          "contact_point": "unknown",
+          "creator_user_id": "c2fbbe4a-4ba0-4945-808b-67454605a4cf",
+          "duplicate_score": 2,
+          "geospatial_topic": [],
+          "id": "dbe42b69-771a-4332-92be-6817bd5d4a0a",
+          "isopen": false,
+          "license_id": "other-open",
+          "license_title": "Other (Open)",
+          "maintainer": null,
+          "maintainer_email": null,
+          "metadata_created": "2025-06-26T00:22:34.126201",
+          "metadata_modified": "2025-06-26T00:22:36.745811",
+          "name": "environment-bird-atlas1",
+          "notes": "Australia and its territories are home to over 800 species of birds. The 'Env Bird Atlas' dataset includes many of these species as observed in the Geelong area. Users can search for a species by its common name, or scientific name. The attribute report also displays the species identification number. \nAlthough all due care has been taken to ensure that these data are correct, no warranty is expressed or implied by the City of Greater Geelong in their use. Geographic Coordinate System: GCS_WGS_1984.",
+          "num_resources": 6,
+          "num_tags": 8,
+          "organization": {
+            "id": "ce247e47-25a1-4c39-9fcc-cd3ca6e25032",
+            "name": "city-of-greater-geelong-victoria-government",
+            "title": "City of Greater Geelong",
+            "type": "organization",
+            "description": "With a population of over almost 259,000 people, the City of Greater Geelong is Victoria’s largest regional city and located 75 kilometres from the Melbourne CBD. Key natural features of the region include Corio Bay, the Bellarine Peninsula, the Barwon River, You Yangs Regional Park, wetlands, beautiful parklands and wildlife sanctuaries.\r\n\r\nhttps://www.vic.gov.au/know-your-council-greater-geelong-city-council",
+            "image_url": "",
+            "created": "2025-06-26T02:46:51.350467",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+          },
+          "original_harvest_source": {
+            "site_url": "https://discover.data.vic.gov.au",
+            "href": "https://discover.data.vic.gov.au/dataset/environment-bird-atlas1",
+            "title": "Victoria Government"
+          },
+          "original_name": "environment-bird-atlas",
+          "owner_org": "ce247e47-25a1-4c39-9fcc-cd3ca6e25032",
+          "private": false,
+          "promotion_level": "0",
+          "remote_last_updated": "2025-02-17 21:50:54.925841",
+          "spatial": "Victoria",
+          "state": "active",
+          "temporal_coverage_from": "2025-02-13 00:00:00",
+          "title": "Environment Bird Atlas",
+          "type": "dataset",
+          "unpublished": false,
+          "url": "https://www.geelongdataexchange.com.au/api/v2/catalog/datasets/environment-bird-atlas-city-of-greater-geelong",
+          "version": null,
+          "extras": [
+            {
+              "key": "harvest_object_id",
+              "value": "d8857a82-a5ce-4279-81e5-2c7700f9b292"
+            },
+            {
+              "key": "harvest_source_id",
+              "value": "472e756b-f6f5-44d2-ba46-5438c201e026"
+            },
+            {
+              "key": "harvest_source_title",
+              "value": "Victoria Government"
+            }
+          ],
+          "resources": [
+            {
+              "cache_last_updated": null,
+              "cache_url": null,
+              "ckan_url": "https://discover.data.vic.gov.au",
+              "created": "2025-02-17T20:36:03.570849",
+              "datastore_active": true,
+              "datastore_contains_all_records_of_source_file": true,
+              "filesize": -1,
+              "format": "CSV",
+              "hash": "fd45e237ec31302b000575e8fe6d17ec",
+              "id": "e714fcd7-0179-5675-a307-a396f19aff4e",
+              "ignore_hash": false,
+              "last_modified": null,
+              "metadata_modified": "2025-06-26T00:22:34.100235",
+              "mimetype": null,
+              "mimetype_inner": null,
+              "name": "Environment Bird Atlas CSV",
+              "original_url": "https://www.geelongdataexchange.com.au/api/v2/catalog/datasets/environment-bird-atlas-city-of-greater-geelong/exports/csv?delimiter=%2C",
+              "package_id": "dbe42b69-771a-4332-92be-6817bd5d4a0a",
+              "position": 0,
+              "resource_id": "e714fcd7-0179-5675-a307-a396f19aff4e",
+              "resource_type": null,
+              "set_url_type": false,
+              "size": -1,
+              "state": "active",
+              "task_created": "2025-02-17 21:25:45.441067",
+              "url": "https://www.geelongdataexchange.com.au/api/v2/catalog/datasets/environment-bird-atlas-city-of-greater-geelong/exports/csv?delimiter=%2C",
+              "url_type": null,
+              "zip_extract": false
+            },
+            {
+              "cache_last_updated": null,
+              "cache_url": null,
+              "created": "2025-02-17T20:36:03.570855",
+              "datastore_active": false,
+              "datastore_contains_all_records_of_source_file": false,
+              "filesize": -1,
+              "format": "JSON",
+              "hash": "",
+              "id": "2c6d8b73-ce36-5ea1-a59c-ccc465eb9e8f",
+              "last_modified": null,
+              "metadata_modified": "2025-06-26T00:22:34.101953",
+              "mimetype": null,
+              "mimetype_inner": null,
+              "name": "Environment Bird Atlas JSON",
+              "package_id": "dbe42b69-771a-4332-92be-6817bd5d4a0a",
+              "position": 1,
+              "resource_type": null,
+              "size": -1,
+              "state": "active",
+              "url": "https://www.geelongdataexchange.com.au/api/v2/catalog/datasets/environment-bird-atlas-city-of-greater-geelong/exports/json",
+              "url_type": null,
+              "zip_extract": false
+            },
+            {
+              "cache_last_updated": null,
+              "cache_url": null,
+              "created": "2025-02-17T20:36:03.570857",
+              "datastore_active": false,
+              "datastore_contains_all_records_of_source_file": false,
+              "filesize": -1,
+              "format": "GeoJSON",
+              "hash": "",
+              "id": "ea93a50d-e1e5-5ed5-81ae-fcf31acdf797",
+              "last_modified": null,
+              "metadata_modified": "2025-06-26T00:22:34.103627",
+              "mimetype": null,
+              "mimetype_inner": null,
+              "name": "Environment Bird Atlas GEOJSON",
+              "package_id": "dbe42b69-771a-4332-92be-6817bd5d4a0a",
+              "position": 2,
+              "resource_type": null,
+              "size": -1,
+              "state": "active",
+              "url": "https://www.geelongdataexchange.com.au/api/v2/catalog/datasets/environment-bird-atlas-city-of-greater-geelong/exports/geojson",
+              "url_type": null,
+              "zip_extract": false
+            },
+            {
+              "cache_last_updated": null,
+              "cache_url": null,
+              "created": "2025-02-17T20:36:03.570858",
+              "datastore_active": false,
+              "datastore_contains_all_records_of_source_file": false,
+              "filesize": -1,
+              "format": "KML",
+              "hash": "",
+              "id": "443c14ce-55a1-5244-a427-53bb9ec98188",
+              "last_modified": null,
+              "metadata_modified": "2025-06-26T00:22:34.105542",
+              "mimetype": null,
+              "mimetype_inner": null,
+              "name": "Environment Bird Atlas KML",
+              "package_id": "dbe42b69-771a-4332-92be-6817bd5d4a0a",
+              "position": 3,
+              "resource_type": null,
+              "size": -1,
+              "state": "active",
+              "url": "https://www.geelongdataexchange.com.au/api/v2/catalog/datasets/environment-bird-atlas-city-of-greater-geelong/exports/kml",
+              "url_type": null,
+              "zip_extract": false
+            },
+            {
+              "cache_last_updated": null,
+              "cache_url": null,
+              "created": "2025-02-17T20:36:03.570860",
+              "datastore_active": false,
+              "datastore_contains_all_records_of_source_file": false,
+              "filesize": -1,
+              "format": "SHP",
+              "hash": "",
+              "id": "4ef258aa-f3f8-5598-928f-332a87a1f570",
+              "last_modified": null,
+              "metadata_modified": "2025-06-26T00:22:34.107408",
+              "mimetype": null,
+              "mimetype_inner": null,
+              "name": "Environment Bird Atlas SHP",
+              "package_id": "dbe42b69-771a-4332-92be-6817bd5d4a0a",
+              "position": 4,
+              "resource_type": null,
+              "size": -1,
+              "state": "active",
+              "url": "https://www.geelongdataexchange.com.au/api/v2/catalog/datasets/environment-bird-atlas-city-of-greater-geelong/exports/shp",
+              "url_type": null,
+              "zip_extract": false
+            },
+            {
+              "cache_last_updated": null,
+              "cache_url": null,
+              "created": "2025-02-17T20:36:03.570862",
+              "datastore_active": false,
+              "datastore_contains_all_records_of_source_file": false,
+              "filesize": -1,
+              "format": "XLS",
+              "hash": "",
+              "id": "1e5f866c-9553-5a51-a63d-c5e6d52e7d85",
+              "last_modified": null,
+              "metadata_modified": "2025-06-26T00:22:34.109207",
+              "mimetype": null,
+              "mimetype_inner": null,
+              "name": "Environment Bird Atlas XLS",
+              "package_id": "dbe42b69-771a-4332-92be-6817bd5d4a0a",
+              "position": 5,
+              "resource_type": null,
+              "size": -1,
+              "state": "active",
+              "url": "https://www.geelongdataexchange.com.au/api/v2/catalog/datasets/environment-bird-atlas-city-of-greater-geelong/exports/xls",
+              "url_type": null,
+              "zip_extract": false
+            }
+          ],
+          "tags": [
+            {
+              "display_name": "animals",
+              "id": "8d0740b7-095d-439e-89c7-f3cb0951728e",
+              "name": "animals",
+              "state": "active",
+              "vocabulary_id": null
+            },
+            {
+              "display_name": "birds",
+              "id": "c5677efb-4f12-4aec-be59-2e742d72130c",
+              "name": "birds",
+              "state": "active",
+              "vocabulary_id": null
+            },
+            {
+              "display_name": "community",
+              "id": "cafe1bc6-3958-41ae-9ac3-72fc4dab38e8",
+              "name": "community",
+              "state": "active",
+              "vocabulary_id": null
+            },
+            {
+              "display_name": "environment",
+              "id": "025ddd17-0fbd-4906-9a62-e43c25e38acb",
+              "name": "environment",
+              "state": "active",
+              "vocabulary_id": null
+            },
+            {
+              "display_name": "finding",
+              "id": "4f1edc23-b698-42a3-9244-2a29af905a7d",
+              "name": "finding",
+              "state": "active",
+              "vocabulary_id": null
+            },
+            {
+              "display_name": "observation",
+              "id": "c5a3110f-02db-47c0-95f2-cafb078243b4",
+              "name": "observation",
+              "state": "active",
+              "vocabulary_id": null
+            },
+            {
+              "display_name": "search",
+              "id": "c3cfc9ca-8064-4623-affc-9bf4d9d899c7",
+              "name": "search",
+              "state": "active",
+              "vocabulary_id": null
+            },
+            {
+              "display_name": "statistic",
+              "id": "712a99c2-7295-44bf-98a7-17af5bfc1ce7",
+              "name": "statistic",
+              "state": "active",
+              "vocabulary_id": null
+            }
+          ],
+          "groups": [],
+          "relationships_as_subject": [],
+          "relationships_as_object": []
+        }
+      }
+    }
+  ]
+}

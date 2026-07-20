@@ -1,0 +1,350 @@
+{
+  "captured_at": "2026-07-20",
+  "calls": [
+    {
+      "url": "https://www.data.gov.in/backend/dmspublic/v1/resources",
+      "params": {
+        "filters[catalog_uuid]": "330d3725-0672-4645-a2b4-826e2baf5379",
+        "format": "json",
+        "limit": 1
+      },
+      "response": {
+        "name": "OGDP API",
+        "version": "2.0.5",
+        "statusCode": 200,
+        "total": 29,
+        "data": {
+          "rows": [
+            {
+              "cdos_state_ministry": [
+                "Ministry of Road Transport and Highways"
+              ],
+              "is_high_value_dataset": [
+                0
+              ],
+              "is_priced": [
+                0
+              ],
+              "is_rated": [
+                0
+              ],
+              "is_webservice": [
+                0
+              ],
+              "node_alias": [
+                "/resource/stateut-wise-details-road-length-1000-population-31-03-2022"
+              ],
+              "node_cdo_email": [
+                "alokkumar [dot] verma [at] nic [dot] in"
+              ],
+              "ogdp_download_count": [
+                0
+              ],
+              "ogdp_view_count": [
+                11
+              ],
+              "published_date": [
+                1783579801
+              ],
+              "catalog_reference": [
+                604843466
+              ],
+              "catalog_title": [
+                "Basic Road Statistics of India 2021-22"
+              ],
+              "catalog_uuid": [
+                "330d3725-0672-4645-a2b4-826e2baf5379"
+              ],
+              "changed": [
+                1783579801
+              ],
+              "created": [
+                1783577566
+              ],
+              "datafile": [
+                "https://www.data.gov.in/files/ogdpv2dms/s3fs-public/604843967/Version_1/BRS_2022_Annexure_7.9.C.csv"
+              ],
+              "domain": [
+                "data.gov.in"
+              ],
+              "domain_visibility": [
+                "4",
+                "4"
+              ],
+              "field_from_api": [
+                "0"
+              ],
+              "field_high_value_dataset": [
+                0
+              ],
+              "field_public": [
+                "1"
+              ],
+              "field_resource_type": [
+                1
+              ],
+              "field_show_export": [
+                true
+              ],
+              "file_format": [
+                "text/csv"
+              ],
+              "file_size": [
+                4668
+              ],
+              "frequency": [
+                "Annual"
+              ],
+              "govt_type": [
+                "Central"
+              ],
+              "granularity": [
+                "Annual"
+              ],
+              "is_api_available": [
+                "0"
+              ],
+              "ministry_department": [
+                "Ministry of Road Transport and Highways"
+              ],
+              "nid": [
+                604843967
+              ],
+              "note": [
+                "Data for Andhra Pradesh also includes the road length of Telangana. Data for Jammu and Kashmir also includes the road length of Ladakh. Total length excludes JRY roads."
+              ],
+              "reference_url": [
+                "https://morth.gov.in/backend/documents/uploaded/1781850176_EDsilQvsKL.pdf"
+              ],
+              "resource_category": [
+                "Dataset"
+              ],
+              "sector": [
+                "Road Transport"
+              ],
+              "sector_resource": [
+                "Road Transport"
+              ],
+              "title": [
+                "State/UT-wise Details of Road length per 1000 population as on 31-03-2022"
+              ],
+              "uuid": [
+                "d4b569af-ddc6-498c-a57a-888817a8269e"
+              ],
+              "vid": [
+                14431604
+              ],
+              "search_api_id": [
+                "entity:node/604843967:en"
+              ],
+              "search_api_datasource": [
+                "entity:node"
+              ],
+              "search_api_language": [
+                "en"
+              ]
+            }
+          ],
+          "aggregations": {
+            "domain": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": "data.gov.in",
+                  "doc_count": 29
+                }
+              ]
+            },
+            "govt_type": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": "Central",
+                  "doc_count": 29
+                }
+              ]
+            },
+            "ministry_department": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": "Ministry of Road Transport and Highways",
+                  "doc_count": 29
+                }
+              ]
+            },
+            "state_department": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": []
+            },
+            "others_org": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": []
+            },
+            "file_format": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": "text/csv",
+                  "doc_count": 29
+                }
+              ]
+            },
+            "file_format_short_name": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": []
+            },
+            "frequency": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": "Annual",
+                  "doc_count": 29
+                }
+              ]
+            },
+            "granularity": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": "Annual",
+                  "doc_count": 29
+                }
+              ]
+            },
+            "field_public": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": "1",
+                  "doc_count": 29
+                }
+              ]
+            },
+            "is_api_available": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": "0",
+                  "doc_count": 29
+                }
+              ]
+            },
+            "is_visualized": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": []
+            },
+            "sector": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": "Road Transport",
+                  "doc_count": 29
+                }
+              ]
+            },
+            "sector_resource": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": "Road Transport",
+                  "doc_count": 29
+                }
+              ]
+            },
+            "external_api_reference": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": []
+            },
+            "monthwise": {
+              "buckets": [
+                {
+                  "key_as_string": "7",
+                  "key": 1782864000000,
+                  "doc_count": 29
+                }
+              ]
+            },
+            "yearwise": {
+              "buckets": [
+                {
+                  "key_as_string": "2026",
+                  "key": 1767225600000,
+                  "doc_count": 29
+                }
+              ]
+            },
+            "resource_category": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": "Dataset",
+                  "doc_count": 29
+                }
+              ]
+            },
+            "is_rated": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": 0,
+                  "doc_count": 29
+                }
+              ]
+            },
+            "is_high_value_dataset": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": 0,
+                  "doc_count": 29
+                }
+              ]
+            },
+            "is_priced": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": 0,
+                  "doc_count": 29
+                }
+              ]
+            },
+            "is_webservice": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 0,
+              "buckets": [
+                {
+                  "key": 0,
+                  "doc_count": 29
+                }
+              ]
+            },
+            "api_request_count_sum": {
+              "value": 0
+            }
+          }
+        }
+      }
+    }
+  ]
+}

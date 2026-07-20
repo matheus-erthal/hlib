@@ -50,12 +50,22 @@ class ApiAdapter(DataAdapter):
                 except Exception:
                     pass
 
-            try:
-                return pd.read_csv(io.BytesIO(content), sep=';')
-            except Exception:
-                pass
+            first_line = content.splitlines()[0] if content else b""
+            has_delimiter_candidate = any(d in first_line for d in (b",", b";"))
+
+            if has_delimiter_candidate:
+                try:
+                    return pd.read_csv(io.BytesIO(content), sep=None, engine="python")
+                except Exception:
+                    pass
+
             try:
                 return pd.read_csv(io.BytesIO(content))
+            except Exception:
+                pass
+
+            try:
+                return pd.read_csv(io.BytesIO(content), sep=';')
             except Exception:
                 pass
 

@@ -1,0 +1,557 @@
+{
+  "captured_at": "2026-07-20",
+  "calls": [
+    {
+      "url": "https://opendata.swiss/api/3/action/package_show",
+      "params": {
+        "id": "8aa8a471-acf6-4148-a3fc-80714a7d0ed7"
+      },
+      "response": {
+        "help": "https://ckan.opendata.swiss/api/3/action/help_show?name=package_show",
+        "success": true,
+        "result": {
+          "accrual_periodicity": "http://publications.europa.eu/resource/authority/frequency/ANNUAL",
+          "author": {
+            "de": "Bundesamt für Landestopografie swisstopo",
+            "fr": "Office fédéral de topographie swisstopo",
+            "it": "Ufficio federale di topografia swisstopo",
+            "en": "Federal Office of Topography swisstopo"
+          },
+          "author_email": null,
+          "conforms_to": [],
+          "contact_points": [
+            {
+              "email": "geodata@swisstopo.ch",
+              "name": "Bundesamt für Landestopografie swisstopo"
+            }
+          ],
+          "coverage": "",
+          "creator_user_id": "af084126-f711-4016-a585-70354e997796",
+          "description": {
+            "de": "Der Topic Öffentlicher Verkehr als Teil des Topic Transportation beschreibt die verschiedenen Elemente im Zusammenhang mit dem Verkehr (Strassen- und Eisenbahnnetz, Flughafen, Autofähre, usw.). Er besteht aus 12 Feature Classes und 3 Tabellen. Die Linien und die Punkte sind durch eine so genannte Kanten-Knoten-Struktur topologisch miteinander verknüpft. Kanten (Linien) sind an Knoten (Punkte) miteinander verbunden. Jede Kante hat genau zwei Knoten an den Endpunkten. Kanten und Knoten bilden zusammen ein geometrisches Netzwerk.",
+            "fr": "Les Transports publics, sont une partie du topic Transportation qui décrit les différents éléments liés aux transports (réseau routier, réseau ferroviaire, aéroports, bacs pour voiture, etc.). Il est composé de 12 feature classes et de 3 tables. Les lignes et les points sont liés topologiquement selon une structure de type arcs – noeuds dans laquelle les arcs (lignes) sont reliés entre eux par des noeuds (points). Chaque arc a ainsi exactement deux noeuds, un par extrémité. Les arcs et les noeuds forment ensemble un réseau géométrique.",
+            "it": "Il topic \"Trasporti pubblici\", che fa parte del topic \"Transportation\", descrive i diversi elementi relativi al traffico (rete stradale e ferroviaria, aeroporti, traghetti per auto ecc.). È composto da 12 feature class e da 3 tabelle. Le linee e i punti sono collegati topologicamente tra loro mediante una cosiddetta struttura del tipo arco-nodo. Gli archi (linee) sono collegati tra loro con dei nodi (punti).Ciascun arco ha esattamente due nodi alle proprie estremità. Gli archi e i nodi compongono insieme una rete geometrica.",
+            "en": "The Public Transportation Topic, as part of the Transportation Topic, contains different features connected with traffic (road, railway, airports, car-ferry, ...). It consists of 12 feature classes and 3 tables. The lines and the points are related to each other according to a so called edge-node structure. Edges (lines) are connected to each other with nodes (points). Every edge has therefore exactly two nodes at its end. Edges and Nodes together build a geometric network."
+          },
+          "display_name": {
+            "de": "swissTLMRegio Transportation Öffentlicher Verkehr",
+            "fr": "swissTLMRegio Transportation transports publics",
+            "it": "swissTLMRegio Transportation trasporti pubblici",
+            "en": "swissTLMRegio Transportation public transport"
+          },
+          "id": "8aa8a471-acf6-4148-a3fc-80714a7d0ed7",
+          "identifier": "dbcb87f1-3704-4eb6-8bd4-efed536bbf56@bundesamt-fur-landestopografie-swisstopo",
+          "isopen": false,
+          "issued": "2012-02-24T00:00:00",
+          "keywords": {
+            "en": [
+              "road-network",
+              "railway",
+              "railway-network",
+              "highway",
+              "road-traffic",
+              "geographic-information-system",
+              "path-netwok",
+              "main-road",
+              "ferry",
+              "cableway",
+              "gis-geographic-information-system",
+              "landscape-model",
+              "path",
+              "transport-networks",
+              "fsdi-federal-spatial-data-infrastructure"
+            ],
+            "de": [
+              "strassennetz",
+              "eisenbahn",
+              "eisenbahnnetz",
+              "offentliche-strasse",
+              "strassenverkehr",
+              "geographisches-informationssystem",
+              "wegnetz",
+              "hauptstrasse",
+              "fahre",
+              "seilbahn",
+              "gis-geografisches-informationssystem",
+              "landschaftsmodell",
+              "weg",
+              "verkehrsnetze",
+              "bgdi-bundesgeodaten-infrastruktur"
+            ],
+            "fr": [
+              "reseau-routier",
+              "voie-ferree",
+              "reseau-ferroviaire",
+              "route",
+              "trafic-routier",
+              "systeme-dinformation-geographique",
+              "reseau-de-chemin",
+              "route-principale",
+              "bac",
+              "telepherique",
+              "sig-systeme-dinformation-geographique",
+              "modele-du-territoire",
+              "chemin",
+              "reseaux-de-transport",
+              "ifdg-linfrastructure-federale-de-donnees-geographiques"
+            ],
+            "it": [
+              "rete-stradale",
+              "ferrovia",
+              "rete-ferroviaria",
+              "superstrada",
+              "traffico-su-strada",
+              "sistema-informativo-geografico",
+              "rete-di-cammino",
+              "strada-principale",
+              "traghetto",
+              "teleferica",
+              "sig-sistema-informativo-geografico",
+              "modello-del-territorio",
+              "cammino",
+              "reti-di-trasporto",
+              "ifdg-infrastruttura-federale-dei-dati-geografici"
+            ]
+          },
+          "language": [
+            "en",
+            "de",
+            "fr",
+            "it"
+          ],
+          "license_id": null,
+          "license_title": null,
+          "maintainer": "geodata@swisstopo.ch",
+          "maintainer_email": null,
+          "metadata_created": "2021-02-27T04:02:46.411179",
+          "metadata_modified": "2026-07-20T02:05:13.856301",
+          "modified": "2025-12-02T00:00:00",
+          "name": "swisstlmregio-transportation-offentlicher-verkehr",
+          "num_resources": 6,
+          "num_tags": 0,
+          "organization": {
+            "approval_status": "approved",
+            "created": "2015-11-30T12:12:55.529975",
+            "description": {
+              "fr": "Le centre de compétence de la Confédération suisse pour les informations géographiques, c'est-à-dire pour la description, la représentation et l’archivage de données à référence spatiale.",
+              "de": "Das Kompetenzzentrum der Schweizerischen Eidgenossenschaft für Geoinformation, d.h. für die Beschreibung, Darstellung und Archivierung von raumbezogenen Geodaten.",
+              "en": "The centre of competence for the Swiss Confederation responsible for geographical reference data, for instance the description, representation and archiving of geographic spatial data.",
+              "it": "Il centro d’eccellenza della Confederazione Elvetica per geoinformazione, cioè per la descrizione, rappresentazione e archiviazione dei dati georeferenziati (geodati)."
+            },
+            "display_name": {
+              "de": "Bundesamt für Landestopografie swisstopo",
+              "en": "Federal Office of Topography swisstopo",
+              "fr": "Office fédéral de topographie swisstopo",
+              "it": "Ufficio federale di topografia swisstopo"
+            },
+            "id": "ddd28bac-6890-474c-84cb-97a85db8d2f1",
+            "image_display_url": "https://ckan.opendata.swiss/uploads/group/IMG_1857.jpg",
+            "image_url": "https://ckan.opendata.swiss/uploads/group/IMG_1857.jpg",
+            "is_organization": true,
+            "name": "bundesamt-fur-landestopografie-swisstopo",
+            "num_followers": 0,
+            "package_count": 187,
+            "political_level": "confederation",
+            "state": "active",
+            "title": {
+              "de": "Bundesamt für Landestopografie swisstopo",
+              "en": "Federal Office of Topography swisstopo",
+              "fr": "Office fédéral de topographie swisstopo",
+              "it": "Ufficio federale di topografia swisstopo"
+            },
+            "type": "organization",
+            "url": "",
+            "tags": [],
+            "groups": []
+          },
+          "owner_org": "ddd28bac-6890-474c-84cb-97a85db8d2f1",
+          "private": false,
+          "publisher": {
+            "name": {
+              "de": "Bundesamt für Landestopografie swisstopo",
+              "fr": "Office fédéral de topographie swisstopo",
+              "it": "Ufficio federale di topografia swisstopo",
+              "en": "Federal Office of Topography swisstopo"
+            },
+            "url": "http://www.swisstopo.ch"
+          },
+          "qualified_relations": [],
+          "relations": [
+            {
+              "label": {
+                "de": "geocat.ch Permalink",
+                "fr": "geocat.ch permalien",
+                "it": "geocat.ch link permanente",
+                "en": "geocat.ch permalink"
+              },
+              "url": "https://www.geocat.ch/datahub/dataset/dbcb87f1-3704-4eb6-8bd4-efed536bbf56"
+            }
+          ],
+          "see_alsos": [],
+          "spatial": "swissTLMRegio",
+          "state": "active",
+          "temporals": [],
+          "title": {
+            "de": "swissTLMRegio Transportation Öffentlicher Verkehr",
+            "fr": "swissTLMRegio Transportation transports publics",
+            "it": "swissTLMRegio Transportation trasporti pubblici",
+            "en": "swissTLMRegio Transportation public transport"
+          },
+          "title_for_slug": "swisstlmregio-transportation-offentlicher-verkehr",
+          "type": "dataset",
+          "url": "https://www.swisstopo.admin.ch/de/landschaftsmodell-swisstlmregio",
+          "version": null,
+          "resources": [
+            {
+              "byte_size": 0,
+              "cache_last_updated": null,
+              "cache_url": null,
+              "created": "2022-06-13T11:31:34.797175",
+              "datastore_active": false,
+              "datastore_contains_all_records_of_source_file": false,
+              "description": {
+                "de": "Vorschau map.geo.admin.ch",
+                "fr": "Aperçu map.geo.admin.ch",
+                "it": "Previsione map.geo.admin.ch",
+                "en": "Preview map.geo.admin.ch"
+              },
+              "display_name": {
+                "de": "Map (Preview) Vorschau map.geo.admin.ch",
+                "fr": "Map (Preview) Aperçu map.geo.admin.ch",
+                "it": "Map (Preview) Previsione map.geo.admin.ch",
+                "en": "Map (Preview) map.geo.admin.ch"
+              },
+              "format": "SERVICE",
+              "hash": "",
+              "id": "01cb2212-2987-48d3-a7bb-967fce66d5ef",
+              "issued": "2012-02-24T00:00:00",
+              "language": [
+                "en",
+                "de",
+                "fr",
+                "it"
+              ],
+              "last_modified": null,
+              "license": "https://opendata.swiss/terms-of-use#terms_open",
+              "media_type": "",
+              "metadata_modified": "2026-06-23T02:26:11.735625",
+              "mimetype": null,
+              "mimetype_inner": null,
+              "modified": "2025-12-02T00:00:00",
+              "name": {
+                "de": "Map (Preview) Vorschau map.geo.admin.ch",
+                "fr": "Map (Preview) Aperçu map.geo.admin.ch",
+                "it": "Map (Preview) Previsione map.geo.admin.ch",
+                "en": "Map (Preview) map.geo.admin.ch"
+              },
+              "package_id": "8aa8a471-acf6-4148-a3fc-80714a7d0ed7",
+              "position": 0,
+              "resource_type": null,
+              "rights": "https://opendata.swiss/terms-of-use#terms_open",
+              "size": null,
+              "state": "active",
+              "title": {
+                "de": "Map (Preview) Vorschau map.geo.admin.ch",
+                "fr": "Map (Preview) Aperçu map.geo.admin.ch",
+                "it": "Map (Preview) Previsione map.geo.admin.ch",
+                "en": "Map (Preview) map.geo.admin.ch"
+              },
+              "url": "https://map.geo.admin.ch/?layers=ch.swisstopo.vec200-transportation-oeffentliche-verkehr",
+              "url_type": null
+            },
+            {
+              "byte_size": 0,
+              "cache_last_updated": null,
+              "cache_url": null,
+              "created": "2023-03-30T00:56:46.666670",
+              "datastore_active": false,
+              "datastore_contains_all_records_of_source_file": false,
+              "description": {
+                "de": "WMS-BGDI Dienst, Layer \"Öffentlicher Verkehr swissTLMRegio\"",
+                "fr": "Service WMS-IFDG, couche \"Transports publics swissTLMRegio\"",
+                "it": "Servizio WMS-IFDG, strato \"Trasporti pubblici swissTLMRegio\"",
+                "en": "WMS-FSDI service, layer \"Public transportation swissTLMRegio\""
+              },
+              "display_name": {
+                "de": "ch.swisstopo.vec200-transportation-oeffentliche-verkehr",
+                "fr": "",
+                "it": "",
+                "en": ""
+              },
+              "format": "WMS",
+              "hash": "",
+              "id": "57c07f44-9390-436d-baa8-64adab0056ce",
+              "issued": "2012-02-24T00:00:00",
+              "language": [
+                "en",
+                "de",
+                "fr",
+                "it"
+              ],
+              "last_modified": null,
+              "license": "https://opendata.swiss/terms-of-use#terms_open",
+              "media_type": "",
+              "metadata_modified": "2026-06-23T02:26:11.735718",
+              "mimetype": null,
+              "mimetype_inner": null,
+              "modified": "2025-12-02T00:00:00",
+              "name": {
+                "de": "ch.swisstopo.vec200-transportation-oeffentliche-verkehr",
+                "fr": "",
+                "it": "",
+                "en": ""
+              },
+              "package_id": "8aa8a471-acf6-4148-a3fc-80714a7d0ed7",
+              "position": 1,
+              "resource_type": null,
+              "rights": "https://opendata.swiss/terms-of-use#terms_open",
+              "size": null,
+              "state": "active",
+              "title": {
+                "de": "ch.swisstopo.vec200-transportation-oeffentliche-verkehr",
+                "fr": "",
+                "it": "",
+                "en": ""
+              },
+              "url": "https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities&lang=de",
+              "url_type": null
+            },
+            {
+              "byte_size": 0,
+              "cache_last_updated": null,
+              "cache_url": null,
+              "created": "2023-03-30T00:56:46.666678",
+              "datastore_active": false,
+              "datastore_contains_all_records_of_source_file": false,
+              "description": {
+                "de": "WMTS-BGDI Dienst, Layer \"Öffentlicher Verkehr swissTLMRegio\"",
+                "fr": "Service WMTS-IFDG, couche , Layer \"Transports publics swissTLMRegio\"",
+                "it": "Servizio WMTS-IFDG, strato \"Trasporti pubblici swissTLMRegio\"",
+                "en": "WMTS-FSDI service, layer \"Public transportation swissTLMRegio\""
+              },
+              "display_name": {
+                "de": "ch.swisstopo.vec200-transportation-oeffentliche-verkehr",
+                "fr": "",
+                "it": "",
+                "en": ""
+              },
+              "format": "WMTS",
+              "hash": "",
+              "id": "5dbbcd07-6f4f-4c60-ba13-819adb4dc184",
+              "issued": "2012-02-24T00:00:00",
+              "language": [
+                "en",
+                "de",
+                "fr",
+                "it"
+              ],
+              "last_modified": null,
+              "license": "https://opendata.swiss/terms-of-use#terms_open",
+              "media_type": "",
+              "metadata_modified": "2026-06-23T02:26:11.735816",
+              "mimetype": null,
+              "mimetype_inner": null,
+              "modified": "2025-12-02T00:00:00",
+              "name": {
+                "de": "ch.swisstopo.vec200-transportation-oeffentliche-verkehr",
+                "fr": "",
+                "it": "",
+                "en": ""
+              },
+              "package_id": "8aa8a471-acf6-4148-a3fc-80714a7d0ed7",
+              "position": 2,
+              "resource_type": null,
+              "rights": "https://opendata.swiss/terms-of-use#terms_open",
+              "size": null,
+              "state": "active",
+              "title": {
+                "de": "ch.swisstopo.vec200-transportation-oeffentliche-verkehr",
+                "fr": "",
+                "it": "",
+                "en": ""
+              },
+              "url": "https://wmts.geo.admin.ch/EPSG/3857/1.0.0/WMTSCapabilities.xml?lang=de",
+              "url_type": null
+            },
+            {
+              "byte_size": 0,
+              "cache_last_updated": null,
+              "cache_url": null,
+              "created": "2024-01-25T02:14:49.507014",
+              "datastore_active": false,
+              "datastore_contains_all_records_of_source_file": false,
+              "description": {
+                "de": "swissTLMRegio",
+                "fr": "",
+                "it": "",
+                "en": ""
+              },
+              "display_name": {
+                "de": "",
+                "fr": "",
+                "it": "",
+                "en": ""
+              },
+              "format": "HTML",
+              "hash": "",
+              "id": "92c299be-99d8-45f6-98bc-3f3a5805d1bf",
+              "issued": "2012-02-24T00:00:00",
+              "language": [
+                "en",
+                "de",
+                "fr",
+                "it"
+              ],
+              "last_modified": null,
+              "license": "https://opendata.swiss/terms-of-use#terms_open",
+              "media_type": "text/html",
+              "metadata_modified": "2026-06-23T02:26:11.735891",
+              "mimetype": null,
+              "mimetype_inner": null,
+              "modified": "2025-12-02T00:00:00",
+              "name": {
+                "de": "",
+                "fr": "",
+                "it": "",
+                "en": ""
+              },
+              "package_id": "8aa8a471-acf6-4148-a3fc-80714a7d0ed7",
+              "position": 3,
+              "resource_type": null,
+              "rights": "https://opendata.swiss/terms-of-use#terms_open",
+              "size": null,
+              "state": "active",
+              "title": {
+                "de": "",
+                "fr": "",
+                "it": "",
+                "en": ""
+              },
+              "url": "https://www.swisstopo.admin.ch/de/landschaftsmodell-swisstlmregio",
+              "url_type": null
+            },
+            {
+              "byte_size": 0,
+              "cache_last_updated": null,
+              "cache_url": null,
+              "created": "2026-06-23T02:26:11.751843",
+              "datastore_active": false,
+              "datastore_contains_all_records_of_source_file": false,
+              "description": {
+                "de": "Shop",
+                "fr": "Shop",
+                "it": "Shop",
+                "en": "Shop"
+              },
+              "display_name": {
+                "de": "",
+                "fr": "",
+                "it": "",
+                "en": ""
+              },
+              "download_url": "https://www.swisstopo.admin.ch/de/landschaftsmodell-swisstlmregio",
+              "format": "",
+              "hash": "",
+              "id": "c1e139d7-cfd9-4a0e-92a5-7c66a1844517",
+              "issued": "2012-02-24T00:00:00",
+              "language": [
+                "en",
+                "de",
+                "fr",
+                "it"
+              ],
+              "last_modified": null,
+              "license": "https://opendata.swiss/terms-of-use#terms_open",
+              "media_type": "",
+              "metadata_modified": "2026-06-23T02:26:11.736040",
+              "mimetype": null,
+              "mimetype_inner": null,
+              "modified": "2025-12-02T00:00:00",
+              "name": {
+                "de": "",
+                "fr": "",
+                "it": "",
+                "en": ""
+              },
+              "package_id": "8aa8a471-acf6-4148-a3fc-80714a7d0ed7",
+              "position": 4,
+              "resource_type": null,
+              "rights": "https://opendata.swiss/terms-of-use#terms_open",
+              "size": null,
+              "state": "active",
+              "title": {
+                "de": "",
+                "fr": "",
+                "it": "",
+                "en": ""
+              },
+              "url": "https://www.swisstopo.admin.ch/de/landschaftsmodell-swisstlmregio",
+              "url_type": null
+            },
+            {
+              "byte_size": 0,
+              "cache_last_updated": null,
+              "cache_url": null,
+              "created": "2022-06-13T11:31:34.797187",
+              "datastore_active": false,
+              "datastore_contains_all_records_of_source_file": false,
+              "description": {
+                "de": "RESTful API von geo.admin.ch",
+                "fr": "RESTful API de geo.admin.ch",
+                "it": "RESTful API da geo.admin.ch",
+                "en": "RESTful API from geo.admin.ch"
+              },
+              "display_name": {
+                "de": "RESTful API von geo.admin.ch",
+                "fr": "",
+                "it": "",
+                "en": ""
+              },
+              "format": "API",
+              "hash": "",
+              "id": "3bb14feb-e601-422a-8ab4-e759920deefd",
+              "issued": "2012-02-24T00:00:00",
+              "language": [
+                "en",
+                "de",
+                "fr",
+                "it"
+              ],
+              "last_modified": null,
+              "license": "https://opendata.swiss/terms-of-use#terms_open",
+              "media_type": "",
+              "metadata_modified": "2026-06-23T02:26:11.736118",
+              "mimetype": null,
+              "mimetype_inner": null,
+              "modified": "2025-12-02T00:00:00",
+              "name": {
+                "de": "RESTful API von geo.admin.ch",
+                "fr": "",
+                "it": "",
+                "en": ""
+              },
+              "package_id": "8aa8a471-acf6-4148-a3fc-80714a7d0ed7",
+              "position": 5,
+              "resource_type": null,
+              "rights": "https://opendata.swiss/terms-of-use#terms_open",
+              "size": null,
+              "state": "active",
+              "title": {
+                "de": "RESTful API von geo.admin.ch",
+                "fr": "",
+                "it": "",
+                "en": ""
+              },
+              "url": "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.vec200-transportation-oeffentliche-verkehr",
+              "url_type": null
+            }
+          ],
+          "tags": [],
+          "groups": [],
+          "relationships_as_subject": [],
+          "relationships_as_object": []
+        }
+      }
+    }
+  ]
+}
