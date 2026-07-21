@@ -163,6 +163,42 @@ result = Hipolita.fetch_dataset_data("id-123", portal=PortalType.DATA_GOV_UK)
 
 ---
 
+## Uso com LLMs (Function Calling)
+
+Além da API em Python, o Hlib expõe as mesmas operações como **tools** para agentes de LLM (Anthropic, OpenAI, etc), em `hlib.llm_tools`.
+
+> Este módulo é **aditivo**: não é importado por `hlib/__init__.py` e não muda a assinatura de nenhuma função existente. Quem só usa `search_data`/`get_dataset`/`fetch_dataset_data` diretamente não é afetado — só passa a existir para quem optar por importar `hlib.llm_tools` explicitamente.
+
+A diferença central em relação à API "humana" é o formato de retorno: em vez de dataclasses (`Dataset`) e `pandas.DataFrame`, as funções deste módulo devolvem apenas `dict`/`list` JSON-serializáveis — necessário porque um DataFrame não cabe direto na resposta de uma tool call. `fetch_government_dataset_data`, em especial, retorna uma **prévia** dos dados (`max_rows`, padrão 20), não o dataset inteiro.
+
+```python
+from hlib.llm_tools import TOOLS, dispatch_tool_call
+
+response = client.messages.create(
+    model="claude-...",
+    tools=TOOLS,
+    messages=[{"role": "user", "content": "Quais dados de clima o Reino Unido publica?"}],
+)
+
+for block in response.content:
+    if block.type == "tool_use":
+        result = dispatch_tool_call(block.name, block.input)  # sempre um dict/list JSON-safe
+```
+
+`TOOLS` contém os schemas (`input_schema` no formato Anthropic, compatível com pequenos ajustes para `parameters` da OpenAI) para:
+
+| Tool | Equivalente em `core.py` |
+| :--- | :--- |
+| `list_government_portals` | `hlib.catalog.list_portals` |
+| `search_government_portals` | `hlib.catalog.search_portals` |
+| `search_government_datasets` | `search_data` |
+| `get_government_dataset` | `get_dataset` |
+| `fetch_government_dataset_data` | `fetch_dataset_data` |
+
+`dispatch_tool_call(name, arguments)` roteia por nome e **nunca lança exceção** — erros (portal inválido, falha de rede, `api_key` ausente) voltam como `{"error": "..."}`, para não quebrar o loop do agente. As funções individuais (`search_government_datasets`, `get_government_dataset`, etc.) também podem ser chamadas diretamente, sem passar por `dispatch_tool_call`.
+
+---
+
 ## Modelo de Dados
 
 ### `Dataset`
@@ -208,6 +244,7 @@ Retornado por `fetch_dataset_data()`. Combina dados tabulares com metadados.
 hlib/
 ├── __init__.py              # Exports públicos
 ├── core.py                  # API principal (search, get_dataset, fetch_dataset_data)
+├── llm_tools.py             # Tools de function calling p/ LLMs (opcional, ver seção acima)
 ├── types.py                 # Dataset, Resource, DataFrameWithMeta, PortalType
 ├── catalog/                 # Catálogo de portais data-driven
 │   ├── portals.json         # Metadados de cada portal (URL, plataforma, auth, região...)
